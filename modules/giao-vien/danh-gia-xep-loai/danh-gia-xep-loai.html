@@ -1,0 +1,160 @@
+<!-- Đánh giá xếp loại -->
+<div ng-controller="danhGiaXepLoaiCtr as danhgiaxl">
+    <div class="bg-white container-fluid pt-2 pb-0 pr-3 pl-3">
+        <!-- THÊM,IMPORT,XÓA, DOWLOAD,PRINT -->
+        <div class="pb-2 d-flex justify-content-between">
+            <div>
+                <button type="button" class="btn btn-primary" ng-click="xepLoaiGiaoVien();"
+                    title="Chỉ lưu dữ liệu ở trang hiện tại!">
+                    <i class="fa fa-save action-save" aria-hidden="true"></i> Lưu</button>
+                </button>
+            </div>
+            <div>
+                <div class="d-inline-block">
+                    <button type="button" class="btn btn-info text-white mr-1" data-toggle="dropdown" href="#"
+                        role="button" aria-haspopup="true" aria-expanded="false">
+                        <i class="fa fa-upload" aria-hidden="true"></i>
+                        <span>Nhập/Xuất File</span>
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <a class="dropdown-item" href="#">
+                            <i class="fa fa-upload text-success"></i> Nhập file từ máy tính</a>
+                        <a class="dropdown-item" href="#">
+                            <i class="fa fa-download text-danger"></i> Xuất file</a>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-info text-white">
+                    <i class="fa fa-download" aria-hidden="true"></i> Download
+                </button>
+                <button type="button" class="btn btn-info text-white">
+                    <i class="fa fa-print" aria-hidden="true"></i> Print
+                </button>
+            </div>
+        </div>
+        <!-- filter -->
+        <div class="d-flex justify-content-between">
+            <div class="flex-fill pb-2">
+                <select ng-model="danhgiaxl.itemsPerPage"
+                    ng-options="(item+' dòng') for item in danhgiaxl.itemsPerPageOptions track by item"
+                    class="pr-3 pl-3 pt-1 pb-1 border">
+                </select> &nbsp;
+                <select ng-model="danhgiaxl.boMonSelected"
+                    ng-options="boMon.tenToBoMon for boMon in danhgiaxl.toBoMonList track by boMon.id" title="Tổ bộ môn"
+                    ng-change="danhgiaxl.filterToBoMon();" class="pr-3 pl-3 pt-1 pb-1 border">
+                    <option value="">Chọn bộ môn</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class=" border-secondary p-2 m-1">
+        <div class="bg-white border box-shadow p-2">
+            <div class="d-flex">
+                <div class="mr-auto">
+                </div>
+                <div>
+                    <b>BẢNG DANH SÁCH ĐÁNH GIÁ XẾP LOẠI</b>
+                </div>
+                <div class="ml-auto">
+                    <!-- Button trigger modal -->
+                    <div class="p-1 help-cursor" data-toggle="modal" data-target="#help_danhgiaxeploai">
+                        <span class="text-danger">
+                            Trợ Giúp
+                        </span>
+                        <i class="fa fa-question-circle text-danger"></i>
+                    </div>
+
+                </div>
+            </div>
+            <form class="form-horizontal" name="danhGiaXepLoai">
+                <!-- table -->
+                <div class="table-fixed-header-wrapper">
+                    <table id="table_danhgiaxeploai" class="table-fixed table table-hover table-striped">
+                        <thead>
+                            <th ng-repeat="head in header">
+                                <div>{{head}}</div>
+                            </th>
+                        </thead>
+                        <tbody>
+                            <tr ng-repeat="kq in danhgiaxl.giaoVienList">
+                                <td>{{$index + 1 + (danhgiaxl.currentSelected - 1)*danhgiaxl.itemsPerPage}}</td>
+                                <td title="{{kq.tenCanBo}}">
+                                    {{kq.tenCanBo}}
+                                </td>
+                                <td>
+                                    <select class="form-control" ng-model="kq.chuanNgheNghiepKQ"
+                                        ng-options="chuanNgheNghiep.tenChuanNgheNghiep for chuanNgheNghiep in chuanNgheNghiepList track by chuanNgheNghiep.id"
+                                        title="{{kq.chuanNgheNghiepKQ.tenChuanNgheNghiep}}"
+                                        ng-change="thayDoi(kq,$index);">
+                                        <option value=""></option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select class="form-control" ng-model="kq.danhGiaVienChucKQ"
+                                        ng-options="danhGiaVienChuc.tenDanhGiaVienChuc for danhGiaVienChuc in danhGiaVienChucList track by danhGiaVienChuc.id"
+                                        title="{{kq.danhGiaVienChucKQ.tenDanhGiaVienChuc}}"
+                                        ng-change="thayDoi(kq,$index);">
+                                        <option value=""></option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select class="form-control" ng-model="kq.boiDuongThuongXuyenKQ"
+                                        ng-options="boiDuongThuongXuyen.tenBoiDuongThuongXuyen for boiDuongThuongXuyen in boiDuongThuongXuyenList track by boiDuongThuongXuyen.id"
+                                        title="{{kq.boiDuongThuongXuyenKQ.tenBoiDuongThuongXuyen}}"
+                                        ng-change="thayDoi(kq,$index);">
+                                        <option value=""></option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select class="form-control" ng-model="kq.giaoVienDayGioiKQ"
+                                        ng-options="capDayGioi.tenCapDayGioi for capDayGioi in capDayGioiList track by capDayGioi.id"
+                                        title="{{kq.giaoVienDayGioiKQ.tenCapDayGioi}}" ng-change="thayDoi(kq,$index);">
+                                        <option value=""></option>
+                                    </select>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- Phân trang -->
+                <div class="mt-2 mb-2 d-flex justify-content-between">
+                    <div>
+                        <span class="small mb-0" ng-if="danhgiaxl.totalItems>0">
+                            Hiển thị dòng
+                            {{(danhgiaxl.currentSelected - 1)*danhgiaxl.itemsPerPage + 1}}
+                            đến {{danhgiaxl.cuoicung}} trong tổng số
+                            {{danhgiaxl.totalItems}} dòng, tổng số {{danhgiaxl.totalPages}} trang
+                        </span>
+                    </div>
+                    <nav aria-label="Page navigation example" title="Dữ liệu chưa lưu sẽ bị mất khi chuyển trang!">
+                        <ul class="pagination">
+                            <li class="page-item">
+                                <a class="page-link" ng-click="danhgiaxl.first()">
+                                    <span aria-hidden="true">&laquo;</span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                            </li>
+                            <li class="page-item">
+                                <a class="page-link" ng-click="danhgiaxl.prev()">Prev</a>
+                            </li>
+                            <li ng-repeat="number in danhgiaxl.pagesRange" class="page-item"
+                                ng-class="(number === danhgiaxl.currentSelected) ? 'active': ''">
+                                <a class="page-link" ng-click="danhgiaxl.currentSelected = number">{{number}}</a>
+                            </li>
+                            <li class="page-item">
+                                <a class="page-link" ng-click="danhgiaxl.next()">Next</a>
+                            </li>
+                            <li class="page-item">
+                                <a class="page-link" ng-click="danhgiaxl.last()">
+                                    <span aria-hidden="true">&raquo;</span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="help_danhgiaxeploai"
+    ng-include="'modules/giao-vien/danh-gia-xep-loai/help-danh-gia-xep-loai.html'"></div>

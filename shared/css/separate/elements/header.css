@@ -1,0 +1,11 @@
+.navbar-nav .nav-link:hover{
+    color: #1B75BC !important;
+}
+.breadcrumb-menu .btn:hover{
+    color: #1B75BC !important;
+    background: transparent;
+}
+.breadcrumb-menu .btn.active{
+    color:#20a8d8 !important;
+    background: transparent;
+}

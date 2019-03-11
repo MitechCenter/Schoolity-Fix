@@ -1,0 +1,132 @@
+<!-- Danh Hiệu Thi Đua Tập thể-->
+<div ng-controller="danhHieuTapTheCtr as thiduatt">
+    <div class="bg-white container-fluid pt-2 pb-0 pr-3 pl-3">
+        <div class="pb-2 d-flex justify-content-between">
+            <div>
+                <button type="button" data-toggle="modal" data-target="#danhHieuTapThe" class="btn btn-success">
+                    <i class="fa fa-plus" aria-hidden="true"></i> Thêm
+                </button>
+                <button type="button" id="buttonDelete" class="btn btn-danger" disabled class="btn btn-danger"
+                    ng-click="thiduatt.removeSelectedRows()" ng-disabled="thiduatt.countChecked() == 0"
+                    data-toggle="modal" data-target="#Delete">
+                    <i class="fa fa-trash-o" aria-hidden="true"></i> Xóa
+                </button>
+            </div>
+            <div>
+                <div class="d-inline-block">
+                    <button type="button" class="btn btn-info text-white mr-1" data-toggle="dropdown" href="#"
+                        role="button" aria-haspopup="true" aria-expanded="false">
+                        <i class="fa fa-upload" aria-hidden="true"></i>
+                        <span>Nhập/Xuất File</span>
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <a class="dropdown-item" href="#">
+                            <i class="fa fa-upload text-success"></i> Nhập file từ máy tính</a>
+                        <a class="dropdown-item" href="#">
+                            <i class="fa fa-download text-danger"></i> Xuất file</a>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-info text-white">
+                    <i class="fa fa-download" aria-hidden="true"></i> Download
+                </button>
+                <button type="button" class="btn btn-info text-white">
+                    <i class="fa fa-print" aria-hidden="true"></i> Print
+                </button>
+            </div>
+            <div class="modal fade" id="Delete" ng-include="'shared/layout/confirm.html'"></div>
+        </div>
+    </div>
+    <div class=" border-secondary p-2">
+        <div class="bg-white border box-shadow p-3">
+            <form class="form-horizontal">
+                <div class="d-flex">
+                    <div class="mr-auto">
+                    </div>
+                    <div>
+                        <b>BẢNG DANH HIỆU THI ĐUA TẬP THỂ</b>
+                    </div>
+                    <div class="ml-auto">
+                        <!-- Button trigger modal -->
+                        <div class="p-1 help-cursor" data-toggle="modal" data-target="#help_danhhieuthiduatapthe">
+                            <span class="text-danger">
+                                Trợ Giúp
+                            </span>
+                            <i class="fa fa-question-circle text-danger"></i>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- table -->
+                <div class="table-wrapper">
+                    <table id="table_danhhieuthiduatapthe" class="table-fixed table table-hover table-striped">
+                        <thead>
+                            <th>
+                                <div class="cell">
+                                    <input type="checkbox" name="" id="checkAll" class="checkbox checkbox--red"
+                                        ng-model="thiduatt.isAll" ng-click="thiduatt.selectAllRows()">
+                                </div>
+                            </th>
+                            <th ng-repeat="header in headerList">
+                                <div>{{header}}</div>
+                            </th>
+                        </thead>
+                        <tbody>
+                            <tr ng-repeat="kq in thiduatt.danhHieuTapTheKQ">
+                                <td>
+                                    <div class="cell">
+                                        <input type="checkbox" name="" id="{{kq.id}}" class="checkbox checkbox--red"
+                                            ng-model="thiduatt.tableSelection[$index]"
+                                            ng-click="thiduatt.demChecked($index);">
+                                    </div>
+                                </td>
+                                <td>{{$index + 1}}</td>
+                                <td title="{{kq.boMon}}">{{kq.boMon}} </td>
+                                <td title="{{kq.danhHieu.tenDanhHieuThiDuaTapThe}}">
+                                    <div ng-show="thiduatt.isView[$index]">
+                                        {{kq.danhHieu.tenDanhHieuThiDuaTapThe}}
+                                    </div>
+                                    <div ng-show="thiduatt.isEdit[$index]">
+                                        <select class="form-control" ng-model="kq.danhHieu"
+                                            ng-options="danhhieu.tenDanhHieuThiDuaTapThe for danhhieu in danhHieuTapTheList track by danhhieu.id">
+                                        </select>
+                                    </div>
+                                </td>
+                                <td title="{{kq.ghiChu}}">
+                                    <div ng-show="thiduatt.isView[$index]">
+                                        {{kq.ghiChu}}
+                                    </div>
+                                    <div ng-show="thiduatt.isEdit[$index]">
+                                        <input type="text" name="ghiChu" ng-model="kq.ghiChu" class="form-control">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="d-flex justify-content-center">
+                                        <div data-toggle="tooltip" data-placement="top" title="Chỉnh Sửa">
+                                            <a ng-click="thiduatt.catchID($index);" ng-show="thiduatt.isView[$index]">
+                                                <i class="fa fa-pencil fa-pencil-hd action-edit"></i>
+                                            </a>
+                                        </div>
+                                        <div data-toggle="tooltip" data-placement="top" title="Lưu" class="mr-auto">
+                                            <a ng-click="thiduatt.Save($index, kq);" ng-show="thiduatt.isEdit[$index]">
+                                                <i class="fa fa-check action-check"></i>
+                                            </a>
+                                        </div>
+                                        <div data-toggle="tooltip" data-placement="top" title="Hủy bỏ">
+                                            <a ng-click="thiduatt.cancel($index);" ng-show="thiduatt.isEdit[$index]">
+                                                <i class="fa fa-times" aria-hidden="true"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </form>
+
+        </div>
+    </div>
+    <div class="modal fade" id="danhHieuTapThe" ng-controller="danhHieuTapTheCtr"
+        ng-include="'modules/giao-vien/danh-hieu-thi-dua-tap-the/them-danh-hieu-thi-dua-tap-the.html'"></div>
+    <div class="modal fade" id="help_danhhieuthiduatapthe"
+        ng-include="'modules/giao-vien/danh-hieu-thi-dua-tap-the/help-danh-hieu-thi-dua-tap-the.html'"></div>

@@ -1,0 +1,93 @@
+<div class="modal-dialog modal-lg" role="document">
+	<form class="needs-validation" name="themKhenThuong" novalidate>
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title"><b>Thêm Kỷ Luật</b></h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div>
+					<!-- đây là form thông tin 1-->
+					<div class="row">
+						<div class="col-xl-6  col-lg-6  ">
+							<div class="form-row">
+								<div class="row-control bmd-form-group">
+									<label class="bmd-label-static" for="inputToBoMon" class="bmd-label-floating">Tổ Bộ Môn</label>
+									<select class="form-control" id="toBoMon" ng-model="ktkl.themKTKL.toBoMon" ng-options="boMon.tenToBoMon for boMon in ktkl.toBoMonSelect track by boMon.id"
+									 ng-change="ktkl.getIdToBoMonThem()">
+										<option value="">Tổ Bộ Môn</option>
+									</select>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-6  col-lg-6  ">
+							<div class="form-row">
+								<div class="row-control bmd-form-group">
+									<label class="bmd-label-static" for="inputCanBo" class="bmd-label-floating">Cán Bộ</label>
+									<select class="form-control" id="canBo" ng-model="ktkl.giaoVienKL" ng-options="giaoVien.tenCanBo for giaoVien in ktkl.danhSachGiaoVien track by giaoVien.id"
+									 ng-change="ktkl.getIdGVThem()">
+										<option value="">Cán Bộ</option>
+									</select>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xl-6  col-lg-6 ">
+							<div class="form-row">
+								<div class="row-control bmd-form-group">
+									<label class="bmd-label-static" for="inputLyDo" class="bmd-label-floating">Lý Do</label>
+									<input type="text" class="form-control" name="lyDo" id="lyDo" value="" ng-model="ktkl.themKTKL.khenThuongKyLuat.lyDo">
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-6  col-lg-6 ">
+							<div class="form-row">
+								<div class="row-control bmd-form-group">
+									<label class="bmd-label-static" for="inputHTKyLuat" class="bmd-label-floating">HT Kỷ Luật</label>
+									<input type="text" class="form-control" name="htKyLuat" id="htKyLuat" value="" ng-model="ktkl.themKTKL.khenThuongKyLuat.htKyLuat">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xl-6  col-lg-6  ">
+							<div class="form-row">
+								<div class="row-control bmd-form-group">
+									<label class="bmd-label-static" for="inputQDKyLuat" class="bmd-label-floating">QĐ Kỷ Luật</label>
+									<input type="text" class="form-control" name="qdKyLuat" title="QĐ Khen Thưởng" id="qdKyLuat" value="" ng-model="ktkl.themKTKL.khenThuongKyLuat.qdKyLuat">
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-6  col-lg-6  ">
+							<div class="form-row">
+								<div class="row-control bmd-form-group">
+									<label class="bmd-label-static" for="inputNgayQDKyLuat" class="bmd-label-floating">Ngày QĐ Kỷ Luật</label>
+									<input type="text" onblur="(this.type='type')" onfocus="(this.type='date')" class="form-control" id="ngayQDKyLuat"
+									 value="" ng-model="ktkl.themKTKL.khenThuongKyLuat.ngayQDKyLuat">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xl-12 col-lg-12">
+							<div class="form-row">
+								<div class="row-control bmd-form-group">
+									<label class="bmd-label-static" for="inputGhiChu" class="bmd-label-floating">Ghi Chú Khác</label>
+									<textarea type="textarea" cols="70" rows="4" class="form-control" name="ghiChu" id="ghiChu" title="Ghi Chú"
+									 value="" ng-model="ktkl.themKTKL.khenThuongKyLuat.ghiChu"></textarea>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal-footer ">
+				<button type="button" class="btn btn-outline-default" data-dismiss="modal">Cancel</button>
+				<button type="button" class="btn btn-primary" ng-click="ktkl.SaveKL()" data-dismiss="modal">Save</input>
+			</div>
+		</div>
+	</form>
+</div>

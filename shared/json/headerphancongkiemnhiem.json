@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Mã GV",
+        "width": "15%"
+    },
+    {
+        "name": "Họ Tên",
+        "width": "20%"
+    },
+    {
+        "name": "Tổ Bộ Môn",
+        "width": "20%"
+    },
+    {
+        "name": "Kiêm Nhiệm",
+        "width": "20%"
+    },
+    {
+        "name": "",
+        "width": "15%"
+    }
+]

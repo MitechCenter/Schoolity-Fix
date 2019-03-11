@@ -1,0 +1,281 @@
+<div class=" border-secondary p-2">
+    <div class="bg-white border box-shadow p-3">
+       <!-- THÊM,IMPORT,XÓA, DOWLOAD,PRINT -->
+       <div class="pb-3 d-flex justify-content-between">
+          <div>
+             <button id="editbtn" class="btn btn-success text-white" data-toggle="modal" href="#">
+                <i class="fa fa-pencil" aria-hidden="true"></i> Chỉnh Sửa
+             </button>
+             <button id="cancelbtn" class="btn btn-success text-white d-none" data-toggle="modal" href="#">
+                <i class="fa fa-times" aria-hidden="true"></i> Hủy
+             </button>
+             <button  class="btn btn-warning text-white" data-toggle="modal" href="#">
+                <i class="fa fa-upload" aria-hidden="true"></i> Import
+             </button>
+             <button class="btn btn-primary text-white" data-toggle="modal" href="#">
+                <i class="fa fa-floppy-o" aria-hidden="true"></i> Save
+             </button>
+             <button id="buttonDelete" disabled class="btn btn-danger" data-toggle="modal" href="#" data-target="#confirmModal">
+                <i class="fa fa-trash-o" aria-hidden="true"></i> Xóa
+             </button>
+          </div>
+          <div>
+                <!-- <button type="button" class="btn btn-info">
+                   <i class="fa fa-clone" aria-hidden="true"></i> Copy
+                </button> -->
+                <button type="button" class="btn btn-info">
+                   <i class="fa fa-download" aria-hidden="true"></i> Download
+                </button>
+                <button type="button" class="btn btn-info">
+                   <i class="fa fa-print" aria-hidden="true"></i> Print
+                </button>
+             </div>
+          </div>
+          <!-- filter -->
+          <div class="d-flex justify-content-between">
+             <div class=" w-50">
+                <select class="pr-3 pl-3 pt-1 pb-1 border">
+                   <option value="true">10 dòng</option>
+                   <option value="true">20 dòng</option>
+                   <option value="true">50 dòng</option>
+                </select>
+                <select class="pr-3 pl-3 pt-1 pb-1 border">
+                   <option value="true">Khối 10</option>
+                   <option value="true">Lớp 11</option>
+                   <option value="true">Khối 12</option>
+                </select>
+                <select class="pr-3 pl-3 pt-1 pb-1 border">
+                   <option value="true">Lớp 10A1</option>
+                   <option value="true">Lớp 10A2</option>
+                   <option value="true">Lớp 10A3</option>
+                </select>
+                <select class="pr-3 pl-3 pt-1 pb-1 border">
+                   <option value="true">Học kì 1</option>
+                   <option value="true">Học kì 2</option>
+                   <option value="true">Cả năm</option>
+                </select>
+             </div>
+             <!-- thanh search -->
+             <div class="flex-fill search-wrapper" id="search-control">
+                <div class="input-search ">
+                   <input type="text" class="input-search-text" placeholder="Tìm nhanh">
+                   <div class="button-show-addvance">
+                        <a ng-click="showAdvanceSearch()">
+                         <i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
+                      </a>
+                   </div>
+                </div>
+                <div id="advanceSearch"></div>
+             </div>
+          </div>
+          <table class="table-striped">
+             <thead>
+                <tr>
+                   <th>
+                      <div class="cell">
+                         <input type="checkbox" name="" id="checkAll" class="checkbox checkbox--red">
+                      </div>
+                   </th>
+                   <th>
+                      <div>STT</div>
+                   </th>
+                   <th>
+                      <div>Lớp</div>
+                   </th>
+                   <th>
+                      <div>Vi phạm<br>nội quy</div>
+                   </th>
+                   <th>
+                      <table>
+                         <tbody>
+                            <tr>
+                               <th colspan="8"><div>Loại điểm thi đua</div></th>
+                            </tr>
+                            <tr>
+                               <th><div>15 phút<br>đầu giờ</div></th>
+                               <th><div>Hát đầu<br>giờ</div></th>
+                               <th><div>Sỉ số<br>đầu giờ</div></th>
+                               <th><div>Thể dục<br>giữa giờ</div></th>
+                               <th><div>Trang phục<br>học sinh</div></th>
+                               <th><div>Trang trí<br>lớp học</div></th>
+                               <th><div>Vệ sinh</div></th>
+                               <th><div>Đồ dùng<br>học tập</div></th>
+                            </tr>
+                         </tbody>
+                      </table>
+                   </th>
+                   <th>
+                      <div>Tổng điểm</div>
+                   </th>
+                   <th>
+                      <div>Xếp hạng<br>khối</div>
+                   </th>
+                   <th>
+                      <div>Xếp hạng<br>toàn trường</div>
+                   </th>
+                </tr>
+             </thead>
+             <tbody>
+                <tr class="table-light" ng-repeat="x in xeploaithidua">
+                   <td>
+                      <div class="cell">
+                         <input type="checkbox" name="" id="" class="checkbox checkbox--red">
+                      </div>
+                   </td>
+                   <td>
+                      <div>{{$index}}</div>
+                   </td>
+                   <td>
+                      <div>
+                         <span class="label-control">{{x.lop}}</span><input type="text" class="edit-input input-control form-custom-control p-1 d-none"  ng-model="x.lop">
+                      </div>
+                   </td>
+                   <td>
+                      <div>
+                         <span class="label-control">{{x.Vipham}}</span><input type="text" class="edit-input input-control form-custom-control p-1 d-none"  ng-model="x.Vipham">
+                      </div>
+                   </td>
+                   <td>
+                      <table>
+                         <tbody>
+                            <tr>
+                               <td>
+                                <div>
+                                  <span class="label-control">{{x.daugio}}</span><input type="text" class="edit-input input-control form-custom-control p-1 d-none"  ng-model="x.daugio">
+                               </div>
+                            </td>
+                            <td>
+                               <div>
+                                  <span class="label-control">{{x.hatdaugio}}</span><input type="text" class="edit-input input-control form-custom-control p-1 d-none"  ng-model="x.daugio">
+                               </div>
+                            </td>
+                            <td>
+                               <div>
+                                  <span class="label-control">{{x.sisodaugio}}</span><input type="text" class="edit-input input-control form-custom-control p-1 d-none"  ng-model="x.sisodaugio">
+                               </div>
+                            </td>
+                            <td>
+                               <div><span class="label-control">{{x.theducgiuagio}}</span><input type="text" class="edit-input input-control form-custom-control p-1 d-none"  ng-model="x.theducgiuagio"></div>
+                            </td>
+                            <td>
+                               <div><span class="label-control">{{x.trangphuhocsinh}}</span><input type="text" class="edit-input input-control form-custom-control p-1 d-none"  ng-model="x.trangphuhocsinh"></div>
+                            </td>
+                            <td>
+                              <div> 
+                               <span class="label-control">{{x.trangtrilophoc}}</span><input type="text" class="edit-input input-control form-custom-control p-1 d-none"  ng-model="x.trangtrilophoc">
+                            </div>
+                         </td>
+                         <td>
+                            <div>
+                               <span class="label-control">{{x.vesinh}}</span><input type="text" class="edit-input input-control form-custom-control p-1 d-none"  ng-model="x.vesinh">
+                            </div>
+                         </td>
+                         <td>
+                            <div>
+                               <span class="label-control">{{x.sisodaugio}}</span><input type="text" class="edit-input input-control form-custom-control p-1 d-none"  ng-model="x.sisodaugio">
+                            </div>
+                         </td>
+                      </tr>
+                   </tbody>
+                </table>
+             </td>
+             <td>
+                <div>
+                   <span class="label-control">{{x.tongdiem}}</span><input type="text" class="edit-input input-control form-custom-control p-1 d-none"  ng-model="x.tongdiem" disabled="">
+                </div>
+             </td>
+             <td>
+                <div>
+                   <span class="label-control">{{x.xephangkhoi}}</span><input type="text" class="edit-input input-control form-custom-control p-1 d-none"  ng-model="x.xephangkhoi" disabled="">
+                </div>
+             </td>
+             <td>
+                <div>
+                   <span class="label-control">{{x.xephangtoantruong}}</span><input type="text" class="edit-input input-control form-custom-control p-1 d-none"  ng-model="x.xephangtoantruong" disabled="">
+                </div>
+             </td>
+          </tr>
+       </tbody>
+    </table>
+    <!-- phân trang -->
+    <div class="mt-3 d-flex justify-content-between">
+       <div>
+          <p>Hiển thị 1 đến 10 dòng trong tổng số 57 dòng</p>
+       </div>
+       <nav aria-label="Page navigation example">
+          <ul class="pagination">
+             <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                   <span aria-hidden="true">&laquo;</span>
+                   <span class="sr-only">Previous</span>
+                </a>
+             </li>
+             <li class="page-item active"><a class="page-link" href="#">1</a></li>
+             <li class="page-item"><a class="page-link" href="#">2</a></li>
+             <li class="page-item"><a class="page-link" href="#">...</a></li>
+             <li class="page-item"><a class="page-link" href="#">100</a></li>
+             <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                   <span aria-hidden="true">&raquo;</span>
+                   <span class="sr-only">Next</span>
+                </a>
+             </li>
+          </ul>
+       </nav>
+    </div>
+ </div>
+</div>
+<style>
+    table thead tr th {
+     border-right: 1px solid #eee;
+     padding: 0px;
+     background: #d2d2d2;
+  }
+  table thead tr th div{
+    padding: 10px;
+    text-align: center;
+ }
+ table thead tr th table tr:first-child div{
+    border-bottom: 1px solid #eee;
+    text-align: center;
+ }
+ table{
+    border: 1px solid #eee;
+ }
+ table table{
+    border: none;
+ }
+ table tbody td{
+    padding: 0px;
+    border-right: 1px solid #eee;
+    border-top: 1px solid #eee;
+ }
+ table tbody td div{
+    padding: 10px;
+ }
+ table thead tr th table tr:last-child th div{
+    width: 94px !important;
+    margin: 0px;
+    display: inline-block;
+ }
+ table tbody td table div{
+    width: 94px !important;
+    margin: 0px;
+    display: inline-block;
+ }
+ table thead tr table tr th:last-child{
+    border-right: none;
+ }
+ table thead tr table tr th{
+    border-top: none;
+ }
+ table tbody td table tr td:last-child{
+    border-right: none;
+ }
+ table tbody td table tr td{
+    border-top: none;
+ }
+ table tbody tr:nth-child(2n) {
+  background: #f0f1f3;
+}
+</style>

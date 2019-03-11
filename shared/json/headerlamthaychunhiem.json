@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Lớp",
+        "width": "15%"
+    },
+    {
+        "name": "GV Chủ Nhiệm",
+        "width": "20%"
+    },
+    {
+        "name": "GV Làm Thay",
+        "width": "20%"
+    },
+    {
+        "name": "Từ ngày",
+        "width": "20%"
+    },
+    {
+        "name": "Đến ngày",
+        "width": "15%"
+    },
+    {
+        "name": "Ghi chú",
+        "width": "15%"
+    },
+    {
+        "name": "",
+        "width": "15%"
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "name": "STT",
+        "width": "10%"
+    },
+    {
+        "name": "Lớp",
+        "width": "25%"
+    },
+    {
+        "name": "Quyền GV Chủ Nhiệm",
+        "width": "15%"
+    },
+    {
+        "name": "Quyền GV Bộ Môn",
+        "width": "15%"
+    },
+    {
+        "name":  "Quyền Giám thị",
+        "width": "15%"
+    }
+]

@@ -1,0 +1,72 @@
+.search-wrapper{
+    position: relative;
+}
+
+.search-wrapper .input-search{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: .25rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.75rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin-bottom: 10px;
+}
+
+.search-wrapper .input-search .input-search-text{
+    display: inline-block;
+    margin-right: auto;
+    width: 100%;
+}
+
+.search-wrapper .input-search .button-show-addvance{
+    display: inline-block;
+    width: 10px;
+}
+
+.search-wrapper .search-addvance{
+    position: absolute;
+    top: 100%;
+    z-index: 99999;
+    background-color: #fff;
+    display: block;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ced4da;
+    border-top: 0;
+    visibility: hidden;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+
+.fade-in{
+    opacity: 1 !important;
+    visibility: visible !important;
+    /* transition: opacity 500ms linear, visibility 0s linear !important; */
+}
+
+
+.fade-out{
+    opacity: 0 !important;
+    visibility: hidden !important;
+    transition: opacity 500ms linear, visibility 0s linear !important;
+}
+
+  .search_vi_pham .col-sm-3, .col-sm-12{
+    padding-right: 13px !important;
+    padding-left: 13px !important;
+  }
+  
+
+
+  .search-wrapper .input-search .bmd-form-group {
+    padding-top: 0rem;
+}
+#search-control .bmd-label-static{
+    color:rgb(36, 35, 35) !important;
+}

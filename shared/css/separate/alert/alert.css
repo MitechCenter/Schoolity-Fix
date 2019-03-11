@@ -1,0 +1,38 @@
+.alert {
+    position: absolute;
+    top: 30px;
+    left: 30%;
+    width: 40%;
+    z-index: 2000;
+    display: flex;
+    /* color: #343434;  tai sao anh lai comment la gi mac dinh e k can set mau cho no => mau se dc set theo style css */
+}
+.alert .alert-icon{
+	width: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.alert .alert-content{
+	flex: 1;
+	margin-right: auto;
+}
+
+.alert-info-border{
+	border: 1px solid #00a8ff !important;
+}
+
+.alert-info .alert-icon, .alert-info .close{
+	color: #00a8ff;
+}
+
+.alert-warning-border{
+	border: 1px solid #f29824 !important;
+}
+.alert-warning .alert-icon, .alert-warning .close{
+	color: #f29824;
+}
+.alert-danger-border{
+	border: 1px solid #fa424a !important;
+}

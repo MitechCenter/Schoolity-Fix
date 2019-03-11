@@ -1,0 +1,5204 @@
+[
+    {
+        "id": 1,
+        "tenCanBo": "Nguyễn Văn Tây",
+        "maCanBo": "",
+        "avatarUrl": "http://d38we5ntdyxyje.cloudfront.net/1081804/profile/VRXFYTQZ_avatar_medium_square.jpg",
+        "ngaySinh": "1981-11-11",
+        "gioiTinh": {
+            "id": 1,
+            "tenGioiTinh": "Nam"
+        },
+        "soCMND": "050875648",
+        "ngayCapCMND": "1999-03-03",
+        "noiCapCMND": "CA Bình Thuận",
+        "soDTDD": "0986833043",
+        "email": "0986833043@gmail.com",
+        "diaChi": "Bình Thuận 1",
+        "danToc": {
+            "id": 22,
+            "tenDanToc": "Hrê"
+        },
+        "tinhThanh": {
+            "name": "Bình Thuận",
+            "name_with_type": "Tỉnh Bình Thuận",
+            "id": "60"
+        },
+        "quanHuyen": {
+            "name": "Tuy Phong",
+            "name_with_type": "Huyện Tuy Phong",
+            "path": "Tuy Phong, Bình Thuận",
+            "path_with_type": "Huyện Tuy Phong, Tỉnh Bình Thuận",
+            "id": "595",
+            "tinhThanhId": "60"
+        },
+        "xaPhuong": {
+            "name": "Phước Thể",
+            "name_with_type": "Xã Phước Thể",
+            "path": "Phước Thể, Tuy Phong, Bình Thuận",
+            "path_with_type": "Xã Phước Thể, Huyện Tuy Phong, Tỉnh Bình Thuận",
+            "id": "22990",
+            "quanHuyenId": "595"
+        },
+        "toBoMon": {
+            "id": 4,
+            "tenToBoMon": "Văn - Sử"
+        },
+        "viTriLamViec": {
+            "id": 2,
+            "tenViTri": "Giáo viên"
+        },
+        "chucVu": {
+            "id": 1,
+            "tenChucVu": "Giáo viên"
+        },
+        "hinhThucHopDong": {
+            "id": 2,
+            "tenHinhThucHD": "Hợp đồng nghị định 68"
+        },
+        "ngayTuyenDung": "2006-03-03",
+        "ngayVaoBienChe": "2006-03-12",
+        "coQuanTuyenDung": "Sở GD ĐT",
+        "chucDanh": "Giáo viên",
+        "NNKhiDuocTuyen": "Giáo viên",
+        "soTietTrenTuan": "15",
+        "nhiemVuKiemNhiem": {
+            "id": 1,
+            "tenNhiemVu": "Bí thư đoàn"
+        },
+        "soTietKiemNhiem": "0",
+        "huanLuyenKNS": true,
+        "dayHocSinhKT": true,
+        "chuyenTrachDoanDoi": false,
+        "day12Buoi": "day1Buoi",
+        "ngachHang": {
+            "id": 29,
+            "tenNgachHang": "Giáo viên trung học phổ thông hạng III"
+        },
+        "maNgach": "",
+        "PCThamNien": "5",
+        "bacLuong": "",
+        "heSoLuong": "5",
+        "vuotKhung": "5",
+        "PCThuHutNghe": "5",
+        "PCUuDaiNghe": "5",
+        "ngayHuong": "5",
+        "KQBoiDuong": "Khá",
+        "trinhDoCMNV": {
+            "id": 5,
+            "tenTrinhDo": "Đại học"
+        },
+        "trinhDoTinHoc": {
+            "id": 4,
+            "tenTrinhDoTin": "Tin học Văn phòng A"
+        },
+        "trinhDoLyLuanCT": {
+            "id": 1,
+            "tenTrinhDoLyLuanChinhTri": "Chưa qua đào tạo"
+        },
+        "trinhDoQLGD": {
+            "id": 1,
+            "tenTrinhDoQLGiaoDuc": "Chưa qua đào tạo QLGD"
+        },
+        "trinhDoQLNN": {
+            "id": 3,
+            "tenTrinhDoQLNhaNuoc": "QLHC Văn phòng"
+        },
+        "chuyenNganh": {
+            "id": 8,
+            "tenChuyenNganh": "Giáo dục công dân - Sử_SP"
+        },
+        "trinhDoCM": {
+            "id": 2,
+            "tenTrinhDo": "Sơ cấp"
+        },
+        "loaiHinhDT": {
+            "id": 1,
+            "tenLoaiHinh": "Chuyên tu"
+        },
+        "chuyenNganhKhac": {
+            "id": 10,
+            "tenChuyenNganh": "Giáo dục Đặc biệt"
+        },
+        "trinhDoCMKhac": {
+            "id": 2,
+            "tenTrinhDo": "Sơ cấp"
+        },
+        "loaiHinhDTKhac": {
+            "id": 1,
+            "tenLoaiHinh": "Chuyên tu"
+        },
+        "trinhDoVH": {
+            "id": 12,
+            "tenTrinhDoVanHoa": "12/12"
+        },
+        "ngoaiNguChinh": {
+            "id": 9,
+            "tenNgoaiNgu": "Tiếng Thái"
+        },
+        "trinhDoNNChinh": {
+            "id": 12,
+            "tenTrinhDoNgoaiNgu": "TOEIC"
+        },
+        "KQChuanNgheNghiep": "Khá",
+        "danhGiaVienChuc": "Khá",
+        "gvDayGioi": "",
+        "danhHieuGV": "",
+        "capDayChinh": {
+            "id": 1,
+            "tenCapDay": "Cấp 3"
+        },
+        "monDayChinh": {
+            "id": 9,
+            "tenMonDay": "Bồi dưỡng Văn"
+        },
+        "thanhPhanGD": {
+            "id": 2,
+            "tenThanhPhanGiaDinh": "Nông dân"
+        },
+        "tinhTrangHonNhan": {
+            "id": 1,
+            "tenTinhTrangHonNhan": "Chưa đăng ký kết hôn lần nào"
+        },
+        "hoTenBo": "Nguyễn Văn X",
+        "namSinhBo": "1972",
+        "ngheNghiepBo": "nông dân",
+        "coQuanBo": "CA Tỉnh Bình Thuận",
+        "hoTenMe": "Nguyễn Thị Y",
+        "namSinhMe": "1975",
+        "ngheNghiepMe": "nông dân",
+        "coQuanMe": "CA Tỉnh Bình Thuận",
+        "boiDuongTX": true,
+        "nhaCongVu": true,
+        "thueNhaTro": false,
+        "dangKyNhaCongVu": false,
+        "ghiChuKhac": "Ế"
+    },
+    {
+        "id": 2,
+        "tenCanBo": "Nguyễn Đặng Tuyết Mai",
+        "maCanBo": "",
+        "avatarUrl": "http://d38we5ntdyxyje.cloudfront.net/1081804/profile/VRXFYTQZ_avatar_medium_square.jpg",
+        "ngaySinh": "1983-05-05",
+        "gioiTinh": {
+            "id": 2,
+            "tenGioiTinh": "Nữ"
+        },
+        "soCMND": "036483616",
+        "ngayCapCMND": "2000-08-08",
+        "noiCapCMND": "CA Hòa Bình",
+        "soDTDD": "0984673518",
+        "email": "0986833043@gmail.com",
+        "diaChi": "Đâu đó",
+        "danToc": {
+            "id": 22,
+            "tenDanToc": "Hrê"
+        },
+        "tinhThanh": {
+            "name": "Bình Thuận",
+            "name_with_type": "Tỉnh Bình Thuận",
+            "id": "60"
+        },
+        "quanHuyen": {
+            "name": "Tuy Phong",
+            "name_with_type": "Huyện Tuy Phong",
+            "path": "Tuy Phong, Bình Thuận",
+            "path_with_type": "Huyện Tuy Phong, Tỉnh Bình Thuận",
+            "id": "595",
+            "tinhThanhId": "60"
+        },
+        "xaPhuong": {
+            "name": "Phước Thể",
+            "name_with_type": "Xã Phước Thể",
+            "path": "Phước Thể, Tuy Phong, Bình Thuận",
+            "path_with_type": "Xã Phước Thể, Huyện Tuy Phong, Tỉnh Bình Thuận",
+            "id": "22990",
+            "quanHuyenId": "595"
+        },
+        "toBoMon": {
+            "id": 1,
+            "tenToBoMon": "Hóa - Lý"
+        },
+        "viTriLamViec": {
+            "id": 2,
+            "tenViTri": "Giáo viên"
+        },
+        "chucVu": {
+            "id": 1,
+            "tenChucVu": "Giáo viên"
+        },
+        "hinhThucHopDong": {
+            "id": 2,
+            "tenHinhThucHD": "Hợp đồng nghị định 68"
+        },
+        "ngayTuyenDung": "2006-03-03",
+        "ngayVaoBienChe": "2006-03-12",
+        "coQuanTuyenDung": "Sở GD ĐT",
+        "chucDanh": "Giáo viên",
+        "NNKhiDuocTuyen": "Giáo viên",
+        "soTietTrenTuan": "30",
+        "nhiemVuKiemNhiem": {
+            "id": 2,
+            "tenNhiemVu": "Phó bí thư đoàn"
+        },
+        "soTietKiemNhiem": "0",
+        "huanLuyenKNS": false,
+        "dayHocSinhKT": true,
+        "chuyenTrachDoanDoi": true,
+        "day12Buoi": "day2Buoi",
+        "ngachHang": {
+            "id": 29,
+            "tenNgachHang": "Giáo viên trung học phổ thông hạng III"
+        },
+        "maNgach": "",
+        "PCThamNien": "3",
+        "bacLuong": "",
+        "heSoLuong": "3",
+        "vuotKhung": "3",
+        "PCThuHutNghe": "3",
+        "PCUuDaiNghe": "3",
+        "ngayHuong": "3",
+        "KQBoiDuong": "Khá",
+        "trinhDoCMNV": {
+            "id": 5,
+            "tenTrinhDo": "Đại học"
+        },
+        "trinhDoTinHoc": {
+            "id": 4,
+            "tenTrinhDoTin": "Tin học Văn phòng A"
+        },
+        "trinhDoLyLuanCT": {
+            "id": 1,
+            "tenTrinhDoLyLuanChinhTri": "Chưa qua đào tạo"
+        },
+        "trinhDoQLGD": {
+            "id": 1,
+            "tenTrinhDoQLGiaoDuc": "Chưa qua đào tạo QLGD"
+        },
+        "trinhDoQLNN": {
+            "id": 3,
+            "tenTrinhDoQLNhaNuoc": "QLHC Văn phòng"
+        },
+        "chuyenNganh": {
+            "id": 8,
+            "tenChuyenNganh": "Giáo dục công dân - Sử_SP"
+        },
+        "trinhDoCM": {
+            "id": 2,
+            "tenTrinhDo": "Sơ cấp"
+        },
+        "loaiHinhDT": {
+            "id": 1,
+            "tenLoaiHinh": "Chuyên tu"
+        },
+        "chuyenNganhKhac": {
+            "id": 10,
+            "tenChuyenNganh": "Giáo dục Đặc biệt"
+        },
+        "trinhDoCMKhac": {
+            "id": 2,
+            "tenTrinhDo": "Sơ cấp"
+        },
+        "loaiHinhDTKhac": {
+            "id": 1,
+            "tenLoaiHinh": "Chuyên tu"
+        },
+        "trinhDoVH": {
+            "id": 12,
+            "tenTrinhDoVanHoa": "12/12"
+        },
+        "ngoaiNguChinh": {
+            "id": 9,
+            "tenNgoaiNgu": "Tiếng Thái"
+        },
+        "trinhDoNNChinh": {
+            "id": 12,
+            "tenTrinhDoNgoaiNgu": "TOEIC"
+        },
+        "KQChuanNgheNghiep": "Giỏi",
+        "danhGiaVienChuc": "Giỏi",
+        "gvDayGioi": "",
+        "danhHieuGV": "",
+        "capDayChinh": {
+            "id": 1,
+            "tenCapDay": "Cấp 3"
+        },
+        "monDayChinh": {
+            "id": 9,
+            "tenMonDay": "Bồi dưỡng Văn"
+        },
+        "thanhPhanGD": {
+            "id": 2,
+            "tenThanhPhanGiaDinh": "Nông dân"
+        },
+        "tinhTrangHonNhan": {
+            "id": 1,
+            "tenTinhTrangHonNhan": "Chưa đăng ký kết hôn lần nào"
+        },
+        "hoTenBo": "Nguyễn Văn A",
+        "namSinhBo": "1962",
+        "ngheNghiepBo": "nông dân",
+        "coQuanBo": "CA Tỉnh Bình Thuận",
+        "hoTenMe": "Nguyễn Thị B",
+        "namSinhMe": "1965",
+        "ngheNghiepMe": "nông dân",
+        "coQuanMe": "CA Tỉnh Bình Thuận",
+        "boiDuongTX": true,
+        "nhaCongVu": false,
+        "thueNhaTro": false,
+        "dangKyNhaCongVu": true,
+        "ghiChuKhac": "Ế nặng"
+    },
+    {
+        "id": 3,
+        "tenCanBo": "Hoàng Xuân Thắng",
+        "maCanBo": "",
+        "avatarUrl": "http://d38we5ntdyxyje.cloudfront.net/1081804/profile/VRXFYTQZ_avatar_medium_square.jpg",
+        "ngaySinh": "1987-11-11",
+        "gioiTinh": {
+            "id": 1,
+            "tenGioiTinh": "Nam"
+        },
+        "soCMND": "050875648",
+        "ngayCapCMND": "1999-03-03",
+        "noiCapCMND": "CA Bình Thuận",
+        "soDTDD": "0879756849",
+        "email": "0879756849@gmail.com",
+        "diaChi": "Bình Thuận 1",
+        "danToc": {
+            "id": 22,
+            "tenDanToc": "Hrê"
+        },
+        "tinhThanh": {
+            "name": "Bình Thuận",
+            "name_with_type": "Tỉnh Bình Thuận",
+            "id": "60"
+        },
+        "quanHuyen": {
+            "name": "Tuy Phong",
+            "name_with_type": "Huyện Tuy Phong",
+            "path": "Tuy Phong, Bình Thuận",
+            "path_with_type": "Huyện Tuy Phong, Tỉnh Bình Thuận",
+            "id": "595",
+            "tinhThanhId": "60"
+        },
+        "xaPhuong": {
+            "name": "Phước Thể",
+            "name_with_type": "Xã Phước Thể",
+            "path": "Phước Thể, Tuy Phong, Bình Thuận",
+            "path_with_type": "Xã Phước Thể, Huyện Tuy Phong, Tỉnh Bình Thuận",
+            "id": "22990",
+            "quanHuyenId": "595"
+        },
+        "toBoMon": {
+            "id": 5,
+            "tenToBoMon": "Địa - Tin - GDCD - Văn phòng"
+        },
+        "viTriLamViec": {
+            "id": 2,
+            "tenViTri": "Giáo viên"
+        },
+        "chucVu": {
+            "id": 1,
+            "tenChucVu": "Giáo viên"
+        },
+        "hinhThucHopDong": {
+            "id": 2,
+            "tenHinhThucHD": "Hợp đồng nghị định 68"
+        },
+        "ngayTuyenDung": "2006-03-03",
+        "ngayVaoBienChe": "2006-03-12",
+        "coQuanTuyenDung": "Sở GD ĐT",
+        "chucDanh": "Giáo viên",
+        "NNKhiDuocTuyen": "Giáo viên",
+        "soTietTrenTuan": "15",
+        "nhiemVuKiemNhiem": {
+            "id": 2,
+            "tenNhiemVu": "Phó bí thư đoàn"
+        },
+        "soTietKiemNhiem": "0",
+        "huanLuyenKNS": true,
+        "dayHocSinhKT": true,
+        "chuyenTrachDoanDoi": false,
+        "day12Buoi": "day1Buoi",
+        "ngachHang": {
+            "id": 29,
+            "tenNgachHang": "Giáo viên trung học phổ thông hạng III"
+        },
+        "maNgach": "",
+        "PCThamNien": "5",
+        "bacLuong": "",
+        "heSoLuong": "5",
+        "vuotKhung": "5",
+        "PCThuHutNghe": "5",
+        "PCUuDaiNghe": "5",
+        "ngayHuong": "5",
+        "KQBoiDuong": "Khá",
+        "trinhDoCMNV": {
+            "id": 5,
+            "tenTrinhDo": "Đại học"
+        },
+        "trinhDoTinHoc": {
+            "id": 4,
+            "tenTrinhDoTin": "Tin học Văn phòng A"
+        },
+        "trinhDoLyLuanCT": {
+            "id": 1,
+            "tenTrinhDoLyLuanChinhTri": "Chưa qua đào tạo"
+        },
+        "trinhDoQLGD": {
+            "id": 1,
+            "tenTrinhDoQLGiaoDuc": "Chưa qua đào tạo QLGD"
+        },
+        "trinhDoQLNN": {
+            "id": 3,
+            "tenTrinhDoQLNhaNuoc": "QLHC Văn phòng"
+        },
+        "chuyenNganh": {
+            "id": 8,
+            "tenChuyenNganh": "Giáo dục công dân - Sử_SP"
+        },
+        "trinhDoCM": {
+            "id": 2,
+            "tenTrinhDo": "Sơ cấp"
+        },
+        "loaiHinhDT": {
+            "id": 1,
+            "tenLoaiHinh": "Chuyên tu"
+        },
+        "chuyenNganhKhac": {
+            "id": 10,
+            "tenChuyenNganh": "Giáo dục Đặc biệt"
+        },
+        "trinhDoCMKhac": {
+            "id": 2,
+            "tenTrinhDo": "Sơ cấp"
+        },
+        "loaiHinhDTKhac": {
+            "id": 1,
+            "tenLoaiHinh": "Chuyên tu"
+        },
+        "trinhDoVH": {
+            "id": 12,
+            "tenTrinhDoVanHoa": "12/12"
+        },
+        "ngoaiNguChinh": {
+            "id": 9,
+            "tenNgoaiNgu": "Tiếng Thái"
+        },
+        "trinhDoNNChinh": {
+            "id": 12,
+            "tenTrinhDoNgoaiNgu": "TOEIC"
+        },
+        "KQChuanNgheNghiep": "Khá",
+        "danhGiaVienChuc": "Khá",
+        "gvDayGioi": "",
+        "danhHieuGV": "",
+        "capDayChinh": {
+            "id": 1,
+            "tenCapDay": "Cấp 3"
+        },
+        "monDayChinh": {
+            "id": 9,
+            "tenMonDay": "Bồi dưỡng Văn"
+        },
+        "thanhPhanGD": {
+            "id": 2,
+            "tenThanhPhanGiaDinh": "Nông dân"
+        },
+        "tinhTrangHonNhan": {
+            "id": 1,
+            "tenTinhTrangHonNhan": "Chưa đăng ký kết hôn lần nào"
+        },
+        "hoTenBo": "Nguyễn Văn X",
+        "namSinhBo": "1972",
+        "ngheNghiepBo": "nông dân",
+        "coQuanBo": "CA Tỉnh Bình Thuận",
+        "hoTenMe": "Nguyễn Thị Y",
+        "namSinhMe": "1975",
+        "ngheNghiepMe": "nông dân",
+        "coQuanMe": "CA Tỉnh Bình Thuận",
+        "boiDuongTX": true,
+        "nhaCongVu": true,
+        "thueNhaTro": false,
+        "dangKyNhaCongVu": false,
+        "ghiChuKhac": "Ế"
+    },
+    {
+        "id": 4,
+        "tenCanBo": "Đặng Mai Linh",
+        "maCanBo": "",
+        "avatarUrl": "http://d38we5ntdyxyje.cloudfront.net/1081804/profile/VRXFYTQZ_avatar_medium_square.jpg",
+        "ngaySinh": "1983-05-05",
+        "gioiTinh": {
+            "id": 2,
+            "tenGioiTinh": "Nữ"
+        },
+        "soCMND": "036483616",
+        "ngayCapCMND": "2000-08-08",
+        "noiCapCMND": "CA Hòa Bình",
+        "soDTDD": "0984673518",
+        "email": "0986833043@gmail.com",
+        "diaChi": "Đâu đó",
+        "danToc": {
+            "id": 22,
+            "tenDanToc": "Hrê"
+        },
+        "tinhThanh": {
+            "name": "Bình Thuận",
+            "name_with_type": "Tỉnh Bình Thuận",
+            "id": "60"
+        },
+        "quanHuyen": {
+            "name": "Tuy Phong",
+            "name_with_type": "Huyện Tuy Phong",
+            "path": "Tuy Phong, Bình Thuận",
+            "path_with_type": "Huyện Tuy Phong, Tỉnh Bình Thuận",
+            "id": "595",
+            "tinhThanhId": "60"
+        },
+        "xaPhuong": {
+            "name": "Phước Thể",
+            "name_with_type": "Xã Phước Thể",
+            "path": "Phước Thể, Tuy Phong, Bình Thuận",
+            "path_with_type": "Xã Phước Thể, Huyện Tuy Phong, Tỉnh Bình Thuận",
+            "id": "22990",
+            "quanHuyenId": "595"
+        },
+        "toBoMon": {
+            "id": 2,
+            "tenToBoMon": "Ngoại ngữ - Thể dục"
+        },
+        "viTriLamViec": {
+            "id": 2,
+            "tenViTri": "Giáo viên"
+        },
+        "chucVu": {
+            "id": 1,
+            "tenChucVu": "Giáo viên"
+        },
+        "hinhThucHopDong": {
+            "id": 2,
+            "tenHinhThucHD": "Hợp đồng nghị định 68"
+        },
+        "ngayTuyenDung": "2006-03-03",
+        "ngayVaoBienChe": "2006-03-12",
+        "coQuanTuyenDung": "Sở GD ĐT",
+        "chucDanh": "Giáo viên",
+        "NNKhiDuocTuyen": "Giáo viên",
+        "soTietTrenTuan": "30",
+        "nhiemVuKiemNhiem": {
+            "id": 2,
+            "tenNhiemVu": "Phó bí thư đoàn"
+        },
+        "soTietKiemNhiem": "0",
+        "huanLuyenKNS": false,
+        "dayHocSinhKT": true,
+        "chuyenTrachDoanDoi": true,
+        "day12Buoi": "day2Buoi",
+        "ngachHang": {
+            "id": 29,
+            "tenNgachHang": "Giáo viên trung học phổ thông hạng III"
+        },
+        "maNgach": "",
+        "PCThamNien": "3",
+        "bacLuong": "",
+        "heSoLuong": "3",
+        "vuotKhung": "3",
+        "PCThuHutNghe": "3",
+        "PCUuDaiNghe": "3",
+        "ngayHuong": "3",
+        "KQBoiDuong": "Khá",
+        "trinhDoCMNV": {
+            "id": 5,
+            "tenTrinhDo": "Đại học"
+        },
+        "trinhDoTinHoc": {
+            "id": 4,
+            "tenTrinhDoTin": "Tin học Văn phòng A"
+        },
+        "trinhDoLyLuanCT": {
+            "id": 1,
+            "tenTrinhDoLyLuanChinhTri": "Chưa qua đào tạo"
+        },
+        "trinhDoQLGD": {
+            "id": 1,
+            "tenTrinhDoQLGiaoDuc": "Chưa qua đào tạo QLGD"
+        },
+        "trinhDoQLNN": {
+            "id": 3,
+            "tenTrinhDoQLNhaNuoc": "QLHC Văn phòng"
+        },
+        "chuyenNganh": {
+            "id": 8,
+            "tenChuyenNganh": "Giáo dục công dân - Sử_SP"
+        },
+        "trinhDoCM": {
+            "id": 2,
+            "tenTrinhDo": "Sơ cấp"
+        },
+        "loaiHinhDT": {
+            "id": 1,
+            "tenLoaiHinh": "Chuyên tu"
+        },
+        "chuyenNganhKhac": {
+            "id": 10,
+            "tenChuyenNganh": "Giáo dục Đặc biệt"
+        },
+        "trinhDoCMKhac": {
+            "id": 2,
+            "tenTrinhDo": "Sơ cấp"
+        },
+        "loaiHinhDTKhac": {
+            "id": 1,
+            "tenLoaiHinh": "Chuyên tu"
+        },
+        "trinhDoVH": {
+            "id": 12,
+            "tenTrinhDoVanHoa": "12/12"
+        },
+        "ngoaiNguChinh": {
+            "id": 9,
+            "tenNgoaiNgu": "Tiếng Thái"
+        },
+        "trinhDoNNChinh": {
+            "id": 12,
+            "tenTrinhDoNgoaiNgu": "TOEIC"
+        },
+        "KQChuanNgheNghiep": "Giỏi",
+        "danhGiaVienChuc": "Giỏi",
+        "gvDayGioi": "",
+        "danhHieuGV": "",
+        "capDayChinh": {
+            "id": 1,
+            "tenCapDay": "Cấp 3"
+        },
+        "monDayChinh": {
+            "id": 9,
+            "tenMonDay": "Bồi dưỡng Văn"
+        },
+        "thanhPhanGD": {
+            "id": 2,
+            "tenThanhPhanGiaDinh": "Nông dân"
+        },
+        "tinhTrangHonNhan": {
+            "id": 1,
+            "tenTinhTrangHonNhan": "Chưa đăng ký kết hôn lần nào"
+        },
+        "hoTenBo": "Nguyễn Văn A",
+        "namSinhBo": "1962",
+        "ngheNghiepBo": "nông dân",
+        "coQuanBo": "CA Tỉnh Bình Thuận",
+        "hoTenMe": "Nguyễn Thị B",
+        "namSinhMe": "1965",
+        "ngheNghiepMe": "nông dân",
+        "coQuanMe": "CA Tỉnh Bình Thuận",
+        "boiDuongTX": true,
+        "nhaCongVu": false,
+        "thueNhaTro": false,
+        "dangKyNhaCongVu": true,
+        "ghiChuKhac": "Ế nặng"
+    },
+    {
+        "id": 5,
+        "tenCanBo": "Văn Mai Hương",
+        "maCanBo": "",
+        "avatarUrl": "http://d38we5ntdyxyje.cloudfront.net/1081804/profile/VRXFYTQZ_avatar_medium_square.jpg",
+        "ngaySinh": "1981-11-11",
+        "gioiTinh": {
+            "id": 2,
+            "tenGioiTinh": "Nữ"
+        },
+        "soCMND": "050875648",
+        "ngayCapCMND": "1999-03-03",
+        "noiCapCMND": "CA Bình Thuận",
+        "soDTDD": "0986833043",
+        "email": "0986833043@gmail.com",
+        "diaChi": "Bình Thuận 1",
+        "danToc": {
+            "id": 22,
+            "tenDanToc": "Hrê"
+        },
+        "tinhThanh": {
+            "name": "Bình Thuận",
+            "name_with_type": "Tỉnh Bình Thuận",
+            "id": "60"
+        },
+        "quanHuyen": {
+            "name": "Tuy Phong",
+            "name_with_type": "Huyện Tuy Phong",
+            "path": "Tuy Phong, Bình Thuận",
+            "path_with_type": "Huyện Tuy Phong, Tỉnh Bình Thuận",
+            "id": "595",
+            "tinhThanhId": "60"
+        },
+        "xaPhuong": {
+            "name": "Phước Thể",
+            "name_with_type": "Xã Phước Thể",
+            "path": "Phước Thể, Tuy Phong, Bình Thuận",
+            "path_with_type": "Xã Phước Thể, Huyện Tuy Phong, Tỉnh Bình Thuận",
+            "id": "22990",
+            "quanHuyenId": "595"
+        },
+        "toBoMon": {
+            "id": 1,
+            "tenToBoMon": "Hóa - Lý"
+        },
+        "viTriLamViec": {
+            "id": 2,
+            "tenViTri": "Giáo viên"
+        },
+        "chucVu": {
+            "id": 1,
+            "tenChucVu": "Giáo viên"
+        },
+        "hinhThucHopDong": {
+            "id": 2,
+            "tenHinhThucHD": "Hợp đồng nghị định 68"
+        },
+        "ngayTuyenDung": "2006-03-03",
+        "ngayVaoBienChe": "2006-03-12",
+        "coQuanTuyenDung": "Sở GD ĐT",
+        "chucDanh": "Giáo viên",
+        "NNKhiDuocTuyen": "Giáo viên",
+        "soTietTrenTuan": "15",
+        "nhiemVuKiemNhiem": {
+            "id": 2,
+            "tenNhiemVu": "Phó bí thư đoàn"
+        },
+        "soTietKiemNhiem": "0",
+        "huanLuyenKNS": true,
+        "dayHocSinhKT": true,
+        "chuyenTrachDoanDoi": false,
+        "day12Buoi": "day1Buoi",
+        "ngachHang": {
+            "id": 29,
+            "tenNgachHang": "Giáo viên trung học phổ thông hạng III"
+        },
+        "maNgach": "",
+        "PCThamNien": "5",
+        "bacLuong": "",
+        "heSoLuong": "5",
+        "vuotKhung": "5",
+        "PCThuHutNghe": "5",
+        "PCUuDaiNghe": "5",
+        "ngayHuong": "5",
+        "KQBoiDuong": "Khá",
+        "trinhDoCMNV": {
+            "id": 5,
+            "tenTrinhDo": "Đại học"
+        },
+        "trinhDoTinHoc": {
+            "id": 4,
+            "tenTrinhDoTin": "Tin học Văn phòng A"
+        },
+        "trinhDoLyLuanCT": {
+            "id": 1,
+            "tenTrinhDoLyLuanChinhTri": "Chưa qua đào tạo"
+        },
+        "trinhDoQLGD": {
+            "id": 1,
+            "tenTrinhDoQLGiaoDuc": "Chưa qua đào tạo QLGD"
+        },
+        "trinhDoQLNN": {
+            "id": 3,
+            "tenTrinhDoQLNhaNuoc": "QLHC Văn phòng"
+        },
+        "chuyenNganh": {
+            "id": 8,
+            "tenChuyenNganh": "Giáo dục công dân - Sử_SP"
+        },
+        "trinhDoCM": {
+            "id": 2,
+            "tenTrinhDo": "Sơ cấp"
+        },
+        "loaiHinhDT": {
+            "id": 1,
+            "tenLoaiHinh": "Chuyên tu"
+        },
+        "chuyenNganhKhac": {
+            "id": 10,
+            "tenChuyenNganh": "Giáo dục Đặc biệt"
+        },
+        "trinhDoCMKhac": {
+            "id": 2,
+            "tenTrinhDo": "Sơ cấp"
+        },
+        "loaiHinhDTKhac": {
+            "id": 1,
+            "tenLoaiHinh": "Chuyên tu"
+        },
+        "trinhDoVH": {
+            "id": 12,
+            "tenTrinhDoVanHoa": "12/12"
+        },
+        "ngoaiNguChinh": {
+            "id": 9,
+            "tenNgoaiNgu": "Tiếng Thái"
+        },
+        "trinhDoNNChinh": {
+            "id": 12,
+            "tenTrinhDoNgoaiNgu": "TOEIC"
+        },
+        "KQChuanNgheNghiep": "Khá",
+        "danhGiaVienChuc": "Khá",
+        "gvDayGioi": "",
+        "danhHieuGV": "",
+        "capDayChinh": {
+            "id": 1,
+            "tenCapDay": "Cấp 3"
+        },
+        "monDayChinh": {
+            "id": 9,
+            "tenMonDay": "Bồi dưỡng Văn"
+        },
+        "thanhPhanGD": {
+            "id": 2,
+            "tenThanhPhanGiaDinh": "Nông dân"
+        },
+        "tinhTrangHonNhan": {
+            "id": 1,
+            "tenTinhTrangHonNhan": "Chưa đăng ký kết hôn lần nào"
+        },
+        "hoTenBo": "Nguyễn Văn X",
+        "namSinhBo": "1972",
+        "ngheNghiepBo": "nông dân",
+        "coQuanBo": "CA Tỉnh Bình Thuận",
+        "hoTenMe": "Nguyễn Thị Y",
+        "namSinhMe": "1975",
+        "ngheNghiepMe": "nông dân",
+        "coQuanMe": "CA Tỉnh Bình Thuận",
+        "boiDuongTX": true,
+        "nhaCongVu": true,
+        "thueNhaTro": false,
+        "dangKyNhaCongVu": false,
+        "ghiChuKhac": "Ế"
+    },
+    {
+        "id": 6,
+        "tenCanBo": "Đinh Thế Vinh",
+        "maCanBo": "",
+        "avatarUrl": "http://d38we5ntdyxyje.cloudfront.net/1081804/profile/VRXFYTQZ_avatar_medium_square.jpg",
+        "ngaySinh": "1983-05-05",
+        "gioiTinh": {
+            "id": 1,
+            "tenGioiTinh": "Nam"
+        },
+        "soCMND": "036483616",
+        "ngayCapCMND": "2000-08-08",
+        "noiCapCMND": "CA Hòa Bình",
+        "soDTDD": "0984673518",
+        "email": "0986833043@gmail.com",
+        "diaChi": "Đâu đó",
+        "danToc": {
+            "id": 22,
+            "tenDanToc": "Hrê"
+        },
+        "tinhThanh": {
+            "name": "Bình Thuận",
+            "name_with_type": "Tỉnh Bình Thuận",
+            "id": "60"
+        },
+        "quanHuyen": {
+            "name": "Tuy Phong",
+            "name_with_type": "Huyện Tuy Phong",
+            "path": "Tuy Phong, Bình Thuận",
+            "path_with_type": "Huyện Tuy Phong, Tỉnh Bình Thuận",
+            "id": "595",
+            "tinhThanhId": "60"
+        },
+        "xaPhuong": {
+            "name": "Phước Thể",
+            "name_with_type": "Xã Phước Thể",
+            "path": "Phước Thể, Tuy Phong, Bình Thuận",
+            "path_with_type": "Xã Phước Thể, Huyện Tuy Phong, Tỉnh Bình Thuận",
+            "id": "22990",
+            "quanHuyenId": "595"
+        },
+        "toBoMon": {
+            "id": 2,
+            "tenToBoMon": "Ngoại ngữ - Thể dục"
+        },
+        "viTriLamViec": {
+            "id": 2,
+            "tenViTri": "Giáo viên"
+        },
+        "chucVu": {
+            "id": 1,
+            "tenChucVu": "Giáo viên"
+        },
+        "hinhThucHopDong": {
+            "id": 2,
+            "tenHinhThucHD": "Hợp đồng nghị định 68"
+        },
+        "ngayTuyenDung": "2006-03-03",
+        "ngayVaoBienChe": "2006-03-12",
+        "coQuanTuyenDung": "Sở GD ĐT",
+        "chucDanh": "Giáo viên",
+        "NNKhiDuocTuyen": "Giáo viên",
+        "soTietTrenTuan": "30",
+        "nhiemVuKiemNhiem": {
+            "id": 2,
+            "tenNhiemVu": "Phó bí thư đoàn"
+        },
+        "soTietKiemNhiem": "0",
+        "huanLuyenKNS": false,
+        "dayHocSinhKT": true,
+        "chuyenTrachDoanDoi": true,
+        "day12Buoi": "day2Buoi",
+        "ngachHang": {
+            "id": 29,
+            "tenNgachHang": "Giáo viên trung học phổ thông hạng III"
+        },
+        "maNgach": "",
+        "PCThamNien": "3",
+        "bacLuong": "",
+        "heSoLuong": "3",
+        "vuotKhung": "3",
+        "PCThuHutNghe": "3",
+        "PCUuDaiNghe": "3",
+        "ngayHuong": "3",
+        "KQBoiDuong": "Khá",
+        "trinhDoCMNV": {
+            "id": 5,
+            "tenTrinhDo": "Đại học"
+        },
+        "trinhDoTinHoc": {
+            "id": 4,
+            "tenTrinhDoTin": "Tin học Văn phòng A"
+        },
+        "trinhDoLyLuanCT": {
+            "id": 1,
+            "tenTrinhDoLyLuanChinhTri": "Chưa qua đào tạo"
+        },
+        "trinhDoQLGD": {
+            "id": 1,
+            "tenTrinhDoQLGiaoDuc": "Chưa qua đào tạo QLGD"
+        },
+        "trinhDoQLNN": {
+            "id": 3,
+            "tenTrinhDoQLNhaNuoc": "QLHC Văn phòng"
+        },
+        "chuyenNganh": {
+            "id": 8,
+            "tenChuyenNganh": "Giáo dục công dân - Sử_SP"
+        },
+        "trinhDoCM": {
+            "id": 2,
+            "tenTrinhDo": "Sơ cấp"
+        },
+        "loaiHinhDT": {
+            "id": 1,
+            "tenLoaiHinh": "Chuyên tu"
+        },
+        "chuyenNganhKhac": {
+            "id": 10,
+            "tenChuyenNganh": "Giáo dục Đặc biệt"
+        },
+        "trinhDoCMKhac": {
+            "id": 2,
+            "tenTrinhDo": "Sơ cấp"
+        },
+        "loaiHinhDTKhac": {
+            "id": 1,
+            "tenLoaiHinh": "Chuyên tu"
+        },
+        "trinhDoVH": {
+            "id": 12,
+            "tenTrinhDoVanHoa": "12/12"
+        },
+        "ngoaiNguChinh": {
+            "id": 9,
+            "tenNgoaiNgu": "Tiếng Thái"
+        },
+        "trinhDoNNChinh": {
+            "id": 12,
+            "tenTrinhDoNgoaiNgu": "TOEIC"
+        },
+        "KQChuanNgheNghiep": "Giỏi",
+        "danhGiaVienChuc": "Giỏi",
+        "gvDayGioi": "",
+        "danhHieuGV": "",
+        "capDayChinh": {
+            "id": 1,
+            "tenCapDay": "Cấp 3"
+        },
+        "monDayChinh": {
+            "id": 9,
+            "tenMonDay": "Bồi dưỡng Văn"
+        },
+        "thanhPhanGD": {
+            "id": 2,
+            "tenThanhPhanGiaDinh": "Nông dân"
+        },
+        "tinhTrangHonNhan": {
+            "id": 1,
+            "tenTinhTrangHonNhan": "Chưa đăng ký kết hôn lần nào"
+        },
+        "hoTenBo": "Nguyễn Văn A",
+        "namSinhBo": "1962",
+        "ngheNghiepBo": "nông dân",
+        "coQuanBo": "CA Tỉnh Bình Thuận",
+        "hoTenMe": "Nguyễn Thị B",
+        "namSinhMe": "1965",
+        "ngheNghiepMe": "nông dân",
+        "coQuanMe": "CA Tỉnh Bình Thuận",
+        "boiDuongTX": true,
+        "nhaCongVu": false,
+        "thueNhaTro": false,
+        "dangKyNhaCongVu": true,
+        "ghiChuKhac": "Ế nặng"
+    },
+    {
+        "id": 7,
+        "tenCanBo": "Phan Văn Linh",
+        "maCanBo": "",
+        "avatarUrl": "http://d38we5ntdyxyje.cloudfront.net/1081804/profile/VRXFYTQZ_avatar_medium_square.jpg",
+        "ngaySinh": "1981-11-11",
+        "gioiTinh": {
+            "id": 1,
+            "tenGioiTinh": "Nam"
+        },
+        "soCMND": "050875648",
+        "ngayCapCMND": "1999-03-03",
+        "noiCapCMND": "CA Bình Thuận",
+        "soDTDD": "0986833043",
+        "email": "0986833043@gmail.com",
+        "diaChi": "Bình Thuận 1",
+        "danToc": {
+            "id": 22,
+            "tenDanToc": "Hrê"
+        },
+        "tinhThanh": {
+            "name": "Bình Thuận",
+            "name_with_type": "Tỉnh Bình Thuận",
+            "id": "60"
+        },
+        "quanHuyen": {
+            "name": "Tuy Phong",
+            "name_with_type": "Huyện Tuy Phong",
+            "path": "Tuy Phong, Bình Thuận",
+            "path_with_type": "Huyện Tuy Phong, Tỉnh Bình Thuận",
+            "id": "595",
+            "tinhThanhId": "60"
+        },
+        "xaPhuong": {
+            "name": "Phước Thể",
+            "name_with_type": "Xã Phước Thể",
+            "path": "Phước Thể, Tuy Phong, Bình Thuận",
+            "path_with_type": "Xã Phước Thể, Huyện Tuy Phong, Tỉnh Bình Thuận",
+            "id": "22990",
+            "quanHuyenId": "595"
+        },
+        "toBoMon": {
+            "id": 3,
+            "tenToBoMon": "Toán - Sinh"
+        },
+        "viTriLamViec": {
+            "id": 2,
+            "tenViTri": "Giáo viên"
+        },
+        "chucVu": {
+            "id": 1,
+            "tenChucVu": "Giáo viên"
+        },
+        "hinhThucHopDong": {
+            "id": 2,
+            "tenHinhThucHD": "Hợp đồng nghị định 68"
+        },
+        "ngayTuyenDung": "2006-03-03",
+        "ngayVaoBienChe": "2006-03-12",
+        "coQuanTuyenDung": "Sở GD ĐT",
+        "chucDanh": "Giáo viên",
+        "NNKhiDuocTuyen": "Giáo viên",
+        "soTietTrenTuan": "15",
+        "nhiemVuKiemNhiem": {
+            "id": 2,
+            "tenNhiemVu": "Phó bí thư đoàn"
+        },
+        "soTietKiemNhiem": "0",
+        "huanLuyenKNS": true,
+        "dayHocSinhKT": true,
+        "chuyenTrachDoanDoi": false,
+        "day12Buoi": "day1Buoi",
+        "ngachHang": {
+            "id": 29,
+            "tenNgachHang": "Giáo viên trung học phổ thông hạng III"
+        },
+        "maNgach": "",
+        "PCThamNien": "5",
+        "bacLuong": "",
+        "heSoLuong": "5",
+        "vuotKhung": "5",
+        "PCThuHutNghe": "5",
+        "PCUuDaiNghe": "5",
+        "ngayHuong": "5",
+        "KQBoiDuong": "Khá",
+        "trinhDoCMNV": {
+            "id": 5,
+            "tenTrinhDo": "Đại học"
+        },
+        "trinhDoTinHoc": {
+            "id": 4,
+            "tenTrinhDoTin": "Tin học Văn phòng A"
+        },
+        "trinhDoLyLuanCT": {
+            "id": 1,
+            "tenTrinhDoLyLuanChinhTri": "Chưa qua đào tạo"
+        },
+        "trinhDoQLGD": {
+            "id": 1,
+            "tenTrinhDoQLGiaoDuc": "Chưa qua đào tạo QLGD"
+        },
+        "trinhDoQLNN": {
+            "id": 3,
+            "tenTrinhDoQLNhaNuoc": "QLHC Văn phòng"
+        },
+        "chuyenNganh": {
+            "id": 8,
+            "tenChuyenNganh": "Giáo dục công dân - Sử_SP"
+        },
+        "trinhDoCM": {
+            "id": 2,
+            "tenTrinhDo": "Sơ cấp"
+        },
+        "loaiHinhDT": {
+            "id": 1,
+            "tenLoaiHinh": "Chuyên tu"
+        },
+        "chuyenNganhKhac": {
+            "id": 10,
+            "tenChuyenNganh": "Giáo dục Đặc biệt"
+        },
+        "trinhDoCMKhac": {
+            "id": 2,
+            "tenTrinhDo": "Sơ cấp"
+        },
+        "loaiHinhDTKhac": {
+            "id": 1,
+            "tenLoaiHinh": "Chuyên tu"
+        },
+        "trinhDoVH": {
+            "id": 12,
+            "tenTrinhDoVanHoa": "12/12"
+        },
+        "ngoaiNguChinh": {
+            "id": 9,
+            "tenNgoaiNgu": "Tiếng Thái"
+        },
+        "trinhDoNNChinh": {
+            "id": 12,
+            "tenTrinhDoNgoaiNgu": "TOEIC"
+        },
+        "KQChuanNgheNghiep": "Khá",
+        "danhGiaVienChuc": "Khá",
+        "gvDayGioi": "",
+        "danhHieuGV": "",
+        "capDayChinh": {
+            "id": 1,
+            "tenCapDay": "Cấp 3"
+        },
+        "monDayChinh": {
+            "id": 9,
+            "tenMonDay": "Bồi dưỡng Văn"
+        },
+        "thanhPhanGD": {
+            "id": 2,
+            "tenThanhPhanGiaDinh": "Nông dân"
+        },
+        "tinhTrangHonNhan": {
+            "id": 1,
+            "tenTinhTrangHonNhan": "Chưa đăng ký kết hôn lần nào"
+        },
+        "hoTenBo": "Nguyễn Văn X",
+        "namSinhBo": "1972",
+        "ngheNghiepBo": "nông dân",
+        "coQuanBo": "CA Tỉnh Bình Thuận",
+        "hoTenMe": "Nguyễn Thị Y",
+        "namSinhMe": "1975",
+        "ngheNghiepMe": "nông dân",
+        "coQuanMe": "CA Tỉnh Bình Thuận",
+        "boiDuongTX": true,
+        "nhaCongVu": true,
+        "thueNhaTro": false,
+        "dangKyNhaCongVu": false,
+        "ghiChuKhac": "Ế"
+    },
+    {
+        "id": 8,
+        "tenCanBo": "Hoàng Thùy Linh",
+        "maCanBo": "",
+        "avatarUrl": "http://d38we5ntdyxyje.cloudfront.net/1081804/profile/VRXFYTQZ_avatar_medium_square.jpg",
+        "ngaySinh": "1983-05-05",
+        "gioiTinh": {
+            "id": 2,
+            "tenGioiTinh": "Nữ"
+        },
+        "soCMND": "036483616",
+        "ngayCapCMND": "2000-08-08",
+        "noiCapCMND": "CA Hòa Bình",
+        "soDTDD": "0984673518",
+        "email": "0986833043@gmail.com",
+        "diaChi": "Đâu đó",
+        "danToc": {
+            "id": 22,
+            "tenDanToc": "Hrê"
+        },
+        "tinhThanh": {
+            "name": "Bình Thuận",
+            "name_with_type": "Tỉnh Bình Thuận",
+            "id": "60"
+        },
+        "quanHuyen": {
+            "name": "Tuy Phong",
+            "name_with_type": "Huyện Tuy Phong",
+            "path": "Tuy Phong, Bình Thuận",
+            "path_with_type": "Huyện Tuy Phong, Tỉnh Bình Thuận",
+            "id": "595",
+            "tinhThanhId": "60"
+        },
+        "xaPhuong": {
+            "name": "Phước Thể",
+            "name_with_type": "Xã Phước Thể",
+            "path": "Phước Thể, Tuy Phong, Bình Thuận",
+            "path_with_type": "Xã Phước Thể, Huyện Tuy Phong, Tỉnh Bình Thuận",
+            "id": "22990",
+            "quanHuyenId": "595"
+        },
+        "toBoMon": {
+            "id": 4,
+            "tenToBoMon": "Văn - Sử"
+        },
+        "viTriLamViec": {
+            "id": 2,
+            "tenViTri": "Giáo viên"
+        },
+        "chucVu": {
+            "id": 1,
+            "tenChucVu": "Giáo viên"
+        },
+        "hinhThucHopDong": {
+            "id": 2,
+            "tenHinhThucHD": "Hợp đồng nghị định 68"
+        },
+        "ngayTuyenDung": "2006-03-03",
+        "ngayVaoBienChe": "2006-03-12",
+        "coQuanTuyenDung": "Sở GD ĐT",
+        "chucDanh": "Giáo viên",
+        "NNKhiDuocTuyen": "Giáo viên",
+        "soTietTrenTuan": "30",
+        "nhiemVuKiemNhiem": {
+            "id": 2,
+            "tenNhiemVu": "Phó bí thư đoàn"
+        },
+        "soTietKiemNhiem": "0",
+        "huanLuyenKNS": false,
+        "dayHocSinhKT": true,
+        "chuyenTrachDoanDoi": true,
+        "day12Buoi": "day2Buoi",
+        "ngachHang": {
+            "id": 29,
+            "tenNgachHang": "Giáo viên trung học phổ thông hạng III"
+        },
+        "maNgach": "",
+        "PCThamNien": "3",
+        "bacLuong": "",
+        "heSoLuong": "3",
+        "vuotKhung": "3",
+        "PCThuHutNghe": "3",
+        "PCUuDaiNghe": "3",
+        "ngayHuong": "3",
+        "KQBoiDuong": "Khá",
+        "trinhDoCMNV": {
+            "id": 5,
+            "tenTrinhDo": "Đại học"
+        },
+        "trinhDoTinHoc": {
+            "id": 4,
+            "tenTrinhDoTin": "Tin học Văn phòng A"
+        },
+        "trinhDoLyLuanCT": {
+            "id": 1,
+            "tenTrinhDoLyLuanChinhTri": "Chưa qua đào tạo"
+        },
+        "trinhDoQLGD": {
+            "id": 1,
+            "tenTrinhDoQLGiaoDuc": "Chưa qua đào tạo QLGD"
+        },
+        "trinhDoQLNN": {
+            "id": 3,
+            "tenTrinhDoQLNhaNuoc": "QLHC Văn phòng"
+        },
+        "chuyenNganh": {
+            "id": 8,
+            "tenChuyenNganh": "Giáo dục công dân - Sử_SP"
+        },
+        "trinhDoCM": {
+            "id": 2,
+            "tenTrinhDo": "Sơ cấp"
+        },
+        "loaiHinhDT": {
+            "id": 1,
+            "tenLoaiHinh": "Chuyên tu"
+        },
+        "chuyenNganhKhac": {
+            "id": 10,
+            "tenChuyenNganh": "Giáo dục Đặc biệt"
+        },
+        "trinhDoCMKhac": {
+            "id": 2,
+            "tenTrinhDo": "Sơ cấp"
+        },
+        "loaiHinhDTKhac": {
+            "id": 1,
+            "tenLoaiHinh": "Chuyên tu"
+        },
+        "trinhDoVH": {
+            "id": 12,
+            "tenTrinhDoVanHoa": "12/12"
+        },
+        "ngoaiNguChinh": {
+            "id": 9,
+            "tenNgoaiNgu": "Tiếng Thái"
+        },
+        "trinhDoNNChinh": {
+            "id": 12,
+            "tenTrinhDoNgoaiNgu": "TOEIC"
+        },
+        "KQChuanNgheNghiep": "Giỏi",
+        "danhGiaVienChuc": "Giỏi",
+        "gvDayGioi": "",
+        "danhHieuGV": "",
+        "capDayChinh": {
+            "id": 1,
+            "tenCapDay": "Cấp 3"
+        },
+        "monDayChinh": {
+            "id": 9,
+            "tenMonDay": "Bồi dưỡng Văn"
+        },
+        "thanhPhanGD": {
+            "id": 2,
+            "tenThanhPhanGiaDinh": "Nông dân"
+        },
+        "tinhTrangHonNhan": {
+            "id": 1,
+            "tenTinhTrangHonNhan": "Chưa đăng ký kết hôn lần nào"
+        },
+        "hoTenBo": "Nguyễn Văn A",
+        "namSinhBo": "1962",
+        "ngheNghiepBo": "nông dân",
+        "coQuanBo": "CA Tỉnh Bình Thuận",
+        "hoTenMe": "Nguyễn Thị B",
+        "namSinhMe": "1965",
+        "ngheNghiepMe": "nông dân",
+        "coQuanMe": "CA Tỉnh Bình Thuận",
+        "boiDuongTX": true,
+        "nhaCongVu": false,
+        "thueNhaTro": false,
+        "dangKyNhaCongVu": true,
+        "ghiChuKhac": "Ế nặng"
+    },
+    {
+        "id": 9,
+        "tenCanBo": "Lường Phi Thường",
+        "maCanBo": "",
+        "avatarUrl": "http://d38we5ntdyxyje.cloudfront.net/1081804/profile/VRXFYTQZ_avatar_medium_square.jpg",
+        "ngaySinh": "1981-11-11",
+        "gioiTinh": {
+            "id": 1,
+            "tenGioiTinh": "Nam"
+        },
+        "soCMND": "050875648",
+        "ngayCapCMND": "1999-03-03",
+        "noiCapCMND": "CA Bình Thuận",
+        "soDTDD": "0986833043",
+        "email": "0986833043@gmail.com",
+        "diaChi": "Bình Thuận 1",
+        "danToc": {
+            "id": 22,
+            "tenDanToc": "Hrê"
+        },
+        "tinhThanh": {
+            "name": "Bình Thuận",
+            "name_with_type": "Tỉnh Bình Thuận",
+            "id": "60"
+        },
+        "quanHuyen": {
+            "name": "Tuy Phong",
+            "name_with_type": "Huyện Tuy Phong",
+            "path": "Tuy Phong, Bình Thuận",
+            "path_with_type": "Huyện Tuy Phong, Tỉnh Bình Thuận",
+            "id": "595",
+            "tinhThanhId": "60"
+        },
+        "xaPhuong": {
+            "name": "Phước Thể",
+            "name_with_type": "Xã Phước Thể",
+            "path": "Phước Thể, Tuy Phong, Bình Thuận",
+            "path_with_type": "Xã Phước Thể, Huyện Tuy Phong, Tỉnh Bình Thuận",
+            "id": "22990",
+            "quanHuyenId": "595"
+        },
+        "toBoMon": {
+            "id": 5,
+            "tenToBoMon": "Địa - Tin - GDCD - Văn phòng"
+        },
+        "viTriLamViec": {
+            "id": 2,
+            "tenViTri": "Giáo viên"
+        },
+        "chucVu": {
+            "id": 1,
+            "tenChucVu": "Giáo viên"
+        },
+        "hinhThucHopDong": {
+            "id": 2,
+            "tenHinhThucHD": "Hợp đồng nghị định 68"
+        },
+        "ngayTuyenDung": "2006-03-03",
+        "ngayVaoBienChe": "2006-03-12",
+        "coQuanTuyenDung": "Sở GD ĐT",
+        "chucDanh": "Giáo viên",
+        "NNKhiDuocTuyen": "Giáo viên",
+        "soTietTrenTuan": "15",
+        "nhiemVuKiemNhiem": "",
+        "soTietKiemNhiem": "0",
+        "huanLuyenKNS": true,
+        "dayHocSinhKT": true,
+        "chuyenTrachDoanDoi": false,
+        "day12Buoi": "day1Buoi",
+        "ngachHang": {
+            "id": 29,
+            "tenNgachHang": "Giáo viên trung học phổ thông hạng III"
+        },
+        "maNgach": "",
+        "PCThamNien": "5",
+        "bacLuong": "",
+        "heSoLuong": "5",
+        "vuotKhung": "5",
+        "PCThuHutNghe": "5",
+        "PCUuDaiNghe": "5",
+        "ngayHuong": "5",
+        "KQBoiDuong": "Khá",
+        "trinhDoCMNV": {
+            "id": 5,
+            "tenTrinhDo": "Đại học"
+        },
+        "trinhDoTinHoc": {
+            "id": 4,
+            "tenTrinhDoTin": "Tin học Văn phòng A"
+        },
+        "trinhDoLyLuanCT": {
+            "id": 1,
+            "tenTrinhDoLyLuanChinhTri": "Chưa qua đào tạo"
+        },
+        "trinhDoQLGD": {
+            "id": 1,
+            "tenTrinhDoQLGiaoDuc": "Chưa qua đào tạo QLGD"
+        },
+        "trinhDoQLNN": {
+            "id": 3,
+            "tenTrinhDoQLNhaNuoc": "QLHC Văn phòng"
+        },
+        "chuyenNganh": {
+            "id": 8,
+            "tenChuyenNganh": "Giáo dục công dân - Sử_SP"
+        },
+        "trinhDoCM": {
+            "id": 2,
+            "tenTrinhDo": "Sơ cấp"
+        },
+        "loaiHinhDT": {
+            "id": 1,
+            "tenLoaiHinh": "Chuyên tu"
+        },
+        "chuyenNganhKhac": {
+            "id": 10,
+            "tenChuyenNganh": "Giáo dục Đặc biệt"
+        },
+        "trinhDoCMKhac": {
+            "id": 2,
+            "tenTrinhDo": "Sơ cấp"
+        },
+        "loaiHinhDTKhac": {
+            "id": 1,
+            "tenLoaiHinh": "Chuyên tu"
+        },
+        "trinhDoVH": {
+            "id": 12,
+            "tenTrinhDoVanHoa": "12/12"
+        },
+        "ngoaiNguChinh": {
+            "id": 9,
+            "tenNgoaiNgu": "Tiếng Thái"
+        },
+        "trinhDoNNChinh": {
+            "id": 12,
+            "tenTrinhDoNgoaiNgu": "TOEIC"
+        },
+        "KQChuanNgheNghiep": "Khá",
+        "danhGiaVienChuc": "Khá",
+        "gvDayGioi": "",
+        "danhHieuGV": "",
+        "capDayChinh": {
+            "id": 1,
+            "tenCapDay": "Cấp 3"
+        },
+        "monDayChinh": {
+            "id": 9,
+            "tenMonDay": "Bồi dưỡng Văn"
+        },
+        "thanhPhanGD": {
+            "id": 2,
+            "tenThanhPhanGiaDinh": "Nông dân"
+        },
+        "tinhTrangHonNhan": {
+            "id": 1,
+            "tenTinhTrangHonNhan": "Chưa đăng ký kết hôn lần nào"
+        },
+        "hoTenBo": "Nguyễn Văn X",
+        "namSinhBo": "1972",
+        "ngheNghiepBo": "nông dân",
+        "coQuanBo": "CA Tỉnh Bình Thuận",
+        "hoTenMe": "Nguyễn Thị Y",
+        "namSinhMe": "1975",
+        "ngheNghiepMe": "nông dân",
+        "coQuanMe": "CA Tỉnh Bình Thuận",
+        "boiDuongTX": true,
+        "nhaCongVu": true,
+        "thueNhaTro": false,
+        "dangKyNhaCongVu": false,
+        "ghiChuKhac": "Ế"
+    },
+    {
+        "id": 10,
+        "tenCanBo": "Hoàng Đình Phúc",
+        "maCanBo": "",
+        "avatarUrl": "http://d38we5ntdyxyje.cloudfront.net/1081804/profile/VRXFYTQZ_avatar_medium_square.jpg",
+        "ngaySinh": "1983-05-05",
+        "gioiTinh": {
+            "id": 1,
+            "tenGioiTinh": "Nam"
+        },
+        "soCMND": "036483616",
+        "ngayCapCMND": "2000-08-08",
+        "noiCapCMND": "CA Hòa Bình",
+        "soDTDD": "0984673518",
+        "email": "0986833043@gmail.com",
+        "diaChi": "Đâu đó",
+        "danToc": {
+            "id": 22,
+            "tenDanToc": "Hrê"
+        },
+        "tinhThanh": {
+            "name": "Bình Thuận",
+            "name_with_type": "Tỉnh Bình Thuận",
+            "id": "60"
+        },
+        "quanHuyen": {
+            "name": "Tuy Phong",
+            "name_with_type": "Huyện Tuy Phong",
+            "path": "Tuy Phong, Bình Thuận",
+            "path_with_type": "Huyện Tuy Phong, Tỉnh Bình Thuận",
+            "id": "595",
+            "tinhThanhId": "60"
+        },
+        "xaPhuong": {
+            "name": "Phước Thể",
+            "name_with_type": "Xã Phước Thể",
+            "path": "Phước Thể, Tuy Phong, Bình Thuận",
+            "path_with_type": "Xã Phước Thể, Huyện Tuy Phong, Tỉnh Bình Thuận",
+            "id": "22990",
+            "quanHuyenId": "595"
+        },
+        "toBoMon": {
+            "id": 1,
+            "tenToBoMon": "Hóa - Lý"
+        },
+        "viTriLamViec": {
+            "id": 2,
+            "tenViTri": "Giáo viên"
+        },
+        "chucVu": {
+            "id": 1,
+            "tenChucVu": "Giáo viên"
+        },
+        "hinhThucHopDong": {
+            "id": 2,
+            "tenHinhThucHD": "Hợp đồng nghị định 68"
+        },
+        "ngayTuyenDung": "2006-03-03",
+        "ngayVaoBienChe": "2006-03-12",
+        "coQuanTuyenDung": "Sở GD ĐT",
+        "chucDanh": "Giáo viên",
+        "NNKhiDuocTuyen": "Giáo viên",
+        "soTietTrenTuan": "30",
+        "nhiemVuKiemNhiem": "",
+        "soTietKiemNhiem": "0",
+        "huanLuyenKNS": false,
+        "dayHocSinhKT": true,
+        "chuyenTrachDoanDoi": true,
+        "day12Buoi": "day2Buoi",
+        "ngachHang": {
+            "id": 29,
+            "tenNgachHang": "Giáo viên trung học phổ thông hạng III"
+        },
+        "maNgach": "",
+        "PCThamNien": "3",
+        "bacLuong": "",
+        "heSoLuong": "3",
+        "vuotKhung": "3",
+        "PCThuHutNghe": "3",
+        "PCUuDaiNghe": "3",
+        "ngayHuong": "3",
+        "KQBoiDuong": "Khá",
+        "trinhDoCMNV": {
+            "id": 5,
+            "tenTrinhDo": "Đại học"
+        },
+        "trinhDoTinHoc": {
+            "id": 4,
+            "tenTrinhDoTin": "Tin học Văn phòng A"
+        },
+        "trinhDoLyLuanCT": {
+            "id": 1,
+            "tenTrinhDoLyLuanChinhTri": "Chưa qua đào tạo"
+        },
+        "trinhDoQLGD": {
+            "id": 1,
+            "tenTrinhDoQLGiaoDuc": "Chưa qua đào tạo QLGD"
+        },
+        "trinhDoQLNN": {
+            "id": 3,
+            "tenTrinhDoQLNhaNuoc": "QLHC Văn phòng"
+        },
+        "chuyenNganh": {
+            "id": 8,
+            "tenChuyenNganh": "Giáo dục công dân - Sử_SP"
+        },
+        "trinhDoCM": {
+            "id": 2,
+            "tenTrinhDo": "Sơ cấp"
+        },
+        "loaiHinhDT": {
+            "id": 1,
+            "tenLoaiHinh": "Chuyên tu"
+        },
+        "chuyenNganhKhac": {
+            "id": 10,
+            "tenChuyenNganh": "Giáo dục Đặc biệt"
+        },
+        "trinhDoCMKhac": {
+            "id": 2,
+            "tenTrinhDo": "Sơ cấp"
+        },
+        "loaiHinhDTKhac": {
+            "id": 1,
+            "tenLoaiHinh": "Chuyên tu"
+        },
+        "trinhDoVH": {
+            "id": 12,
+            "tenTrinhDoVanHoa": "12/12"
+        },
+        "ngoaiNguChinh": {
+            "id": 9,
+            "tenNgoaiNgu": "Tiếng Thái"
+        },
+        "trinhDoNNChinh": {
+            "id": 12,
+            "tenTrinhDoNgoaiNgu": "TOEIC"
+        },
+        "KQChuanNgheNghiep": "Giỏi",
+        "danhGiaVienChuc": "Giỏi",
+        "gvDayGioi": "",
+        "danhHieuGV": "",
+        "capDayChinh": {
+            "id": 1,
+            "tenCapDay": "Cấp 3"
+        },
+        "monDayChinh": {
+            "id": 9,
+            "tenMonDay": "Bồi dưỡng Văn"
+        },
+        "thanhPhanGD": {
+            "id": 2,
+            "tenThanhPhanGiaDinh": "Nông dân"
+        },
+        "tinhTrangHonNhan": {
+            "id": 1,
+            "tenTinhTrangHonNhan": "Chưa đăng ký kết hôn lần nào"
+        },
+        "hoTenBo": "Nguyễn Văn A",
+        "namSinhBo": "1962",
+        "ngheNghiepBo": "nông dân",
+        "coQuanBo": "CA Tỉnh Bình Thuận",
+        "hoTenMe": "Nguyễn Thị B",
+        "namSinhMe": "1965",
+        "ngheNghiepMe": "nông dân",
+        "coQuanMe": "CA Tỉnh Bình Thuận",
+        "boiDuongTX": true,
+        "nhaCongVu": false,
+        "thueNhaTro": false,
+        "dangKyNhaCongVu": true,
+        "ghiChuKhac": "Ế nặng"
+    },
+    {
+        "id": 11,
+        "tenCanBo": "Lê Nhật Nam",
+        "maCanBo": "",
+        "avatarUrl": "http://d38we5ntdyxyje.cloudfront.net/1081804/profile/VRXFYTQZ_avatar_medium_square.jpg",
+        "ngaySinh": "1981-11-11",
+        "gioiTinh": {
+            "id": 1,
+            "tenGioiTinh": "Nam"
+        },
+        "soCMND": "050875648",
+        "ngayCapCMND": "1999-03-03",
+        "noiCapCMND": "CA Bình Thuận",
+        "soDTDD": "0986833043",
+        "email": "0986833043@gmail.com",
+        "diaChi": "Bình Thuận 1",
+        "danToc": {
+            "id": 22,
+            "tenDanToc": "Hrê"
+        },
+        "tinhThanh": {
+            "name": "Bình Thuận",
+            "name_with_type": "Tỉnh Bình Thuận",
+            "id": "60"
+        },
+        "quanHuyen": {
+            "name": "Tuy Phong",
+            "name_with_type": "Huyện Tuy Phong",
+            "path": "Tuy Phong, Bình Thuận",
+            "path_with_type": "Huyện Tuy Phong, Tỉnh Bình Thuận",
+            "id": "595",
+            "tinhThanhId": "60"
+        },
+        "xaPhuong": {
+            "name": "Phước Thể",
+            "name_with_type": "Xã Phước Thể",
+            "path": "Phước Thể, Tuy Phong, Bình Thuận",
+            "path_with_type": "Xã Phước Thể, Huyện Tuy Phong, Tỉnh Bình Thuận",
+            "id": "22990",
+            "quanHuyenId": "595"
+        },
+        "toBoMon": {
+            "id": 2,
+            "tenToBoMon": "Ngoại ngữ - Thể dục"
+        },
+        "viTriLamViec": {
+            "id": 2,
+            "tenViTri": "Giáo viên"
+        },
+        "chucVu": {
+            "id": 1,
+            "tenChucVu": "Giáo viên"
+        },
+        "hinhThucHopDong": {
+            "id": 2,
+            "tenHinhThucHD": "Hợp đồng nghị định 68"
+        },
+        "ngayTuyenDung": "2006-03-03",
+        "ngayVaoBienChe": "2006-03-12",
+        "coQuanTuyenDung": "Sở GD ĐT",
+        "chucDanh": "Giáo viên",
+        "NNKhiDuocTuyen": "Giáo viên",
+        "soTietTrenTuan": "15",
+        "nhiemVuKiemNhiem": "",
+        "soTietKiemNhiem": "0",
+        "huanLuyenKNS": true,
+        "dayHocSinhKT": true,
+        "chuyenTrachDoanDoi": false,
+        "day12Buoi": "day1Buoi",
+        "ngachHang": {
+            "id": 29,
+            "tenNgachHang": "Giáo viên trung học phổ thông hạng III"
+        },
+        "maNgach": "",
+        "PCThamNien": "5",
+        "bacLuong": "",
+        "heSoLuong": "5",
+        "vuotKhung": "5",
+        "PCThuHutNghe": "5",
+        "PCUuDaiNghe": "5",
+        "ngayHuong": "5",
+        "KQBoiDuong": "Khá",
+        "trinhDoCMNV": {
+            "id": 5,
+            "tenTrinhDo": "Đại học"
+        },
+        "trinhDoTinHoc": {
+            "id": 4,
+            "tenTrinhDoTin": "Tin học Văn phòng A"
+        },
+        "trinhDoLyLuanCT": {
+            "id": 1,
+            "tenTrinhDoLyLuanChinhTri": "Chưa qua đào tạo"
+        },
+        "trinhDoQLGD": {
+            "id": 1,
+            "tenTrinhDoQLGiaoDuc": "Chưa qua đào tạo QLGD"
+        },
+        "trinhDoQLNN": {
+            "id": 3,
+            "tenTrinhDoQLNhaNuoc": "QLHC Văn phòng"
+        },
+        "chuyenNganh": {
+            "id": 8,
+            "tenChuyenNganh": "Giáo dục công dân - Sử_SP"
+        },
+        "trinhDoCM": {
+            "id": 2,
+            "tenTrinhDo": "Sơ cấp"
+        },
+        "loaiHinhDT": {
+            "id": 1,
+            "tenLoaiHinh": "Chuyên tu"
+        },
+        "chuyenNganhKhac": {
+            "id": 10,
+            "tenChuyenNganh": "Giáo dục Đặc biệt"
+        },
+        "trinhDoCMKhac": {
+            "id": 2,
+            "tenTrinhDo": "Sơ cấp"
+        },
+        "loaiHinhDTKhac": {
+            "id": 1,
+            "tenLoaiHinh": "Chuyên tu"
+        },
+        "trinhDoVH": {
+            "id": 12,
+            "tenTrinhDoVanHoa": "12/12"
+        },
+        "ngoaiNguChinh": {
+            "id": 9,
+            "tenNgoaiNgu": "Tiếng Thái"
+        },
+        "trinhDoNNChinh": {
+            "id": 12,
+            "tenTrinhDoNgoaiNgu": "TOEIC"
+        },
+        "KQChuanNgheNghiep": "Khá",
+        "danhGiaVienChuc": "Khá",
+        "gvDayGioi": "",
+        "danhHieuGV": "",
+        "capDayChinh": {
+            "id": 1,
+            "tenCapDay": "Cấp 3"
+        },
+        "monDayChinh": {
+            "id": 9,
+            "tenMonDay": "Bồi dưỡng Văn"
+        },
+        "thanhPhanGD": {
+            "id": 2,
+            "tenThanhPhanGiaDinh": "Nông dân"
+        },
+        "tinhTrangHonNhan": {
+            "id": 1,
+            "tenTinhTrangHonNhan": "Chưa đăng ký kết hôn lần nào"
+        },
+        "hoTenBo": "Nguyễn Văn X",
+        "namSinhBo": "1972",
+        "ngheNghiepBo": "nông dân",
+        "coQuanBo": "CA Tỉnh Bình Thuận",
+        "hoTenMe": "Nguyễn Thị Y",
+        "namSinhMe": "1975",
+        "ngheNghiepMe": "nông dân",
+        "coQuanMe": "CA Tỉnh Bình Thuận",
+        "boiDuongTX": true,
+        "nhaCongVu": true,
+        "thueNhaTro": false,
+        "dangKyNhaCongVu": false,
+        "ghiChuKhac": "Ế"
+    },
+    {
+        "id": 12,
+        "tenCanBo": "Nguyễn Văn Y",
+        "maCanBo": "",
+        "avatarUrl": "http://d38we5ntdyxyje.cloudfront.net/1081804/profile/VRXFYTQZ_avatar_medium_square.jpg",
+        "ngaySinh": "1983-05-05",
+        "gioiTinh": {
+            "id": 1,
+            "tenGioiTinh": "Nam"
+        },
+        "soCMND": "036483616",
+        "ngayCapCMND": "2000-08-08",
+        "noiCapCMND": "CA Hòa Bình",
+        "soDTDD": "0984673518",
+        "email": "0986833043@gmail.com",
+        "diaChi": "Đâu đó",
+        "danToc": {
+            "id": 22,
+            "tenDanToc": "Hrê"
+        },
+        "tinhThanh": {
+            "name": "Bình Thuận",
+            "name_with_type": "Tỉnh Bình Thuận",
+            "id": "60"
+        },
+        "quanHuyen": {
+            "name": "Tuy Phong",
+            "name_with_type": "Huyện Tuy Phong",
+            "path": "Tuy Phong, Bình Thuận",
+            "path_with_type": "Huyện Tuy Phong, Tỉnh Bình Thuận",
+            "id": "595",
+            "tinhThanhId": "60"
+        },
+        "xaPhuong": {
+            "name": "Phước Thể",
+            "name_with_type": "Xã Phước Thể",
+            "path": "Phước Thể, Tuy Phong, Bình Thuận",
+            "path_with_type": "Xã Phước Thể, Huyện Tuy Phong, Tỉnh Bình Thuận",
+            "id": "22990",
+            "quanHuyenId": "595"
+        },
+        "toBoMon": {
+            "id": 5,
+            "tenToBoMon": "Địa - Tin - GDCD - Văn phòng"
+        },
+        "viTriLamViec": {
+            "id": 2,
+            "tenViTri": "Giáo viên"
+        },
+        "chucVu": {
+            "id": 1,
+            "tenChucVu": "Giáo viên"
+        },
+        "hinhThucHopDong": {
+            "id": 2,
+            "tenHinhThucHD": "Hợp đồng nghị định 68"
+        },
+        "ngayTuyenDung": "2006-03-03",
+        "ngayVaoBienChe": "2006-03-12",
+        "coQuanTuyenDung": "Sở GD ĐT",
+        "chucDanh": "Giáo viên",
+        "NNKhiDuocTuyen": "Giáo viên",
+        "soTietTrenTuan": "30",
+        "nhiemVuKiemNhiem": "",
+        "soTietKiemNhiem": "0",
+        "huanLuyenKNS": false,
+        "dayHocSinhKT": true,
+        "chuyenTrachDoanDoi": true,
+        "day12Buoi": "day2Buoi",
+        "ngachHang": {
+            "id": 29,
+            "tenNgachHang": "Giáo viên trung học phổ thông hạng III"
+        },
+        "maNgach": "",
+        "PCThamNien": "3",
+        "bacLuong": "",
+        "heSoLuong": "3",
+        "vuotKhung": "3",
+        "PCThuHutNghe": "3",
+        "PCUuDaiNghe": "3",
+        "ngayHuong": "3",
+        "KQBoiDuong": "Khá",
+        "trinhDoCMNV": {
+            "id": 5,
+            "tenTrinhDo": "Đại học"
+        },
+        "trinhDoTinHoc": {
+            "id": 4,
+            "tenTrinhDoTin": "Tin học Văn phòng A"
+        },
+        "trinhDoLyLuanCT": {
+            "id": 1,
+            "tenTrinhDoLyLuanChinhTri": "Chưa qua đào tạo"
+        },
+        "trinhDoQLGD": {
+            "id": 1,
+            "tenTrinhDoQLGiaoDuc": "Chưa qua đào tạo QLGD"
+        },
+        "trinhDoQLNN": {
+            "id": 3,
+            "tenTrinhDoQLNhaNuoc": "QLHC Văn phòng"
+        },
+        "chuyenNganh": {
+            "id": 8,
+            "tenChuyenNganh": "Giáo dục công dân - Sử_SP"
+        },
+        "trinhDoCM": {
+            "id": 2,
+            "tenTrinhDo": "Sơ cấp"
+        },
+        "loaiHinhDT": {
+            "id": 1,
+            "tenLoaiHinh": "Chuyên tu"
+        },
+        "chuyenNganhKhac": {
+            "id": 10,
+            "tenChuyenNganh": "Giáo dục Đặc biệt"
+        },
+        "trinhDoCMKhac": {
+            "id": 2,
+            "tenTrinhDo": "Sơ cấp"
+        },
+        "loaiHinhDTKhac": {
+            "id": 1,
+            "tenLoaiHinh": "Chuyên tu"
+        },
+        "trinhDoVH": {
+            "id": 12,
+            "tenTrinhDoVanHoa": "12/12"
+        },
+        "ngoaiNguChinh": {
+            "id": 9,
+            "tenNgoaiNgu": "Tiếng Thái"
+        },
+        "trinhDoNNChinh": {
+            "id": 12,
+            "tenTrinhDoNgoaiNgu": "TOEIC"
+        },
+        "KQChuanNgheNghiep": "Giỏi",
+        "danhGiaVienChuc": "Giỏi",
+        "gvDayGioi": "",
+        "danhHieuGV": "",
+        "capDayChinh": {
+            "id": 1,
+            "tenCapDay": "Cấp 3"
+        },
+        "monDayChinh": {
+            "id": 9,
+            "tenMonDay": "Bồi dưỡng Văn"
+        },
+        "thanhPhanGD": {
+            "id": 2,
+            "tenThanhPhanGiaDinh": "Nông dân"
+        },
+        "tinhTrangHonNhan": {
+            "id": 1,
+            "tenTinhTrangHonNhan": "Chưa đăng ký kết hôn lần nào"
+        },
+        "hoTenBo": "Nguyễn Văn A",
+        "namSinhBo": "1962",
+        "ngheNghiepBo": "nông dân",
+        "coQuanBo": "CA Tỉnh Bình Thuận",
+        "hoTenMe": "Nguyễn Thị B",
+        "namSinhMe": "1965",
+        "ngheNghiepMe": "nông dân",
+        "coQuanMe": "CA Tỉnh Bình Thuận",
+        "boiDuongTX": true,
+        "nhaCongVu": false,
+        "thueNhaTro": false,
+        "dangKyNhaCongVu": true,
+        "ghiChuKhac": "Ế nặng"
+    },
+    {
+        "id": 13,
+        "tenCanBo": "Đào Thị Tuyết Mai",
+        "maCanBo": "",
+        "avatarUrl": "http://d38we5ntdyxyje.cloudfront.net/1081804/profile/VRXFYTQZ_avatar_medium_square.jpg",
+        "ngaySinh": "1981-11-11",
+        "gioiTinh": {
+            "id": 2,
+            "tenGioiTinh": "Nữ"
+        },
+        "soCMND": "050875648",
+        "ngayCapCMND": "1999-03-03",
+        "noiCapCMND": "CA Bình Thuận",
+        "soDTDD": "0986833043",
+        "email": "0986833043@gmail.com",
+        "diaChi": "Bình Thuận 1",
+        "danToc": {
+            "id": 22,
+            "tenDanToc": "Hrê"
+        },
+        "tinhThanh": {
+            "name": "Bình Thuận",
+            "name_with_type": "Tỉnh Bình Thuận",
+            "id": "60"
+        },
+        "quanHuyen": {
+            "name": "Tuy Phong",
+            "name_with_type": "Huyện Tuy Phong",
+            "path": "Tuy Phong, Bình Thuận",
+            "path_with_type": "Huyện Tuy Phong, Tỉnh Bình Thuận",
+            "id": "595",
+            "tinhThanhId": "60"
+        },
+        "xaPhuong": {
+            "name": "Phước Thể",
+            "name_with_type": "Xã Phước Thể",
+            "path": "Phước Thể, Tuy Phong, Bình Thuận",
+            "path_with_type": "Xã Phước Thể, Huyện Tuy Phong, Tỉnh Bình Thuận",
+            "id": "22990",
+            "quanHuyenId": "595"
+        },
+        "toBoMon": {
+            "id": 4,
+            "tenToBoMon": "Văn - Sử"
+        },
+        "viTriLamViec": {
+            "id": 2,
+            "tenViTri": "Giáo viên"
+        },
+        "chucVu": {
+            "id": 1,
+            "tenChucVu": "Giáo viên"
+        },
+        "hinhThucHopDong": {
+            "id": 2,
+            "tenHinhThucHD": "Hợp đồng nghị định 68"
+        },
+        "ngayTuyenDung": "2006-03-03",
+        "ngayVaoBienChe": "2006-03-12",
+        "coQuanTuyenDung": "Sở GD ĐT",
+        "chucDanh": "Giáo viên",
+        "NNKhiDuocTuyen": "Giáo viên",
+        "soTietTrenTuan": "15",
+        "nhiemVuKiemNhiem": "",
+        "soTietKiemNhiem": "0",
+        "huanLuyenKNS": true,
+        "dayHocSinhKT": true,
+        "chuyenTrachDoanDoi": false,
+        "day12Buoi": "day1Buoi",
+        "ngachHang": {
+            "id": 29,
+            "tenNgachHang": "Giáo viên trung học phổ thông hạng III"
+        },
+        "maNgach": "",
+        "PCThamNien": "5",
+        "bacLuong": "",
+        "heSoLuong": "5",
+        "vuotKhung": "5",
+        "PCThuHutNghe": "5",
+        "PCUuDaiNghe": "5",
+        "ngayHuong": "5",
+        "KQBoiDuong": "Khá",
+        "trinhDoCMNV": {
+            "id": 5,
+            "tenTrinhDo": "Đại học"
+        },
+        "trinhDoTinHoc": {
+            "id": 4,
+            "tenTrinhDoTin": "Tin học Văn phòng A"
+        },
+        "trinhDoLyLuanCT": {
+            "id": 1,
+            "tenTrinhDoLyLuanChinhTri": "Chưa qua đào tạo"
+        },
+        "trinhDoQLGD": {
+            "id": 1,
+            "tenTrinhDoQLGiaoDuc": "Chưa qua đào tạo QLGD"
+        },
+        "trinhDoQLNN": {
+            "id": 3,
+            "tenTrinhDoQLNhaNuoc": "QLHC Văn phòng"
+        },
+        "chuyenNganh": {
+            "id": 8,
+            "tenChuyenNganh": "Giáo dục công dân - Sử_SP"
+        },
+        "trinhDoCM": {
+            "id": 2,
+            "tenTrinhDo": "Sơ cấp"
+        },
+        "loaiHinhDT": {
+            "id": 1,
+            "tenLoaiHinh": "Chuyên tu"
+        },
+        "chuyenNganhKhac": {
+            "id": 10,
+            "tenChuyenNganh": "Giáo dục Đặc biệt"
+        },
+        "trinhDoCMKhac": {
+            "id": 2,
+            "tenTrinhDo": "Sơ cấp"
+        },
+        "loaiHinhDTKhac": {
+            "id": 1,
+            "tenLoaiHinh": "Chuyên tu"
+        },
+        "trinhDoVH": {
+            "id": 12,
+            "tenTrinhDoVanHoa": "12/12"
+        },
+        "ngoaiNguChinh": {
+            "id": 9,
+            "tenNgoaiNgu": "Tiếng Thái"
+        },
+        "trinhDoNNChinh": {
+            "id": 12,
+            "tenTrinhDoNgoaiNgu": "TOEIC"
+        },
+        "KQChuanNgheNghiep": "Khá",
+        "danhGiaVienChuc": "Khá",
+        "gvDayGioi": "",
+        "danhHieuGV": "",
+        "capDayChinh": {
+            "id": 1,
+            "tenCapDay": "Cấp 3"
+        },
+        "monDayChinh": {
+            "id": 9,
+            "tenMonDay": "Bồi dưỡng Văn"
+        },
+        "thanhPhanGD": {
+            "id": 2,
+            "tenThanhPhanGiaDinh": "Nông dân"
+        },
+        "tinhTrangHonNhan": {
+            "id": 1,
+            "tenTinhTrangHonNhan": "Chưa đăng ký kết hôn lần nào"
+        },
+        "hoTenBo": "Nguyễn Văn X",
+        "namSinhBo": "1972",
+        "ngheNghiepBo": "nông dân",
+        "coQuanBo": "CA Tỉnh Bình Thuận",
+        "hoTenMe": "Nguyễn Thị Y",
+        "namSinhMe": "1975",
+        "ngheNghiepMe": "nông dân",
+        "coQuanMe": "CA Tỉnh Bình Thuận",
+        "boiDuongTX": true,
+        "nhaCongVu": true,
+        "thueNhaTro": false,
+        "dangKyNhaCongVu": false,
+        "ghiChuKhac": "Ế"
+    },
+    {
+        "id": 14,
+        "tenCanBo": "Lê Hoàng Nam",
+        "maCanBo": "",
+        "avatarUrl": "http://d38we5ntdyxyje.cloudfront.net/1081804/profile/VRXFYTQZ_avatar_medium_square.jpg",
+        "ngaySinh": "1983-05-05",
+        "gioiTinh": {
+            "id": 1,
+            "tenGioiTinh": "Nam"
+        },
+        "soCMND": "036483616",
+        "ngayCapCMND": "2000-08-08",
+        "noiCapCMND": "CA Hòa Bình",
+        "soDTDD": "0984673518",
+        "email": "0986833043@gmail.com",
+        "diaChi": "Đâu đó",
+        "danToc": {
+            "id": 22,
+            "tenDanToc": "Hrê"
+        },
+        "tinhThanh": {
+            "name": "Bình Thuận",
+            "name_with_type": "Tỉnh Bình Thuận",
+            "id": "60"
+        },
+        "quanHuyen": {
+            "name": "Tuy Phong",
+            "name_with_type": "Huyện Tuy Phong",
+            "path": "Tuy Phong, Bình Thuận",
+            "path_with_type": "Huyện Tuy Phong, Tỉnh Bình Thuận",
+            "id": "595",
+            "tinhThanhId": "60"
+        },
+        "xaPhuong": {
+            "name": "Phước Thể",
+            "name_with_type": "Xã Phước Thể",
+            "path": "Phước Thể, Tuy Phong, Bình Thuận",
+            "path_with_type": "Xã Phước Thể, Huyện Tuy Phong, Tỉnh Bình Thuận",
+            "id": "22990",
+            "quanHuyenId": "595"
+        },
+        "toBoMon": {
+            "id": 1,
+            "tenToBoMon": "Hóa - Lý"
+        },
+        "viTriLamViec": {
+            "id": 2,
+            "tenViTri": "Giáo viên"
+        },
+        "chucVu": {
+            "id": 1,
+            "tenChucVu": "Giáo viên"
+        },
+        "hinhThucHopDong": {
+            "id": 2,
+            "tenHinhThucHD": "Hợp đồng nghị định 68"
+        },
+        "ngayTuyenDung": "2006-03-03",
+        "ngayVaoBienChe": "2006-03-12",
+        "coQuanTuyenDung": "Sở GD ĐT",
+        "chucDanh": "Giáo viên",
+        "NNKhiDuocTuyen": "Giáo viên",
+        "soTietTrenTuan": "30",
+        "nhiemVuKiemNhiem": "",
+        "soTietKiemNhiem": "0",
+        "huanLuyenKNS": false,
+        "dayHocSinhKT": true,
+        "chuyenTrachDoanDoi": true,
+        "day12Buoi": "day2Buoi",
+        "ngachHang": {
+            "id": 29,
+            "tenNgachHang": "Giáo viên trung học phổ thông hạng III"
+        },
+        "maNgach": "",
+        "PCThamNien": "3",
+        "bacLuong": "",
+        "heSoLuong": "3",
+        "vuotKhung": "3",
+        "PCThuHutNghe": "3",
+        "PCUuDaiNghe": "3",
+        "ngayHuong": "3",
+        "KQBoiDuong": "Khá",
+        "trinhDoCMNV": {
+            "id": 5,
+            "tenTrinhDo": "Đại học"
+        },
+        "trinhDoTinHoc": {
+            "id": 4,
+            "tenTrinhDoTin": "Tin học Văn phòng A"
+        },
+        "trinhDoLyLuanCT": {
+            "id": 1,
+            "tenTrinhDoLyLuanChinhTri": "Chưa qua đào tạo"
+        },
+        "trinhDoQLGD": {
+            "id": 1,
+            "tenTrinhDoQLGiaoDuc": "Chưa qua đào tạo QLGD"
+        },
+        "trinhDoQLNN": {
+            "id": 3,
+            "tenTrinhDoQLNhaNuoc": "QLHC Văn phòng"
+        },
+        "chuyenNganh": {
+            "id": 8,
+            "tenChuyenNganh": "Giáo dục công dân - Sử_SP"
+        },
+        "trinhDoCM": {
+            "id": 2,
+            "tenTrinhDo": "Sơ cấp"
+        },
+        "loaiHinhDT": {
+            "id": 1,
+            "tenLoaiHinh": "Chuyên tu"
+        },
+        "chuyenNganhKhac": {
+            "id": 10,
+            "tenChuyenNganh": "Giáo dục Đặc biệt"
+        },
+        "trinhDoCMKhac": {
+            "id": 2,
+            "tenTrinhDo": "Sơ cấp"
+        },
+        "loaiHinhDTKhac": {
+            "id": 1,
+            "tenLoaiHinh": "Chuyên tu"
+        },
+        "trinhDoVH": {
+            "id": 12,
+            "tenTrinhDoVanHoa": "12/12"
+        },
+        "ngoaiNguChinh": {
+            "id": 9,
+            "tenNgoaiNgu": "Tiếng Thái"
+        },
+        "trinhDoNNChinh": {
+            "id": 12,
+            "tenTrinhDoNgoaiNgu": "TOEIC"
+        },
+        "KQChuanNgheNghiep": "Giỏi",
+        "danhGiaVienChuc": "Giỏi",
+        "gvDayGioi": "",
+        "danhHieuGV": "",
+        "capDayChinh": {
+            "id": 1,
+            "tenCapDay": "Cấp 3"
+        },
+        "monDayChinh": {
+            "id": 9,
+            "tenMonDay": "Bồi dưỡng Văn"
+        },
+        "thanhPhanGD": {
+            "id": 2,
+            "tenThanhPhanGiaDinh": "Nông dân"
+        },
+        "tinhTrangHonNhan": {
+            "id": 1,
+            "tenTinhTrangHonNhan": "Chưa đăng ký kết hôn lần nào"
+        },
+        "hoTenBo": "Nguyễn Văn A",
+        "namSinhBo": "1962",
+        "ngheNghiepBo": "nông dân",
+        "coQuanBo": "CA Tỉnh Bình Thuận",
+        "hoTenMe": "Nguyễn Thị B",
+        "namSinhMe": "1965",
+        "ngheNghiepMe": "nông dân",
+        "coQuanMe": "CA Tỉnh Bình Thuận",
+        "boiDuongTX": true,
+        "nhaCongVu": false,
+        "thueNhaTro": false,
+        "dangKyNhaCongVu": true,
+        "ghiChuKhac": "Ế nặng"
+    },
+    {
+        "id": 15,
+        "tenCanBo": "Lê Thu Hà",
+        "maCanBo": "",
+        "avatarUrl": "http://d38we5ntdyxyje.cloudfront.net/1081804/profile/VRXFYTQZ_avatar_medium_square.jpg",
+        "ngaySinh": "1983-05-05",
+        "gioiTinh": {
+            "id": 2,
+            "tenGioiTinh": "Nữ"
+        },
+        "soCMND": "036483616",
+        "ngayCapCMND": "2000-08-08",
+        "noiCapCMND": "CA Hòa Bình",
+        "soDTDD": "0984673518",
+        "email": "0986833043@gmail.com",
+        "diaChi": "Đâu đó",
+        "danToc": {
+            "id": 22,
+            "tenDanToc": "Hrê"
+        },
+        "tinhThanh": {
+            "name": "Bình Thuận",
+            "name_with_type": "Tỉnh Bình Thuận",
+            "id": "60"
+        },
+        "quanHuyen": {
+            "name": "Tuy Phong",
+            "name_with_type": "Huyện Tuy Phong",
+            "path": "Tuy Phong, Bình Thuận",
+            "path_with_type": "Huyện Tuy Phong, Tỉnh Bình Thuận",
+            "id": "595",
+            "tinhThanhId": "60"
+        },
+        "xaPhuong": {
+            "name": "Phước Thể",
+            "name_with_type": "Xã Phước Thể",
+            "path": "Phước Thể, Tuy Phong, Bình Thuận",
+            "path_with_type": "Xã Phước Thể, Huyện Tuy Phong, Tỉnh Bình Thuận",
+            "id": "22990",
+            "quanHuyenId": "595"
+        },
+        "toBoMon": {
+            "id": 5,
+            "tenToBoMon": "Địa - Tin - GDCD - Văn phòng"
+        },
+        "viTriLamViec": {
+            "id": 2,
+            "tenViTri": "Giáo viên"
+        },
+        "chucVu": {
+            "id": 1,
+            "tenChucVu": "Giáo viên"
+        },
+        "hinhThucHopDong": {
+            "id": 2,
+            "tenHinhThucHD": "Hợp đồng nghị định 68"
+        },
+        "ngayTuyenDung": "2006-03-03",
+        "ngayVaoBienChe": "2006-03-12",
+        "coQuanTuyenDung": "Sở GD ĐT",
+        "chucDanh": "Giáo viên",
+        "NNKhiDuocTuyen": "Giáo viên",
+        "soTietTrenTuan": "30",
+        "nhiemVuKiemNhiem": "",
+        "soTietKiemNhiem": "0",
+        "huanLuyenKNS": false,
+        "dayHocSinhKT": true,
+        "chuyenTrachDoanDoi": true,
+        "day12Buoi": "day2Buoi",
+        "ngachHang": {
+            "id": 29,
+            "tenNgachHang": "Giáo viên trung học phổ thông hạng III"
+        },
+        "maNgach": "",
+        "PCThamNien": "3",
+        "bacLuong": "",
+        "heSoLuong": "3",
+        "vuotKhung": "3",
+        "PCThuHutNghe": "3",
+        "PCUuDaiNghe": "3",
+        "ngayHuong": "3",
+        "KQBoiDuong": "Khá",
+        "trinhDoCMNV": {
+            "id": 5,
+            "tenTrinhDo": "Đại học"
+        },
+        "trinhDoTinHoc": {
+            "id": 4,
+            "tenTrinhDoTin": "Tin học Văn phòng A"
+        },
+        "trinhDoLyLuanCT": {
+            "id": 1,
+            "tenTrinhDoLyLuanChinhTri": "Chưa qua đào tạo"
+        },
+        "trinhDoQLGD": {
+            "id": 1,
+            "tenTrinhDoQLGiaoDuc": "Chưa qua đào tạo QLGD"
+        },
+        "trinhDoQLNN": {
+            "id": 3,
+            "tenTrinhDoQLNhaNuoc": "QLHC Văn phòng"
+        },
+        "chuyenNganh": {
+            "id": 8,
+            "tenChuyenNganh": "Giáo dục công dân - Sử_SP"
+        },
+        "trinhDoCM": {
+            "id": 2,
+            "tenTrinhDo": "Sơ cấp"
+        },
+        "loaiHinhDT": {
+            "id": 1,
+            "tenLoaiHinh": "Chuyên tu"
+        },
+        "chuyenNganhKhac": {
+            "id": 10,
+            "tenChuyenNganh": "Giáo dục Đặc biệt"
+        },
+        "trinhDoCMKhac": {
+            "id": 2,
+            "tenTrinhDo": "Sơ cấp"
+        },
+        "loaiHinhDTKhac": {
+            "id": 1,
+            "tenLoaiHinh": "Chuyên tu"
+        },
+        "trinhDoVH": {
+            "id": 12,
+            "tenTrinhDoVanHoa": "12/12"
+        },
+        "ngoaiNguChinh": {
+            "id": 9,
+            "tenNgoaiNgu": "Tiếng Thái"
+        },
+        "trinhDoNNChinh": {
+            "id": 12,
+            "tenTrinhDoNgoaiNgu": "TOEIC"
+        },
+        "KQChuanNgheNghiep": "Giỏi",
+        "danhGiaVienChuc": "Giỏi",
+        "gvDayGioi": "",
+        "danhHieuGV": "",
+        "capDayChinh": {
+            "id": 1,
+            "tenCapDay": "Cấp 3"
+        },
+        "monDayChinh": {
+            "id": 9,
+            "tenMonDay": "Bồi dưỡng Văn"
+        },
+        "thanhPhanGD": {
+            "id": 2,
+            "tenThanhPhanGiaDinh": "Nông dân"
+        },
+        "tinhTrangHonNhan": {
+            "id": 1,
+            "tenTinhTrangHonNhan": "Chưa đăng ký kết hôn lần nào"
+        },
+        "hoTenBo": "Nguyễn Văn A",
+        "namSinhBo": "1962",
+        "ngheNghiepBo": "nông dân",
+        "coQuanBo": "CA Tỉnh Bình Thuận",
+        "hoTenMe": "Nguyễn Thị B",
+        "namSinhMe": "1965",
+        "ngheNghiepMe": "nông dân",
+        "coQuanMe": "CA Tỉnh Bình Thuận",
+        "boiDuongTX": true,
+        "nhaCongVu": false,
+        "thueNhaTro": false,
+        "dangKyNhaCongVu": true,
+        "ghiChuKhac": "Ế nặng"
+    },
+    {
+        "id": 16,
+        "tenCanBo": "Lường Đình Trọng",
+        "maCanBo": "",
+        "avatarUrl": "http://d38we5ntdyxyje.cloudfront.net/1081804/profile/VRXFYTQZ_avatar_medium_square.jpg",
+        "ngaySinh": "1981-11-11",
+        "gioiTinh": {
+            "id": 1,
+            "tenGioiTinh": "Nam"
+        },
+        "soCMND": "050875648",
+        "ngayCapCMND": "1999-03-03",
+        "noiCapCMND": "CA Bình Thuận",
+        "soDTDD": "0986833043",
+        "email": "0986833043@gmail.com",
+        "diaChi": "Bình Thuận 1",
+        "danToc": {
+            "id": 22,
+            "tenDanToc": "Hrê"
+        },
+        "tinhThanh": {
+            "name": "Bình Thuận",
+            "name_with_type": "Tỉnh Bình Thuận",
+            "id": "60"
+        },
+        "quanHuyen": {
+            "name": "Tuy Phong",
+            "name_with_type": "Huyện Tuy Phong",
+            "path": "Tuy Phong, Bình Thuận",
+            "path_with_type": "Huyện Tuy Phong, Tỉnh Bình Thuận",
+            "id": "595",
+            "tinhThanhId": "60"
+        },
+        "xaPhuong": {
+            "name": "Phước Thể",
+            "name_with_type": "Xã Phước Thể",
+            "path": "Phước Thể, Tuy Phong, Bình Thuận",
+            "path_with_type": "Xã Phước Thể, Huyện Tuy Phong, Tỉnh Bình Thuận",
+            "id": "22990",
+            "quanHuyenId": "595"
+        },
+        "toBoMon": {
+            "id": 4,
+            "tenToBoMon": "Văn - Sử"
+        },
+        "viTriLamViec": {
+            "id": 2,
+            "tenViTri": "Giáo viên"
+        },
+        "chucVu": {
+            "id": 1,
+            "tenChucVu": "Giáo viên"
+        },
+        "hinhThucHopDong": {
+            "id": 2,
+            "tenHinhThucHD": "Hợp đồng nghị định 68"
+        },
+        "ngayTuyenDung": "2006-03-03",
+        "ngayVaoBienChe": "2006-03-12",
+        "coQuanTuyenDung": "Sở GD ĐT",
+        "chucDanh": "Giáo viên",
+        "NNKhiDuocTuyen": "Giáo viên",
+        "soTietTrenTuan": "15",
+        "nhiemVuKiemNhiem": "",
+        "soTietKiemNhiem": "0",
+        "huanLuyenKNS": true,
+        "dayHocSinhKT": true,
+        "chuyenTrachDoanDoi": false,
+        "day12Buoi": "day1Buoi",
+        "ngachHang": {
+            "id": 29,
+            "tenNgachHang": "Giáo viên trung học phổ thông hạng III"
+        },
+        "maNgach": "",
+        "PCThamNien": "5",
+        "bacLuong": "",
+        "heSoLuong": "5",
+        "vuotKhung": "5",
+        "PCThuHutNghe": "5",
+        "PCUuDaiNghe": "5",
+        "ngayHuong": "5",
+        "KQBoiDuong": "Khá",
+        "trinhDoCMNV": {
+            "id": 5,
+            "tenTrinhDo": "Đại học"
+        },
+        "trinhDoTinHoc": {
+            "id": 4,
+            "tenTrinhDoTin": "Tin học Văn phòng A"
+        },
+        "trinhDoLyLuanCT": {
+            "id": 1,
+            "tenTrinhDoLyLuanChinhTri": "Chưa qua đào tạo"
+        },
+        "trinhDoQLGD": {
+            "id": 1,
+            "tenTrinhDoQLGiaoDuc": "Chưa qua đào tạo QLGD"
+        },
+        "trinhDoQLNN": {
+            "id": 3,
+            "tenTrinhDoQLNhaNuoc": "QLHC Văn phòng"
+        },
+        "chuyenNganh": {
+            "id": 8,
+            "tenChuyenNganh": "Giáo dục công dân - Sử_SP"
+        },
+        "trinhDoCM": {
+            "id": 2,
+            "tenTrinhDo": "Sơ cấp"
+        },
+        "loaiHinhDT": {
+            "id": 1,
+            "tenLoaiHinh": "Chuyên tu"
+        },
+        "chuyenNganhKhac": {
+            "id": 10,
+            "tenChuyenNganh": "Giáo dục Đặc biệt"
+        },
+        "trinhDoCMKhac": {
+            "id": 2,
+            "tenTrinhDo": "Sơ cấp"
+        },
+        "loaiHinhDTKhac": {
+            "id": 1,
+            "tenLoaiHinh": "Chuyên tu"
+        },
+        "trinhDoVH": {
+            "id": 12,
+            "tenTrinhDoVanHoa": "12/12"
+        },
+        "ngoaiNguChinh": {
+            "id": 9,
+            "tenNgoaiNgu": "Tiếng Thái"
+        },
+        "trinhDoNNChinh": {
+            "id": 12,
+            "tenTrinhDoNgoaiNgu": "TOEIC"
+        },
+        "KQChuanNgheNghiep": "Khá",
+        "danhGiaVienChuc": "Khá",
+        "gvDayGioi": "",
+        "danhHieuGV": "",
+        "capDayChinh": {
+            "id": 1,
+            "tenCapDay": "Cấp 3"
+        },
+        "monDayChinh": {
+            "id": 9,
+            "tenMonDay": "Bồi dưỡng Văn"
+        },
+        "thanhPhanGD": {
+            "id": 2,
+            "tenThanhPhanGiaDinh": "Nông dân"
+        },
+        "tinhTrangHonNhan": {
+            "id": 1,
+            "tenTinhTrangHonNhan": "Chưa đăng ký kết hôn lần nào"
+        },
+        "hoTenBo": "Nguyễn Văn X",
+        "namSinhBo": "1972",
+        "ngheNghiepBo": "nông dân",
+        "coQuanBo": "CA Tỉnh Bình Thuận",
+        "hoTenMe": "Nguyễn Thị Y",
+        "namSinhMe": "1975",
+        "ngheNghiepMe": "nông dân",
+        "coQuanMe": "CA Tỉnh Bình Thuận",
+        "boiDuongTX": true,
+        "nhaCongVu": true,
+        "thueNhaTro": false,
+        "dangKyNhaCongVu": false,
+        "ghiChuKhac": "Ế"
+    },
+    {
+        "id": 17,
+        "tenCanBo": "Hà Mai Linh",
+        "maCanBo": "",
+        "avatarUrl": "http://d38we5ntdyxyje.cloudfront.net/1081804/profile/VRXFYTQZ_avatar_medium_square.jpg",
+        "ngaySinh": "1983-05-05",
+        "gioiTinh": {
+            "id": 2,
+            "tenGioiTinh": "Nữ"
+        },
+        "soCMND": "036483616",
+        "ngayCapCMND": "2000-08-08",
+        "noiCapCMND": "CA Hòa Bình",
+        "soDTDD": "0984673518",
+        "email": "0986833043@gmail.com",
+        "diaChi": "Đâu đó",
+        "danToc": {
+            "id": 22,
+            "tenDanToc": "Hrê"
+        },
+        "tinhThanh": {
+            "name": "Bình Thuận",
+            "name_with_type": "Tỉnh Bình Thuận",
+            "id": "60"
+        },
+        "quanHuyen": {
+            "name": "Tuy Phong",
+            "name_with_type": "Huyện Tuy Phong",
+            "path": "Tuy Phong, Bình Thuận",
+            "path_with_type": "Huyện Tuy Phong, Tỉnh Bình Thuận",
+            "id": "595",
+            "tinhThanhId": "60"
+        },
+        "xaPhuong": {
+            "name": "Phước Thể",
+            "name_with_type": "Xã Phước Thể",
+            "path": "Phước Thể, Tuy Phong, Bình Thuận",
+            "path_with_type": "Xã Phước Thể, Huyện Tuy Phong, Tỉnh Bình Thuận",
+            "id": "22990",
+            "quanHuyenId": "595"
+        },
+        "toBoMon": {
+            "id": 3,
+            "tenToBoMon": "Toán - Sinh"
+        },
+        "viTriLamViec": {
+            "id": 2,
+            "tenViTri": "Giáo viên"
+        },
+        "chucVu": {
+            "id": 1,
+            "tenChucVu": "Giáo viên"
+        },
+        "hinhThucHopDong": {
+            "id": 2,
+            "tenHinhThucHD": "Hợp đồng nghị định 68"
+        },
+        "ngayTuyenDung": "2006-03-03",
+        "ngayVaoBienChe": "2006-03-12",
+        "coQuanTuyenDung": "Sở GD ĐT",
+        "chucDanh": "Giáo viên",
+        "NNKhiDuocTuyen": "Giáo viên",
+        "soTietTrenTuan": "30",
+        "nhiemVuKiemNhiem": "",
+        "soTietKiemNhiem": "0",
+        "huanLuyenKNS": false,
+        "dayHocSinhKT": true,
+        "chuyenTrachDoanDoi": true,
+        "day12Buoi": "day2Buoi",
+        "ngachHang": {
+            "id": 29,
+            "tenNgachHang": "Giáo viên trung học phổ thông hạng III"
+        },
+        "maNgach": "",
+        "PCThamNien": "3",
+        "bacLuong": "",
+        "heSoLuong": "3",
+        "vuotKhung": "3",
+        "PCThuHutNghe": "3",
+        "PCUuDaiNghe": "3",
+        "ngayHuong": "3",
+        "KQBoiDuong": "Khá",
+        "trinhDoCMNV": {
+            "id": 5,
+            "tenTrinhDo": "Đại học"
+        },
+        "trinhDoTinHoc": {
+            "id": 4,
+            "tenTrinhDoTin": "Tin học Văn phòng A"
+        },
+        "trinhDoLyLuanCT": {
+            "id": 1,
+            "tenTrinhDoLyLuanChinhTri": "Chưa qua đào tạo"
+        },
+        "trinhDoQLGD": {
+            "id": 1,
+            "tenTrinhDoQLGiaoDuc": "Chưa qua đào tạo QLGD"
+        },
+        "trinhDoQLNN": {
+            "id": 3,
+            "tenTrinhDoQLNhaNuoc": "QLHC Văn phòng"
+        },
+        "chuyenNganh": {
+            "id": 8,
+            "tenChuyenNganh": "Giáo dục công dân - Sử_SP"
+        },
+        "trinhDoCM": {
+            "id": 2,
+            "tenTrinhDo": "Sơ cấp"
+        },
+        "loaiHinhDT": {
+            "id": 1,
+            "tenLoaiHinh": "Chuyên tu"
+        },
+        "chuyenNganhKhac": {
+            "id": 10,
+            "tenChuyenNganh": "Giáo dục Đặc biệt"
+        },
+        "trinhDoCMKhac": {
+            "id": 2,
+            "tenTrinhDo": "Sơ cấp"
+        },
+        "loaiHinhDTKhac": {
+            "id": 1,
+            "tenLoaiHinh": "Chuyên tu"
+        },
+        "trinhDoVH": {
+            "id": 12,
+            "tenTrinhDoVanHoa": "12/12"
+        },
+        "ngoaiNguChinh": {
+            "id": 9,
+            "tenNgoaiNgu": "Tiếng Thái"
+        },
+        "trinhDoNNChinh": {
+            "id": 12,
+            "tenTrinhDoNgoaiNgu": "TOEIC"
+        },
+        "KQChuanNgheNghiep": "Giỏi",
+        "danhGiaVienChuc": "Giỏi",
+        "gvDayGioi": "",
+        "danhHieuGV": "",
+        "capDayChinh": {
+            "id": 1,
+            "tenCapDay": "Cấp 3"
+        },
+        "monDayChinh": {
+            "id": 9,
+            "tenMonDay": "Bồi dưỡng Văn"
+        },
+        "thanhPhanGD": {
+            "id": 2,
+            "tenThanhPhanGiaDinh": "Nông dân"
+        },
+        "tinhTrangHonNhan": {
+            "id": 1,
+            "tenTinhTrangHonNhan": "Chưa đăng ký kết hôn lần nào"
+        },
+        "hoTenBo": "Nguyễn Văn A",
+        "namSinhBo": "1962",
+        "ngheNghiepBo": "nông dân",
+        "coQuanBo": "CA Tỉnh Bình Thuận",
+        "hoTenMe": "Nguyễn Thị B",
+        "namSinhMe": "1965",
+        "ngheNghiepMe": "nông dân",
+        "coQuanMe": "CA Tỉnh Bình Thuận",
+        "boiDuongTX": true,
+        "nhaCongVu": false,
+        "thueNhaTro": false,
+        "dangKyNhaCongVu": true,
+        "ghiChuKhac": "Ế nặng"
+    },
+    {
+        "id": 18,
+        "tenCanBo": "Nguyễn Trung Dũng",
+        "maCanBo": "",
+        "avatarUrl": "http://d38we5ntdyxyje.cloudfront.net/1081804/profile/VRXFYTQZ_avatar_medium_square.jpg",
+        "ngaySinh": "1981-11-11",
+        "gioiTinh": {
+            "id": 1,
+            "tenGioiTinh": "Nam"
+        },
+        "soCMND": "050875648",
+        "ngayCapCMND": "1999-03-03",
+        "noiCapCMND": "CA Bình Thuận",
+        "soDTDD": "0986833043",
+        "email": "0986833043@gmail.com",
+        "diaChi": "Bình Thuận 1",
+        "danToc": {
+            "id": 22,
+            "tenDanToc": "Hrê"
+        },
+        "tinhThanh": {
+            "name": "Bình Thuận",
+            "name_with_type": "Tỉnh Bình Thuận",
+            "id": "60"
+        },
+        "quanHuyen": {
+            "name": "Tuy Phong",
+            "name_with_type": "Huyện Tuy Phong",
+            "path": "Tuy Phong, Bình Thuận",
+            "path_with_type": "Huyện Tuy Phong, Tỉnh Bình Thuận",
+            "id": "595",
+            "tinhThanhId": "60"
+        },
+        "xaPhuong": {
+            "name": "Phước Thể",
+            "name_with_type": "Xã Phước Thể",
+            "path": "Phước Thể, Tuy Phong, Bình Thuận",
+            "path_with_type": "Xã Phước Thể, Huyện Tuy Phong, Tỉnh Bình Thuận",
+            "id": "22990",
+            "quanHuyenId": "595"
+        },
+        "toBoMon": {
+            "id": 4,
+            "tenToBoMon": "Văn - Sử"
+        },
+        "viTriLamViec": {
+            "id": 2,
+            "tenViTri": "Giáo viên"
+        },
+        "chucVu": {
+            "id": 1,
+            "tenChucVu": "Giáo viên"
+        },
+        "hinhThucHopDong": {
+            "id": 2,
+            "tenHinhThucHD": "Hợp đồng nghị định 68"
+        },
+        "ngayTuyenDung": "2006-03-03",
+        "ngayVaoBienChe": "2006-03-12",
+        "coQuanTuyenDung": "Sở GD ĐT",
+        "chucDanh": "Giáo viên",
+        "NNKhiDuocTuyen": "Giáo viên",
+        "soTietTrenTuan": "15",
+        "nhiemVuKiemNhiem": "",
+        "soTietKiemNhiem": "0",
+        "huanLuyenKNS": true,
+        "dayHocSinhKT": true,
+        "chuyenTrachDoanDoi": false,
+        "day12Buoi": "day1Buoi",
+        "ngachHang": {
+            "id": 29,
+            "tenNgachHang": "Giáo viên trung học phổ thông hạng III"
+        },
+        "maNgach": "",
+        "PCThamNien": "5",
+        "bacLuong": "",
+        "heSoLuong": "5",
+        "vuotKhung": "5",
+        "PCThuHutNghe": "5",
+        "PCUuDaiNghe": "5",
+        "ngayHuong": "5",
+        "KQBoiDuong": "Khá",
+        "trinhDoCMNV": {
+            "id": 5,
+            "tenTrinhDo": "Đại học"
+        },
+        "trinhDoTinHoc": {
+            "id": 4,
+            "tenTrinhDoTin": "Tin học Văn phòng A"
+        },
+        "trinhDoLyLuanCT": {
+            "id": 1,
+            "tenTrinhDoLyLuanChinhTri": "Chưa qua đào tạo"
+        },
+        "trinhDoQLGD": {
+            "id": 1,
+            "tenTrinhDoQLGiaoDuc": "Chưa qua đào tạo QLGD"
+        },
+        "trinhDoQLNN": {
+            "id": 3,
+            "tenTrinhDoQLNhaNuoc": "QLHC Văn phòng"
+        },
+        "chuyenNganh": {
+            "id": 8,
+            "tenChuyenNganh": "Giáo dục công dân - Sử_SP"
+        },
+        "trinhDoCM": {
+            "id": 2,
+            "tenTrinhDo": "Sơ cấp"
+        },
+        "loaiHinhDT": {
+            "id": 1,
+            "tenLoaiHinh": "Chuyên tu"
+        },
+        "chuyenNganhKhac": {
+            "id": 10,
+            "tenChuyenNganh": "Giáo dục Đặc biệt"
+        },
+        "trinhDoCMKhac": {
+            "id": 2,
+            "tenTrinhDo": "Sơ cấp"
+        },
+        "loaiHinhDTKhac": {
+            "id": 1,
+            "tenLoaiHinh": "Chuyên tu"
+        },
+        "trinhDoVH": {
+            "id": 12,
+            "tenTrinhDoVanHoa": "12/12"
+        },
+        "ngoaiNguChinh": {
+            "id": 9,
+            "tenNgoaiNgu": "Tiếng Thái"
+        },
+        "trinhDoNNChinh": {
+            "id": 12,
+            "tenTrinhDoNgoaiNgu": "TOEIC"
+        },
+        "KQChuanNgheNghiep": "Khá",
+        "danhGiaVienChuc": "Khá",
+        "gvDayGioi": "",
+        "danhHieuGV": "",
+        "capDayChinh": {
+            "id": 1,
+            "tenCapDay": "Cấp 3"
+        },
+        "monDayChinh": {
+            "id": 9,
+            "tenMonDay": "Bồi dưỡng Văn"
+        },
+        "thanhPhanGD": {
+            "id": 2,
+            "tenThanhPhanGiaDinh": "Nông dân"
+        },
+        "tinhTrangHonNhan": {
+            "id": 1,
+            "tenTinhTrangHonNhan": "Chưa đăng ký kết hôn lần nào"
+        },
+        "hoTenBo": "Nguyễn Văn X",
+        "namSinhBo": "1972",
+        "ngheNghiepBo": "nông dân",
+        "coQuanBo": "CA Tỉnh Bình Thuận",
+        "hoTenMe": "Nguyễn Thị Y",
+        "namSinhMe": "1975",
+        "ngheNghiepMe": "nông dân",
+        "coQuanMe": "CA Tỉnh Bình Thuận",
+        "boiDuongTX": true,
+        "nhaCongVu": true,
+        "thueNhaTro": false,
+        "dangKyNhaCongVu": false,
+        "ghiChuKhac": "Ế"
+    },
+    {
+        "id": 21,
+        "tenCanBo": "Phan Thị Thu Hoài",
+        "maCanBo": "",
+        "avatarUrl": "http://d38we5ntdyxyje.cloudfront.net/1081804/profile/VRXFYTQZ_avatar_medium_square.jpg",
+        "ngaySinh": "1983-05-05",
+        "gioiTinh": {
+            "id": 2,
+            "tenGioiTinh": "Nữ"
+        },
+        "soCMND": "036483616",
+        "ngayCapCMND": "2000-08-08",
+        "noiCapCMND": "CA Hòa Bình",
+        "soDTDD": "0984673518",
+        "email": "0986833043@gmail.com",
+        "diaChi": "Đâu đó",
+        "danToc": {
+            "id": 22,
+            "tenDanToc": "Hrê"
+        },
+        "tinhThanh": {
+            "name": "Bình Thuận",
+            "name_with_type": "Tỉnh Bình Thuận",
+            "id": "60"
+        },
+        "quanHuyen": {
+            "name": "Tuy Phong",
+            "name_with_type": "Huyện Tuy Phong",
+            "path": "Tuy Phong, Bình Thuận",
+            "path_with_type": "Huyện Tuy Phong, Tỉnh Bình Thuận",
+            "id": "595",
+            "tinhThanhId": "60"
+        },
+        "xaPhuong": {
+            "name": "Phước Thể",
+            "name_with_type": "Xã Phước Thể",
+            "path": "Phước Thể, Tuy Phong, Bình Thuận",
+            "path_with_type": "Xã Phước Thể, Huyện Tuy Phong, Tỉnh Bình Thuận",
+            "id": "22990",
+            "quanHuyenId": "595"
+        },
+        "toBoMon": {
+            "id": 5,
+            "tenToBoMon": "Địa - Tin - GDCD - Văn phòng"
+        },
+        "viTriLamViec": {
+            "id": 2,
+            "tenViTri": "Giáo viên"
+        },
+        "chucVu": {
+            "id": 1,
+            "tenChucVu": "Giáo viên"
+        },
+        "hinhThucHopDong": {
+            "id": 2,
+            "tenHinhThucHD": "Hợp đồng nghị định 68"
+        },
+        "ngayTuyenDung": "2006-03-03",
+        "ngayVaoBienChe": "2006-03-12",
+        "coQuanTuyenDung": "Sở GD ĐT",
+        "chucDanh": "Giáo viên",
+        "NNKhiDuocTuyen": "Giáo viên",
+        "soTietTrenTuan": "30",
+        "nhiemVuKiemNhiem": "",
+        "soTietKiemNhiem": "0",
+        "huanLuyenKNS": false,
+        "dayHocSinhKT": true,
+        "chuyenTrachDoanDoi": true,
+        "day12Buoi": "day2Buoi",
+        "ngachHang": {
+            "id": 29,
+            "tenNgachHang": "Giáo viên trung học phổ thông hạng III"
+        },
+        "maNgach": "",
+        "PCThamNien": "3",
+        "bacLuong": "",
+        "heSoLuong": "3",
+        "vuotKhung": "3",
+        "PCThuHutNghe": "3",
+        "PCUuDaiNghe": "3",
+        "ngayHuong": "3",
+        "KQBoiDuong": "Khá",
+        "trinhDoCMNV": {
+            "id": 5,
+            "tenTrinhDo": "Đại học"
+        },
+        "trinhDoTinHoc": {
+            "id": 4,
+            "tenTrinhDoTin": "Tin học Văn phòng A"
+        },
+        "trinhDoLyLuanCT": {
+            "id": 1,
+            "tenTrinhDoLyLuanChinhTri": "Chưa qua đào tạo"
+        },
+        "trinhDoQLGD": {
+            "id": 1,
+            "tenTrinhDoQLGiaoDuc": "Chưa qua đào tạo QLGD"
+        },
+        "trinhDoQLNN": {
+            "id": 3,
+            "tenTrinhDoQLNhaNuoc": "QLHC Văn phòng"
+        },
+        "chuyenNganh": {
+            "id": 8,
+            "tenChuyenNganh": "Giáo dục công dân - Sử_SP"
+        },
+        "trinhDoCM": {
+            "id": 2,
+            "tenTrinhDo": "Sơ cấp"
+        },
+        "loaiHinhDT": {
+            "id": 1,
+            "tenLoaiHinh": "Chuyên tu"
+        },
+        "chuyenNganhKhac": {
+            "id": 10,
+            "tenChuyenNganh": "Giáo dục Đặc biệt"
+        },
+        "trinhDoCMKhac": {
+            "id": 2,
+            "tenTrinhDo": "Sơ cấp"
+        },
+        "loaiHinhDTKhac": {
+            "id": 1,
+            "tenLoaiHinh": "Chuyên tu"
+        },
+        "trinhDoVH": {
+            "id": 12,
+            "tenTrinhDoVanHoa": "12/12"
+        },
+        "ngoaiNguChinh": {
+            "id": 9,
+            "tenNgoaiNgu": "Tiếng Thái"
+        },
+        "trinhDoNNChinh": {
+            "id": 12,
+            "tenTrinhDoNgoaiNgu": "TOEIC"
+        },
+        "KQChuanNgheNghiep": "Giỏi",
+        "danhGiaVienChuc": "Giỏi",
+        "gvDayGioi": "",
+        "danhHieuGV": "",
+        "capDayChinh": {
+            "id": 1,
+            "tenCapDay": "Cấp 3"
+        },
+        "monDayChinh": {
+            "id": 9,
+            "tenMonDay": "Bồi dưỡng Văn"
+        },
+        "thanhPhanGD": {
+            "id": 2,
+            "tenThanhPhanGiaDinh": "Nông dân"
+        },
+        "tinhTrangHonNhan": {
+            "id": 1,
+            "tenTinhTrangHonNhan": "Chưa đăng ký kết hôn lần nào"
+        },
+        "hoTenBo": "Nguyễn Văn A",
+        "namSinhBo": "1962",
+        "ngheNghiepBo": "nông dân",
+        "coQuanBo": "CA Tỉnh Bình Thuận",
+        "hoTenMe": "Nguyễn Thị B",
+        "namSinhMe": "1965",
+        "ngheNghiepMe": "nông dân",
+        "coQuanMe": "CA Tỉnh Bình Thuận",
+        "boiDuongTX": true,
+        "nhaCongVu": false,
+        "thueNhaTro": false,
+        "dangKyNhaCongVu": true,
+        "ghiChuKhac": "Ế nặng"
+    },
+    {
+        "id": 22,
+        "tenCanBo": "Cao Đức Anh",
+        "maCanBo": "",
+        "avatarUrl": "http://d38we5ntdyxyje.cloudfront.net/1081804/profile/VRXFYTQZ_avatar_medium_square.jpg",
+        "ngaySinh": "1981-11-11",
+        "gioiTinh": {
+            "id": 1,
+            "tenGioiTinh": "Nam"
+        },
+        "soCMND": "050875648",
+        "ngayCapCMND": "1999-03-03",
+        "noiCapCMND": "CA Bình Thuận",
+        "soDTDD": "0986833043",
+        "email": "0986833043@gmail.com",
+        "diaChi": "Bình Thuận 1",
+        "danToc": {
+            "id": 22,
+            "tenDanToc": "Hrê"
+        },
+        "tinhThanh": {
+            "name": "Bình Thuận",
+            "name_with_type": "Tỉnh Bình Thuận",
+            "id": "60"
+        },
+        "quanHuyen": {
+            "name": "Tuy Phong",
+            "name_with_type": "Huyện Tuy Phong",
+            "path": "Tuy Phong, Bình Thuận",
+            "path_with_type": "Huyện Tuy Phong, Tỉnh Bình Thuận",
+            "id": "595",
+            "tinhThanhId": "60"
+        },
+        "xaPhuong": {
+            "name": "Phước Thể",
+            "name_with_type": "Xã Phước Thể",
+            "path": "Phước Thể, Tuy Phong, Bình Thuận",
+            "path_with_type": "Xã Phước Thể, Huyện Tuy Phong, Tỉnh Bình Thuận",
+            "id": "22990",
+            "quanHuyenId": "595"
+        },
+        "toBoMon": {
+            "id": 1,
+            "tenToBoMon": "Hóa - Lý"
+        },
+        "viTriLamViec": {
+            "id": 2,
+            "tenViTri": "Giáo viên"
+        },
+        "chucVu": {
+            "id": 1,
+            "tenChucVu": "Giáo viên"
+        },
+        "hinhThucHopDong": {
+            "id": 2,
+            "tenHinhThucHD": "Hợp đồng nghị định 68"
+        },
+        "ngayTuyenDung": "2006-03-03",
+        "ngayVaoBienChe": "2006-03-12",
+        "coQuanTuyenDung": "Sở GD ĐT",
+        "chucDanh": "Giáo viên",
+        "NNKhiDuocTuyen": "Giáo viên",
+        "soTietTrenTuan": "15",
+        "nhiemVuKiemNhiem": "",
+        "soTietKiemNhiem": "0",
+        "huanLuyenKNS": true,
+        "dayHocSinhKT": true,
+        "chuyenTrachDoanDoi": false,
+        "day12Buoi": "day1Buoi",
+        "ngachHang": {
+            "id": 29,
+            "tenNgachHang": "Giáo viên trung học phổ thông hạng III"
+        },
+        "maNgach": "",
+        "PCThamNien": "5",
+        "bacLuong": "",
+        "heSoLuong": "5",
+        "vuotKhung": "5",
+        "PCThuHutNghe": "5",
+        "PCUuDaiNghe": "5",
+        "ngayHuong": "5",
+        "KQBoiDuong": "Khá",
+        "trinhDoCMNV": {
+            "id": 5,
+            "tenTrinhDo": "Đại học"
+        },
+        "trinhDoTinHoc": {
+            "id": 4,
+            "tenTrinhDoTin": "Tin học Văn phòng A"
+        },
+        "trinhDoLyLuanCT": {
+            "id": 1,
+            "tenTrinhDoLyLuanChinhTri": "Chưa qua đào tạo"
+        },
+        "trinhDoQLGD": {
+            "id": 1,
+            "tenTrinhDoQLGiaoDuc": "Chưa qua đào tạo QLGD"
+        },
+        "trinhDoQLNN": {
+            "id": 3,
+            "tenTrinhDoQLNhaNuoc": "QLHC Văn phòng"
+        },
+        "chuyenNganh": {
+            "id": 8,
+            "tenChuyenNganh": "Giáo dục công dân - Sử_SP"
+        },
+        "trinhDoCM": {
+            "id": 2,
+            "tenTrinhDo": "Sơ cấp"
+        },
+        "loaiHinhDT": {
+            "id": 1,
+            "tenLoaiHinh": "Chuyên tu"
+        },
+        "chuyenNganhKhac": {
+            "id": 10,
+            "tenChuyenNganh": "Giáo dục Đặc biệt"
+        },
+        "trinhDoCMKhac": {
+            "id": 2,
+            "tenTrinhDo": "Sơ cấp"
+        },
+        "loaiHinhDTKhac": {
+            "id": 1,
+            "tenLoaiHinh": "Chuyên tu"
+        },
+        "trinhDoVH": {
+            "id": 12,
+            "tenTrinhDoVanHoa": "12/12"
+        },
+        "ngoaiNguChinh": {
+            "id": 9,
+            "tenNgoaiNgu": "Tiếng Thái"
+        },
+        "trinhDoNNChinh": {
+            "id": 12,
+            "tenTrinhDoNgoaiNgu": "TOEIC"
+        },
+        "KQChuanNgheNghiep": "Khá",
+        "danhGiaVienChuc": "Khá",
+        "gvDayGioi": "",
+        "danhHieuGV": "",
+        "capDayChinh": {
+            "id": 1,
+            "tenCapDay": "Cấp 3"
+        },
+        "monDayChinh": {
+            "id": 9,
+            "tenMonDay": "Bồi dưỡng Văn"
+        },
+        "thanhPhanGD": {
+            "id": 2,
+            "tenThanhPhanGiaDinh": "Nông dân"
+        },
+        "tinhTrangHonNhan": {
+            "id": 1,
+            "tenTinhTrangHonNhan": "Chưa đăng ký kết hôn lần nào"
+        },
+        "hoTenBo": "Nguyễn Văn X",
+        "namSinhBo": "1972",
+        "ngheNghiepBo": "nông dân",
+        "coQuanBo": "CA Tỉnh Bình Thuận",
+        "hoTenMe": "Nguyễn Thị Y",
+        "namSinhMe": "1975",
+        "ngheNghiepMe": "nông dân",
+        "coQuanMe": "CA Tỉnh Bình Thuận",
+        "boiDuongTX": true,
+        "nhaCongVu": true,
+        "thueNhaTro": false,
+        "dangKyNhaCongVu": false,
+        "ghiChuKhac": "Ế"
+    },
+    {
+        "id": 23,
+        "tenCanBo": "Nguyễn Thu Thủy",
+        "maCanBo": "",
+        "avatarUrl": "http://d38we5ntdyxyje.cloudfront.net/1081804/profile/VRXFYTQZ_avatar_medium_square.jpg",
+        "ngaySinh": "1983-05-05",
+        "gioiTinh": {
+            "id": 2,
+            "tenGioiTinh": "Nữ"
+        },
+        "soCMND": "036483616",
+        "ngayCapCMND": "2000-08-08",
+        "noiCapCMND": "CA Hòa Bình",
+        "soDTDD": "0984673518",
+        "email": "0986833043@gmail.com",
+        "diaChi": "Đâu đó",
+        "danToc": {
+            "id": 22,
+            "tenDanToc": "Hrê"
+        },
+        "tinhThanh": {
+            "name": "Bình Thuận",
+            "name_with_type": "Tỉnh Bình Thuận",
+            "id": "60"
+        },
+        "quanHuyen": {
+            "name": "Tuy Phong",
+            "name_with_type": "Huyện Tuy Phong",
+            "path": "Tuy Phong, Bình Thuận",
+            "path_with_type": "Huyện Tuy Phong, Tỉnh Bình Thuận",
+            "id": "595",
+            "tinhThanhId": "60"
+        },
+        "xaPhuong": {
+            "name": "Phước Thể",
+            "name_with_type": "Xã Phước Thể",
+            "path": "Phước Thể, Tuy Phong, Bình Thuận",
+            "path_with_type": "Xã Phước Thể, Huyện Tuy Phong, Tỉnh Bình Thuận",
+            "id": "22990",
+            "quanHuyenId": "595"
+        },
+        "toBoMon": {
+            "id": 3,
+            "tenToBoMon": "Toán - Sinh"
+        },
+        "viTriLamViec": {
+            "id": 2,
+            "tenViTri": "Giáo viên"
+        },
+        "chucVu": {
+            "id": 1,
+            "tenChucVu": "Giáo viên"
+        },
+        "hinhThucHopDong": {
+            "id": 2,
+            "tenHinhThucHD": "Hợp đồng nghị định 68"
+        },
+        "ngayTuyenDung": "2006-03-03",
+        "ngayVaoBienChe": "2006-03-12",
+        "coQuanTuyenDung": "Sở GD ĐT",
+        "chucDanh": "Giáo viên",
+        "NNKhiDuocTuyen": "Giáo viên",
+        "soTietTrenTuan": "30",
+        "nhiemVuKiemNhiem": "",
+        "soTietKiemNhiem": "0",
+        "huanLuyenKNS": false,
+        "dayHocSinhKT": true,
+        "chuyenTrachDoanDoi": true,
+        "day12Buoi": "day2Buoi",
+        "ngachHang": {
+            "id": 29,
+            "tenNgachHang": "Giáo viên trung học phổ thông hạng III"
+        },
+        "maNgach": "",
+        "PCThamNien": "3",
+        "bacLuong": "",
+        "heSoLuong": "3",
+        "vuotKhung": "3",
+        "PCThuHutNghe": "3",
+        "PCUuDaiNghe": "3",
+        "ngayHuong": "3",
+        "KQBoiDuong": "Khá",
+        "trinhDoCMNV": {
+            "id": 5,
+            "tenTrinhDo": "Đại học"
+        },
+        "trinhDoTinHoc": {
+            "id": 4,
+            "tenTrinhDoTin": "Tin học Văn phòng A"
+        },
+        "trinhDoLyLuanCT": {
+            "id": 1,
+            "tenTrinhDoLyLuanChinhTri": "Chưa qua đào tạo"
+        },
+        "trinhDoQLGD": {
+            "id": 1,
+            "tenTrinhDoQLGiaoDuc": "Chưa qua đào tạo QLGD"
+        },
+        "trinhDoQLNN": {
+            "id": 3,
+            "tenTrinhDoQLNhaNuoc": "QLHC Văn phòng"
+        },
+        "chuyenNganh": {
+            "id": 8,
+            "tenChuyenNganh": "Giáo dục công dân - Sử_SP"
+        },
+        "trinhDoCM": {
+            "id": 2,
+            "tenTrinhDo": "Sơ cấp"
+        },
+        "loaiHinhDT": {
+            "id": 1,
+            "tenLoaiHinh": "Chuyên tu"
+        },
+        "chuyenNganhKhac": {
+            "id": 10,
+            "tenChuyenNganh": "Giáo dục Đặc biệt"
+        },
+        "trinhDoCMKhac": {
+            "id": 2,
+            "tenTrinhDo": "Sơ cấp"
+        },
+        "loaiHinhDTKhac": {
+            "id": 1,
+            "tenLoaiHinh": "Chuyên tu"
+        },
+        "trinhDoVH": {
+            "id": 12,
+            "tenTrinhDoVanHoa": "12/12"
+        },
+        "ngoaiNguChinh": {
+            "id": 9,
+            "tenNgoaiNgu": "Tiếng Thái"
+        },
+        "trinhDoNNChinh": {
+            "id": 12,
+            "tenTrinhDoNgoaiNgu": "TOEIC"
+        },
+        "KQChuanNgheNghiep": "Giỏi",
+        "danhGiaVienChuc": "Giỏi",
+        "gvDayGioi": "",
+        "danhHieuGV": "",
+        "capDayChinh": {
+            "id": 1,
+            "tenCapDay": "Cấp 3"
+        },
+        "monDayChinh": {
+            "id": 9,
+            "tenMonDay": "Bồi dưỡng Văn"
+        },
+        "thanhPhanGD": {
+            "id": 2,
+            "tenThanhPhanGiaDinh": "Nông dân"
+        },
+        "tinhTrangHonNhan": {
+            "id": 1,
+            "tenTinhTrangHonNhan": "Chưa đăng ký kết hôn lần nào"
+        },
+        "hoTenBo": "Nguyễn Văn A",
+        "namSinhBo": "1962",
+        "ngheNghiepBo": "nông dân",
+        "coQuanBo": "CA Tỉnh Bình Thuận",
+        "hoTenMe": "Nguyễn Thị B",
+        "namSinhMe": "1965",
+        "ngheNghiepMe": "nông dân",
+        "coQuanMe": "CA Tỉnh Bình Thuận",
+        "boiDuongTX": true,
+        "nhaCongVu": false,
+        "thueNhaTro": false,
+        "dangKyNhaCongVu": true,
+        "ghiChuKhac": "Ế nặng"
+    },
+    {
+        "id": 24,
+        "tenCanBo": "Phạm Đình Đức",
+        "maCanBo": "",
+        "avatarUrl": "http://d38we5ntdyxyje.cloudfront.net/1081804/profile/VRXFYTQZ_avatar_medium_square.jpg",
+        "ngaySinh": "1981-11-11",
+        "gioiTinh": {
+            "id": 1,
+            "tenGioiTinh": "Nam"
+        },
+        "soCMND": "050875648",
+        "ngayCapCMND": "1999-03-03",
+        "noiCapCMND": "CA Bình Thuận",
+        "soDTDD": "0986833043",
+        "email": "0986833043@gmail.com",
+        "diaChi": "Bình Thuận 1",
+        "danToc": {
+            "id": 22,
+            "tenDanToc": "Hrê"
+        },
+        "tinhThanh": {
+            "name": "Bình Thuận",
+            "name_with_type": "Tỉnh Bình Thuận",
+            "id": "60"
+        },
+        "quanHuyen": {
+            "name": "Tuy Phong",
+            "name_with_type": "Huyện Tuy Phong",
+            "path": "Tuy Phong, Bình Thuận",
+            "path_with_type": "Huyện Tuy Phong, Tỉnh Bình Thuận",
+            "id": "595",
+            "tinhThanhId": "60"
+        },
+        "xaPhuong": {
+            "name": "Phước Thể",
+            "name_with_type": "Xã Phước Thể",
+            "path": "Phước Thể, Tuy Phong, Bình Thuận",
+            "path_with_type": "Xã Phước Thể, Huyện Tuy Phong, Tỉnh Bình Thuận",
+            "id": "22990",
+            "quanHuyenId": "595"
+        },
+        "toBoMon": {
+            "id": 2,
+            "tenToBoMon": "Ngoại ngữ - Thể dục"
+        },
+        "viTriLamViec": {
+            "id": 2,
+            "tenViTri": "Giáo viên"
+        },
+        "chucVu": {
+            "id": 1,
+            "tenChucVu": "Giáo viên"
+        },
+        "hinhThucHopDong": {
+            "id": 2,
+            "tenHinhThucHD": "Hợp đồng nghị định 68"
+        },
+        "ngayTuyenDung": "2006-03-03",
+        "ngayVaoBienChe": "2006-03-12",
+        "coQuanTuyenDung": "Sở GD ĐT",
+        "chucDanh": "Giáo viên",
+        "NNKhiDuocTuyen": "Giáo viên",
+        "soTietTrenTuan": "15",
+        "nhiemVuKiemNhiem": "",
+        "soTietKiemNhiem": "0",
+        "huanLuyenKNS": true,
+        "dayHocSinhKT": true,
+        "chuyenTrachDoanDoi": false,
+        "day12Buoi": "day1Buoi",
+        "ngachHang": {
+            "id": 29,
+            "tenNgachHang": "Giáo viên trung học phổ thông hạng III"
+        },
+        "maNgach": "",
+        "PCThamNien": "5",
+        "bacLuong": "",
+        "heSoLuong": "5",
+        "vuotKhung": "5",
+        "PCThuHutNghe": "5",
+        "PCUuDaiNghe": "5",
+        "ngayHuong": "5",
+        "KQBoiDuong": "Khá",
+        "trinhDoCMNV": {
+            "id": 5,
+            "tenTrinhDo": "Đại học"
+        },
+        "trinhDoTinHoc": {
+            "id": 4,
+            "tenTrinhDoTin": "Tin học Văn phòng A"
+        },
+        "trinhDoLyLuanCT": {
+            "id": 1,
+            "tenTrinhDoLyLuanChinhTri": "Chưa qua đào tạo"
+        },
+        "trinhDoQLGD": {
+            "id": 1,
+            "tenTrinhDoQLGiaoDuc": "Chưa qua đào tạo QLGD"
+        },
+        "trinhDoQLNN": {
+            "id": 3,
+            "tenTrinhDoQLNhaNuoc": "QLHC Văn phòng"
+        },
+        "chuyenNganh": {
+            "id": 8,
+            "tenChuyenNganh": "Giáo dục công dân - Sử_SP"
+        },
+        "trinhDoCM": {
+            "id": 2,
+            "tenTrinhDo": "Sơ cấp"
+        },
+        "loaiHinhDT": {
+            "id": 1,
+            "tenLoaiHinh": "Chuyên tu"
+        },
+        "chuyenNganhKhac": {
+            "id": 10,
+            "tenChuyenNganh": "Giáo dục Đặc biệt"
+        },
+        "trinhDoCMKhac": {
+            "id": 2,
+            "tenTrinhDo": "Sơ cấp"
+        },
+        "loaiHinhDTKhac": {
+            "id": 1,
+            "tenLoaiHinh": "Chuyên tu"
+        },
+        "trinhDoVH": {
+            "id": 12,
+            "tenTrinhDoVanHoa": "12/12"
+        },
+        "ngoaiNguChinh": {
+            "id": 9,
+            "tenNgoaiNgu": "Tiếng Thái"
+        },
+        "trinhDoNNChinh": {
+            "id": 12,
+            "tenTrinhDoNgoaiNgu": "TOEIC"
+        },
+        "KQChuanNgheNghiep": "Khá",
+        "danhGiaVienChuc": "Khá",
+        "gvDayGioi": "",
+        "danhHieuGV": "",
+        "capDayChinh": {
+            "id": 1,
+            "tenCapDay": "Cấp 3"
+        },
+        "monDayChinh": {
+            "id": 9,
+            "tenMonDay": "Bồi dưỡng Văn"
+        },
+        "thanhPhanGD": {
+            "id": 2,
+            "tenThanhPhanGiaDinh": "Nông dân"
+        },
+        "tinhTrangHonNhan": {
+            "id": 1,
+            "tenTinhTrangHonNhan": "Chưa đăng ký kết hôn lần nào"
+        },
+        "hoTenBo": "Nguyễn Văn X",
+        "namSinhBo": "1972",
+        "ngheNghiepBo": "nông dân",
+        "coQuanBo": "CA Tỉnh Bình Thuận",
+        "hoTenMe": "Nguyễn Thị Y",
+        "namSinhMe": "1975",
+        "ngheNghiepMe": "nông dân",
+        "coQuanMe": "CA Tỉnh Bình Thuận",
+        "boiDuongTX": true,
+        "nhaCongVu": true,
+        "thueNhaTro": false,
+        "dangKyNhaCongVu": false,
+        "ghiChuKhac": "Ế"
+    },
+    {
+        "id": 25,
+        "tenCanBo": "Lê Thị Dung",
+        "maCanBo": "",
+        "avatarUrl": "http://d38we5ntdyxyje.cloudfront.net/1081804/profile/VRXFYTQZ_avatar_medium_square.jpg",
+        "ngaySinh": "1983-05-05",
+        "gioiTinh": {
+            "id": 2,
+            "tenGioiTinh": "Nữ"
+        },
+        "soCMND": "036483616",
+        "ngayCapCMND": "2000-08-08",
+        "noiCapCMND": "CA Hòa Bình",
+        "soDTDD": "0984673518",
+        "email": "0986833043@gmail.com",
+        "diaChi": "Đâu đó",
+        "danToc": {
+            "id": 22,
+            "tenDanToc": "Hrê"
+        },
+        "tinhThanh": {
+            "name": "Bình Thuận",
+            "name_with_type": "Tỉnh Bình Thuận",
+            "id": "60"
+        },
+        "quanHuyen": {
+            "name": "Tuy Phong",
+            "name_with_type": "Huyện Tuy Phong",
+            "path": "Tuy Phong, Bình Thuận",
+            "path_with_type": "Huyện Tuy Phong, Tỉnh Bình Thuận",
+            "id": "595",
+            "tinhThanhId": "60"
+        },
+        "xaPhuong": {
+            "name": "Phước Thể",
+            "name_with_type": "Xã Phước Thể",
+            "path": "Phước Thể, Tuy Phong, Bình Thuận",
+            "path_with_type": "Xã Phước Thể, Huyện Tuy Phong, Tỉnh Bình Thuận",
+            "id": "22990",
+            "quanHuyenId": "595"
+        },
+        "toBoMon": {
+            "id": 5,
+            "tenToBoMon": "Địa - Tin - GDCD - Văn phòng"
+        },
+        "viTriLamViec": {
+            "id": 2,
+            "tenViTri": "Giáo viên"
+        },
+        "chucVu": {
+            "id": 1,
+            "tenChucVu": "Giáo viên"
+        },
+        "hinhThucHopDong": {
+            "id": 2,
+            "tenHinhThucHD": "Hợp đồng nghị định 68"
+        },
+        "ngayTuyenDung": "2006-03-03",
+        "ngayVaoBienChe": "2006-03-12",
+        "coQuanTuyenDung": "Sở GD ĐT",
+        "chucDanh": "Giáo viên",
+        "NNKhiDuocTuyen": "Giáo viên",
+        "soTietTrenTuan": "30",
+        "nhiemVuKiemNhiem": "",
+        "soTietKiemNhiem": "0",
+        "huanLuyenKNS": false,
+        "dayHocSinhKT": true,
+        "chuyenTrachDoanDoi": true,
+        "day12Buoi": "day2Buoi",
+        "ngachHang": {
+            "id": 29,
+            "tenNgachHang": "Giáo viên trung học phổ thông hạng III"
+        },
+        "maNgach": "",
+        "PCThamNien": "3",
+        "bacLuong": "",
+        "heSoLuong": "3",
+        "vuotKhung": "3",
+        "PCThuHutNghe": "3",
+        "PCUuDaiNghe": "3",
+        "ngayHuong": "3",
+        "KQBoiDuong": "Khá",
+        "trinhDoCMNV": {
+            "id": 5,
+            "tenTrinhDo": "Đại học"
+        },
+        "trinhDoTinHoc": {
+            "id": 4,
+            "tenTrinhDoTin": "Tin học Văn phòng A"
+        },
+        "trinhDoLyLuanCT": {
+            "id": 1,
+            "tenTrinhDoLyLuanChinhTri": "Chưa qua đào tạo"
+        },
+        "trinhDoQLGD": {
+            "id": 1,
+            "tenTrinhDoQLGiaoDuc": "Chưa qua đào tạo QLGD"
+        },
+        "trinhDoQLNN": {
+            "id": 3,
+            "tenTrinhDoQLNhaNuoc": "QLHC Văn phòng"
+        },
+        "chuyenNganh": {
+            "id": 8,
+            "tenChuyenNganh": "Giáo dục công dân - Sử_SP"
+        },
+        "trinhDoCM": {
+            "id": 2,
+            "tenTrinhDo": "Sơ cấp"
+        },
+        "loaiHinhDT": {
+            "id": 1,
+            "tenLoaiHinh": "Chuyên tu"
+        },
+        "chuyenNganhKhac": {
+            "id": 10,
+            "tenChuyenNganh": "Giáo dục Đặc biệt"
+        },
+        "trinhDoCMKhac": {
+            "id": 2,
+            "tenTrinhDo": "Sơ cấp"
+        },
+        "loaiHinhDTKhac": {
+            "id": 1,
+            "tenLoaiHinh": "Chuyên tu"
+        },
+        "trinhDoVH": {
+            "id": 12,
+            "tenTrinhDoVanHoa": "12/12"
+        },
+        "ngoaiNguChinh": {
+            "id": 9,
+            "tenNgoaiNgu": "Tiếng Thái"
+        },
+        "trinhDoNNChinh": {
+            "id": 12,
+            "tenTrinhDoNgoaiNgu": "TOEIC"
+        },
+        "KQChuanNgheNghiep": "Giỏi",
+        "danhGiaVienChuc": "Giỏi",
+        "gvDayGioi": "",
+        "danhHieuGV": "",
+        "capDayChinh": {
+            "id": 1,
+            "tenCapDay": "Cấp 3"
+        },
+        "monDayChinh": {
+            "id": 9,
+            "tenMonDay": "Bồi dưỡng Văn"
+        },
+        "thanhPhanGD": {
+            "id": 2,
+            "tenThanhPhanGiaDinh": "Nông dân"
+        },
+        "tinhTrangHonNhan": {
+            "id": 1,
+            "tenTinhTrangHonNhan": "Chưa đăng ký kết hôn lần nào"
+        },
+        "hoTenBo": "Nguyễn Văn A",
+        "namSinhBo": "1962",
+        "ngheNghiepBo": "nông dân",
+        "coQuanBo": "CA Tỉnh Bình Thuận",
+        "hoTenMe": "Nguyễn Thị B",
+        "namSinhMe": "1965",
+        "ngheNghiepMe": "nông dân",
+        "coQuanMe": "CA Tỉnh Bình Thuận",
+        "boiDuongTX": true,
+        "nhaCongVu": false,
+        "thueNhaTro": false,
+        "dangKyNhaCongVu": true,
+        "ghiChuKhac": "Ế nặng"
+    },
+    {
+        "id": 26,
+        "tenCanBo": "Phan Hoàng Bách",
+        "maCanBo": "",
+        "avatarUrl": "http://d38we5ntdyxyje.cloudfront.net/1081804/profile/VRXFYTQZ_avatar_medium_square.jpg",
+        "ngaySinh": "1981-11-11",
+        "gioiTinh": {
+            "id": 1,
+            "tenGioiTinh": "Nam"
+        },
+        "soCMND": "050875648",
+        "ngayCapCMND": "1999-03-03",
+        "noiCapCMND": "CA Bình Thuận",
+        "soDTDD": "0986833043",
+        "email": "0986833043@gmail.com",
+        "diaChi": "Bình Thuận 1",
+        "danToc": {
+            "id": 22,
+            "tenDanToc": "Hrê"
+        },
+        "tinhThanh": {
+            "name": "Bình Thuận",
+            "name_with_type": "Tỉnh Bình Thuận",
+            "id": "60"
+        },
+        "quanHuyen": {
+            "name": "Tuy Phong",
+            "name_with_type": "Huyện Tuy Phong",
+            "path": "Tuy Phong, Bình Thuận",
+            "path_with_type": "Huyện Tuy Phong, Tỉnh Bình Thuận",
+            "id": "595",
+            "tinhThanhId": "60"
+        },
+        "xaPhuong": {
+            "name": "Phước Thể",
+            "name_with_type": "Xã Phước Thể",
+            "path": "Phước Thể, Tuy Phong, Bình Thuận",
+            "path_with_type": "Xã Phước Thể, Huyện Tuy Phong, Tỉnh Bình Thuận",
+            "id": "22990",
+            "quanHuyenId": "595"
+        },
+        "toBoMon": {
+            "id": 3,
+            "tenToBoMon": "Toán - Sinh"
+        },
+        "viTriLamViec": {
+            "id": 2,
+            "tenViTri": "Giáo viên"
+        },
+        "chucVu": {
+            "id": 1,
+            "tenChucVu": "Giáo viên"
+        },
+        "hinhThucHopDong": {
+            "id": 2,
+            "tenHinhThucHD": "Hợp đồng nghị định 68"
+        },
+        "ngayTuyenDung": "2006-03-03",
+        "ngayVaoBienChe": "2006-03-12",
+        "coQuanTuyenDung": "Sở GD ĐT",
+        "chucDanh": "Giáo viên",
+        "NNKhiDuocTuyen": "Giáo viên",
+        "soTietTrenTuan": "15",
+        "nhiemVuKiemNhiem": "",
+        "soTietKiemNhiem": "0",
+        "huanLuyenKNS": true,
+        "dayHocSinhKT": true,
+        "chuyenTrachDoanDoi": false,
+        "day12Buoi": "day1Buoi",
+        "ngachHang": {
+            "id": 29,
+            "tenNgachHang": "Giáo viên trung học phổ thông hạng III"
+        },
+        "maNgach": "",
+        "PCThamNien": "5",
+        "bacLuong": "",
+        "heSoLuong": "5",
+        "vuotKhung": "5",
+        "PCThuHutNghe": "5",
+        "PCUuDaiNghe": "5",
+        "ngayHuong": "5",
+        "KQBoiDuong": "Khá",
+        "trinhDoCMNV": {
+            "id": 5,
+            "tenTrinhDo": "Đại học"
+        },
+        "trinhDoTinHoc": {
+            "id": 4,
+            "tenTrinhDoTin": "Tin học Văn phòng A"
+        },
+        "trinhDoLyLuanCT": {
+            "id": 1,
+            "tenTrinhDoLyLuanChinhTri": "Chưa qua đào tạo"
+        },
+        "trinhDoQLGD": {
+            "id": 1,
+            "tenTrinhDoQLGiaoDuc": "Chưa qua đào tạo QLGD"
+        },
+        "trinhDoQLNN": {
+            "id": 3,
+            "tenTrinhDoQLNhaNuoc": "QLHC Văn phòng"
+        },
+        "chuyenNganh": {
+            "id": 8,
+            "tenChuyenNganh": "Giáo dục công dân - Sử_SP"
+        },
+        "trinhDoCM": {
+            "id": 2,
+            "tenTrinhDo": "Sơ cấp"
+        },
+        "loaiHinhDT": {
+            "id": 1,
+            "tenLoaiHinh": "Chuyên tu"
+        },
+        "chuyenNganhKhac": {
+            "id": 10,
+            "tenChuyenNganh": "Giáo dục Đặc biệt"
+        },
+        "trinhDoCMKhac": {
+            "id": 2,
+            "tenTrinhDo": "Sơ cấp"
+        },
+        "loaiHinhDTKhac": {
+            "id": 1,
+            "tenLoaiHinh": "Chuyên tu"
+        },
+        "trinhDoVH": {
+            "id": 12,
+            "tenTrinhDoVanHoa": "12/12"
+        },
+        "ngoaiNguChinh": {
+            "id": 9,
+            "tenNgoaiNgu": "Tiếng Thái"
+        },
+        "trinhDoNNChinh": {
+            "id": 12,
+            "tenTrinhDoNgoaiNgu": "TOEIC"
+        },
+        "KQChuanNgheNghiep": "Khá",
+        "danhGiaVienChuc": "Khá",
+        "gvDayGioi": "",
+        "danhHieuGV": "",
+        "capDayChinh": {
+            "id": 1,
+            "tenCapDay": "Cấp 3"
+        },
+        "monDayChinh": {
+            "id": 9,
+            "tenMonDay": "Bồi dưỡng Văn"
+        },
+        "thanhPhanGD": {
+            "id": 2,
+            "tenThanhPhanGiaDinh": "Nông dân"
+        },
+        "tinhTrangHonNhan": {
+            "id": 1,
+            "tenTinhTrangHonNhan": "Chưa đăng ký kết hôn lần nào"
+        },
+        "hoTenBo": "Nguyễn Văn X",
+        "namSinhBo": "1972",
+        "ngheNghiepBo": "nông dân",
+        "coQuanBo": "CA Tỉnh Bình Thuận",
+        "hoTenMe": "Nguyễn Thị Y",
+        "namSinhMe": "1975",
+        "ngheNghiepMe": "nông dân",
+        "coQuanMe": "CA Tỉnh Bình Thuận",
+        "boiDuongTX": true,
+        "nhaCongVu": true,
+        "thueNhaTro": false,
+        "dangKyNhaCongVu": false,
+        "ghiChuKhac": "Ế"
+    },
+    {
+        "id": 27,
+        "tenCanBo": "Lý Thị Thu Trang",
+        "maCanBo": "",
+        "avatarUrl": "http://d38we5ntdyxyje.cloudfront.net/1081804/profile/VRXFYTQZ_avatar_medium_square.jpg",
+        "ngaySinh": "1983-05-05",
+        "gioiTinh": {
+            "id": 2,
+            "tenGioiTinh": "Nữ"
+        },
+        "soCMND": "036483616",
+        "ngayCapCMND": "2000-08-08",
+        "noiCapCMND": "CA Hòa Bình",
+        "soDTDD": "0984673518",
+        "email": "0986833043@gmail.com",
+        "diaChi": "Đâu đó",
+        "danToc": {
+            "id": 22,
+            "tenDanToc": "Hrê"
+        },
+        "tinhThanh": {
+            "name": "Bình Thuận",
+            "name_with_type": "Tỉnh Bình Thuận",
+            "id": "60"
+        },
+        "quanHuyen": {
+            "name": "Tuy Phong",
+            "name_with_type": "Huyện Tuy Phong",
+            "path": "Tuy Phong, Bình Thuận",
+            "path_with_type": "Huyện Tuy Phong, Tỉnh Bình Thuận",
+            "id": "595",
+            "tinhThanhId": "60"
+        },
+        "xaPhuong": {
+            "name": "Phước Thể",
+            "name_with_type": "Xã Phước Thể",
+            "path": "Phước Thể, Tuy Phong, Bình Thuận",
+            "path_with_type": "Xã Phước Thể, Huyện Tuy Phong, Tỉnh Bình Thuận",
+            "id": "22990",
+            "quanHuyenId": "595"
+        },
+        "toBoMon": {
+            "id": 2,
+            "tenToBoMon": "Ngoại ngữ - Thể dục"
+        },
+        "viTriLamViec": {
+            "id": 2,
+            "tenViTri": "Giáo viên"
+        },
+        "chucVu": {
+            "id": 1,
+            "tenChucVu": "Giáo viên"
+        },
+        "hinhThucHopDong": {
+            "id": 2,
+            "tenHinhThucHD": "Hợp đồng nghị định 68"
+        },
+        "ngayTuyenDung": "2006-03-03",
+        "ngayVaoBienChe": "2006-03-12",
+        "coQuanTuyenDung": "Sở GD ĐT",
+        "chucDanh": "Giáo viên",
+        "NNKhiDuocTuyen": "Giáo viên",
+        "soTietTrenTuan": "30",
+        "nhiemVuKiemNhiem": {
+            "id": 3,
+            "tenNhiemVu": "Giáo viên chủ nhiệm"
+        },
+        "soTietKiemNhiem": "0",
+        "huanLuyenKNS": false,
+        "dayHocSinhKT": true,
+        "chuyenTrachDoanDoi": true,
+        "day12Buoi": "day2Buoi",
+        "ngachHang": {
+            "id": 29,
+            "tenNgachHang": "Giáo viên trung học phổ thông hạng III"
+        },
+        "maNgach": "",
+        "PCThamNien": "3",
+        "bacLuong": "",
+        "heSoLuong": "3",
+        "vuotKhung": "3",
+        "PCThuHutNghe": "3",
+        "PCUuDaiNghe": "3",
+        "ngayHuong": "3",
+        "KQBoiDuong": "Khá",
+        "trinhDoCMNV": {
+            "id": 5,
+            "tenTrinhDo": "Đại học"
+        },
+        "trinhDoTinHoc": {
+            "id": 4,
+            "tenTrinhDoTin": "Tin học Văn phòng A"
+        },
+        "trinhDoLyLuanCT": {
+            "id": 1,
+            "tenTrinhDoLyLuanChinhTri": "Chưa qua đào tạo"
+        },
+        "trinhDoQLGD": {
+            "id": 1,
+            "tenTrinhDoQLGiaoDuc": "Chưa qua đào tạo QLGD"
+        },
+        "trinhDoQLNN": {
+            "id": 3,
+            "tenTrinhDoQLNhaNuoc": "QLHC Văn phòng"
+        },
+        "chuyenNganh": {
+            "id": 8,
+            "tenChuyenNganh": "Giáo dục công dân - Sử_SP"
+        },
+        "trinhDoCM": {
+            "id": 2,
+            "tenTrinhDo": "Sơ cấp"
+        },
+        "loaiHinhDT": {
+            "id": 1,
+            "tenLoaiHinh": "Chuyên tu"
+        },
+        "chuyenNganhKhac": {
+            "id": 10,
+            "tenChuyenNganh": "Giáo dục Đặc biệt"
+        },
+        "trinhDoCMKhac": {
+            "id": 2,
+            "tenTrinhDo": "Sơ cấp"
+        },
+        "loaiHinhDTKhac": {
+            "id": 1,
+            "tenLoaiHinh": "Chuyên tu"
+        },
+        "trinhDoVH": {
+            "id": 12,
+            "tenTrinhDoVanHoa": "12/12"
+        },
+        "ngoaiNguChinh": {
+            "id": 9,
+            "tenNgoaiNgu": "Tiếng Thái"
+        },
+        "trinhDoNNChinh": {
+            "id": 12,
+            "tenTrinhDoNgoaiNgu": "TOEIC"
+        },
+        "KQChuanNgheNghiep": "Giỏi",
+        "danhGiaVienChuc": "Giỏi",
+        "gvDayGioi": "",
+        "danhHieuGV": "",
+        "capDayChinh": {
+            "id": 1,
+            "tenCapDay": "Cấp 3"
+        },
+        "monDayChinh": {
+            "id": 9,
+            "tenMonDay": "Bồi dưỡng Văn"
+        },
+        "thanhPhanGD": {
+            "id": 2,
+            "tenThanhPhanGiaDinh": "Nông dân"
+        },
+        "tinhTrangHonNhan": {
+            "id": 1,
+            "tenTinhTrangHonNhan": "Chưa đăng ký kết hôn lần nào"
+        },
+        "hoTenBo": "Nguyễn Văn A",
+        "namSinhBo": "1962",
+        "ngheNghiepBo": "nông dân",
+        "coQuanBo": "CA Tỉnh Bình Thuận",
+        "hoTenMe": "Nguyễn Thị B",
+        "namSinhMe": "1965",
+        "ngheNghiepMe": "nông dân",
+        "coQuanMe": "CA Tỉnh Bình Thuận",
+        "boiDuongTX": true,
+        "nhaCongVu": false,
+        "thueNhaTro": false,
+        "dangKyNhaCongVu": true,
+        "ghiChuKhac": "Ế nặng"
+    },
+    {
+        "id": 28,
+        "tenCanBo": "Hoàng Minh Giám",
+        "maCanBo": "",
+        "avatarUrl": "http://d38we5ntdyxyje.cloudfront.net/1081804/profile/VRXFYTQZ_avatar_medium_square.jpg",
+        "ngaySinh": "1981-11-11",
+        "gioiTinh": {
+            "id": 1,
+            "tenGioiTinh": "Nam"
+        },
+        "soCMND": "050875648",
+        "ngayCapCMND": "1999-03-03",
+        "noiCapCMND": "CA Bình Thuận",
+        "soDTDD": "0986833043",
+        "email": "0986833043@gmail.com",
+        "diaChi": "Bình Thuận 1",
+        "danToc": {
+            "id": 22,
+            "tenDanToc": "Hrê"
+        },
+        "tinhThanh": {
+            "name": "Bình Thuận",
+            "name_with_type": "Tỉnh Bình Thuận",
+            "id": "60"
+        },
+        "quanHuyen": {
+            "name": "Tuy Phong",
+            "name_with_type": "Huyện Tuy Phong",
+            "path": "Tuy Phong, Bình Thuận",
+            "path_with_type": "Huyện Tuy Phong, Tỉnh Bình Thuận",
+            "id": "595",
+            "tinhThanhId": "60"
+        },
+        "xaPhuong": {
+            "name": "Phước Thể",
+            "name_with_type": "Xã Phước Thể",
+            "path": "Phước Thể, Tuy Phong, Bình Thuận",
+            "path_with_type": "Xã Phước Thể, Huyện Tuy Phong, Tỉnh Bình Thuận",
+            "id": "22990",
+            "quanHuyenId": "595"
+        },
+        "toBoMon": {
+            "id": 3,
+            "tenToBoMon": "Toán - Sinh"
+        },
+        "viTriLamViec": {
+            "id": 2,
+            "tenViTri": "Giáo viên"
+        },
+        "chucVu": {
+            "id": 1,
+            "tenChucVu": "Giáo viên"
+        },
+        "hinhThucHopDong": {
+            "id": 2,
+            "tenHinhThucHD": "Hợp đồng nghị định 68"
+        },
+        "ngayTuyenDung": "2006-03-03",
+        "ngayVaoBienChe": "2006-03-12",
+        "coQuanTuyenDung": "Sở GD ĐT",
+        "chucDanh": "Giáo viên",
+        "NNKhiDuocTuyen": "Giáo viên",
+        "soTietTrenTuan": "15",
+        "nhiemVuKiemNhiem": {
+            "id": 3,
+            "tenNhiemVu": "Giáo viên chủ nhiệm"
+        },
+        "soTietKiemNhiem": "0",
+        "huanLuyenKNS": true,
+        "dayHocSinhKT": true,
+        "chuyenTrachDoanDoi": false,
+        "day12Buoi": "day1Buoi",
+        "ngachHang": {
+            "id": 29,
+            "tenNgachHang": "Giáo viên trung học phổ thông hạng III"
+        },
+        "maNgach": "",
+        "PCThamNien": "5",
+        "bacLuong": "",
+        "heSoLuong": "5",
+        "vuotKhung": "5",
+        "PCThuHutNghe": "5",
+        "PCUuDaiNghe": "5",
+        "ngayHuong": "5",
+        "KQBoiDuong": "Khá",
+        "trinhDoCMNV": {
+            "id": 5,
+            "tenTrinhDo": "Đại học"
+        },
+        "trinhDoTinHoc": {
+            "id": 4,
+            "tenTrinhDoTin": "Tin học Văn phòng A"
+        },
+        "trinhDoLyLuanCT": {
+            "id": 1,
+            "tenTrinhDoLyLuanChinhTri": "Chưa qua đào tạo"
+        },
+        "trinhDoQLGD": {
+            "id": 1,
+            "tenTrinhDoQLGiaoDuc": "Chưa qua đào tạo QLGD"
+        },
+        "trinhDoQLNN": {
+            "id": 3,
+            "tenTrinhDoQLNhaNuoc": "QLHC Văn phòng"
+        },
+        "chuyenNganh": {
+            "id": 8,
+            "tenChuyenNganh": "Giáo dục công dân - Sử_SP"
+        },
+        "trinhDoCM": {
+            "id": 2,
+            "tenTrinhDo": "Sơ cấp"
+        },
+        "loaiHinhDT": {
+            "id": 1,
+            "tenLoaiHinh": "Chuyên tu"
+        },
+        "chuyenNganhKhac": {
+            "id": 10,
+            "tenChuyenNganh": "Giáo dục Đặc biệt"
+        },
+        "trinhDoCMKhac": {
+            "id": 2,
+            "tenTrinhDo": "Sơ cấp"
+        },
+        "loaiHinhDTKhac": {
+            "id": 1,
+            "tenLoaiHinh": "Chuyên tu"
+        },
+        "trinhDoVH": {
+            "id": 12,
+            "tenTrinhDoVanHoa": "12/12"
+        },
+        "ngoaiNguChinh": {
+            "id": 9,
+            "tenNgoaiNgu": "Tiếng Thái"
+        },
+        "trinhDoNNChinh": {
+            "id": 12,
+            "tenTrinhDoNgoaiNgu": "TOEIC"
+        },
+        "KQChuanNgheNghiep": "Khá",
+        "danhGiaVienChuc": "Khá",
+        "gvDayGioi": "",
+        "danhHieuGV": "",
+        "capDayChinh": {
+            "id": 1,
+            "tenCapDay": "Cấp 3"
+        },
+        "monDayChinh": {
+            "id": 9,
+            "tenMonDay": "Bồi dưỡng Văn"
+        },
+        "thanhPhanGD": {
+            "id": 2,
+            "tenThanhPhanGiaDinh": "Nông dân"
+        },
+        "tinhTrangHonNhan": {
+            "id": 1,
+            "tenTinhTrangHonNhan": "Chưa đăng ký kết hôn lần nào"
+        },
+        "hoTenBo": "Nguyễn Văn X",
+        "namSinhBo": "1972",
+        "ngheNghiepBo": "nông dân",
+        "coQuanBo": "CA Tỉnh Bình Thuận",
+        "hoTenMe": "Nguyễn Thị Y",
+        "namSinhMe": "1975",
+        "ngheNghiepMe": "nông dân",
+        "coQuanMe": "CA Tỉnh Bình Thuận",
+        "boiDuongTX": true,
+        "nhaCongVu": true,
+        "thueNhaTro": false,
+        "dangKyNhaCongVu": false,
+        "ghiChuKhac": "Ế"
+    },
+    {
+        "id": 29,
+        "tenCanBo": "Lê Thu Huyền",
+        "maCanBo": "",
+        "avatarUrl": "http://d38we5ntdyxyje.cloudfront.net/1081804/profile/VRXFYTQZ_avatar_medium_square.jpg",
+        "ngaySinh": "1983-05-05",
+        "gioiTinh": {
+            "id": 2,
+            "tenGioiTinh": "Nữ"
+        },
+        "soCMND": "036483616",
+        "ngayCapCMND": "2000-08-08",
+        "noiCapCMND": "CA Hòa Bình",
+        "soDTDD": "0984673518",
+        "email": "0986833043@gmail.com",
+        "diaChi": "Đâu đó",
+        "danToc": {
+            "id": 22,
+            "tenDanToc": "Hrê"
+        },
+        "tinhThanh": {
+            "name": "Bình Thuận",
+            "name_with_type": "Tỉnh Bình Thuận",
+            "id": "60"
+        },
+        "quanHuyen": {
+            "name": "Tuy Phong",
+            "name_with_type": "Huyện Tuy Phong",
+            "path": "Tuy Phong, Bình Thuận",
+            "path_with_type": "Huyện Tuy Phong, Tỉnh Bình Thuận",
+            "id": "595",
+            "tinhThanhId": "60"
+        },
+        "xaPhuong": {
+            "name": "Phước Thể",
+            "name_with_type": "Xã Phước Thể",
+            "path": "Phước Thể, Tuy Phong, Bình Thuận",
+            "path_with_type": "Xã Phước Thể, Huyện Tuy Phong, Tỉnh Bình Thuận",
+            "id": "22990",
+            "quanHuyenId": "595"
+        },
+        "toBoMon": {
+            "id": 5,
+            "tenToBoMon": "Địa - Tin - GDCD - Văn phòng"
+        },
+        "viTriLamViec": {
+            "id": 2,
+            "tenViTri": "Giáo viên"
+        },
+        "chucVu": {
+            "id": 1,
+            "tenChucVu": "Giáo viên"
+        },
+        "hinhThucHopDong": {
+            "id": 2,
+            "tenHinhThucHD": "Hợp đồng nghị định 68"
+        },
+        "ngayTuyenDung": "2006-03-03",
+        "ngayVaoBienChe": "2006-03-12",
+        "coQuanTuyenDung": "Sở GD ĐT",
+        "chucDanh": "Giáo viên",
+        "NNKhiDuocTuyen": "Giáo viên",
+        "soTietTrenTuan": "30",
+        "nhiemVuKiemNhiem": {
+            "id": 3,
+            "tenNhiemVu": "Giáo viên chủ nhiệm"
+        },
+        "soTietKiemNhiem": "0",
+        "huanLuyenKNS": false,
+        "dayHocSinhKT": true,
+        "chuyenTrachDoanDoi": true,
+        "day12Buoi": "day2Buoi",
+        "ngachHang": {
+            "id": 29,
+            "tenNgachHang": "Giáo viên trung học phổ thông hạng III"
+        },
+        "maNgach": "",
+        "PCThamNien": "3",
+        "bacLuong": "",
+        "heSoLuong": "3",
+        "vuotKhung": "3",
+        "PCThuHutNghe": "3",
+        "PCUuDaiNghe": "3",
+        "ngayHuong": "3",
+        "KQBoiDuong": "Khá",
+        "trinhDoCMNV": {
+            "id": 5,
+            "tenTrinhDo": "Đại học"
+        },
+        "trinhDoTinHoc": {
+            "id": 4,
+            "tenTrinhDoTin": "Tin học Văn phòng A"
+        },
+        "trinhDoLyLuanCT": {
+            "id": 1,
+            "tenTrinhDoLyLuanChinhTri": "Chưa qua đào tạo"
+        },
+        "trinhDoQLGD": {
+            "id": 1,
+            "tenTrinhDoQLGiaoDuc": "Chưa qua đào tạo QLGD"
+        },
+        "trinhDoQLNN": {
+            "id": 3,
+            "tenTrinhDoQLNhaNuoc": "QLHC Văn phòng"
+        },
+        "chuyenNganh": {
+            "id": 8,
+            "tenChuyenNganh": "Giáo dục công dân - Sử_SP"
+        },
+        "trinhDoCM": {
+            "id": 2,
+            "tenTrinhDo": "Sơ cấp"
+        },
+        "loaiHinhDT": {
+            "id": 1,
+            "tenLoaiHinh": "Chuyên tu"
+        },
+        "chuyenNganhKhac": {
+            "id": 10,
+            "tenChuyenNganh": "Giáo dục Đặc biệt"
+        },
+        "trinhDoCMKhac": {
+            "id": 2,
+            "tenTrinhDo": "Sơ cấp"
+        },
+        "loaiHinhDTKhac": {
+            "id": 1,
+            "tenLoaiHinh": "Chuyên tu"
+        },
+        "trinhDoVH": {
+            "id": 12,
+            "tenTrinhDoVanHoa": "12/12"
+        },
+        "ngoaiNguChinh": {
+            "id": 9,
+            "tenNgoaiNgu": "Tiếng Thái"
+        },
+        "trinhDoNNChinh": {
+            "id": 12,
+            "tenTrinhDoNgoaiNgu": "TOEIC"
+        },
+        "KQChuanNgheNghiep": "Giỏi",
+        "danhGiaVienChuc": "Giỏi",
+        "gvDayGioi": "",
+        "danhHieuGV": "",
+        "capDayChinh": {
+            "id": 1,
+            "tenCapDay": "Cấp 3"
+        },
+        "monDayChinh": {
+            "id": 9,
+            "tenMonDay": "Bồi dưỡng Văn"
+        },
+        "thanhPhanGD": {
+            "id": 2,
+            "tenThanhPhanGiaDinh": "Nông dân"
+        },
+        "tinhTrangHonNhan": {
+            "id": 1,
+            "tenTinhTrangHonNhan": "Chưa đăng ký kết hôn lần nào"
+        },
+        "hoTenBo": "Nguyễn Văn A",
+        "namSinhBo": "1962",
+        "ngheNghiepBo": "nông dân",
+        "coQuanBo": "CA Tỉnh Bình Thuận",
+        "hoTenMe": "Nguyễn Thị B",
+        "namSinhMe": "1965",
+        "ngheNghiepMe": "nông dân",
+        "coQuanMe": "CA Tỉnh Bình Thuận",
+        "boiDuongTX": true,
+        "nhaCongVu": false,
+        "thueNhaTro": false,
+        "dangKyNhaCongVu": true,
+        "ghiChuKhac": "Ế nặng"
+    },
+    {
+        "id": 30,
+        "tenCanBo": "Trần Đức Độ",
+        "maCanBo": "",
+        "avatarUrl": "http://d38we5ntdyxyje.cloudfront.net/1081804/profile/VRXFYTQZ_avatar_medium_square.jpg",
+        "ngaySinh": "1981-11-11",
+        "gioiTinh": {
+            "id": 1,
+            "tenGioiTinh": "Nam"
+        },
+        "soCMND": "050875648",
+        "ngayCapCMND": "1999-03-03",
+        "noiCapCMND": "CA Bình Thuận",
+        "soDTDD": "0986833043",
+        "email": "0986833043@gmail.com",
+        "diaChi": "Bình Thuận 1",
+        "danToc": {
+            "id": 22,
+            "tenDanToc": "Hrê"
+        },
+        "tinhThanh": {
+            "name": "Bình Thuận",
+            "name_with_type": "Tỉnh Bình Thuận",
+            "id": "60"
+        },
+        "quanHuyen": {
+            "name": "Tuy Phong",
+            "name_with_type": "Huyện Tuy Phong",
+            "path": "Tuy Phong, Bình Thuận",
+            "path_with_type": "Huyện Tuy Phong, Tỉnh Bình Thuận",
+            "id": "595",
+            "tinhThanhId": "60"
+        },
+        "xaPhuong": {
+            "name": "Phước Thể",
+            "name_with_type": "Xã Phước Thể",
+            "path": "Phước Thể, Tuy Phong, Bình Thuận",
+            "path_with_type": "Xã Phước Thể, Huyện Tuy Phong, Tỉnh Bình Thuận",
+            "id": "22990",
+            "quanHuyenId": "595"
+        },
+        "toBoMon": {
+            "id": 2,
+            "tenToBoMon": "Ngoại ngữ - Thể dục"
+        },
+        "viTriLamViec": {
+            "id": 2,
+            "tenViTri": "Giáo viên"
+        },
+        "chucVu": {
+            "id": 1,
+            "tenChucVu": "Giáo viên"
+        },
+        "hinhThucHopDong": {
+            "id": 2,
+            "tenHinhThucHD": "Hợp đồng nghị định 68"
+        },
+        "ngayTuyenDung": "2006-03-03",
+        "ngayVaoBienChe": "2006-03-12",
+        "coQuanTuyenDung": "Sở GD ĐT",
+        "chucDanh": "Giáo viên",
+        "NNKhiDuocTuyen": "Giáo viên",
+        "soTietTrenTuan": "15",
+        "nhiemVuKiemNhiem": {
+            "id": 3,
+            "tenNhiemVu": "Giáo viên chủ nhiệm"
+        },
+        "soTietKiemNhiem": "0",
+        "huanLuyenKNS": true,
+        "dayHocSinhKT": true,
+        "chuyenTrachDoanDoi": false,
+        "day12Buoi": "day1Buoi",
+        "ngachHang": {
+            "id": 29,
+            "tenNgachHang": "Giáo viên trung học phổ thông hạng III"
+        },
+        "maNgach": "",
+        "PCThamNien": "5",
+        "bacLuong": "",
+        "heSoLuong": "5",
+        "vuotKhung": "5",
+        "PCThuHutNghe": "5",
+        "PCUuDaiNghe": "5",
+        "ngayHuong": "5",
+        "KQBoiDuong": "Khá",
+        "trinhDoCMNV": {
+            "id": 5,
+            "tenTrinhDo": "Đại học"
+        },
+        "trinhDoTinHoc": {
+            "id": 4,
+            "tenTrinhDoTin": "Tin học Văn phòng A"
+        },
+        "trinhDoLyLuanCT": {
+            "id": 1,
+            "tenTrinhDoLyLuanChinhTri": "Chưa qua đào tạo"
+        },
+        "trinhDoQLGD": {
+            "id": 1,
+            "tenTrinhDoQLGiaoDuc": "Chưa qua đào tạo QLGD"
+        },
+        "trinhDoQLNN": {
+            "id": 3,
+            "tenTrinhDoQLNhaNuoc": "QLHC Văn phòng"
+        },
+        "chuyenNganh": {
+            "id": 8,
+            "tenChuyenNganh": "Giáo dục công dân - Sử_SP"
+        },
+        "trinhDoCM": {
+            "id": 2,
+            "tenTrinhDo": "Sơ cấp"
+        },
+        "loaiHinhDT": {
+            "id": 1,
+            "tenLoaiHinh": "Chuyên tu"
+        },
+        "chuyenNganhKhac": {
+            "id": 10,
+            "tenChuyenNganh": "Giáo dục Đặc biệt"
+        },
+        "trinhDoCMKhac": {
+            "id": 2,
+            "tenTrinhDo": "Sơ cấp"
+        },
+        "loaiHinhDTKhac": {
+            "id": 1,
+            "tenLoaiHinh": "Chuyên tu"
+        },
+        "trinhDoVH": {
+            "id": 12,
+            "tenTrinhDoVanHoa": "12/12"
+        },
+        "ngoaiNguChinh": {
+            "id": 9,
+            "tenNgoaiNgu": "Tiếng Thái"
+        },
+        "trinhDoNNChinh": {
+            "id": 12,
+            "tenTrinhDoNgoaiNgu": "TOEIC"
+        },
+        "KQChuanNgheNghiep": "Khá",
+        "danhGiaVienChuc": "Khá",
+        "gvDayGioi": "",
+        "danhHieuGV": "",
+        "capDayChinh": {
+            "id": 1,
+            "tenCapDay": "Cấp 3"
+        },
+        "monDayChinh": {
+            "id": 9,
+            "tenMonDay": "Bồi dưỡng Văn"
+        },
+        "thanhPhanGD": {
+            "id": 2,
+            "tenThanhPhanGiaDinh": "Nông dân"
+        },
+        "tinhTrangHonNhan": {
+            "id": 1,
+            "tenTinhTrangHonNhan": "Chưa đăng ký kết hôn lần nào"
+        },
+        "hoTenBo": "Nguyễn Văn X",
+        "namSinhBo": "1972",
+        "ngheNghiepBo": "nông dân",
+        "coQuanBo": "CA Tỉnh Bình Thuận",
+        "hoTenMe": "Nguyễn Thị Y",
+        "namSinhMe": "1975",
+        "ngheNghiepMe": "nông dân",
+        "coQuanMe": "CA Tỉnh Bình Thuận",
+        "boiDuongTX": true,
+        "nhaCongVu": true,
+        "thueNhaTro": false,
+        "dangKyNhaCongVu": false,
+        "ghiChuKhac": "Ế"
+    },
+    {
+        "id": 31,
+        "tenCanBo": "Nguyễn Thị Minh Hằng",
+        "maCanBo": "",
+        "avatarUrl": "http://d38we5ntdyxyje.cloudfront.net/1081804/profile/VRXFYTQZ_avatar_medium_square.jpg",
+        "ngaySinh": "1983-05-05",
+        "gioiTinh": {
+            "id": 2,
+            "tenGioiTinh": "Nữ"
+        },
+        "soCMND": "036483616",
+        "ngayCapCMND": "2000-08-08",
+        "noiCapCMND": "CA Hòa Bình",
+        "soDTDD": "0984673518",
+        "email": "0986833043@gmail.com",
+        "diaChi": "Đâu đó",
+        "danToc": {
+            "id": 22,
+            "tenDanToc": "Hrê"
+        },
+        "tinhThanh": {
+            "name": "Bình Thuận",
+            "name_with_type": "Tỉnh Bình Thuận",
+            "id": "60"
+        },
+        "quanHuyen": {
+            "name": "Tuy Phong",
+            "name_with_type": "Huyện Tuy Phong",
+            "path": "Tuy Phong, Bình Thuận",
+            "path_with_type": "Huyện Tuy Phong, Tỉnh Bình Thuận",
+            "id": "595",
+            "tinhThanhId": "60"
+        },
+        "xaPhuong": {
+            "name": "Phước Thể",
+            "name_with_type": "Xã Phước Thể",
+            "path": "Phước Thể, Tuy Phong, Bình Thuận",
+            "path_with_type": "Xã Phước Thể, Huyện Tuy Phong, Tỉnh Bình Thuận",
+            "id": "22990",
+            "quanHuyenId": "595"
+        },
+        "toBoMon": {
+            "id": 5,
+            "tenToBoMon": "Địa - Tin - GDCD - Văn phòng"
+        },
+        "viTriLamViec": {
+            "id": 2,
+            "tenViTri": "Giáo viên"
+        },
+        "chucVu": {
+            "id": 1,
+            "tenChucVu": "Giáo viên"
+        },
+        "hinhThucHopDong": {
+            "id": 2,
+            "tenHinhThucHD": "Hợp đồng nghị định 68"
+        },
+        "ngayTuyenDung": "2006-03-03",
+        "ngayVaoBienChe": "2006-03-12",
+        "coQuanTuyenDung": "Sở GD ĐT",
+        "chucDanh": "Giáo viên",
+        "NNKhiDuocTuyen": "Giáo viên",
+        "soTietTrenTuan": "30",
+        "nhiemVuKiemNhiem": {
+            "id": 3,
+            "tenNhiemVu": "Giáo viên chủ nhiệm"
+        },
+        "soTietKiemNhiem": "0",
+        "huanLuyenKNS": false,
+        "dayHocSinhKT": true,
+        "chuyenTrachDoanDoi": true,
+        "day12Buoi": "day2Buoi",
+        "ngachHang": {
+            "id": 29,
+            "tenNgachHang": "Giáo viên trung học phổ thông hạng III"
+        },
+        "maNgach": "",
+        "PCThamNien": "3",
+        "bacLuong": "",
+        "heSoLuong": "3",
+        "vuotKhung": "3",
+        "PCThuHutNghe": "3",
+        "PCUuDaiNghe": "3",
+        "ngayHuong": "3",
+        "KQBoiDuong": "Khá",
+        "trinhDoCMNV": {
+            "id": 5,
+            "tenTrinhDo": "Đại học"
+        },
+        "trinhDoTinHoc": {
+            "id": 4,
+            "tenTrinhDoTin": "Tin học Văn phòng A"
+        },
+        "trinhDoLyLuanCT": {
+            "id": 1,
+            "tenTrinhDoLyLuanChinhTri": "Chưa qua đào tạo"
+        },
+        "trinhDoQLGD": {
+            "id": 1,
+            "tenTrinhDoQLGiaoDuc": "Chưa qua đào tạo QLGD"
+        },
+        "trinhDoQLNN": {
+            "id": 3,
+            "tenTrinhDoQLNhaNuoc": "QLHC Văn phòng"
+        },
+        "chuyenNganh": {
+            "id": 8,
+            "tenChuyenNganh": "Giáo dục công dân - Sử_SP"
+        },
+        "trinhDoCM": {
+            "id": 2,
+            "tenTrinhDo": "Sơ cấp"
+        },
+        "loaiHinhDT": {
+            "id": 1,
+            "tenLoaiHinh": "Chuyên tu"
+        },
+        "chuyenNganhKhac": {
+            "id": 10,
+            "tenChuyenNganh": "Giáo dục Đặc biệt"
+        },
+        "trinhDoCMKhac": {
+            "id": 2,
+            "tenTrinhDo": "Sơ cấp"
+        },
+        "loaiHinhDTKhac": {
+            "id": 1,
+            "tenLoaiHinh": "Chuyên tu"
+        },
+        "trinhDoVH": {
+            "id": 12,
+            "tenTrinhDoVanHoa": "12/12"
+        },
+        "ngoaiNguChinh": {
+            "id": 9,
+            "tenNgoaiNgu": "Tiếng Thái"
+        },
+        "trinhDoNNChinh": {
+            "id": 12,
+            "tenTrinhDoNgoaiNgu": "TOEIC"
+        },
+        "KQChuanNgheNghiep": "Giỏi",
+        "danhGiaVienChuc": "Giỏi",
+        "gvDayGioi": "",
+        "danhHieuGV": "",
+        "capDayChinh": {
+            "id": 1,
+            "tenCapDay": "Cấp 3"
+        },
+        "monDayChinh": {
+            "id": 9,
+            "tenMonDay": "Bồi dưỡng Văn"
+        },
+        "thanhPhanGD": {
+            "id": 2,
+            "tenThanhPhanGiaDinh": "Nông dân"
+        },
+        "tinhTrangHonNhan": {
+            "id": 1,
+            "tenTinhTrangHonNhan": "Chưa đăng ký kết hôn lần nào"
+        },
+        "hoTenBo": "Nguyễn Văn A",
+        "namSinhBo": "1962",
+        "ngheNghiepBo": "nông dân",
+        "coQuanBo": "CA Tỉnh Bình Thuận",
+        "hoTenMe": "Nguyễn Thị B",
+        "namSinhMe": "1965",
+        "ngheNghiepMe": "nông dân",
+        "coQuanMe": "CA Tỉnh Bình Thuận",
+        "boiDuongTX": true,
+        "nhaCongVu": false,
+        "thueNhaTro": false,
+        "dangKyNhaCongVu": true,
+        "ghiChuKhac": "Ế nặng"
+    },
+    {
+        "id": 32,
+        "tenCanBo": "Đặng Hùng Dũng",
+        "maCanBo": "",
+        "avatarUrl": "http://d38we5ntdyxyje.cloudfront.net/1081804/profile/VRXFYTQZ_avatar_medium_square.jpg",
+        "ngaySinh": "1981-11-11",
+        "gioiTinh": {
+            "id": 1,
+            "tenGioiTinh": "Nam"
+        },
+        "soCMND": "050875648",
+        "ngayCapCMND": "1999-03-03",
+        "noiCapCMND": "CA Bình Thuận",
+        "soDTDD": "0986833043",
+        "email": "0986833043@gmail.com",
+        "diaChi": "Bình Thuận 1",
+        "danToc": {
+            "id": 22,
+            "tenDanToc": "Hrê"
+        },
+        "tinhThanh": {
+            "name": "Bình Thuận",
+            "name_with_type": "Tỉnh Bình Thuận",
+            "id": "60"
+        },
+        "quanHuyen": {
+            "name": "Tuy Phong",
+            "name_with_type": "Huyện Tuy Phong",
+            "path": "Tuy Phong, Bình Thuận",
+            "path_with_type": "Huyện Tuy Phong, Tỉnh Bình Thuận",
+            "id": "595",
+            "tinhThanhId": "60"
+        },
+        "xaPhuong": {
+            "name": "Phước Thể",
+            "name_with_type": "Xã Phước Thể",
+            "path": "Phước Thể, Tuy Phong, Bình Thuận",
+            "path_with_type": "Xã Phước Thể, Huyện Tuy Phong, Tỉnh Bình Thuận",
+            "id": "22990",
+            "quanHuyenId": "595"
+        },
+        "toBoMon": {
+            "id": 4,
+            "tenToBoMon": "Văn - Sử"
+        },
+        "viTriLamViec": {
+            "id": 2,
+            "tenViTri": "Giáo viên"
+        },
+        "chucVu": {
+            "id": 1,
+            "tenChucVu": "Giáo viên"
+        },
+        "hinhThucHopDong": {
+            "id": 2,
+            "tenHinhThucHD": "Hợp đồng nghị định 68"
+        },
+        "ngayTuyenDung": "2006-03-03",
+        "ngayVaoBienChe": "2006-03-12",
+        "coQuanTuyenDung": "Sở GD ĐT",
+        "chucDanh": "Giáo viên",
+        "NNKhiDuocTuyen": "Giáo viên",
+        "soTietTrenTuan": "15",
+        "nhiemVuKiemNhiem": {
+            "id": 3,
+            "tenNhiemVu": "Giáo viên chủ nhiệm"
+        },
+        "soTietKiemNhiem": "0",
+        "huanLuyenKNS": true,
+        "dayHocSinhKT": true,
+        "chuyenTrachDoanDoi": false,
+        "day12Buoi": "day1Buoi",
+        "ngachHang": {
+            "id": 29,
+            "tenNgachHang": "Giáo viên trung học phổ thông hạng III"
+        },
+        "maNgach": "",
+        "PCThamNien": "5",
+        "bacLuong": "",
+        "heSoLuong": "5",
+        "vuotKhung": "5",
+        "PCThuHutNghe": "5",
+        "PCUuDaiNghe": "5",
+        "ngayHuong": "5",
+        "KQBoiDuong": "Khá",
+        "trinhDoCMNV": {
+            "id": 5,
+            "tenTrinhDo": "Đại học"
+        },
+        "trinhDoTinHoc": {
+            "id": 4,
+            "tenTrinhDoTin": "Tin học Văn phòng A"
+        },
+        "trinhDoLyLuanCT": {
+            "id": 1,
+            "tenTrinhDoLyLuanChinhTri": "Chưa qua đào tạo"
+        },
+        "trinhDoQLGD": {
+            "id": 1,
+            "tenTrinhDoQLGiaoDuc": "Chưa qua đào tạo QLGD"
+        },
+        "trinhDoQLNN": {
+            "id": 3,
+            "tenTrinhDoQLNhaNuoc": "QLHC Văn phòng"
+        },
+        "chuyenNganh": {
+            "id": 8,
+            "tenChuyenNganh": "Giáo dục công dân - Sử_SP"
+        },
+        "trinhDoCM": {
+            "id": 2,
+            "tenTrinhDo": "Sơ cấp"
+        },
+        "loaiHinhDT": {
+            "id": 1,
+            "tenLoaiHinh": "Chuyên tu"
+        },
+        "chuyenNganhKhac": {
+            "id": 10,
+            "tenChuyenNganh": "Giáo dục Đặc biệt"
+        },
+        "trinhDoCMKhac": {
+            "id": 2,
+            "tenTrinhDo": "Sơ cấp"
+        },
+        "loaiHinhDTKhac": {
+            "id": 1,
+            "tenLoaiHinh": "Chuyên tu"
+        },
+        "trinhDoVH": {
+            "id": 12,
+            "tenTrinhDoVanHoa": "12/12"
+        },
+        "ngoaiNguChinh": {
+            "id": 9,
+            "tenNgoaiNgu": "Tiếng Thái"
+        },
+        "trinhDoNNChinh": {
+            "id": 12,
+            "tenTrinhDoNgoaiNgu": "TOEIC"
+        },
+        "KQChuanNgheNghiep": "Khá",
+        "danhGiaVienChuc": "Khá",
+        "gvDayGioi": "",
+        "danhHieuGV": "",
+        "capDayChinh": {
+            "id": 1,
+            "tenCapDay": "Cấp 3"
+        },
+        "monDayChinh": {
+            "id": 9,
+            "tenMonDay": "Bồi dưỡng Văn"
+        },
+        "thanhPhanGD": {
+            "id": 2,
+            "tenThanhPhanGiaDinh": "Nông dân"
+        },
+        "tinhTrangHonNhan": {
+            "id": 1,
+            "tenTinhTrangHonNhan": "Chưa đăng ký kết hôn lần nào"
+        },
+        "hoTenBo": "Nguyễn Văn X",
+        "namSinhBo": "1972",
+        "ngheNghiepBo": "nông dân",
+        "coQuanBo": "CA Tỉnh Bình Thuận",
+        "hoTenMe": "Nguyễn Thị Y",
+        "namSinhMe": "1975",
+        "ngheNghiepMe": "nông dân",
+        "coQuanMe": "CA Tỉnh Bình Thuận",
+        "boiDuongTX": true,
+        "nhaCongVu": true,
+        "thueNhaTro": false,
+        "dangKyNhaCongVu": false,
+        "ghiChuKhac": "Ế"
+    }
+]

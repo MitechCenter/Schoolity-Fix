@@ -1,0 +1,114 @@
+<div class=" border-secondary p-2">
+   <div class="bg-white border box-shadow p-3">
+       <!-- THÊM,IMPORT,XÓA, DOWLOAD,PRINT -->
+       <div class="pb-3 d-flex justify-content-between">
+
+           <div class="schollity-SearchPanel-Title">
+               <span class="icon-search-file"></span>
+               Thông tin tìm kiếm
+               <span id="btn-panel-collapse"></span>
+           </div>
+
+       </div>
+       <!-- filter -->
+       <div class="select-search">
+           <div class="row">
+               <!-- Select khối học sinh -->
+               <div class="col-md-4">
+                   <label for="khoi"> Khối</label>
+                   <select class="pr-3 pl-3 pt-1 pb-1 border">
+                       <option value="true">Khối 10</option>
+                       <option value="true">Khối 11</option>
+                       <option value="true">Khối 12</option>
+                   </select>
+               </div>
+               <!-- select row lop hoc  -->
+               <div class="col-md-4">
+                   <label for="lop"> Lớp </label>
+                   <select class="pr-3 pl-3 pt-1 pb-1 border">
+                       <option value="true">Lớp 10A1</option>
+                       <option value="true">Lớp 10A2</option>
+                       <option value="true">Lớp 10A3</option>
+                   </select>
+               </div>
+               <div class="col-md-4">
+                       <label for="lop"> Môn Thi Lại </label>
+                       <select class="pr-3 pl-3 pt-1 pb-1 border">
+                           <option value="true">Toán </option>
+                           <option value="true">Vật lí</option>
+                           <option value="true">Hóa Học</option>
+                           <option value="true">Sinh Học</option>
+                           <option value="true">Tin Học</option>
+                           <option value="true">Ngữ Văn</option>
+                           <option value="true">Lịch Sử </option>
+                           <option value="true">Địa Lí </option>
+                           <option value="true">Tiếng Anh</option>
+                           <option value="true">GDCD </option>
+                           <option value="true">Công Nghệ</option>
+                           <option value="true">Thể Dục</option>
+                           <option value="true">QPAN</option>
+                       </select>
+                   </div>
+           </div>
+       </div>   
+       <div class="text-right">
+               <span style="color:Orange;font-weight:bold;">V</span>: Vắng thi, <span style="color:Red;font-weight:bold;">CN</span>:
+               Chưa nhập điểm thi lại, <span style="color:Blue;font-weight:bold">MG</span>: Miễn giảm, <span style="color:Green;font-weight:bold">KH</span>:
+               Không đăng ký học
+            </div>
+   </div>
+   <!-- select buton check -->
+   <!-- Tablen search học sinh -->
+   <div class="table-wrapper">
+       <div class="table-container">
+           <table class="table-fixed-header table-hover table table-striped ">
+               <thead>
+                   <tr>
+                       <div >
+
+                           <th ng-repeat="h in thilai" style="width: '{{h.width}}'">
+                            
+
+                                   <div style="color: #fff; display: inline-block; font-size: 12px; overflow: scroll; /* thanh cuộn */
+                                   overflow: hidden; /* ẩn đi */">
+                                       {{h.stt}}
+                                       {{h.hoten}}
+                                       {{h.lop}}
+                                       {{h.mon}} 
+                                       
+                               </div>
+                               
+
+                           </th>
+                       </div>
+                   </tr>
+               </thead>
+
+               <tbody class="table-wrapper table-container">
+                   <xxx>
+                       <tr ng-repeat="x in monthilai">
+                           <td style="max-width: 50.6667px ;">{{x.soThuTu}} </td>
+                           <td>{{x.hoten}} </td>
+                           <td>{{x.lop}}</td>
+                           <td> <input type="checkbox" name="" id="" class="checkbox checkbox--red">{{x.toan}}</td>
+                           <td><input type="checkbox" name="" id="" class="checkbox checkbox--red">{{x.ly}}</td>
+                           <td><input type="checkbox" name="" id="" class="checkbox checkbox--red">{{x.hoa}}</td>
+                           <td><input type="checkbox" name="" id="" class="checkbox checkbox--red">{{x.sinh}}</td>
+                           <td><input type="checkbox" name="" id="" class="checkbox checkbox--red">{{x.tin}}</td>
+                           <td><input type="checkbox" name="" id="" class="checkbox checkbox--red">{{x.van}}</td>
+                           <td><input type="checkbox" name="" id="" class="checkbox checkbox--red">{{x.su}}</td>
+                           <td><input type="checkbox" name="" id="" class="checkbox checkbox--red">{{x.dia}}</td>
+                           <td><input type="checkbox" name="" id="" class="checkbox checkbox--red">{{x.tienganh}}</td>
+                           <td><input type="checkbox" name="" id="" class="checkbox checkbox--red">{{x.GDCD}}</td>
+                           <td><input type="checkbox" name="" id="" class="checkbox checkbox--red">{{x.CN}}</td>
+                           <td><input type="checkbox" name="" id="" class="checkbox checkbox--red">{{x.TD}}</td>
+                           <td><input type="checkbox" name="" id="" class="checkbox checkbox--red">{{x.QPAN}}</td>
+                       </tr>
+                   </xxx>
+               </tbody>
+           </table>
+       </div>
+       <div class="Clear"></div>
+   </div>
+
+</div>

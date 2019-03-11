@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "tenCapDeTai": "Bộ giáo dục"
+    },
+    {
+        "id": 2,
+        "tenCapDeTai": "Sở giáo dục"
+    },
+    {
+        "id": 3,
+        "tenCapDeTai": "Cấp phòng"
+    },
+    {
+        "id": 4,
+        "tenCapDeTai": "Cấp trường"
+    }
+]

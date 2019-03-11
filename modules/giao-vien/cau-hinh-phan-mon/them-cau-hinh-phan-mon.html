@@ -1,0 +1,71 @@
+<!-- Cấu hình phân môn thêm mới-->
+<style>
+    label[id='required']::after {
+        content: " *";
+        color: red;
+        font-weight: normal;
+    }
+</style>
+<div class="modal-dialog" role="document" ng-controller="cauHinhPhanMonCtr as phanmon">
+    <form class="needs-validation" novalidate name="phanmonform">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="cauHinhPhanMon">Thêm mới phân môn</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12">
+                        <div class="form-row ">
+                            <div class="row-control bmd-form-group">
+                                <label id='required' class="bmd-label-static">Môn học</label>
+                                <select class="form-control" ng-model="monHocSelected"
+                                    ng-options="monHoc.tenMonHoc for monHoc in phanmon.monHocList track by monHoc.id"
+                                    title="Môn học" ng-change="getIdMonHoc();" required name="monhoc">
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12">
+                        <div class="form-row">
+                            <div class="row-control bmd-form-group">
+                                <label id='required' class="bmd-label-static">Tên phân môn</label>
+                                <textarea type="textarea" cols="50" rows="4" class="form-control" name="tenphanmon"
+                                    id="tenphanmon" title="Tên phân môn" value="" ng-model="tenPhanMon" required></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12">
+                        <div class="form-row ">
+                            <div class="row-control bmd-form-group">
+                                <label id='required' class="bmd-label-static">Khối áp dụng</label>
+                                <!-- <span ng-repeat="khoiLop.tenKhoiLop for khoiLop in phanmon.khoiLopList track by khoiLop.id" title="Khối áp dụng" style="padding-left:25px;">
+                                    <input type="checkbox" ng-model="phanmon.khoiLopSelected"
+                                        ng-change="change(khoiLop);">{{khoiLop.tenKhoiLop}}
+                                </span> -->
+                                <span ng-repeat="khoiLop in phanmon.khoiLopList">
+                                    <input type="checkbox" ng-model="khoiLop.khoiLopSelected"
+                                    ng-click="updateQuestionValue(khoiLop);" ng-required="tongChon==0"/>
+                                    <span>{{khoiLop.tenKhoiLop}}</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer justify-content-between">
+                <div class="ml-auto">
+                    <button type="button" class="btn btn-primary" ng-click="cauHinhPhanMon();"
+                        ng-disabled="phanmonform.$invalid">Save</button>&nbsp;
+                    <button type="button" class="btn btn-outline-default" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

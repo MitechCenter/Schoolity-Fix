@@ -1,0 +1,28 @@
+<div class="modal fade " id="modal-thongtinchitiet" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <!-- Khu vực phân chia tên tab -->
+                <nav class="ml-auto mr-auto">
+                    <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                        <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-hs" role="tab"
+                            aria-controls="nav-home" aria-selected="true" ng-click="loadToDetail(0)">Chi tiết Học sinh</a>
+                        <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-ht" role="tab"
+                            aria-controls="nav-profile" aria-selected="false" ng-click="loadToDetail(1)">Quá trình học tập</a>
+                        <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-kl" role="tab"
+                            aria-controls="nav-contact" aria-selected="false" ng-click="loadToDetail(2)">Khen thưởng - kỷ luật</a>
+                        <a class="nav-item nav-link" id="nav-about-tab" data-toggle="tab" href="#nav-mg" role="tab"
+                            aria-controls="nav-about" aria-selected="false" ng-click="loadToDetail(3)">Vi phạm - miễn giảm</a>
+                        <a class="nav-item nav-link" id="nav-about-tab" data-toggle="tab" href="#nav-sk" role="tab"
+                            aria-controls="nav-about" aria-selected="false" ng-click="loadToDetail(4)">Kết quả khám SK định kỳ</a>
+                    </div>
+                </nav>
+                <!-- Kết thúc khu vực phân chia tên tab -->
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent"/>
+        </div>
+    </div>
+</div>

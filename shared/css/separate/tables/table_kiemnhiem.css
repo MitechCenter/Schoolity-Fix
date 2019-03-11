@@ -1,0 +1,52 @@
+
+  #table-kiemnhiem tr>th:first-child,
+  #table-kiemnhiem tr>td:first-child {
+    min-width: 50px !important;
+    max-width: 50px !important;
+  }
+  
+  #table-kiemnhiem tr>th:nth-child(2),
+  #table-kiemnhiem tr>td:nth-child(2) {
+    min-width: 70px !important;
+    max-width: 70px !important;
+  }
+  
+  #table-kiemnhiem tr>th:nth-child(3),
+  #table-kiemnhiem tr>td:nth-child(3) {
+    min-width: 160px !important;
+    max-width: 160px !important;
+  }
+  
+  #table-kiemnhiem tr>th:nth-child(4),
+  #table-kiemnhiem tr>td:nth-child(4) {
+    min-width: 160px !important;
+    max-width: 160px !important;
+  }
+  
+  #table-kiemnhiem tr>th:nth-child(5),
+  #table-kiemnhiem tr>td:nth-child(5) {
+    min-width: 160px !important;
+    max-width: 160px !important;
+  }
+  #table-kiemnhiem tr>th:nth-child(6),
+  #table-kiemnhiem tr>td:nth-child(6) {
+    min-width: 100px !important;
+    max-width: 100px !important;
+  }
+
+
+  #table_add_kiemnhiem tr>th:first-child,
+  #table_add_kiemnhiem tr>td:first-child{
+    min-width: 50px !important;
+    max-width: 50px !important;
+  }
+  #table_add_kiemnhiem tr>th:nth-child(2),
+  #table_add_kiemnhiem tr>td:nth-child(2) {
+    min-width: 130px !important;
+    max-width: 130px !important;
+  }
+  #table_add_kiemnhiem tr>th:nth-child(3),
+  #table_add_kiemnhiem tr>td:nth-child(3) {
+    min-width: 200px !important;
+    max-width: 200px !important;
+  }

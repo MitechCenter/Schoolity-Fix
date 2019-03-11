@@ -1,0 +1,23 @@
+.img-fix-thongtintruong{
+  max-height: 180px !important;
+  max-width: 100%;
+  text-align: center;
+  background-color:#cccccc; 
+}
+.position-absolute-upload-image{
+    position: absolute;
+    top:-100px;
+    left: 0px;
+}
+.fa-camera-retro{
+    font-size: 142% !important;
+}
+.bg-upload-image{
+    background-color:gray;
+    border: 1px solid #d1d1d1;
+    opacity: 0.9;
+}
+.bg-upload-image:hover{
+    background-color:#242424;
+    border: 1px solid white;
+}

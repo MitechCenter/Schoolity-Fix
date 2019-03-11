@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+   <meta name="description" content="CoreUI - Open Source Bootstrap Admin Template">
+   <meta name="author" content="Łukasz Holeczek">
+   <meta name="keyword" content="Bootstrap,Admin,Template,Open,Source,jQuery,CSS,HTML,RWD,Dashboard">
+   <title>Schoolity</title>
+   <base href="/" />
+   <!-- <base src="../" /> -->
+   <!-- Library AngularJS 1.6.4 -->
+   <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.4/angular.min.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-sanitize.js"></script>
+   <!-- jQuery  -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <!-- Angular UI Router -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.22/angular-ui-router.min.js"></script>
+   <!-- Controller -->
+   
+   <script src="/index.js"></script>
+   <script src="/routes.js"></script>
+   <script src="/shared/common/common-data.js"></script>
+   <script src="/shared/common/advanced-search.js"></script>
+   <script src="/shared/javascript/custom-function.js"></script>
+   <script src="/shared/javascript/kmlib.js"></script>
+   
+
+   <!-- UI select -->
+   <link href="/shared/vendors/ui-select/ui-select.css" rel="stylesheet">
+   <link href="/shared/vendors/ui-select/select2.css" rel="stylesheet">
+   <script src="/shared/vendors/ui-select/ui-select.js"></script>
+   <!-- Điểm danh -->
+   <script src="../modules/hoc-sinh/diem-danh/diem-danh.js"></script>
+   <!-- Sổ điếm -->
+   <script src="../modules/hoc-sinh/so-diem/so-diem.js"></script>
+    <!-- Hồ sơ học sinh -->
+   <link href="shared/vendors/ui-select/ui-select.css" rel="stylesheet">
+   <link href="shared/vendors/ui-select/select2.css" rel="stylesheet">
+   <script src="shared/vendors/ui-select/ui-select.js"></script>
+   <script src="/modules/hoc-sinh/ho-so-hoc-sinh/bang-ho-so-hoc-sinh.js"></script>
+   <script src="/modules/hoc-sinh/ho-so-hoc-sinh/bang-ho-so-bao-luu.js"></script>
+   <script src="/modules/hoc-sinh/ho-so-hoc-sinh/bang-ho-so-ca-biet.js"></script>
+   <script src="/modules/hoc-sinh/ho-so-hoc-sinh/bang-ho-so-khen-thuong.js"></script>
+   <script src="/modules/hoc-sinh/ho-so-hoc-sinh/bang-ho-so-ky-luat.js"></script>
+   <script src="/modules/hoc-sinh/ho-so-hoc-sinh/bang-ho-so-mien-giam.js"></script>
+   <script src="/modules/hoc-sinh/ho-so-hoc-sinh/modal/view.js"></script>
+   <script src="/modules/hoc-sinh/ho-so-hoc-sinh/modal/edit.js"></script>
+   <script src="/modules/hoc-sinh/ho-so-hoc-sinh/modal/add.js"></script>
+   <!-- <script src="/shared/common/phan-trang/phan-trang.js"></script> -->
+   <script src="/modules/giao-vien/danh-sach-giao-vien/danh-sach-giao-vien.js"></script>
+   <script src="/modules/giao-vien/danh-sach-giao-vien/them-giao-vien.js"></script>
+   <script src="/modules/giao-vien/danh-sach-giao-vien/sua-giao-vien.js"></script>
+   <script src="/modules/giao-vien/phan-cong-giang-day/phan-cong-giang-day.js"></script>
+   <script src="/modules/giao-vien/phan-cong-giao-vu/phan-cong-giao-vu.js"></script>
+   <script src="/modules/giao-vien/phan-cong-kiem-nhiem/phan-cong-kiem-nhiem.js"></script>
+   <script src="/modules/giao-vien/phan-cong-chu-nhiem/phan-cong-chu-nhiem.js"></script>
+   <script src="/modules/giao-vien/lam-thay-chu-nhiem/lam-thay-chu-nhiem.js"></script>
+   <script src="/modules/giao-vien/khen-thuong-ky-luat/khen-thuong-ky-luat.js"></script>
+   <script src="/modules/giao-vien/sang-kien-kinh-nghiem/sang-kien-kinh-nghiem.js"></script>
+   <script src="/modules/giao-vien/danh-gia-xep-loai/danh-gia-xep-loai.js"></script>
+   <script src="/modules/giao-vien/danh-hieu-thi-dua/danh-hieu-thi-dua.js"></script>
+   <script src="/modules/giao-vien/danh-hieu-thi-dua-tap-the/danh-hieu-thi-dua-tap-the.js"></script>
+   <script src="/modules/giao-vien/cau-hinh-phan-mon/cau-hinh-phan-mon.js"></script>
+   
+   <!-- Icons-->
+   <link href="/shared/vendors/@coreui/icons/css/coreui-icons.min.css" rel="stylesheet">
+   <link href="/shared/vendors/flag-icon-css/css/flag-icon.min.css" rel="stylesheet">
+   <link href="/shared/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+   <link href="/shared/vendors/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+   <!-- Main styles for this application-->
+   <!-- thay vi phải sửa lại toàn bộ những dòng dưới đây
+         chúng ta dùng <base href=""> để mặc định thư mục  -->
+
+   <link href="/shared/css/style.css" rel="stylesheet">
+   <link href="/shared/css/material-design.css" rel="stylesheet">
+   <link href="/shared/css/separate/tables/table.css" rel="stylesheet">
+   <link href="/shared/css/separate/alert/alert.css" rel="stylesheet">
+   <link href="/shared/css/separate/elements/sidebar.css" rel="stylesheet">
+   <link href="/shared/css/separate/elements/header.css" rel="stylesheet">
+   <link href="/shared/css/separate/elements/checkbox.css" rel="stylesheet">
+   <link href="/shared/css/separate/elements/search.css" rel="stylesheet">
+   <link href="/shared/css/separate/elements/scrollbar.css" rel="stylesheet">
+   <link href="/shared/css/separate/elements/steps.css" rel="stylesheet">
+   <link href="/shared/css/separate/elements/button.css" rel="stylesheet">
+   <link href="/shared/css/separate/elements/icon.css" rel="stylesheet">
+   <link href="/shared/css/separate/form/form.css" rel="stylesheet">
+   <link href="/shared/css/separate/tables/table_user.css" rel="stylesheet">
+   <link href="/shared/css/separate/tables/table_phancongiaovu.css" rel="stylesheet">
+   <link href="/shared/css/separate/tables/table_kiemnhiem.css" rel="stylesheet">
+   <link href="/shared/css/separate/tables/table_phanconggiangday.css" rel="stylesheet">
+   <link href="/shared/css/separate/tables/table_phancongchunhiem.css" rel="stylesheet">
+   <link href="/shared/css/separate/tables/table_sangkienkinhnghiem.css" rel="stylesheet">
+   <link href="/shared/css/separate/tables/table_danhgiaxeploai.css" rel="stylesheet">
+   <link href="/shared/css/separate/tables/table_khenthuong_kiluat.css" rel="stylesheet">
+   <link href="/shared/css/separate/tables/table_danhhieuthidua.css" rel="stylesheet">
+   <link href="/shared/css/separate/tables/table_danhhieuthiduatapthe.css" rel="stylesheet">
+   <link href="/shared/css/separate/tables/table_cauhinhphanmon.css" rel="stylesheet">
+
+</head>
+
+<body ng-app="ShoolityApp" class="app header-fixed sidebar-fixed aside-menu-fixed sidebar-lg-show"
+   ng-controller="indexCtrl">
+   <header class="app-header navbar">
+      <div class="app-header navbar" id="header-menu" ng-include="'/shared/layout/header.html'"></div>
+   </header>
+   <!-- Menu -->
+   <div class="app-body">
+      <div id="sidebar-menu" ng-include="'/shared/layout/menu.html'">
+      </div>
+      <div class="aside-menu" ng-include="'/shared/layout/aside-menu.html'"></div>
+      <main class="main">
+         <!-- Breadcrumb-->
+         <ol class="breadcrumb">
+            <li ng-show="showPath1" class="breadcrumb-item p-1">{{BredcrumPath1}} </li>
+            <li ng-show="showPath2" class="breadcrumb-item p-1 text-primary">{{BredcrumPath2}}</li>
+            <!-- Breadcrumb Menu-->
+            <li class="breadcrumb-menu d-md-down-none">
+               <div class="btn-group" role="group" aria-label="Button group">
+                  <a class="btn p-1 mr-2" href="#"> Học kì 1
+                     <i class="icon-speech"></i>
+                  </a>
+                  <a class="btn p-1 mr-2" href="./"> Học kì 2
+                     <i class="icon-graph"></i>
+                  </a>
+                  <select class="pr-2 pl-2 pt-1 pb-1 border" ng-model="namHoc">
+                     <option disabled value="">Năm Học</option>
+                     <option value="true">2018-2019</option>
+                     <option value="true">2017-2018</option>
+                     <option value="true">2016-2017</option>
+                  </select>
+
+               </div>
+            </li>
+         </ol>
+         <div class="container-fluid" ng-view>
+            <!-- alert -->
+            <div>
+               <div ng-show="alertThanhCong" id="alert-thanhcong"
+                  class="alert alert-info alert-info-border alert-dismissible" role="alert">
+                  <i class="fa fa-check-circle alert-icon" aria-hidden="true"></i>
+                  <div class="alert-content">Thao tác thành công!</div>
+                  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                     <span aria-hidden="true">&times;</span>
+                  </button>
+               </div>
+               <div ng-show="alertDienThongTin" id="alert-dienthongtin"
+                  class="alert alert-warning alert-warning-border alert-dismissible" role="alert">
+                  <i class="fa fa-exclamation-triangle alert-icon" aria-hidden="true"></i>
+                  <div class="alert-contensst">Bạn cần điền đầy đủ thông tin!</div>
+                  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                     <span aria-hidden="true">&times;</span>
+                  </button>
+               </div>
+            </div>
+         </div>
+         <!-- START MAIN CONTENT -->
+         <div ui-view="mainView"></div>
+      </main>
+   </div>
+
+   <!-- Footer -->
+   <footer class="app-footer" id="footer" ng-include="'/shared/layout/footer.html'">
+   </footer>
+
+   <!-- CoreUI and necessary plugins-->
+   <!-- CoreUI and necessary plugins-->
+   <script src="/shared/vendors/jquery/js/jquery.min.js"></script>
+   <script src="/shared/vendors/popper.js/js/popper.min.js"></script>
+   <script src="/shared/vendors/bootstrap/js/bootstrap.min.js"></script>
+   <script src="/shared/vendors/pace-progress/js/pace.min.js"></script>
+   <script src="/shared/vendors/perfect-scrollbar/js/perfect-scrollbar.min.js"></script>
+   <script src="/shared/vendors/@coreui/coreui/js/coreui.min.js"></script>
+
+   <!-- <script src="js/schoolity_truong.js"></script> -->
+   <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"
+      integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9"
+      crossorigin="anonymous"></script>
+   <script>
+      $(document).ready(function () {
+         $('form').bootstrapMaterialDesign();
+      });
+   </script>
+</body>
+
+</html>

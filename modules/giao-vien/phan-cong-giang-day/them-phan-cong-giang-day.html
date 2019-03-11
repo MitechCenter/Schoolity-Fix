@@ -1,0 +1,91 @@
+<!-- Phân công giảng dạy -->
+<div class="modal-dialog modal-lg" role="document" ng-controller="phanCongGiangDayCtr as pcgiang">
+    <form class="needs-validation" novalidate name="pcgiangform">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="phanCongGiangDay">Phân công giảng dạy thêm mới</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="form-row ">
+                            <div class="row-control bmd-form-group">
+                                <label id='required' class="bmd-label-static"> Tổ bộ môn</label>
+                                <select class="form-control" ng-model="boMonSelected"
+                                    ng-options="boMon.tenToBoMon for boMon in pcgiang.toBoMonList track by boMon.id"
+                                    title="Tổ bộ môn" ng-change="getIdBoMon(boMonSelected);" required name="bomon">
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="form-row ">
+                            <div class="row-control bmd-form-group">
+                                <label id='required' class="bmd-label-static">Giáo viên</label>
+                                <select class="form-control" ng-model="giaoVienSelected"
+                                    ng-options="giaoVien.tenCanBo for giaoVien in danhSachGiaoVien track by giaoVien.id"
+                                    title="Giáo viên" ng-change="getIdGiaoVien(giaoVienSelected);" required
+                                    name="giaovien">
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="form-row ">
+                            <div class="row-control bmd-form-group">
+                                <label id='required' class="bmd-label-static">Môn học</label>
+                                <select class="form-control" ng-model="monHocSelected"
+                                    ng-options="monHoc.tenMonHoc for monHoc in monHocs track by monHoc.id"
+                                    title="Môn học" ng-change="getIdMonHoc(monHocSelected, giaoVienSelected);" required
+                                    name="monhoc">
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="form-row ">
+                            <div class="row-control bmd-form-group">
+                                <label class="bmd-label-static">Khối lớp</label>
+                                <select class="form-control" ng-model="khoiLopSelected"
+                                    ng-options="khoiLop.tenKhoiLop for khoiLop in pcgiang.khoiLopList track by khoiLop.id"
+                                    title="Khối lớp" ng-change="getIdkhoiLop(khoiLopSelected);">
+                                    <option value="">Chọn Khối lớp</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12">
+                        <div class="form-row ">
+                            <div class="row-control bmd-form-group">
+                                <label id='required' class="bmd-label-static">Lớp học</label>
+                                <ui-select multiple ng-model="pcgiang.lopHocDamNhiem" theme="select2" sortable="true"
+                                    close-on-select="false" reset-search-input="false" required>
+                                    <ui-select-match placeholder="Click để chọn">
+                                        <a>{{$item.tenLopHoc}}</a>
+                                    </ui-select-match>
+                                    <ui-select-choices repeat="lopHoc in pcgiang.lopHocs | filter: $select.search">
+                                        <div ng-bind-html="lopHoc.tenLopHoc | highlight: $select.search"></div>
+                                    </ui-select-choices>
+                                </ui-select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer justify-content-between">
+                <div class="ml-auto">
+                    <button type="button" class="btn btn-primary" ng-click="phanCongGiang();"
+                        ng-disabled="pcgiangform.$invalid">Save</button>&nbsp;
+                    <button type="button" class="btn btn-outline-default" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

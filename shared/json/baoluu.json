@@ -1,0 +1,60 @@
+[
+    { 
+        "Stt" : "1",
+        "ten" : "Ma Hải Anh " ,
+        "mahslop" : "PL1819002 ",
+        "gioitinh" : "Nam",
+        "lop" : " 10a1",
+        "ngaysinh" :"10/9/2000",
+        "ngaythoihoc" : " 10/12/2018",
+        "lydo" : " Chuyển trường ",
+        "loptiepnhan" : " null"
+    },
+    { 
+        "Stt" : "2",
+        "ten" : "Mã Thị Vân Anh " ,
+        "mahslop" : "PL1819004 ",
+        "gioitinh" : "Nữ",
+        "lop" : " 10a1",
+        "ngaysinh" :"10/9/2000",
+        "ngaythoihoc" : " 10/12/2018",
+        "lydo" : " Chuyển lớp ",
+        "loptiepnhan" : " 10a5"
+    },
+
+    {
+        "Stt" : "3",
+        "ten" : "Nguyễn Phương Anh ", 
+        "mahslop" : "PL1819003 ",
+        "gioitinh" : "Nữ",
+        "lop" : " 10a1",
+        "ngaysinh" :"10/9/2000",
+        "ngaythoihoc" : " 10/12/2018",
+        "lydo" : " Chuyển lớp ",
+        "loptiepnhan" : " 10a5"
+     },
+
+    {
+        "Stt" : "4",
+        "ten" : "Nguyễn Thị Ngọc Ánh" ,
+        "mahslop" : "PL1819001 ",
+        "gioitinh" : "Nữ",
+        "lop" : " 10a1",
+        "ngaysinh" :"10/9/2000",
+        "ngaythoihoc" : " 10/12/2018",
+        "lydo" : " Chuyển lớp ",
+        "loptiepnhan" : " 10a5"
+    },
+
+    {
+        "Stt" : "5",
+        "ten" : "Đồng Quốc Bảo" ,
+        "mahslop" : "PL1819005 ",
+        "gioitinh" : "Nữ",
+        "lop" : " 10a1",
+        "ngaysinh" :"10/9/2000",
+        "ngaythoihoc" : " 10/12/2018",
+        "lydo" : " Chuyển lớp ",
+        "loptiepnhan" : " 10a5"
+    }
+]

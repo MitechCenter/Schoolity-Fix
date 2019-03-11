@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Mã GV",
+        "width": "10%"
+    },
+    {
+        "name": "Họ Tên",
+        "width": "20%"
+    },
+    {
+        "name": "Tổ Bộ Môn",
+        "width": "20%"
+    },
+    {
+        "name": "Email",
+        "width": "15%"
+    },
+    {
+        "name": "Số Điện Thoại",
+        "width": "15%"
+    },
+    {
+        "name": "",
+        "width": "20%"
+    }
+]

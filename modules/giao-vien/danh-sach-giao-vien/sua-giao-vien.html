@@ -1,0 +1,844 @@
+<!-- Modal Edit -->
+
+<div class="modal-dialog modal-lg" ng-controller="EditCtrl as edit">
+	<form class="needs-validation" name="suaCanBo" novalidate>
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title"><b>Sửa Thông Tin Cán Bộ</b></h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+					<div class="row card-header">
+						<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+							<img ng-src="{{canBo.avatarUrl}}" alt="avatar" class="img-thumbnail">
+						</div>
+						<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+							<div>
+								<div class="steps-icon-progress ">
+									<ul>
+										<li class="active" ng-click="edit.step1()" data-toggle="collapse" data-target="#collapseThongTin1" aria-expanded="false"
+										 aria-controls="collapseThongTin1">
+											<div class="icon">
+												<p>1</p>
+											</div>
+											<div class="caption">Thông Tin Chung</div>
+										</li>
+										<li class="{{edit.stepActive2}}" ng-click="edit.step2()" data-toggle="collapse" data-target="#collapseThongTin2"
+										 aria-expanded="false" aria-controls="collapseThongTin2">
+											<div class="icon">
+												<p>2</p>
+											</div>
+											<div class="caption">Vị Trí Làm Việc</div>
+										</li>
+										<li class="{{edit.stepActive3}}" ng-click="edit.step3()" data-toggle="collapse" data-target="#collapseThongTin3"
+										 aria-expanded="false" aria-controls="collapseThongTin3">
+											<div class="icon">
+												<p>3</p>
+											</div>
+											<div class="caption">Lương và phụ cập</div>
+										</li>
+										<li class="{{edit.stepActive4}}" ng-click="edit.step4()" data-toggle="collapse" data-target="#collapseThongTin4"
+										 aria-expanded="false" aria-controls="collapseThongTin4">
+											<div class="icon">
+												<p>4</p>
+											</div>
+											<div class="caption">Đào tạo, bồi dưỡng</div>
+										</li>
+										<li class="{{edit.stepActive5}}" ng-click="edit.step5()" data-toggle="collapse" data-target="#collapseThongTin5"
+										 aria-expanded="false" aria-controls="collapseThongTin5">
+											<div class="icon">
+												<p>5</p>
+											</div>
+											<div class="caption">Thông tin khác</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<div id="formThongTinedit" class="">
+						<div id="collapseThongTin1" class="collapse show" data-parent="#formThongTinedit" aria-labelledby="headingOne">
+							<!-- đây là form thông tin 1-->
+							<div class="row">
+								<div class="col-xl-4  col-lg-4  ">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputTen">Tên Cán Bộ</label>
+											<input type="text" name="tenCanBo"  class="form-control" id="tenCanBo" ng-model="canBo.tenCanBo" title="Tên Cán Bộ" value="" required>
+											<span class="text-note" ng-show="suaCanBo.tenCanBo.$touched && suaCanBo.tenCanBo.$error.required">Không được để
+												trống!</span>
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-4  col-lg-4  ">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputTen">Ngày Sinh</label>
+											<input type="date" class="form-control" id="ngaySinh" ng-model="canBo.ngaySinh" value="">
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-4  col-lg-4  ">
+									<div class="d-flex">
+										<div class="w-50 mr-2">
+											<div class="form-row ">
+												<div class="row-control bmd-form-group ">
+													<label class="bmd-label-static" for="inputgioiTinh">Giới Tính</label>
+													<select id="gioiTinh" class="form-control" ng-model="canBo.gioiTinh" ng-options="namNu.tenGioiTinh for namNu in gioiTinhSelect track by namNu.id">
+													</select>
+												</div>
+											</div>
+										</div>
+										<div>
+											<div class="form-row ">
+												<div class="row-control bmd-form-group ">
+													<label class="bmd-label-static" for="inputdanToc">Dân Tộc</label>
+													<select class="form-control" id="danToc" ng-model="canBo.danToc" ng-options="danT.tenDanToc for danT in danTocSelect track by danT.id">
+													</select>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xl-4  col-lg-4  ">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputTen">Số CMND</label>
+											<input type="text" class="form-control" id="soCMND" ng-model="canBo.soCMND" value="">
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-4  col-lg-4  ">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputTen">Ngày Cấp</label>
+											<input type="date" class="form-control" id="ngayCap" ng-model="canBo.ngayCapCMND" value="">
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-4  col-lg-4  ">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputTen">Nơi Cấp</label>
+											<input type="text" class="form-control" id="noiCapCMND" ng-model="canBo.noiCapCMND" value="">
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xl-4  col-lg-4  ">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputTen">Số Điện Thoại</label>
+											<input type="text" class="form-control" id="soDTDD" name="soDTDD" ng-model="canBo.soDTDD" title="Số Điện Thoại" title="Số Điện Thoại"
+											value="" required ng-pattern="/^(\+84|0)+?([1-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{3})$/">
+											<div ng-show="suaCanBo.soDTDD.$touched && suaCanBo.soDTDD.$invalid">
+												<span class="text-note" ng-show="suaCanBo.soDTDD.$error.required">Không được để trống!</span>
+												<span class="text-note" ng-show="suaCanBo.soDTDD.$error.pattern">Số điện thoại không đúng!</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-4  col-lg-4  ">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputEmail">Email</label>
+											<input type="email" class="form-control" id="email" name="email" title="Email"  ng-model="canBo.email" value="" required ng-pattern="/^\w+([\.]?\w+)*@\w+([\.]?\w+)*(\.\w{2,3})+$/">
+											<div ng-show="suaCanBo.email.$touched && suaCanBo.email.$invalid">
+												<span class="text-note" ng-show="suaCanBo.email.$error.required">Không được để trống!</span>
+												<span class="text-note" ng-show="suaCanBo.email.$error.pattern">Email không đúng!</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-4  col-lg-4  ">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputTen">Địa Chỉ</label>
+											<input type="text" class="form-control" id="diaChi" ng-model="canBo.diaChi" value="">
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xl-4  col-lg-4  ">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputTen">Tỉnh/Thành</label>
+											<select class="form-control" id="tinhThanh" value="" ng-model="canBo.tinhThanh" ng-options="tinh.name for tinh in tinhThanhSelect track by tinh.id"
+											 ng-change="getIdTinh()">
+												<option value="">Tỉnh/Thành</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-4  col-lg-4  ">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputTen">Quận/Huyện</label>
+											<select class="form-control" id="quanHuyen" ng-model="canBo.quanHuyen" ng-options="huyen.name for huyen in quanHuyenSelect track by huyen.id"
+											 ng-change="getIdHuyen()">
+												<option value="">Quận/Huyện</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-4  col-lg-4  ">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputTen">Quận/Huyện</label>
+											<select class="form-control" id="xaPhuong" ng-model="canBo.xaPhuong" ng-options="xa.name for xa in xaPhuongSelect track by xa.id">
+												<option value="">Xã/Phường</option>
+											</select>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="collapseThongTin2" class="collapse " data-parent="#formThongTinedit" aria-labelledby="headingOne">
+							<!-- 	form thong tin 2 -->
+							<div class="row">
+								<div class="col-xl-4  col-lg-4  ">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputToBoMon">Tổ Bộ Môn</label>
+											<select class="form-control" id="toBoMon" ng-model="canBo.toBoMon" ng-options="boMon.tenToBoMon for boMon in edit.toBoMonSelect track by boMon.id">
+												<option value="">Tổ Bộ Môn</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-4  col-lg-4  ">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputVitriviec">Vị Trí Làm Việc</label>
+											<select class="form-control" id="viTriLamViec" ng-model="canBo.viTriLamViec" ng-options="viTri.tenViTri for viTri in edit.viTriLamViecSelect track by viTri.id">
+												<option value="">Vị Trí Làm Việc</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-4  col-lg-4  ">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputTen">Chức Vụ</label>
+											<select class="form-control" id="chucVu" ng-model="canBo.chucVu" ng-options="chucVu.tenChucVu for chucVu in edit.chucVuSelect track by chucVu.id">
+												<option value="">Chức Vụ</option>
+											</select>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xl-4  col-lg-4  ">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputTen">Hợp Đồng</label>
+											<select class="form-control" id="hinhThucHopDong" ng-model="canBo.hinhThucHopDong" ng-options="hinhThuc.tenHinhThucHD for hinhThuc in edit.hinhThucHopDongSelect track by hinhThuc.id">
+												<option value="">Hợp Đồng</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-4  col-lg-4  ">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputTen">Ngày Tuyển Dụng</label>
+											<input type="date" class="form-control" id="ngayTuyenDung" ng-model="canBo.ngayTuyenDung" value="">
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-4  col-lg-4  ">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputTen">Ngày Vào Biên Chế</label>
+											<input type="date" class="form-control" id="ngayVaoBienChe" ng-model="canBo.ngayVaoBienChe" value="">
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xl-4  col-lg-4  ">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputTen">Cơ Quan Tuyển Dụng</label>
+											<input type="text" class="form-control" id="coQuanTuyenDung" ng-model="canBo.coQuanTuyenDung" value="">
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-4  col-lg-4  ">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputTen">Chức Danh</label>
+											<input type="text" class="form-control" id="chucDanh" ng-model="canBo.chucDanh" value="">
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-4  col-lg-4  ">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputTen">Nghề Nghiệp Khi Tuyển</label>
+											<input type="text" class="form-control" id="NNKhiDuocTuyen" ng-model="canBo.NNKhiDuocTuyen" value="">
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xl-4  col-lg-4  ">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputTen">Số Tiết/Tuần</label>
+											<input type="text" class="form-control" id="soTietTrenTuan" ng-model="canBo.soTietTrenTuan" value="">
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-4  col-lg-4  ">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputTen">Kiêm Nhiệm</label>
+											<select class="form-control" id="nhiemVuKiemNhiem" ng-model="canBo.nhiemVuKiemNhiem" ng-options="kiemNhiem.tenNhiemVu for kiemNhiem in edit.nhiemVuKiemNhiemSelect track by kiemNhiem.id">
+												<option value="">Kiêm Nhiệm</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-4  col-lg-4  ">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputTen">Số Tiết Kiêm Nhiệm/Tuần</label>
+											<input type="text" class="form-control" id="soTietKiemNhiem" ng-model="canBo.soTietKiemNhiem" value="">
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row pt-2">
+								<div class="col-xl-4 col-lg-4">
+									<div class="form-row">
+										<div class="form-check form-check-inline">
+											<input class="form-check-input" type="radio" ng-model="canBo.day12Buoi" type="radio" value="day1Buoi" name="day12Buoi">
+											<label class="bmd-label-static" class="form-check-label" for="gridRadios3">
+												Dạy 1 buổi/ngày
+											</label>
+										</div>
+									</div>
+									<div class="form-row">
+										<div class="form-check form-check-inline">
+											<input class="form-check-input" ng-model="canBo.day12Buoi" type="radio" value="day2Buoi" name="day12Buoi">
+											<label class="bmd-label-static" class="form-check-label" for="gridRadios3">
+												Dạy 2 buổi/ngày
+											</label>
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-4 col-lg-4">
+									<div class="form-row">
+										<div class="form-check form-check-inline">
+											<input class="form-check-input" ng-model="canBo.huanLuyenKNS" type="checkbox" value="false">
+											<label class="bmd-label-static" class="form-check-label" for="gridCheck1">
+												Đã huấn luyện dạy KN sống
+											</label>
+										</div>
+									</div>
+									<div class="form-row">
+										<div class="form-check form-check-inline">
+											<input class="form-check-input" ng-model="canBo.dayHocSinhKT" type="checkbox" value="false">
+											<label class="bmd-label-static" class="form-check-label" for="gridCheck2">
+												Dạy Học Sinh Khiếm Thị
+											</label>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-xl-4 col-lg-4">
+									<div class="form-row">
+										<div class="form-check form-check-inline">
+											<input class="form-check-input" ng-model="canBo.chuyenTrachDoanDoi" type="checkbox" value="false">
+											<label class="bmd-label-static" class="form-check-label" for="gridCheck1">
+												Chuyên Trách Đoàn Đội
+											</label>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="collapseThongTin3" class="collapse " data-parent="#formThongTinedit" aria-labelledby="headingOne">
+							<!-- 	form thong tin 3 -->
+							<div class="row">
+								<div class="col-xl-4  col-lg-4  ">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputTen">Ngạch/Hạng</label>
+											<select class="form-control" id="ngachHang" ng-model="canBo.ngachHang" ng-options="ngachHang.tenNgachHang for ngachHang in edit.ngachHangSelect track by ngachHang.id">
+												<option value="">Ngạch/Hạng</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-4  col-lg-4  ">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputTen">Mã Ngạch (auto)</label>
+											<input type="text" class="form-control" id="maNgach" ng-model="canBo.maNgach" value="" disabled>
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-4  col-lg-4  ">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputTen">Thâm Niên (%)</label>
+											<input type="text" class="form-control" id="PCThamNien" ng-model="canBo.PCThamNien" value="">
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xl-4  col-lg-4  ">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputTen">Bậc Lương</label>
+											<select class="form-control" id="bacLuong" ng-model="canBo.bacLuong" ng-options="bacLuong.tenBacLuong for bacLuong in edit.bacLuongSelect track by bacLuong.id">
+												<option value="">Bậc Lương</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-4  col-lg-4  ">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputTen">Hệ Số Lương (%)</label>
+											<input type="text" class="form-control" id="heSoLuong" ng-model="canBo.heSoLuong" value="">
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-4  col-lg-4  ">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputTen">Vượt Khung (%)</label>
+											<input type="text" class="form-control" id="vuotKhung" ng-model="canBo.vuotKhung" value="">
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xl-4  col-lg-4  ">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputTen">PC Thu Hút Nghề (%)</label>
+											<input type="text" class="form-control" id="PCThuHutNghe" ng-model="canBo.PCThuHutNghe" value="">
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-4  col-lg-4  ">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputTen">PC Ưu Đãi Nghề (%)</label>
+											<input type="text" class="form-control" id="PCUuDaiNghe" ng-model="canBo.PCUuDaiNghe" value="">
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-4  col-lg-4  ">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputTen">Ngày Hưởng</label>
+											<input type="text" class="form-control" id="ngayHuong" ng-model="canBo.ngayHuong" value="">
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xl-4  col-lg-4  ">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputTen">Cấp Dạy Chính</label>
+											<select class="form-control" id="capDayChinh" ng-model="canBo.capDayChinh" ng-options="capDay.tenCapDay for capDay in edit.capDayChinhSelect track by capDay.id">
+												<option value="">Cấp Dạy Chính</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-4  col-lg-4  ">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputTen">Môn Dạy Chính</label>
+											<select class="form-control" id="monDayChinh" ng-model="canBo.monDayChinh" ng-options="monDay.tenMonDay for monDay in edit.monDayChinhSelect track by monDay.id">
+												<option value="">Môn Dạy Chính</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-4  col-lg-4  ">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputTen">Danh Hiệu</label>
+											<input type="text" class="form-control" id="danhHieuGV" ng-model="canBo.danhHieuGV" value="">
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xl-4  col-lg-4  ">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputTen">Giáo Viên Dạy Giỏi</label>
+											<input type="text" class="form-control" id="gvDayGioi" ng-model="canBo.giaoVienDayGioiKQ.tenCapDayGioi" value="" disabled>
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-4  col-lg-4  ">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputTen">KQ Chuẩn Nghề Nghiệp</label>
+											<input type="text" class="form-control" id="KQChuanNgheNghiep" ng-model="canBo.chuanNgheNghiepKQ.tenChuanNgheNghiep" value=""
+											 disabled>
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-4  col-lg-4  ">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputTen">Đánh Giá Viên Chức</label>
+											<input type="text" class="form-control" id="danhGiaVienChuc" ng-model="canBo.danhGiaVienChucKQ.tenDanhGiaVienChuc" value=""
+											 disabled>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="collapseThongTin4" class="collapse " data-parent="#formThongTinedit" aria-labelledby="headingOne">
+							<!-- 	form thong tin 4 -->
+							<div class="row">
+								<div class="col-xl-4  col-lg-4  ">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputTen">KQ Bồi Dưỡng Thường Xuyên</label>
+											<input type="text" class="form-control" id="KQBoiDuong" ng-model="canBo.boiDuongThuongXuyenKQ.tenBoiDuongThuongXuyen" value="" disabled>
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-4  col-lg-4  ">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputTen">Trình Độ CMNV</label>
+											<select class="form-control" id="trinhDoCMNV" ng-model="canBo.trinhDoCMNV" ng-options="trinhDo.tenTrinhDo for trinhDo in edit.CMNVSelect track by trinhDo.id">
+												<option value="">Trình Độ CMNV</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-4  col-lg-4  ">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputTen">Trình Độ Tin Học</label>
+											<select class="form-control" id="trinhDoTinHoc" ng-model="canBo.trinhDoTinHoc" ng-options="trinhDo.tenTrinhDoTin for trinhDo in edit.TinHocSelect track by trinhDo.id">
+												<option value="">Trình Độ Tin Học</option>
+											</select>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xl-4  col-lg-4  ">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputTen">Trình Độ Lý Luận CT</label>
+											<select class="form-control" id="trinhDoLyLuanCT" ng-model="canBo.trinhDoLyLuanCT" ng-options="trinhDo.tenTrinhDoLyLuanChinhTri for trinhDo in edit.LyLuanCTSelect track by trinhDo.id">
+												<option value="">Trình Độ Lý Luận CT</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-4  col-lg-4  ">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputTen">Trình Độ Quản Lý GD</label>
+											<select class="form-control" id="trinhDoQLGD" ng-model="canBo.trinhDoQLGD" ng-options="trinhDo.tenTrinhDoQLGiaoDuc for trinhDo in edit.QLGDSelect track by trinhDo.id">
+												<option value="">Trình Độ Quản Lý GD</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-4  col-lg-4  ">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputTen">Trình Độ Quản Lý NN</label>
+											<select class="form-control" id="trinhDoQLNN" ng-model="canBo.trinhDoQLNN" ng-options="trinhDo.tenTrinhDoQLNhaNuoc for trinhDo in edit.QLNNSelect track by trinhDo.id">
+												<option value="">Trình Độ Quản Lý NN</option>
+											</select>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xl-4  col-lg-4  ">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputTen">Chuyên Ngành Đào Tạo Chính</label>
+											<select class="form-control" id="chuyenNganh" ng-model="canBo.chuyenNganh" ng-options="CN.tenChuyenNganh for CN in edit.chuyenNganhSelect track by CN.id">
+												<option value="">Chuyên Ngành Đào Tạo Chính</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-4  col-lg-4  ">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputTen">Trình Độ Chuyên Môn</label>
+											<select class="form-control" id="trinhDoCM" ng-model="canBo.trinhDoCM" ng-options="trinhDo.tenTrinhDo for trinhDo in edit.CMSelect track by trinhDo.id">
+												<option value="">Trình Độ Chuyên Môn</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-4  col-lg-4  ">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputTen">Loại Hình Đào Tạo</label>
+											<select class="form-control" id="loaiHinhDT" ng-model="canBo.loaiHinhDT" ng-options="loaiHinh.tenLoaiHinh for loaiHinh in edit.LHDTSelect track by loaiHinh.id">
+												<option value="">Loại Hình Đào Tạo</option>
+											</select>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xl-4  col-lg-4  ">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputTen">Chuyên Ngành Đào Tạo Khác</label>
+											<select class="form-control" id="chuyenNganhKhac" ng-model="canBo.chuyenNganhKhac" ng-options="chuyenNganh.tenChuyenNganh for chuyenNganh in edit.chuyenNganhKhacSelect track by chuyenNganh.id">
+												<option value="">Chuyên Ngành Đào Tạo Khác</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-4  col-lg-4  ">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputTen">Trình Độ Chuyên Môn Khác</label>
+											<select class="form-control" id="trinhDoCMKhac" ng-model="canBo.trinhDoCMKhac" ng-options="chuyenMon.tenTrinhDo for chuyenMon in edit.CMKhacSelect track by chuyenMon.id">
+												<option value="">Trình Độ CM Khác</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-4  col-lg-4  ">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputTen">Loại Hình Đào Tạo Khác</label>
+											<select class="form-control" id="loaiHinhDTKhac" ng-model="canBo.loaiHinhDTKhac" ng-options="loaiHinh.tenLoaiHinh for loaiHinh in edit.LHDTKhacSelect track by loaiHinh.id">
+												<option value="">Loại Hình ĐT Khác</option>
+											</select>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xl-4  col-lg-4  ">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputTen">Trình Độ Văn Hóa</label>
+											<select class="form-control" id="trinhDoVH" ng-model="canBo.trinhDoVH" ng-options="trinhDo.tenTrinhDoVanHoa for trinhDo in edit.VHSelect track by trinhDo.id">
+												<option value="">Trình Độ Văn Hóa</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-4  col-lg-4  ">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputTen">Ngoại Ngữ Chính</label>
+											<select class="form-control" id="ngoaiNguChinh" ng-model="canBo.ngoaiNguChinh" ng-options="ngoaiNgu.tenNgoaiNgu for ngoaiNgu in edit.NNChinhSelect track by ngoaiNgu.id">
+												<option value="">Ngoại Ngữ Chính</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-4  col-lg-4  ">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputTen">Trình Độ NN Chính</label>
+											<select class="form-control" id="trinhDoNNChinh" ng-model="canBo.trinhDoNNChinh" ng-options="trinhDo.tenTrinhDoNgoaiNgu for trinhDo in edit.trinhDoNNSelect track by trinhDo.id">
+												<option value="">Trình Độ NN Chính</option>
+											</select>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="collapseThongTin5" class="collapse " data-parent="#formThongTinedit" aria-labelledby="headingOne">
+							<!-- 	form thong tin 5 -->
+							<div class="row">
+								<div class="col-xl-3  col-lg-3  ">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputTen">TP Gia Đình</label>
+											<select class="form-control" id="thanhPhanGD" ng-model="canBo.thanhPhanGD" ng-options="thanhPhan.tenThanhPhanGiaDinh for thanhPhan in edit.thanhPhanGDSelect track by thanhPhan.id">
+												<option value="">TP Gia Đình</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-3  col-lg-3 ">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputTen">TT Hôn Nhân</label>
+											<select class="form-control" id="tinhTrangHonNhan" ng-model="canBo.tinhTrangHonNhan" ng-options="tinhTrang.tenTinhTrangHonNhan for tinhTrang in edit.HonNhanSelect track by tinhTrang.id">
+												<option value="">TT Hôn Nhân</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-6  col-lg-6  ">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputTen">Ghi Chú Khác</label>
+											<input type="text" class="form-control" name="ghiChuKhac" id="ghiChuKhac" ng-model="canBo.ghiChuKhac" value="">
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xl-3  col-lg-3 ">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputTen">Họ Tên Bố</label>
+											<input type="text" class="form-control" name="hoTenBo" id="hoTenBo" ng-model="canBo.hoTenBo" value="">
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-3  col-lg-3 ">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputNgaysinh">Năm Sinh Cha</label>
+											<input type="text" onblur="(this.type='type')" onfocus="(this.type='date')" class="form-control" name="namSinhBo"
+											 id="namSinhBo" ng-model="canBo.namSinhBo" value="">
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-3  col-lg-3 ">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputTen">Nghề Nghiệp</label>
+											<input type="text" class="form-control" name="ngheNghiepBo" id="ngheNghiepBo" ng-model="canBo.ngheNghiepBo"
+											 value="">
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-3 col-lg-3">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputTen">Nơi Làm Việc</label>
+											<input type="text" class="form-control" name="coQuanBo" id="coQuanBo" ng-model="canBo.coQuanBo" value="">
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xl-3  col-lg-3 ">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputTen">Họ Tên Mẹ</label>
+											<input type="text" class="form-control" name="hoTenMe" id="hoTenMe" ng-model="canBo.hoTenMe" value="">
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-3  col-lg-3 ">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputNgaysinh">Năm Sinh Mẹ</label>
+											<input type="text" onblur="(this.type='type')" onfocus="(this.type='date')" class="form-control" name="namSinhMe"
+											 id="namSinhMe" ng-model="canBo.namSinhMe" value="">
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-3  col-lg-3 ">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputTen">Nghề Nghiệp</label>
+											<input type="text" class="form-control" name="ngheNghiepMe" id="ngheNghiepMe" ng-model="canBo.ngheNghiepMe"
+											 value="">
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-3 col-lg-3">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<label class="bmd-label-static" for="inputTen">Nơi Làm Việc</label>
+											<input type="text" class="form-control" name="coQuanMe" id="coQuanMe" ng-model="canBo.coQuanMe" value="">
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xl-3 col-lg-3">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<div class="pl-3">
+												<input class="form-check-input" ng-model="canBo.boiDuongTX" type="checkbox" value="false">
+												<label class="bmd-label-static" class="form-check-label" for="gridCheck1">
+													Bồi Dưỡng TX
+												</label>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-3 col-lg-3">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<div class="pl-3">
+												<input class="form-check-input" ng-model="canBo.nhaCongVu" type="checkbox" value="false">
+												<label class="bmd-label-static" class="form-check-label" for="gridCheck1">
+													Ở Nhà Công Vụ
+												</label>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-3 col-lg-3">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<div class="pl-3">
+												<input class="form-check-input" ng-model="canBo.thueNhaTro" type="checkbox" value="false">
+												<label class="bmd-label-static" class="form-check-label" for="gridCheck1">
+													Thuê Nhà Trọ Ngoài
+												</label>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-3 col-lg-3">
+									<div class="form-row">
+										<div class="row-control bmd-form-group">
+											<div class="pl-3">
+												<input class="form-check-input" ng-model="canBo.dangKyNhaCongVu" type="checkbox" value="false">
+												<label class="bmd-label-static" class="form-check-label" for="gridCheck1">
+													Đăng ký NCV
+												</label>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+			</div>
+			<div class="modal-footer justify-content-between">
+				<div>
+					<div class="d-flex text-danger" ng-show="suaCanBo.tenCanBo.$touched && suaCanBo.tenCanBo.$error.required || suaCanBo.soDTDD.$touched && suaCanBo.soDTDD.$error.required || suaCanBo.email.$error.pattern || suaCanBo.email.$touched &&suaCanBo.email.$error.required">
+						<i class="fa fa-exclamation-triangle alert-icon" aria-hidden="true"></i>
+						<div class="alert-content">Cảnh báo lỗi từ hệ thống.</div>
+					</div>
+				</div>
+				<div>
+					<button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Cancel</button>
+					<button ng-click="Save()" type="button" class="btn btn-primary" ng-disabled="suaCanBo.tenCanBo.$invalid || suaCanBo.soDTDD.$invalid || suaCanBo.email.$invalid" data-dismiss="modal">Save</input>
+				</div>
+			</div>
+		</div>
+	</form>
+</div>

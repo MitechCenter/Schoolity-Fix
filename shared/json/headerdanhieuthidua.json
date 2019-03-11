@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Mã CB",
+        "width": "5%"
+    },
+    {
+        "name": "Tên Cán Bộ",
+        "width": "20%"
+    },
+    {
+        "name": "Tổ Bộ Môn",
+        "width": "20%"
+    },
+    {
+        "name": "Danh hiệu thi đua",
+        "width": "25%"
+    },
+    {
+        "name": "Ghi chú",
+        "width": "20%"
+    },
+    {
+        "name": "",
+        "width": "10%"
+    }
+]

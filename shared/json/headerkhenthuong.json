@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Mã GV",
+        "width": "10%"
+    },
+    {
+        "name": "Họ tên",
+        "width": "15%"
+    },
+    {
+        "name": "Tổ Bộ Môn",
+        "width": "20%"
+    },
+    {
+        "name": "Hình Thức",
+        "width": "15%"
+    },
+    {
+        "name": "Thành Tích",
+        "width": "15%"
+    },
+    {
+        "name": "Quyết Định",
+        "width": "15%"
+    },
+    {
+        "name": "Ngày QĐ",
+        "width": "15%"
+    },
+    {
+        "name": "Ghi Chú",
+        "width": "15%"
+    },
+    {
+        "name": "",
+        "width": "10"
+    }
+]

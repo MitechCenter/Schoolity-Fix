@@ -1,0 +1,16 @@
+{
+  "name": "tai-cau-truc-0219",
+  "version": "1.0.0",
+  "description": "Dev Incom Sai Gon",
+  "main": "index.js",
+  "scripts": {
+    "dev": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://mrkieubui@bitbucket.org/tcuincom/sm_frontend.git"
+  },
+  "author": "schoolity",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/tcuincom/sm_frontend#readme"
+}

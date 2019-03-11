@@ -1,0 +1,72 @@
+.table-wrapper {
+  width: 100%;
+  overflow: auto;
+}
+
+.table-fixed {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+
+
+.table-fixed thead {
+  display: table;
+  background: #d2d2d2;
+  width: 100%;
+  min-width: max-content;
+}
+
+.table-fixed tbody {
+  display: block;
+  max-height: 380px;
+  overflow-y: overlay;
+  width: 100%;
+  min-width: max-content;
+}
+
+.table-fixed tbody tr {
+  display: table;
+  width: 100%;
+}
+
+.table-fixed td,
+.table-fixed th {
+  border: 1px solid #eee;
+  vertical-align: middle;
+
+  /* day la dong code de noi dung chi hien thi 1 dong */
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.table-fixed .cell {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-break: normal;
+}
+
+.text-note {
+  font-size: 0.7rem !important;
+  color:#ff1d1e;
+}
+.table-striped tbody tr:nth-of-type(5n) {
+  border-bottom: 2px solid gainsboro;
+}
+.text-note-iconstar{
+  font-size: 1rem !important;
+  color:#ff1d1e;
+}
+
+
+.table-fixed td.not-overflow{
+  border: 1px solid #eee;
+  vertical-align: middle;
+
+  /* day la dong code de noi dung chi hien thi 1 dong */
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: initial !important;
+}

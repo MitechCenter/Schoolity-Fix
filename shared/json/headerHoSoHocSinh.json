@@ -1,0 +1,26 @@
+[
+    {
+        "name"  : "Mã học sinh",
+        "width" : "10%"
+    },
+    {
+        "name" : "Họ và tên",
+        "width" : "10%"
+    },
+    {
+        "name" : "SĐT",
+        "width" : "10%"
+    },
+    {
+        "name"  : "Địa chỉ",
+        "width" : "10%"
+    },
+    {
+        "name" : "Ngày sinh",
+        "width" : "10%"
+    },
+    {
+        "name" : "Email",
+        "width" : "10%"
+    }
+]

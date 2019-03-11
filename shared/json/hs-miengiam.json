@@ -1,0 +1,40 @@
+[
+    { 
+        "Stt" : "1",
+        "ten" : "Ma Hải Anh " ,
+        "mahslop" : "PL1819002 ",
+        "lop" :"10A2",
+        "monmiengiam" : "Văn"
+    },
+    { 
+        "Stt" : "2",
+        "ten" : "Mã Thị Vân Anh " ,
+        "mahslop" : "PL1819004 ",
+        "lop" :"10A2",
+        "monmiengiam" : "Anh"
+    },
+
+    {
+        "Stt" : "3",
+        "ten" : "Nguyễn Phương Anh ", 
+        "mahslop" : "PL1819003 ",
+        "lop" :"10A2",
+        "monmiengiam" : "Toán"
+     },
+
+    {
+        "Stt" : "4",
+        "ten" : "Nguyễn Thị Ngọc Ánh" ,
+        "mahslop" : "PL1819001 ",
+        "lop" :"10A2",
+        "monmiengiam" : "Lý"
+    },
+
+    {
+        "Stt" : "5",
+        "ten" : "Đồng Quốc Bảo" ,
+        "mahslop" : "PL1819005 ",
+        "lop" :"10A2",
+        "monmiengiam" : "Lý"
+    }
+]

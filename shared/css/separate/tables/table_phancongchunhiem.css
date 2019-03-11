@@ -1,0 +1,52 @@
+#table_PCchunhiem  tr>th:first-child,
+#table_PCchunhiem  tr>td:first-child{
+  min-width: 30px !important;
+  max-width: 30px !important;
+}
+
+#table_PCchunhiem tr>th:nth-child(2),
+#table_PCchunhiem tr>td:nth-child(2){
+  min-width: 100px !important;
+  max-width: 100px !important;
+}
+#table_PCchunhiem tr>th:nth-child(3),
+#table_PCchunhiem tr>td:nth-child(3),
+#table_PCchunhiem tr>th:nth-child(4),
+#table_PCchunhiem tr>td:nth-child(4),
+#table_PCchunhiem tr>th:nth-child(5),
+#table_PCchunhiem tr>td:nth-child(5),
+#table_PCchunhiem tr>th:nth-child(6),
+#table_PCchunhiem tr>td:nth-child(6),
+#table_PCchunhiem tr>th:nth-child(7),
+#table_PCchunhiem tr>td:nth-child(7),
+#table_PCchunhiem tr>th:nth-child(8),
+#table_PCchunhiem tr>td:nth-child(8),
+#table_PCchunhiem tr>th:nth-child(9),
+#table_PCchunhiem tr>td:nth-child(9),
+#table_PCchunhiem tr>th:nth-child(10),
+#table_PCchunhiem tr>td:nth-child(10),
+#table_PCchunhiem tr>th:nth-child(11),
+#table_PCchunhiem tr>td:nth-child(11),
+#table_PCchunhiem tr>th:nth-child(12),
+#table_PCchunhiem tr>td:nth-child(12),
+#table_PCchunhiem tr>th:nth-child(13),
+#table_PCchunhiem tr>td:nth-child(13),
+#table_PCchunhiem tr>th:nth-child(14),
+#table_PCchunhiem tr>td:nth-child(14),
+#table_PCchunhiem tr>th:nth-child(15),
+#table_PCchunhiem tr>td:nth-child(15),
+#table_PCchunhiem tr>th:nth-child(16),
+#table_PCchunhiem tr>td:nth-child(16),
+#table_PCchunhiem tr>th:nth-child(17),
+#table_PCchunhiem tr>td:nth-child(17),
+#table_PCchunhiem tr>th:nth-child(18),
+#table_PCchunhiem tr>td:nth-child(18),
+#table_PCchunhiem tr>th:nth-child(19),
+#table_PCchunhiem tr>td:nth-child(19),
+#table_PCchunhiem tr>th:nth-child(20),
+#table_PCchunhiem tr>td:nth-child(20),
+#table_PCchunhiem tr>th:nth-child(21),
+#table_PCchunhiem tr>td:nth-child(21){
+  min-width: 30px !important;
+  max-width: 30px !important;
+}

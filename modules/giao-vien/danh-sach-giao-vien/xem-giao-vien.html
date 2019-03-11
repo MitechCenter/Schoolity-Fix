@@ -1,0 +1,771 @@
+<!-- Modal Edit -->
+<div class="modal-dialog modal-lg">
+	<form class="needs-validation" name="xemCanBo" novalidate>
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title"><b>Xem Thông Tin Cán Bộ</b></h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div class="row card-header">
+					<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+						<!-- <div>
+								<img alt="avatar" class="img-thumbnail" src="img/default-avatar.jpg">
+							</div> -->
+						<img ng-src="{{view.avatarUrl}}" alt="avatar" class="img-thumbnail">
+					</div>
+					<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+						<div>
+							<div class="steps-icon-progress ">
+								<ul>
+									<li class="active" ng-click="cb.step1()" data-toggle="collapse" data-target="#collapseThongTin1" aria-expanded="false"
+									 aria-controls="collapseThongTin1">
+										<div class="icon">
+											<p>1</p>
+										</div>
+										<div class="caption">Thông Tin Chung</div>
+									</li>
+									<li class="{{cb.stepActive2}}" ng-click="cb.step2()" data-toggle="collapse" data-target="#collapseThongTin2"
+									 aria-expanded="false" aria-controls="collapseThongTin2">
+										<div class="icon">
+											<p>2</p>
+										</div>
+										<div class="caption">Vị Trí Làm Việc</div>
+									</li>
+									<li class="{{cb.stepActive3}} " ng-click="cb.step3()" data-toggle="collapse" data-target="#collapseThongTin3"
+									 aria-expanded="false" aria-controls="collapseThongTin3">
+										<div class="icon">
+											<p>3</p>
+										</div>
+										<div class="caption">Lương và phụ cập</div>
+									</li>
+									<li class="{{cb.stepActive4}}" ng-click="cb.step4()" data-toggle="collapse" data-target="#collapseThongTin4"
+									 aria-expanded="false" aria-controls="collapseThongTin4">
+										<div class="icon">
+											<p>4</p>
+										</div>
+										<div class="caption">Đào tạo, bồi dưỡng</div>
+									</li>
+									<li class="{{cb.stepActive5}}" ng-click="cb.step5()" data-toggle="collapse" data-target="#collapseThongTin5"
+									 aria-expanded="false" aria-controls="collapseThongTin5">
+										<div class="icon">
+											<p>5</p>
+										</div>
+										<div class="caption">Thông tin khác</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<div id="formThongTinview" class="">
+					<div id="collapseThongTin1" class="collapse show" data-parent="#formThongTinview" aria-labelledby="headingOne">
+						<!-- đây là form thông tin 1-->
+						<div class="row">
+							<div class="col-xl-4  col-lg-4  ">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputTen">Tên Cán Bộ</label>
+										<input readonly type="text" class="form-control" id="tenCanBo" ng-model="view.tenCanBo">
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4  col-lg-4  ">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputTen">Ngày Sinh</label>
+
+										<input readonly type="date" class="form-control" id="ngaySinh" ng-model="view.ngaySinh">
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4  col-lg-4  ">
+								<div class="d-flex">
+									<div class="w-50 mr-2">
+										<div class="form-row ">
+											<div class="row-control bmd-form-group ">
+												<label class="bmd-label-static" for="inputgioiTinh">Giới Tính</label>
+												<input readonly id="gioiTinh" class="form-control" ng-model="view.gioiTinh.tenGioiTinh">
+												</input>
+											</div>
+										</div>
+									</div>
+									<div>
+										<div class="form-row ">
+											<div class="row-control bmd-form-group ">
+												<label class="bmd-label-static" for="inputdanToc">Dân Tộc</label>
+												<input readonly class="form-control" id="danToc" ng-model="view.danToc.tenDanToc">
+												</input>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xl-4  col-lg-4  ">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputTen">Số CMND</label>
+										<input readonly type="text" class="form-control" id="soCMND" ng-model="view.soCMND">
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4  col-lg-4  ">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputTen">Ngày Cấp</label>
+										<input readonly type="date" class="form-control" id="ngayCap" ng-model="view.ngayCapCMND">
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4  col-lg-4  ">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputTen">Nơi Cấp</label>
+										<input readonly type="text" class="form-control" id="noiCapCMND" ng-model="view.noiCapCMND">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xl-4  col-lg-4  ">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputTen">Số Điện Thoại</label>
+										<input readonly type="text" class="form-control" id="soDTDD" ng-model="view.soDTDD">
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4  col-lg-4  ">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputTen">Email</label>
+										<input readonly type="email" class="form-control" id="email" ng-model="view.email">
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4  col-lg-4  ">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputTen">Địa Chỉ</label>
+										<input readonly type="text" class="form-control" id="diaChi" ng-model="view.diaChi">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xl-4  col-lg-4  ">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputTen">Tỉnh/Thành</label>
+										<input readonly class="form-control" id="tinhThanh" ng-model="view.tinhThanh.name">
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4  col-lg-4  ">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputTen">Quận/Huyện</label>
+										<input readonly class="form-control" id="quanHuyen" ng-model="view.quanHuyen.name">
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4  col-lg-4  ">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputTen">Quận/Huyện</label>
+										<input readonly class="form-control" id="xaPhuong" ng-model="view.xaPhuong.name">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="collapseThongTin2" class="collapse " data-parent="#formThongTinview" aria-labelledby="headingOne">
+						<!-- 	form thong tin 2 -->
+						<div class="row">
+							<div class="col-xl-4  col-lg-4  ">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputToBoMon">Tổ Bộ Môn</label>
+										<input readonly readonly class="form-control" id="toBoMon" ng-model="view.toBoMon.tenToBoMon">
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4  col-lg-4  ">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputVitriviec">Vị Trí Làm Việc</label>
+										<input readonly class="form-control" id="viTriLamViec" ng-model="view.viTriLamViec.tenViTri">
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4  col-lg-4  ">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputTen">Chức Vụ</label>
+										<input readonly class="form-control" id="chucVu" ng-model="view.chucVu.tenChucVu">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xl-4  col-lg-4  ">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputTen">Hợp Đồng</label>
+										<input readonly class="form-control" id="hinhThucHopDong" ng-model="view.hinhThucHopDong. tenHinhThucHD">
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4  col-lg-4  ">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputTen">Ngày Tuyển Dụng</label>
+										<input readonly type="date" class="form-control" id="ngayTuyenDung" ng-model="view.ngayTuyenDung">
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4  col-lg-4  ">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputTen">Ngày Vào Biên Chế</label>
+										<input readonly type="date" class="form-control" id="ngayVaoBienChe" ng-model="view.ngayVaoBienChe">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xl-4  col-lg-4  ">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputTen">Cơ Quan Tuyển Dụng</label>
+										<input readonly type="text" class="form-control" id="coQuanTuyenDung" ng-model="view.coQuanTuyenDung">
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4  col-lg-4  ">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputTen">Chức Danh</label>
+										<input readonly type="text" class="form-control" id="chucDanh" ng-model="view.chucDanh">
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4  col-lg-4  ">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputTen">Nghề Nghiệp Khi Tuyển</label>
+										<input readonly type="text" class="form-control" id="NNKhiDuocTuyen" ng-model="view.NNKhiDuocTuyen">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xl-4  col-lg-4  ">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputTen">Số Tiết/Tuần</label>
+										<input readonly type="text" class="form-control" id="soTietTrenTuan" ng-model="view.soTietTrenTuan">
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4  col-lg-4  ">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputTen">Kiêm Nhiệm</label>
+										<input readonly class="form-control" id="nhiemVuKiemNhiem" ng-model="view.nhiemVuKiemNhiem.tenNhiemVu">
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4  col-lg-4  ">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputTen">Số Tiết Kiêm Nhiệm/Tuần</label>
+										<input readonly type="text" class="form-control" id="soTietKiemNhiem" ng-model="view.soTietKiemNhiem">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row pt-2">
+							<div class="col-xl-4 col-lg-4">
+								<div class="form-row">
+									<div class="form-check form-check-inline">
+										<input disabled class="form-check-input" type="radio" ng-model="view.day12Buoi" type="radio" value="day1Buoi"
+										 name="day12Buoi">
+										<label class="bmd-label-static" class="form-check-label" for="gridRadios3">
+											Dạy 1 buổi/ngày
+										</label>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-check form-check-inline">
+										<input disabled class="form-check-input" ng-model="view.day12Buoi" type="radio" value="day2Buoi" name="day12Buoi">
+										<label class="bmd-label-static" class="form-check-label" for="gridRadios3">
+											Dạy 2 buổi/ngày
+										</label>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4 col-lg-4">
+								<div class="form-row">
+									<div class="form-check form-check-inline">
+										<input disabled class="form-check-input" ng-model="view.huanLuyenKNS" type="checkbox" value="false">
+										<label class="bmd-label-static" class="form-check-label" for="gridCheck1">
+											Đã huấn luyện dạy KN sống
+										</label>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-check form-check-inline">
+										<input disabled class="form-check-input" ng-model="view.dayHocSinhKT" type="checkbox" value="false">
+										<label class="bmd-label-static" class="form-check-label" for="gridCheck2">
+											Dạy Học Sinh Khiếm Thị
+										</label>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-xl-4 col-lg-4">
+								<div class="form-row">
+									<div class="form-check form-check-inline">
+										<input disabled class="form-check-input" ng-model="view.chuyenTrachDoanDoi" type="checkbox" value="false">
+										<label class="bmd-label-static" class="form-check-label" for="gridCheck1">
+											Chuyên Trách Đoàn Đội
+										</label>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="collapseThongTin3" class="collapse " data-parent="#formThongTinview" aria-labelledby="headingOne">
+						<!-- 	form thong tin 3 -->
+						<div class="row">
+							<div class="col-xl-4  col-lg-4  ">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputTen">Ngạch/Hạng</label>
+										<input readonly class="form-control" id="ngachHang" ng-model="view.ngachHang.tenNgachHang">
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4  col-lg-4  ">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputTen">Mã Ngạch (auto)</label>
+										<input readonly type="text" class="form-control" id="maNgach" ng-model="view.maNgach">
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4  col-lg-4  ">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputTen">Thâm Niên (%)</label>
+										<input readonly type="text" class="form-control" id="PCThamNien" ng-model="view.PCThamNien">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xl-4  col-lg-4  ">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputTen">Bậc Lương</label>
+										<input readonly class="form-control" id="bacLuong" ng-model="view.bacLuong.tenBacLuong">
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4  col-lg-4  ">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputTen">Hệ Số Lương (%)</label>
+										<input readonly type="text" class="form-control" id="heSoLuong" ng-model="view.heSoLuong">
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4  col-lg-4  ">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputTen">Vượt Khung (%)</label>
+										<input readonly type="text" class="form-control" id="vuotKhung" ng-model="view.vuotKhung">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xl-4  col-lg-4  ">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputTen">PC Thu Hút Nghề (%)</label>
+										<input readonly type="text" class="form-control" id="PCThuHutNghe" ng-model="view.PCThuHutNghe">
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4  col-lg-4  ">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputTen">PC Ưu Đãi Nghề (%)</label>
+										<input readonly type="text" class="form-control" id="PCUuDaiNghe" ng-model="view.PCUuDaiNghe">
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4  col-lg-4  ">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputTen">Ngày Hưởng</label>
+										<input readonly type="text" class="form-control" id="ngayHuong" ng-model="view.ngayHuong">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xl-4  col-lg-4  ">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputTen">Cấp Dạy Chính</label>
+										<input readonly class="form-control" id="capDayChinh" ng-model="view.capDayChinh.tenCapDay">
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4  col-lg-4  ">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputTen">Môn Dạy Chính</label>
+										<input readonly class="form-control" id="monDayChinh" ng-model="view.monDayChinh.tenMonDay">
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4  col-lg-4  ">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputTen">Danh Hiệu</label>
+										<input readonly type="text" class="form-control" id="danhHieuGV" ng-model="view.danhHieuGV">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xl-4  col-lg-4  ">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputTen">Giáo Viên Dạy Giỏi</label>
+										<input readonly type="text" class="form-control" id="gvDayGioi" ng-model="view.giaoVienDayGioiKQ.tenCapDayGioi"
+										 readonly>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4  col-lg-4  ">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputTen">KQ Chuẩn Nghề Nghiệp</label>
+										<input readonly type="text" class="form-control" id="KQChuanNgheNghiep" ng-model="view.chuanNgheNghiepKQ.tenChuanNgheNghiep">
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4  col-lg-4  ">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputTen">Đánh Giá Viên Chức</label>
+										<input readonly type="text" class="form-control" id="danhGiaVienChuc" ng-model="view.danhGiaVienChucKQ.tenDanhGiaVienChuc">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="collapseThongTin4" class="collapse " data-parent="#formThongTinview" aria-labelledby="headingOne">
+						<!-- 	form thong tin 4 -->
+						<div class="row">
+							<div class="col-xl-4  col-lg-4  ">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputTen">KQ Bồi Dưỡng Thường Xuyên</label>
+										<input readonly type="text" class="form-control" id="KQBoiDuong" ng-model="view.boiDuongThuongXuyenKQ.tenBoiDuongThuongXuyen">
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4  col-lg-4  ">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputTen">Trình Độ CMNV</label>
+										<input readonly class="form-control" id="trinhDoCMNV" ng-model="view.trinhDoCMNV.tenTrinhDo">
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4  col-lg-4  ">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputTen">Trình Độ Tin Học</label>
+										<input readonly class="form-control" id="trinhDoTinHoc" ng-model="view.trinhDoTinHoc.tenTrinhDoTin">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xl-4  col-lg-4  ">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputTen">Trình Độ Lý Luận CT</label>
+										<input readonly class="form-control" id="trinhDoLyLuanCT" ng-model="view.trinhDoLyLuanCT.tenTrinhDoLyLuanChinhTri">
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4  col-lg-4  ">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputTen">Trình Độ Quản Lý GD</label>
+										<input readonly class="form-control" id="trinhDoQLGD" ng-model="view.trinhDoQLGD.tenTrinhDoQLGiaoDuc">
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4  col-lg-4  ">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputTen">Trình Độ Quản Lý NN</label>
+										<input readonly class="form-control" id="trinhDoQLNN" ng-model="view.trinhDoQLNN.tenTrinhDoQLNhaNuoc">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xl-4  col-lg-4  ">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputTen">Chuyên Ngành Đào Tạo Chính</label>
+										<input readonly class="form-control" id="chuyenNganh" ng-model="view.chuyenNganh.tenChuyenNganh">
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4  col-lg-4  ">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputTen">Trình Độ Chuyên Môn</label>
+										<input readonly class="form-control" id="trinhDoCM" ng-model="view.trinhDoCM.tenTrinhDo">
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4  col-lg-4  ">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputTen">Loại Hình Đào Tạo</label>
+										<input readonly class="form-control" id="loaiHinhDT" ng-model="view.loaiHinhDT.tenLoaiHinh">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xl-4  col-lg-4  ">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputTen">Chuyên Ngành Đào Tạo Khác</label>
+										<input readonly class="form-control" id="chuyenNganhKhac" ng-model="view.chuyenNganhKhac.tenChuyenNganh">
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4  col-lg-4  ">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputTen">Trình Độ Chuyên Môn Khác</label>
+										<input readonly class="form-control" id="trinhDoCMKhac" ng-model="view.trinhDoCMKhac.tenTrinhDo">
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4  col-lg-4  ">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputTen">Loại Hình Đào Tạo Khác</label>
+										<input readonly class="form-control" id="loaiHinhDTKhac" ng-model="view.loaiHinhDTKhac.tenLoaiHinh">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xl-4  col-lg-4  ">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputTen">Trình Độ Văn Hóa</label>
+										<input readonly class="form-control" id="trinhDoVH" ng-model="view.trinhDoVH.tenTrinhDoVanHoa">
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4  col-lg-4  ">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputTen">Ngoại Ngữ Chính</label>
+										<input readonly class="form-control" id="ngoaiNguChinh" ng-model="view.ngoaiNguChinh.tenNgoaiNgu">
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4  col-lg-4  ">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputTen">Trình Độ NN Chính</label>
+										<input readonly class="form-control" id="trinhDoNNChinh" ng-model="view.trinhDoNNChinh.tenTrinhDoNgoaiNgu">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="collapseThongTin5" class="collapse " data-parent="#formThongTinview" aria-labelledby="headingOne">
+						<!-- 	form thong tin 5 -->
+						<div class="row">
+							<div class="col-xl-3  col-lg-3  ">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputTen">TP Gia Đình</label>
+										<input readonly class="form-control" id="thanhPhanGD" ng-model="view.thanhPhanGD.tenThanhPhanGiaDinh">
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-3  col-lg-3 ">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputTen">TT Hôn Nhân</label>
+										<input readonly class="form-control" id="tinhTrangHonNhan" ng-model="view.tinhTrangHonNhan.tenTinhTrangHonNhan">
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-6  col-lg-6  ">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputTen">Ghi Chú Khác</label>
+										<input readonly type="text" class="form-control" name="ghiChuKhac" id="ghiChuKhac" ng-model="view.ghiChuKhac">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xl-3  col-lg-3 ">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputTen">Họ Tên Bố</label>
+										<input readonly type="text" class="form-control" name="hoTenBo" id="hoTenBo" ng-model="view.hoTenBo">
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-3  col-lg-3 ">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputNamSinhCha">Năm Sinh Cha</label>
+										<input readonly type="text" class="form-control" name="namSinhBo" id="namSinhBo" ng-model="view.namSinhBo">
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-3  col-lg-3 ">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputTen">Nghề Nghiệp</label>
+										<input readonly type="text" class="form-control" name="ngheNghiepBo" id="ngheNghiepBo" ng-model="view.ngheNghiepBo">
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-3 col-lg-3">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputTen">Nơi Làm Việc</label>
+										<input readonly type="text" class="form-control" name="coQuanBo" id="coQuanBo" ng-model="view.coQuanBo">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xl-3  col-lg-3 ">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputTen">Họ Tên Mẹ</label>
+										<input readonly type="text" class="form-control" name="hoTenMe" id="hoTenMe" ng-model="view.hoTenMe">
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-3  col-lg-3 ">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputNamSinhMe">Năm Sinh Mẹ</label>
+										<input readonly type="text" class="form-control" name="namSinhMe" id="namSinhMe" ng-model="view.namSinhMe">
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-3  col-lg-3 ">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputTen">Nghề Nghiệp</label>
+										<input readonly type="text" class="form-control" name="ngheNghiepMe" id="ngheNghiepMe" ng-model="view.ngheNghiepMe">
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-3 col-lg-3">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<label class="bmd-label-static" for="inputTen">Nơi Làm Việc</label>
+										<input readonly type="text" class="form-control" name="coQuanMe" id="coQuanMe" ng-model="view.coQuanMe">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xl-3 col-lg-3">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<div class="pl-3">
+											<input disabled class="form-check-input" ng-model="view.boiDuongTX" type="checkbox" value="false">
+											<label class="bmd-label-static" class="form-check-label" for="gridCheck1">
+												Bồi Dưỡng TX
+											</label>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-3 col-lg-3">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<div class="pl-3">
+											<input disabled class="form-check-input" ng-model="view.nhaCongVu" type="checkbox" value="false">
+											<label class="bmd-label-static" class="form-check-label" for="gridCheck1">
+												Ở Nhà Công Vụ
+											</label>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-3 col-lg-3">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<div class="pl-3">
+											<input disabled class="form-check-input" ng-model="view.thueNhaTro" type="checkbox" value="false">
+											<label class="bmd-label-static" class="form-check-label" for="gridCheck1">
+												Thuê Nhà Trọ Ngoài
+											</label>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-3 col-lg-3">
+								<div class="form-row">
+									<div class="row-control bmd-form-group">
+										<div class="pl-3">
+											<input disabled class="form-check-input" ng-model="view.dangKyNhaCongVu" type="checkbox" value="false">
+											<label class="bmd-label-static" class="form-check-label" for="gridCheck1">
+												Đăng ký NCV
+											</label>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal-footer justify-content-between">
+				<div>
+				</div>
+				<div>
+					<button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Cancel</button>
+					<button type="button" data-toggle="modal" data-target="#suaCanBo" class="btn btn-primary" data-dismiss="modal"
+					 ng-controller="EditCtrl as edit" ng-click=edit.catchID(view)>Edit</button>
+				</div>
+			</div>
+		</div>
+	</form>
+</div>

@@ -1,0 +1,201 @@
+<div class=" border-secondary p-2" ng-controller="bangHoSoBaoLuu">
+   <div class="bg-white border box-shadow p-3">
+      <!-- Phan chon muc ơ day -->
+      <div class="d-flex">
+         <div class="col p-0 mb-2">
+            <ul class="nav">
+               <li class="nav-item">
+                  <button type="button" class="btn btn-primary" ui-sref="bang-ho-so-hoc-sinh">Hồ
+                     sơ</button>
+               </li>
+               <li class="nav-item">
+                  <button type="button" class="btn btn-primary" ui-sref="bang-ho-so-mien-giam">Miễn giảm</button>
+               </li>
+               <li class="nav-item">
+                  <button type="button" class="btn btn-primary" ui-sref="bang-ho-so-ca-biet">Cá biệt</button>
+               </li>
+               <li class="nav-item">
+                  <button type="button" class="btn btn-primary" ui-sref="bang-ho-so-khen-thuong">Khen thưởng</button>
+               </li>
+               <li class="nav-item">
+                  <button type="button" class="btn btn-primary" ui-sref="bang-ho-so-ky-luat">Kỷ luật</button>
+               </li>
+               <li class="nav-item">
+                  <button type="button" class="btn btn-primary" ui-sref="bang-ho-so-bao-luu" disabled>Bảo
+                     lưu</button>
+               </li>
+            </ul>
+         </div>
+      </div>
+      <!-- Ket thuc phan chon muc -->
+      <!-- THÊM,IMPORT,XÓA, DOWLOAD,PRINT -->
+      <div class="pb-3 d-flex justify-content-between">
+         <div>
+            <button id="editbtn" class="btn btn-success text-white" data-toggle="modal" href="#">
+               <i class="fa fa-pencil" aria-hidden="true"></i> Chỉnh Sửa
+            </button>
+            <button id="cancelbtn" class="btn btn-success text-white d-none" data-toggle="modal" href="#">
+               <i class="fa fa-times" aria-hidden="true"></i> Hủy
+            </button>
+            <button class="btn btn-warning text-white" data-toggle="modal" href="#">
+               <i class="fa fa-upload" aria-hidden="true"></i> Import
+            </button>
+            <button class="btn btn-primary text-white" data-toggle="modal" href="#">
+               <i class="fa fa-floppy-o" aria-hidden="true"></i> Save
+            </button>
+            <button id="buttonDelete"  class="btn btn-danger" data-toggle="modal" href="#" data-target="#deleteTable">
+               <i class="fa fa-trash-o" aria-hidden="true"></i> Xóa
+            </button>
+         </div>
+         <div>
+            <!-- <button type="button" class="btn btn-info">
+                 <i class="fa fa-clone" aria-hidden="true"></i> Copy
+              </button> -->
+            <button type="button" class="btn btn-info">
+               <i class="fa fa-download" aria-hidden="true"></i> Download
+            </button>
+            <button type="button" class="btn btn-info">
+               <i class="fa fa-print" aria-hidden="true"></i> Print
+            </button>
+         </div>
+         <div class="modal fade" id="deleteTable" ng-include="'shared/layout/confirm.html'">
+         </div>
+      </div>
+      <!-- filter -->
+      <div class="d-flex justify-content-between">
+         <div class=" w-50">
+            <select class="pr-3 pl-3 pt-1 pb-1 border">
+               <option value="true">10 dòng</option>
+               <option value="true">20 dòng</option>
+               <option value="true">50 dòng</option>
+            </select>
+            <select ng-model="currentKhoi" class="pr-3 pl-3 pt-1 pb-1 border">
+               <option value="10">Khối 10</option>
+               <option value="11">Khối 11</option>
+               <option value="12">Khối 12</option>
+            </select>
+            <select class="pr-3 pl-3 pt-1 pb-1 border">
+               <option value="true">Lớp 10A1</option>
+               <option value="true">Lớp 10A2</option>
+               <option value="true">Lớp 10A3</option>
+            </select>
+            <select class="pr-3 pl-3 pt-1 pb-1 border">
+               <option value="true">Học kì 1</option>
+               <option value="true">Học kì 2</option>
+               <option value="true">Cả năm</option>
+               <option value="">Rèn luyện lại</option>
+            </select>
+         </div>
+         <!-- thanh search -->
+         <div class="flex-fill search-wrapper" id="search-control">
+            <div class="input-search ">
+               <input type="text" class="input-search-text" placeholder="Tìm nhanh">
+               <div class="button-show-addvance">
+                  <a id="showAdvanceSearch">
+                     <i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
+                  </a>
+               </div>
+            </div>
+            <div id="advanceSearch"></div>
+         </div>
+      </div>
+      <div class="table-wrapper">
+         <div class="table-container">
+            <table class="table-fixed-header table-hover">
+               <colgroup>
+                  <col width="3%">
+                  <col width="3%">
+                  <col width="15%">
+                  <col width="3%">
+                  <col width="5%">
+                  <col width="8%">
+                  <col width="3%">
+                  <col width="8%">
+                  <col width="15%">
+                  <col width="10%">
+               </colgroup>
+               <thead class="table-primary">
+                  <tr>
+                     <th>
+                        <div class="cell">
+                           <input type="checkbox" name="" ng-model="checkAll"  id="checkAll"    class="checkbox checkbox--red">
+                        </div>
+                     </th>
+                     <th>
+                        <div>STT</div>
+                     </th>
+                     <th>
+                        <div>Tên HS</div>
+                     </th>
+                     <th>
+                        <div>Mã HS</div>
+                     </th>
+                     <th>
+                        <div>Giới tính</div>
+                     </th>
+                     <th>
+                        <div>Ngày sinh</div>
+                     </th>
+                     <th>
+                        <div>Lớp cũ</div>
+                     </th>
+                     <th>
+                        <div>Ngày thôi học</div>
+                     </th>
+                     <th>
+                        <div>Lý do thôi học</div>
+                     </th>
+                     <th>
+                        <div>Lớp tiếp nhận</div>
+                     </th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr ng-repeat="x in dsBaoLuu" class="table-light">
+                     <td>
+                        <div class="cell">
+                           <input type="checkbox" ng-checked="checkAll" name="" id="{{x.id}}" ng-click="insertOrDelete($event,x)"  class="checkbutton checkbox checkbutton checkbox--red">
+                        </div>
+                     </td>
+                     <td>{{x.Stt}}</td>
+                     <td>{{x.ten}}</td>
+                     <td>{{x.mahslop}}</td>
+                     <td>{{x.gioitinh}}</td>
+                     <td>{{x.ngaysinh}}</td>
+                     <td>{{x.lop}}</td>
+                     <td>{{x.ngaythoihoc}}</td>
+                     <td>{{x.lydo}}</td>
+                     <td>{{x.loptiepnhan}}</td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+      </div>
+      <!-- phân trang -->
+      <div class="mt-3 d-flex justify-content-between">
+         <div>
+            <p>Hiển thị 1 đến 10 dòng trong tổng số 57 dòng</p>
+         </div>
+         <nav aria-label="Page navigation example">
+            <ul class="pagination">
+               <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Previous">
+                     <span aria-hidden="true">&laquo;</span>
+                     <span class="sr-only">Previous</span>
+                  </a>
+               </li>
+               <li class="page-item active"><a class="page-link" href="#">1</a></li>
+               <li class="page-item"><a class="page-link" href="#">2</a></li>
+               <li class="page-item"><a class="page-link" href="#">...</a></li>
+               <li class="page-item"><a class="page-link" href="#">100</a></li>
+               <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Next">
+                     <span aria-hidden="true">&raquo;</span>
+                     <span class="sr-only">Next</span>
+                  </a>
+               </li>
+            </ul>
+         </nav>
+      </div>
+   </div>
+</div>

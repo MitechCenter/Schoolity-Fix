@@ -1,0 +1,236 @@
+[
+  {
+    "monHoc": {
+      "id": 1,
+      "tenMonHoc": "Toán",
+      "toBoMonId": 3
+    },
+    "tenPhanMon": "Đại số, Giải tích",
+    "khoiApDung": [
+      {
+        "id": "1",
+        "tenKhoiLop": "Khối 10",
+        "khoiLopSelected": true
+      },
+      {
+        "id": "2",
+        "tenKhoiLop": "Khối 11",
+        "khoiLopSelected": true
+      },
+      {
+        "id": "3",
+        "tenKhoiLop": "Khối 12",
+        "khoiLopSelected": false
+      }
+    ],
+    "id": 1
+  },
+  {
+    "monHoc": {
+      "id": 2,
+      "tenMonHoc": "Vật lý",
+      "toBoMonId": 1
+    },
+    "tenPhanMon": "Quang, Cơ, Vật Rắn",
+    "khoiApDung": [
+      {
+        "id": "1",
+        "tenKhoiLop": "Khối 10",
+        "khoiLopSelected": true
+      },
+      {
+        "id": "2",
+        "tenKhoiLop": "Khối 11",
+        "khoiLopSelected": true
+      },
+      {
+        "id": "3",
+        "tenKhoiLop": "Khối 12",
+        "khoiLopSelected": true
+      }
+    ],
+    "id": 2
+  },
+  {
+    "monHoc": {
+      "id": 5,
+      "tenMonHoc": "Tin học",
+      "toBoMonId": 5
+    },
+    "tenPhanMon": "Tin học văn phòng, Lập trình cơ bản",
+    "khoiApDung": [
+      {
+        "id": "1",
+        "tenKhoiLop": "Khối 10",
+        "khoiLopSelected": true
+      },
+      {
+        "id": "2",
+        "tenKhoiLop": "Khối 11",
+        "khoiLopSelected": true
+      },
+      {
+        "id": "3",
+        "tenKhoiLop": "Khối 12",
+        "khoiLopSelected": false
+      }
+    ],
+    "id": 3
+  },
+  {
+    "monHoc": {
+      "id": 6,
+      "tenMonHoc": "Ngữ văn",
+      "toBoMonId": 4
+    },
+    "tenPhanMon": "Văn học nghị luận, Thơ",
+    "khoiApDung": [
+      {
+        "id": "1",
+        "tenKhoiLop": "Khối 10",
+        "khoiLopSelected": false
+      },
+      {
+        "id": "2",
+        "tenKhoiLop": "Khối 11",
+        "khoiLopSelected": false
+      },
+      {
+        "id": "3",
+        "tenKhoiLop": "Khối 12",
+        "khoiLopSelected": true
+      }
+    ],
+    "id": 4
+  },
+  {
+    "monHoc": {
+      "id": 14,
+      "tenMonHoc": "Nghề Phổ Thông",
+      "toBoMonId": 5
+    },
+    "tenPhanMon": "Điện, May, Làm vườn, Sửa chữa ô tô, Cơ khí",
+    "khoiApDung": [
+      {
+        "id": "1",
+        "tenKhoiLop": "Khối 10",
+        "khoiLopSelected": false
+      },
+      {
+        "id": "2",
+        "tenKhoiLop": "Khối 11",
+        "khoiLopSelected": true
+      },
+      {
+        "id": "3",
+        "tenKhoiLop": "Khối 12",
+        "khoiLopSelected": false
+      }
+    ],
+    "id": 6
+  },
+  {
+    "monHoc": {
+      "id": 12,
+      "tenMonHoc": "Thể Dục",
+      "toBoMonId": 2
+    },
+    "tenPhanMon": "Bơi, Bóng Đá",
+    "khoiApDung": [
+      {
+        "id": "1",
+        "tenKhoiLop": "Khối 10",
+        "khoiLopSelected": false
+      },
+      {
+        "id": "2",
+        "tenKhoiLop": "Khối 11",
+        "khoiLopSelected": false
+      },
+      {
+        "id": "3",
+        "tenKhoiLop": "Khối 12",
+        "khoiLopSelected": true
+      }
+    ],
+    "id": 8
+  },
+  {
+    "monHoc": {
+      "id": 12,
+      "tenMonHoc": "Thể Dục",
+      "toBoMonId": 2
+    },
+    "tenPhanMon": "Bóng chuyền, Bóng bàn, Bóng rổ",
+    "khoiApDung": [
+      {
+        "id": "1",
+        "tenKhoiLop": "Khối 10",
+        "khoiLopSelected": false
+      },
+      {
+        "id": "2",
+        "tenKhoiLop": "Khối 11",
+        "khoiLopSelected": true
+      },
+      {
+        "id": "3",
+        "tenKhoiLop": "Khối 12",
+        "khoiLopSelected": false
+      }
+    ],
+    "id": 9
+  },
+  {
+    "monHoc": {
+      "id": 12,
+      "tenMonHoc": "Thể Dục",
+      "toBoMonId": 2
+    },
+    "tenPhanMon": "Nhảy xa, Nhảy cao, Chạy",
+    "khoiApDung": [
+      {
+        "id": "1",
+        "tenKhoiLop": "Khối 10",
+        "khoiLopSelected": true
+      },
+      {
+        "id": "2",
+        "tenKhoiLop": "Khối 11",
+        "khoiLopSelected": false
+      },
+      {
+        "id": "3",
+        "tenKhoiLop": "Khối 12",
+        "khoiLopSelected": false
+      }
+    ],
+    "id": 10
+  },
+  {
+    "monHoc": {
+      "id": 1,
+      "tenMonHoc": "Toán",
+      "toBoMonId": 3
+    },
+    "tenPhanMon": "Xác suất thống kê, Tổ hợp",
+    "khoiApDung": [
+      {
+        "id": "1",
+        "tenKhoiLop": "Khối 10",
+        "khoiLopSelected": false
+      },
+      {
+        "id": "2",
+        "tenKhoiLop": "Khối 11",
+        "khoiLopSelected": false
+      },
+      {
+        "id": "3",
+        "tenKhoiLop": "Khối 12",
+        "khoiLopSelected": true
+      }
+    ],
+    "id": 11
+  }
+]

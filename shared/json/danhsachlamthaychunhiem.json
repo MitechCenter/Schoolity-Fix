@@ -1,0 +1,365 @@
+{
+    "lamThayChuNhiem": [
+        {
+            "id": 1,
+            "giaoVien": {
+                "id": 1,
+                "tenCanBo": "Nguyễn Văn Tây"
+            },
+            "giaoVienLamThay": {
+                "id": 2,
+                "tenCanBo": "Nguyễn Đặng Tuyết Mai"
+            },
+            "lopHoc": {
+                "id": 16,
+                "tenLopHoc": "12A3",
+                "khoiLopId": 3
+            },
+            "tuNgay": "2011-05-05",
+            "denNgay": "2012-05-05",
+            "ghiChu": "OK"
+        },
+        {
+            "id": 2,
+            "giaoVien": {
+                "id": 2,
+                "tenCanBo": "Nguyễn Đặng Tuyết Mai"
+            },
+            "giaoVienLamThay": {
+                "id": 6,
+                "tenCanBo": "Đinh Thế Vinh"
+            },
+            "lopHoc": {
+                "id": 7,
+                "tenLopHoc": "11A1",
+                "khoiLopId": 2
+            },
+            "tuNgay": "2015-09-09",
+            "denNgay": "2017-09-09",
+            "ghiChu": "OK"
+        },
+        {
+            "id": 3,
+            "giaoVien": {
+                "id": 7,
+                "tenCanBo": "Phan Văn Linh"
+            },
+            "giaoVienLamThay": {
+                "id": 8,
+                "tenCanBo": "Hoàng Thùy Linh"
+            },
+            "lopHoc": {
+                "id": 14,
+                "tenLopHoc": "12A1",
+                "khoiLopId": 3
+            },
+            "tuNgay": "2001-11-11",
+            "denNgay": "2002-11-11",
+            "ghiChu": "OK"
+        },
+        {
+            "id": 4,
+            "giaoVien": {
+                "id": 9,
+                "tenCanBo": "Lường Phi Thường"
+            },
+            "giaoVienLamThay": {
+                "id": 10,
+                "tenCanBo": "Hoàng Đình Phúc"
+            },
+            "lopHoc": {
+                "id": 3,
+                "tenLopHoc": "10A3",
+                "khoiLopId": 1
+            },
+            "tuNgay": "2011-05-05",
+            "denNgay": "2012-05-05",
+            "ghiChu": "OK"
+        },
+        {
+            "id": 5,
+            "giaoVien": {
+                "id": 11,
+                "tenCanBo": "Lê Nhật Nam"
+            },
+            "giaoVienLamThay": {
+                "id": 2,
+                "tenCanBo": "Nguyễn Đặng Tuyết Mai"
+            },
+            "lopHoc": {
+                "id": 10,
+                "tenLopHoc": "11A4",
+                "khoiLopId": 2
+            },
+            "tuNgay": "2017-6-6",
+            "denNgay": "2018-6-6",
+            "ghiChu": "OK"
+        },
+        {
+            "id": 6,
+            "giaoVien": {
+                "id": 12,
+                "tenCanBo": "Nguyễn Văn Y"
+            },
+            "giaoVienLamThay": {
+                "id": 13,
+                "tenCanBo": "Đào Thị Tuyết Mai"
+            },
+            "lopHoc": {
+                "id": 12,
+                "tenLopHoc": "11A6",
+                "khoiLopId": 2
+            },
+            "tuNgay": "2011-05-05",
+            "denNgay": "2012-05-05",
+            "ghiChu": "OK"
+        },
+        {
+            "id": 7,
+            "giaoVien": {
+                "id": 14,
+                "tenCanBo": "Lê Hoàng Nam"
+            },
+            "giaoVienLamThay": {
+                "id": 15,
+                "tenCanBo": "Lê Thu Hà"
+            },
+            "lopHoc": {
+                "id": 5,
+                "tenLopHoc": "10A5",
+                "khoiLopId": 1
+            },
+            "tuNgay": "2011-05-05",
+            "denNgay": "2012-05-05",
+            "ghiChu": "OK"
+        },
+        {
+            "id": 8,
+            "giaoVien": {
+                "id": 16,
+                "tenCanBo": "Lường Đình Trọng"
+            },
+            "giaoVienLamThay": {
+                "id": 17,
+                "tenCanBo": "Hà Mai Linh"
+            },
+            "lopHoc": {
+                "id": 18,
+                "tenLopHoc": "12A5",
+                "khoiLopId": 3
+            },
+            "tuNgay": "2011-05-05",
+            "denNgay": "2012-05-05",
+            "ghiChu": "OK"
+        },
+        {
+            "id": 9,
+            "giaoVien": {
+                "id": 17,
+                "tenCanBo": "Hà Mai Linh"
+            },
+            "giaoVienLamThay": {
+                "id": 16,
+                "tenCanBo": "Lường Đình Trọng"
+            },
+            "lopHoc": {
+                "id": 18,
+                "tenLopHoc": "12A5",
+                "khoiLopId": 3
+            },
+            "tuNgay": "2011-05-05",
+            "denNgay": "2012-05-05",
+            "ghiChu": "OK"
+        },
+        {
+            "id": 10,
+            "giaoVien": {
+                "id": 17,
+                "tenCanBo": "Hà Mai Linh"
+            },
+            "giaoVienLamThay": {
+                "id": 16,
+                "tenCanBo": "Lường Đình Trọng"
+            },
+            "lopHoc": {
+                "id": 18,
+                "tenLopHoc": "12A5",
+                "khoiLopId": 3
+            },
+            "tuNgay": "2011-05-05",
+            "denNgay": "2012-05-05",
+            "ghiChu": "OK"
+        },
+        {
+            "id": 11,
+            "giaoVien": {
+                "id": 1,
+                "tenCanBo": "Nguyễn Văn Tây"
+            },
+            "giaoVienLamThay": {
+                "id": 2,
+                "tenCanBo": "Nguyễn Đặng Tuyết Mai"
+            },
+            "lopHoc": {
+                "id": 16,
+                "tenLopHoc": "12A3",
+                "khoiLopId": 3
+            },
+            "tuNgay": "2011-05-05",
+            "denNgay": "2012-05-05",
+            "ghiChu": "OK"
+        },
+        {
+            "id": 12,
+            "giaoVien": {
+                "id": 2,
+                "tenCanBo": "Nguyễn Đặng Tuyết Mai"
+            },
+            "giaoVienLamThay": {
+                "id": 6,
+                "tenCanBo": "Đinh Thế Vinh"
+            },
+            "lopHoc": {
+                "id": 7,
+                "tenLopHoc": "11A1",
+                "khoiLopId": 2
+            },
+            "tuNgay": "2015-09-09",
+            "denNgay": "2017-09-09",
+            "ghiChu": "OK"
+        },
+        {
+            "id": 13,
+            "giaoVien": {
+                "id": 7,
+                "tenCanBo": "Phan Văn Linh"
+            },
+            "giaoVienLamThay": {
+                "id": 8,
+                "tenCanBo": "Hoàng Thùy Linh"
+            },
+            "lopHoc": {
+                "id": 14,
+                "tenLopHoc": "12A1",
+                "khoiLopId": 3
+            },
+            "tuNgay": "2001-11-11",
+            "denNgay": "2002-11-11",
+            "ghiChu": "OK"
+        },
+        {
+            "id": 14,
+            "giaoVien": {
+                "id": 9,
+                "tenCanBo": "Lường Phi Thường"
+            },
+            "giaoVienLamThay": {
+                "id": 10,
+                "tenCanBo": "Hoàng Đình Phúc"
+            },
+            "lopHoc": {
+                "id": 3,
+                "tenLopHoc": "10A3",
+                "khoiLopId": 1
+            },
+            "tuNgay": "2011-05-05",
+            "denNgay": "2012-05-05",
+            "ghiChu": "OK"
+        },
+        {
+            "id": 15,
+            "giaoVien": {
+                "id": 11,
+                "tenCanBo": "Lê Nhật Nam"
+            },
+            "giaoVienLamThay": {
+                "id": 2,
+                "tenCanBo": "Nguyễn Đặng Tuyết Mai"
+            },
+            "lopHoc": {
+                "id": 10,
+                "tenLopHoc": "11A4",
+                "khoiLopId": 2
+            },
+            "tuNgay": "2017-6-6",
+            "denNgay": "2018-6-6",
+            "ghiChu": "OK"
+        },
+        {
+            "id": 16,
+            "giaoVien": {
+                "id": 12,
+                "tenCanBo": "Nguyễn Văn Y"
+            },
+            "giaoVienLamThay": {
+                "id": 13,
+                "tenCanBo": "Đào Thị Tuyết Mai"
+            },
+            "lopHoc": {
+                "id": 12,
+                "tenLopHoc": "11A6",
+                "khoiLopId": 2
+            },
+            "tuNgay": "2011-05-05",
+            "denNgay": "2012-05-05",
+            "ghiChu": "OK"
+        },
+        {
+            "id": 17,
+            "giaoVien": {
+                "id": 14,
+                "tenCanBo": "Lê Hoàng Nam"
+            },
+            "giaoVienLamThay": {
+                "id": 15,
+                "tenCanBo": "Lê Thu Hà"
+            },
+            "lopHoc": {
+                "id": 5,
+                "tenLopHoc": "10A5",
+                "khoiLopId": 1
+            },
+            "tuNgay": "2011-05-05",
+            "denNgay": "2012-05-05",
+            "ghiChu": "OK"
+        },
+        {
+            "id": 18,
+            "giaoVien": {
+                "id": 16,
+                "tenCanBo": "Lường Đình Trọng"
+            },
+            "giaoVienLamThay": {
+                "id": 17,
+                "tenCanBo": "Hà Mai Linh"
+            },
+            "lopHoc": {
+                "id": 18,
+                "tenLopHoc": "12A5",
+                "khoiLopId": 3
+            },
+            "tuNgay": "2011-05-05",
+            "denNgay": "2012-05-05",
+            "ghiChu": "OK"
+        },
+        {
+            "id": 19,
+            "giaoVien": {
+                "id": 17,
+                "tenCanBo": "Hà Mai Linh"
+            },
+            "giaoVienLamThay": {
+                "id": 16,
+                "tenCanBo": "Lường Đình Trọng"
+            },
+            "lopHoc": {
+                "id": 18,
+                "tenLopHoc": "12A5",
+                "khoiLopId": 3
+            },
+            "tuNgay": "2011-05-05",
+            "denNgay": "2012-05-05",
+            "ghiChu": "OK"
+        }
+    ]
+}

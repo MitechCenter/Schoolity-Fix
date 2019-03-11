@@ -1,0 +1,66 @@
+<div name="themKiemNhiem" class="modal-dialog modal-lg" role="document">
+	<div class="modal-content">
+		<div class="modal-header">
+			<h5 class="modal-title"><b>Thêm Kiêm Nhiệm</b></h5>
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+			</button>
+		</div>
+		<div class="modal-body">
+			<!-- filter -->
+			<div class="d-flex pb-3 justify-content-between">
+				<div class=" flex-fill">
+					<select class="pr-3 pl-3 pt-1 pb-1 border" ng-model="kiemNhiem" ng-options="kiemNhiem.tenNhiemVu for kiemNhiem in nhiemVuKiemNhiemSelect track by kiemNhiem.id"
+					 ng-change="getIdKiemNhiem(kiemNhiem.id)">
+						<option disabled value="">Nhiệm vụ kiêm nhiệm</option>
+					</select>
+					<select class="pr-3 pl-3 pt-1 pb-1 border" ng-model="toBoMonThem" ng-options="boMon.tenToBoMon for boMon in toBoMonSelect track by boMon.id"
+					 ng-change="getIdToBoMonThem(toBoMonThem.id)">
+						<option disabled value="">Tổ Bộ Môn</option>
+					</select>
+				</div>
+			</div>
+			<!-- table -->
+			<div class="table-wrapper">
+				<table id="table_add_kiemnhiem" class="table-fixed table table-hover table-striped">
+					<thead>
+						<tr>
+							<td>
+								STT
+							</td>
+							<td>
+								Mã Cán Bộ
+							</td>
+							<td>
+								Tên Cán Bộ
+							</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr ng-repeat="data in danhSachGiaoVien | filter: filtertoBoMonThem track by data.id">
+							<td>
+								<div class="cell">
+									<input type="checkbox" name="" id="{{data.id}}" class="checkbox checkbox--red" ng-click="clickKiemNhiem(data, kiemNhiem, toBoMonThem)" ng-show="view"
+									 ng-model="checkKiemNhiem[data.id-1]">
+								</div>
+							</td>
+							<td>GV-{{data.id}}</td>
+							<td>{{data.tenCanBo}}</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="modal-footer justify-content-between">
+			<div>
+				<!-- <div class="d-flex text-danger">
+						<i class="fa fa-exclamation-triangle alert-icon" aria-hidden="true"></i>
+						<div class="alert-content">Cảnh báo lỗi từ hệ thống.</div>
+					</div> -->
+			</div>
+			<div>
+				<button type="button" class="btn btn-primary" data-dismiss="modal" ng-click="Close()">Save</button>
+			</div>
+		</div>
+	</div>
+</div>

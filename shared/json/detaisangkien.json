@@ -1,0 +1,954 @@
+{
+    "deTaiSangKien": [
+        {
+            "id": 1,
+            "giaoVien": {
+                "id": "1",
+                "tenCanBo": "Nguyễn Văn Tây"
+            },
+            "toBoMon": {
+                "id": 4,
+                "tenToBoMon": "Văn - Sử"
+            },
+            "tenDeTai": "Thiết kế máy giảng bài tự động",
+            "loaiDeTai": {
+                "id": 1,
+                "tenLoaiDeTai": "Nghiên cứu khoa học cơ bản"
+            },
+            "capDeTai": {
+                "id": 3,
+                "tenCapDeTai": "Cấp phòng"
+            },
+            "xepLoai": {
+                "id": 1,
+                "xepLoai": "Loại A"
+            },
+            "ghiChu": "ok"
+        },
+        {
+            "id": 2,
+            "giaoVien": {
+                "id": "2",
+                "tenCanBo": "Nguyễn Đặng Tuyết Mai"
+            },
+            "toBoMon": {
+                "id": 1,
+                "tenToBoMon": "Hóa - Lý"
+            },
+            "tenDeTai": "Thiết kế máy giảng bài tự động",
+            "loaiDeTai": {
+                "id": 1,
+                "tenLoaiDeTai": "Nghiên cứu khoa học cơ bản"
+            },
+            "capDeTai": {
+                "id": 3,
+                "tenCapDeTai": "Cấp phòng"
+            },
+            "xepLoai": {
+                "id": 1,
+                "xepLoai": "Loại A"
+            },
+            "ghiChu": "ok"
+        },
+        {
+            "id": 3,
+            "giaoVien": {
+                "id": "3",
+                "tenCanBo": "Hoàng Xuân Thắng"
+            },
+            "toBoMon": {
+                "id": 5,
+                "tenToBoMon": "Địa - Tin - GDCD - Văn phòng"
+            },
+            "tenDeTai": "Thiết kế máy giảng bài tự động",
+            "loaiDeTai": {
+                "id": 1,
+                "tenLoaiDeTai": "Nghiên cứu khoa học cơ bản"
+            },
+            "capDeTai": {
+                "id": 3,
+                "tenCapDeTai": "Cấp phòng"
+            },
+            "xepLoai": {
+                "id": 1,
+                "xepLoai": "Loại A"
+            },
+            "ghiChu": "ok"
+        },
+        {
+            "id": 4,
+            "giaoVien": {
+                "id": "4",
+                "tenCanBo": "Đặng Mai Linh"
+            },
+            "toBoMon": {
+                "id": 2,
+                "tenToBoMon": "Ngoại ngữ - Thể dục"
+            },
+            "tenDeTai": "Thiết kế máy giảng bài tự động",
+            "loaiDeTai": {
+                "id": 3,
+                "tenLoaiDeTai": "Nghiên cứu triển khai"
+            },
+            "capDeTai": {
+                "id": 3,
+                "tenCapDeTai": "Cấp phòng"
+            },
+            "xepLoai": {
+                "id": 1,
+                "xepLoai": "Loại A"
+            },
+            "ghiChu": "ok"
+        },
+        {
+            "id": 5,
+            "giaoVien": {
+                "id": "5",
+                "tenCanBo": "Văn Mai Hương"
+            },
+            "toBoMon": {
+                "id": 1,
+                "tenToBoMon": "Hóa - Lý"
+            },
+            "tenDeTai": "Thiết kế máy giảng bài tự động",
+            "loaiDeTai": {
+                "id": 3,
+                "tenLoaiDeTai": "Nghiên cứu triển khai"
+            },
+            "capDeTai": {
+                "id": 3,
+                "tenCapDeTai": "Cấp phòng"
+            },
+            "xepLoai": {
+                "id": 1,
+                "xepLoai": "Loại A"
+            },
+            "ghiChu": "ok"
+        },
+        {
+            "id": 6,
+            "giaoVien": {
+                "id": "6",
+                "tenCanBo": "Đinh Thế Vinh"
+            },
+            "toBoMon": {
+                "id": 2,
+                "tenToBoMon": "Ngoại ngữ - Thể dục"
+            },
+            "tenDeTai": "Thiết kế máy giảng bài tự động",
+            "loaiDeTai": {
+                "id": 3,
+                "tenLoaiDeTai": "Nghiên cứu triển khai"
+            },
+            "capDeTai": {
+                "id": 3,
+                "tenCapDeTai": "Cấp phòng"
+            },
+            "xepLoai": {
+                "id": 1,
+                "xepLoai": "Loại A"
+            },
+            "ghiChu": "ok"
+        },
+        {
+            "id": 7,
+            "giaoVien": {
+                "id": "7",
+                "tenCanBo": "Phan Văn Linh"
+            },
+            "toBoMon": {
+                "id": 3,
+                "tenToBoMon": "Toán - Sinh"
+            },
+            "tenDeTai": "Thiết kế máy giảng bài tự động",
+            "loaiDeTai": {
+                "id": 3,
+                "tenLoaiDeTai": "Nghiên cứu triển khai"
+            },
+            "capDeTai": {
+                "id": 4,
+                "tenCapDeTai": "Cấp trường"
+            },
+            "xepLoai": {
+                "id": 1,
+                "xepLoai": "Loại A"
+            },
+            "ghiChu": "ok"
+        },
+        {
+            "id": 8,
+            "giaoVien": {
+                "id": "8",
+                "tenCanBo": "Hoàng Thùy Linh"
+            },
+            "toBoMon": {
+                "id": 4,
+                "tenToBoMon": "Văn - Sử"
+            },
+            "tenDeTai": "Thiết kế máy giảng bài tự động",
+            "loaiDeTai": {
+                "id": 3,
+                "tenLoaiDeTai": "Nghiên cứu triển khai"
+            },
+            "capDeTai": {
+                "id": 4,
+                "tenCapDeTai": "Cấp trường"
+            },
+            "xepLoai": {
+                "id": 1,
+                "xepLoai": "Loại A"
+            },
+            "ghiChu": "ok"
+        },
+        {
+            "id": 9,
+            "giaoVien": {
+                "id": "9",
+                "tenCanBo": "Lường Phi Thường"
+            },
+            "toBoMon": {
+                "id": 5,
+                "tenToBoMon": "Địa - Tin - GDCD - Văn phòng"
+            },
+            "tenDeTai": "Thiết kế máy giảng bài tự động",
+            "loaiDeTai": {
+                "id": 3,
+                "tenLoaiDeTai": "Nghiên cứu triển khai"
+            },
+            "capDeTai": {
+                "id": 4,
+                "tenCapDeTai": "Cấp trường"
+            },
+            "xepLoai": {
+                "id": 1,
+                "xepLoai": "Loại A"
+            },
+            "ghiChu": "ok"
+        },
+        {
+            "id": 10,
+            "giaoVien": {
+                "id": "10",
+                "tenCanBo": "Hoàng Đình Phúc"
+            },
+            "toBoMon": {
+                "id": 1,
+                "tenToBoMon": "Hóa - Lý"
+            },
+            "tenDeTai": "Thiết kế máy giảng bài tự động",
+            "loaiDeTai": {
+                "id": 3,
+                "tenLoaiDeTai": "Nghiên cứu triển khai"
+            },
+            "capDeTai": {
+                "id": 4,
+                "tenCapDeTai": "Cấp trường"
+            },
+            "xepLoai": {
+                "id": 1,
+                "xepLoai": "Loại A"
+            },
+            "ghiChu": "ok"
+        },
+        {
+            "id": 11,
+            "giaoVien": {
+                "id": "11",
+                "tenCanBo": "Lê Nhật Nam"
+            },
+            "toBoMon": {
+                "id": 2,
+                "tenToBoMon": "Ngoại ngữ - Thể dục"
+            },
+            "tenDeTai": "Thiết kế máy giảng bài tự động",
+            "loaiDeTai": {
+                "id": 1,
+                "tenLoaiDeTai": "Nghiên cứu khoa học cơ bản"
+            },
+            "capDeTai": {
+                "id": 4,
+                "tenCapDeTai": "Cấp trường"
+            },
+            "xepLoai": {
+                "id": 2,
+                "xepLoai": "Loại B"
+            },
+            "ghiChu": "ok"
+        },
+        {
+            "id": 12,
+            "giaoVien": {
+                "id": "12",
+                "tenCanBo": "Nguyễn Văn Y"
+            },
+            "toBoMon": {
+                "id": 5,
+                "tenToBoMon": "Địa - Tin - GDCD - Văn phòng"
+            },
+            "tenDeTai": "Thiết kế máy giảng bài tự động",
+            "loaiDeTai": {
+                "id": 1,
+                "tenLoaiDeTai": "Nghiên cứu khoa học cơ bản"
+            },
+            "capDeTai": {
+                "id": 4,
+                "tenCapDeTai": "Cấp trường"
+            },
+            "xepLoai": {
+                "id": 2,
+                "xepLoai": "Loại B"
+            },
+            "ghiChu": "ok"
+        },
+        {
+            "id": 13,
+            "giaoVien": {
+                "id": "13",
+                "tenCanBo": "Đào Thị Tuyết Mai"
+            },
+            "toBoMon": {
+                "id": 4,
+                "tenToBoMon": "Văn - Sử"
+            },
+            "tenDeTai": "Thiết kế máy giảng bài tự động",
+            "loaiDeTai": {
+                "id": 1,
+                "tenLoaiDeTai": "Nghiên cứu khoa học cơ bản"
+            },
+            "capDeTai": {
+                "id": 2,
+                "tenCapDeTai": "Sở giáo dục"
+            },
+            "xepLoai": {
+                "id": 2,
+                "xepLoai": "Loại B"
+            },
+            "ghiChu": "ok"
+        },
+        {
+            "id": 14,
+            "giaoVien": {
+                "id": "14",
+                "tenCanBo": "Lê Hoàng Nam"
+            },
+            "toBoMon": {
+                "id": 1,
+                "tenToBoMon": "Hóa - Lý"
+            },
+            "tenDeTai": "Thiết kế máy giảng bài tự động",
+            "loaiDeTai": {
+                "id": 1,
+                "tenLoaiDeTai": "Nghiên cứu khoa học cơ bản"
+            },
+            "capDeTai": {
+                "id": 2,
+                "tenCapDeTai": "Sở giáo dục"
+            },
+            "xepLoai": {
+                "id": 2,
+                "xepLoai": "Loại B"
+            },
+            "ghiChu": "ok"
+        },
+        {
+            "id": 15,
+            "giaoVien": {
+                "id": "15",
+                "tenCanBo": "Lê Thu Hà"
+            },
+            "toBoMon": {
+                "id": 5,
+                "tenToBoMon": "Địa - Tin - GDCD - Văn phòng"
+            },
+            "tenDeTai": "Thiết kế máy giảng bài tự động",
+            "loaiDeTai": {
+                "id": 1,
+                "tenLoaiDeTai": "Nghiên cứu khoa học cơ bản"
+            },
+            "capDeTai": {
+                "id": 2,
+                "tenCapDeTai": "Sở giáo dục"
+            },
+            "xepLoai": {
+                "id": 2,
+                "xepLoai": "Loại B"
+            },
+            "ghiChu": "ok"
+        },
+        {
+            "id": 16,
+            "giaoVien": {
+                "id": "16",
+                "tenCanBo": "Lường Đình Trọng"
+            },
+            "toBoMon": {
+                "id": 4,
+                "tenToBoMon": "Văn - Sử"
+            },
+            "tenDeTai": "Thiết kế máy giảng bài tự động",
+            "loaiDeTai": {
+                "id": 1,
+                "tenLoaiDeTai": "Nghiên cứu khoa học cơ bản"
+            },
+            "capDeTai": {
+                "id": 2,
+                "tenCapDeTai": "Sở giáo dục"
+            },
+            "xepLoai": {
+                "id": 3,
+                "xepLoai": "Loại C"
+            },
+            "ghiChu": "ok"
+        },
+        {
+            "id": 17,
+            "giaoVien": {
+                "id": "17",
+                "tenCanBo": "Hà Mai Linh"
+            },
+            "toBoMon": {
+                "id": 3,
+                "tenToBoMon": "Toán - Sinh"
+            },
+            "tenDeTai": "Thiết kế máy giảng bài tự động",
+            "loaiDeTai": {
+                "id": 1,
+                "tenLoaiDeTai": "Nghiên cứu khoa học cơ bản"
+            },
+            "capDeTai": {
+                "id": 2,
+                "tenCapDeTai": "Sở giáo dục"
+            },
+            "xepLoai": {
+                "id": 3,
+                "xepLoai": "Loại C"
+            },
+            "ghiChu": "ok"
+        },
+        {
+            "id": 18,
+            "giaoVien": {
+                "id": "18",
+                "tenCanBo": "Nguyễn Trung Dũng"
+            },
+            "toBoMon": {
+                "id": 4,
+                "tenToBoMon": "Văn - Sử"
+            },
+            "tenDeTai": "Thiết kế máy giảng bài tự động",
+            "loaiDeTai": {
+                "id": 1,
+                "tenLoaiDeTai": "Nghiên cứu khoa học cơ bản"
+            },
+            "capDeTai": {
+                "id": 2,
+                "tenCapDeTai": "Sở giáo dục"
+            },
+            "xepLoai": {
+                "id": 3,
+                "xepLoai": "Loại C"
+            },
+            "ghiChu": "ok"
+        },
+        {
+            "id": 19,
+            "giaoVien": {
+                "id": 6,
+                "tenCanBo": "Đinh Thế Vinh"
+            },
+            "toBoMon": {
+                "id": 2,
+                "tenToBoMon": "Ngoại ngữ - Thể dục"
+            },
+            "loaiDeTai": {
+                "id": 1,
+                "tenLoaiDeTai": "Nghiên cứu khoa học cơ bản"
+            },
+            "tenDeTai": "Thiết kế máy giảng bài tự động",
+            "xepLoai": {
+                "id": 1,
+                "xepLoai": "Loại A"
+            },
+            "capDeTai": {
+                "id": 1,
+                "tenCapDeTai": "Bộ giáo dục"
+            },
+            "ghiChu": "ok"
+        },
+        {
+            "id": 20,
+            "giaoVien": {
+                "id": 24,
+                "tenCanBo": "Phạm Đình Đức"
+            },
+            "toBoMon": {
+                "id": 2,
+                "tenToBoMon": "Ngoại ngữ - Thể dục"
+            },
+            "loaiDeTai": {
+                "id": 2,
+                "tenLoaiDeTai": "Nghiên cứu ứng dụng"
+            },
+            "tenDeTai": "Thiết kế máy giảng bài tự động",
+            "xepLoai": {
+                "id": 2,
+                "xepLoai": "Loại B"
+            },
+            "capDeTai": {
+                "id": 1,
+                "tenCapDeTai": "Bộ giáo dục"
+            },
+            "ghiChu": "ok"
+        },
+        {
+            "id": 21,
+            "giaoVien": {
+                "id": 10,
+                "tenCanBo": "Hoàng Đình Phúc"
+            },
+            "toBoMon": {
+                "id": 1,
+                "tenToBoMon": "Hóa - Lý"
+            },
+            "loaiDeTai": {
+                "id": 3,
+                "tenLoaiDeTai": "Nghiên cứu triển khai"
+            },
+            "tenDeTai": "Thiết kế máy giảng bài tự động",
+            "xepLoai": {
+                "id": 3,
+                "xepLoai": "Loại C"
+            },
+            "capDeTai": {
+                "id": 1,
+                "tenCapDeTai": "Bộ giáo dục"
+            },
+            "ghiChu": "ok"
+        },
+        {
+            "id": 22,
+            "giaoVien": {
+                "id": 13,
+                "tenCanBo": "Đào Thị Tuyết Mai"
+            },
+            "toBoMon": {
+                "id": 4,
+                "tenToBoMon": "Văn - Sử"
+            },
+            "loaiDeTai": {
+                "id": 4,
+                "tenLoaiDeTai": "Nghiên cứu thăm dò"
+            },
+            "tenDeTai": "Thiết kế máy giảng bài tự động",
+            "xepLoai": {
+                "id": 1,
+                "xepLoai": "Loại A"
+            },
+            "capDeTai": {
+                "id": 2,
+                "tenCapDeTai": "Sở giáo dục"
+            },
+            "ghiChu": "ok"
+        },
+        {
+            "id": 23,
+            "giaoVien": {
+                "id": 23,
+                "tenCanBo": "Nguyễn Thu Thủy"
+            },
+            "toBoMon": {
+                "id": 3,
+                "tenToBoMon": "Toán - Sinh"
+            },
+            "loaiDeTai": {
+                "id": 4,
+                "tenLoaiDeTai": "Nghiên cứu thăm dò"
+            },
+            "tenDeTai": "Thiết kế máy giảng bài tự động",
+            "xepLoai": {
+                "id": 2,
+                "xepLoai": "Loại B"
+            },
+            "capDeTai": {
+                "id": 2,
+                "tenCapDeTai": "Sở giáo dục"
+            },
+            "ghiChu": "ok"
+        },
+        {
+            "id": 24,
+            "giaoVien": {
+                "id": 21,
+                "tenCanBo": "Phan Thị Thu Hoài"
+            },
+            "toBoMon": {
+                "id": 5,
+                "tenToBoMon": "Địa - Tin - GDCD - Văn phòng"
+            },
+            "loaiDeTai": {
+                "id": 4,
+                "tenLoaiDeTai": "Nghiên cứu thăm dò"
+            },
+            "tenDeTai": "Thiết kế máy giảng bài tự động",
+            "xepLoai": {
+                "id": 3,
+                "xepLoai": "Loại C"
+            },
+            "capDeTai": {
+                "id": 2,
+                "tenCapDeTai": "Sở giáo dục"
+            },
+            "ghiChu": "ok"
+        },
+        {
+            "id": 25,
+            "giaoVien": {
+                "id": 32,
+                "tenCanBo": "Đặng Hùng Dũng"
+            },
+            "toBoMon": {
+                "id": 4,
+                "tenToBoMon": "Văn - Sử"
+            },
+            "loaiDeTai": {
+                "id": 4,
+                "tenLoaiDeTai": "Nghiên cứu thăm dò"
+            },
+            "tenDeTai": "Thiết kế máy giảng bài tự động",
+            "xepLoai": {
+                "id": 1,
+                "xepLoai": "Loại A"
+            },
+            "capDeTai": {
+                "id": 3,
+                "tenCapDeTai": "Cấp phòng"
+            },
+            "ghiChu": "ok"
+        },
+        {
+            "id": 26,
+            "giaoVien": {
+                "id": 30,
+                "tenCanBo": "Trần Đức Độ"
+            },
+            "toBoMon": {
+                "id": 2,
+                "tenToBoMon": "Ngoại ngữ - Thể dục"
+            },
+            "loaiDeTai": {
+                "id": 1,
+                "tenLoaiDeTai": "Nghiên cứu khoa học cơ bản"
+            },
+            "tenDeTai": "Thiết kế máy giảng bài tự động",
+            "xepLoai": {
+                "id": 2,
+                "xepLoai": "Loại B"
+            },
+            "capDeTai": {
+                "id": 3,
+                "tenCapDeTai": "Cấp phòng"
+            },
+            "ghiChu": "ok"
+        },
+        {
+            "id": 27,
+            "giaoVien": {
+                "id": 26,
+                "tenCanBo": "Phan Hoàng Bách"
+            },
+            "toBoMon": {
+                "id": 3,
+                "tenToBoMon": "Toán - Sinh"
+            },
+            "loaiDeTai": {
+                "id": 1,
+                "tenLoaiDeTai": "Nghiên cứu khoa học cơ bản"
+            },
+            "tenDeTai": "Thiết kế máy giảng bài tự động",
+            "xepLoai": {
+                "id": 3,
+                "xepLoai": "Loại C"
+            },
+            "capDeTai": {
+                "id": 3,
+                "tenCapDeTai": "Cấp phòng"
+            },
+            "ghiChu": "ok"
+        },
+        {
+            "id": 28,
+            "giaoVien": {
+                "id": 26,
+                "tenCanBo": "Phan Hoàng Bách"
+            },
+            "toBoMon": {
+                "id": 3,
+                "tenToBoMon": "Toán - Sinh"
+            },
+            "loaiDeTai": {
+                "id": 1,
+                "tenLoaiDeTai": "Nghiên cứu khoa học cơ bản"
+            },
+            "tenDeTai": "Thiết kế máy giảng bài tự động",
+            "xepLoai": {
+                "id": 1,
+                "xepLoai": "Loại A"
+            },
+            "capDeTai": {
+                "id": 4,
+                "tenCapDeTai": "Cấp trường"
+            },
+            "ghiChu": "ok"
+        },
+        {
+            "id": 29,
+            "giaoVien": {
+                "id": 7,
+                "tenCanBo": "Phan Văn Linh"
+            },
+            "toBoMon": {
+                "id": 3,
+                "tenToBoMon": "Toán - Sinh"
+            },
+            "loaiDeTai": {
+                "id": 1,
+                "tenLoaiDeTai": "Nghiên cứu khoa học cơ bản"
+            },
+            "tenDeTai": "Thiết kế máy giảng bài tự động",
+            "xepLoai": {
+                "id": 2,
+                "xepLoai": "Loại B"
+            },
+            "capDeTai": {
+                "id": 4,
+                "tenCapDeTai": "Cấp trường"
+            },
+            "ghiChu": "ok"
+        },
+        {
+            "id": 30,
+            "giaoVien": {
+                "id": 31,
+                "tenCanBo": "Nguyễn Thị Minh Hằng"
+            },
+            "toBoMon": {
+                "id": 5,
+                "tenToBoMon": "Địa - Tin - GDCD - Văn phòng"
+            },
+            "loaiDeTai": {
+                "id": 1,
+                "tenLoaiDeTai": "Nghiên cứu khoa học cơ bản"
+            },
+            "tenDeTai": "Thiết kế máy giảng bài tự động",
+            "xepLoai": {
+                "id": 3,
+                "xepLoai": "Loại C"
+            },
+            "capDeTai": {
+                "id": 4,
+                "tenCapDeTai": "Cấp trường"
+            },
+            "ghiChu": "ok"
+        },
+        {
+            "id": 31,
+            "giaoVien": {
+                "id": 11,
+                "tenCanBo": "Lê Nhật Nam"
+            },
+            "toBoMon": {
+                "id": 2,
+                "tenToBoMon": "Ngoại ngữ - Thể dục"
+            },
+            "loaiDeTai": {
+                "id": 2,
+                "tenLoaiDeTai": "Nghiên cứu ứng dụng"
+            },
+            "tenDeTai": "Thiết kế máy giảng bài tự động",
+            "xepLoai": {
+                "id": 2,
+                "xepLoai": "Loại B"
+            },
+            "capDeTai": {
+                "id": 3,
+                "tenCapDeTai": "Cấp phòng"
+            },
+            "ghiChu": "good"
+        },
+        {
+            "id": 32,
+            "giaoVien": {
+                "id": 30,
+                "tenCanBo": "Trần Đức Độ"
+            },
+            "toBoMon": {
+                "id": 2,
+                "tenToBoMon": "Ngoại ngữ - Thể dục"
+            },
+            "loaiDeTai": {
+                "id": 3,
+                "tenLoaiDeTai": "Nghiên cứu triển khai"
+            },
+            "tenDeTai": "Thiết kế máy giảng bài tự động",
+            "xepLoai": {
+                "id": 2,
+                "xepLoai": "Loại B"
+            },
+            "capDeTai": {
+                "id": 3,
+                "tenCapDeTai": "Cấp phòng"
+            },
+            "ghiChu": "good"
+        },
+        {
+            "id": 33,
+            "giaoVien": {
+                "id": 31,
+                "tenCanBo": "Nguyễn Thị Minh Hằng"
+            },
+            "toBoMon": {
+                "id": 5,
+                "tenToBoMon": "Địa - Tin - GDCD - Văn phòng"
+            },
+            "loaiDeTai": {
+                "id": 4,
+                "tenLoaiDeTai": "Nghiên cứu thăm dò"
+            },
+            "tenDeTai": "Thiết kế máy giảng bài tự động",
+            "xepLoai": {
+                "id": 2,
+                "xepLoai": "Loại B"
+            },
+            "capDeTai": {
+                "id": 3,
+                "tenCapDeTai": "Cấp phòng"
+            },
+            "ghiChu": "good"
+        },
+        {
+            "id": 34,
+            "giaoVien": {
+                "id": 15,
+                "tenCanBo": "Lê Thu Hà"
+            },
+            "toBoMon": {
+                "id": 5,
+                "tenToBoMon": "Địa - Tin - GDCD - Văn phòng"
+            },
+            "loaiDeTai": {
+                "id": 4,
+                "tenLoaiDeTai": "Nghiên cứu thăm dò"
+            },
+            "tenDeTai": "Thiết kế máy giảng bài tự động",
+            "xepLoai": {
+                "id": 2,
+                "xepLoai": "Loại B"
+            },
+            "capDeTai": {
+                "id": 3,
+                "tenCapDeTai": "Cấp phòng"
+            },
+            "ghiChu": "good"
+        },
+        {
+            "id": 35,
+            "giaoVien": {
+                "id": 9,
+                "tenCanBo": "Lường Phi Thường"
+            },
+            "toBoMon": {
+                "id": 5,
+                "tenToBoMon": "Địa - Tin - GDCD - Văn phòng"
+            },
+            "loaiDeTai": {
+                "id": 4,
+                "tenLoaiDeTai": "Nghiên cứu thăm dò"
+            },
+            "tenDeTai": "Thiết kế máy giảng bài tự động",
+            "xepLoai": {
+                "id": 3,
+                "xepLoai": "Loại C"
+            },
+            "capDeTai": {
+                "id": 3,
+                "tenCapDeTai": "Cấp phòng"
+            },
+            "ghiChu": "good"
+        },
+        {
+            "id": 36,
+            "giaoVien": {
+                "id": 26,
+                "tenCanBo": "Phan Hoàng Bách"
+            },
+            "toBoMon": {
+                "id": 3,
+                "tenToBoMon": "Toán - Sinh"
+            },
+            "loaiDeTai": {
+                "id": 4,
+                "tenLoaiDeTai": "Nghiên cứu thăm dò"
+            },
+            "tenDeTai": "Thiết kế máy giảng bài tự động",
+            "xepLoai": {
+                "id": 3,
+                "xepLoai": "Loại C"
+            },
+            "capDeTai": {
+                "id": 3,
+                "tenCapDeTai": "Cấp phòng"
+            },
+            "ghiChu": "good"
+        },
+        {
+            "id": 37,
+            "giaoVien": {
+                "id": 7,
+                "tenCanBo": "Phan Văn Linh"
+            },
+            "toBoMon": {
+                "id": 3,
+                "tenToBoMon": "Toán - Sinh"
+            },
+            "loaiDeTai": {
+                "id": 4,
+                "tenLoaiDeTai": "Nghiên cứu thăm dò"
+            },
+            "tenDeTai": "Thiết kế máy giảng bài tự động",
+            "xepLoai": {
+                "id": 3,
+                "xepLoai": "Loại C"
+            },
+            "capDeTai": {
+                "id": 3,
+                "tenCapDeTai": "Cấp phòng"
+            },
+            "ghiChu": "good"
+        },
+        {
+            "id": 38,
+            "giaoVien": {
+                "id": 22,
+                "tenCanBo": "Cao Đức Anh"
+            },
+            "toBoMon": {
+                "id": 1,
+                "tenToBoMon": "Hóa - Lý"
+            },
+            "loaiDeTai": {
+                "id": 4,
+                "tenLoaiDeTai": "Nghiên cứu thăm dò"
+            },
+            "tenDeTai": "Thiết kế máy giảng bài tự động",
+            "xepLoai": {
+                "id": 3,
+                "xepLoai": "Loại C"
+            },
+            "capDeTai": {
+                "id": 3,
+                "tenCapDeTai": "Cấp phòng"
+            },
+            "ghiChu": "good"
+        }
+    ]
+}

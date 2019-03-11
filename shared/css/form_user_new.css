@@ -1,0 +1,49 @@
+.breadcrumb,
+.pager,
+nav ol,
+nav ul,
+ul {
+    list-style: none;
+}
+body,
+dl,
+fieldset,
+figure,
+form,
+menu,
+ol,
+pre,
+ul {
+    margin: 0 !important;
+}
+
+form>i {
+    font-size: 20px !important;
+    color: yellow !important;
+}
+input {
+    border: 0px;
+}
+input:focus {
+    outline: none !important;
+}
+.plr-100{
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.text-decor-none {
+    text-decoration: none !important;
+}
+
+.border {
+    border-color: grey;
+    border-radius: 10px;
+}
+
+.border-bottom {
+    border-bottom: 1px solid#a7a7a7 !important;
+}
+
+.box-shadow:hover {
+    box-shadow: 0 0 30px -5px #9e9c9e;
+}

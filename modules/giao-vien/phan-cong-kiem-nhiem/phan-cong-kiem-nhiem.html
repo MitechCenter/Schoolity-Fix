@@ -1,0 +1,217 @@
+<!-- Công việc kiêm nhiệm-->
+<div ng-controller="KiemNhiemCtrl as kn">
+    <div class="bg-white container-fluid pt-2 pb-0 pr-3 pl-3">
+        <!-- THÊM,IMPORT,XÓA, DOWLOAD,PRINT -->
+        <div class="pb-2 d-flex justify-content-between">
+            <div>
+                <button type="button" data-toggle="modal" data-target="#themKiemNhiem" class="btn btn-success"
+                    ng-click="kn.themKN()">
+                    <i class="fa fa-plus" aria-hidden="true"></i> Thêm
+                </button>
+                <button type="button" id="buttonDelete" class="btn btn-danger" disabled class="btn btn-danger"
+                    data-toggle="modal" data-target="#DeleteKN" ng-click="kn.removeSelectedRows()"
+                    ng-disabled="kn.countChecked() == 0">
+                    <i class="fa fa-trash-o" aria-hidden="true"></i> Xóa
+                </button>
+            </div>
+            <div>
+                <div class="d-inline-block">
+                    <button type="button" class="btn btn-info text-white mr-1" data-toggle="dropdown" href="#"
+                        role="button" aria-haspopup="true" aria-expanded="false">
+                        <i class="fa fa-upload" aria-hidden="true"></i>
+                        <span>Nhập/Xuất File</span>
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <a class="dropdown-item" href="#">
+                            <i class="fa fa-upload text-success"></i> Nhập file từ máy tính</a>
+                        <a class="dropdown-item" href="#">
+                            <i class="fa fa-download text-danger"></i> Xuất file</a>
+                    </div>
+                </div>
+                <button type="button" class="btn text-white btn-info mr-1">
+                    <i class="fa fa-download" aria-hidden="true"></i>
+                    <a style="text-decoration:none; color: white" href="/images/myw3schoolsimage.jpg" download>
+                        Download</a>
+                </button>
+                <button type="button" class="btn text-white btn-info mr-1" onclick="myPrint()">
+                    <i class="fa fa-print" aria-hidden="true"></i> Print
+                </button>
+            </div>
+            <div class="modal fade" id="DeleteKN" ng-include="'shared/layout/confirm.html'">
+            </div>
+        </div>
+        <!-- filter -->
+        <div class="d-flex justify-content-between">
+            <div class="flex-fill">
+                <select ng-model="kn.itemsPerPage"
+                    ng-options="(item+' dòng') for item in kn.itemsPerPageOptions track by item"
+                    class="pr-3 pl-3 pt-1 pb-1 border">
+                </select>
+                <select class="pr-3 pl-3 pt-1 pb-1 border "
+                    ng-options="boMon.tenToBoMon for boMon in kn.toBoMonSelect track by boMon.id" ng-model="kn.toBoMon"
+                    ng-change="kn.getIdToBoMon()">
+                    <option value="">Tổ Bộ Môn</option>
+                </select>
+            </div>
+            <!-- thanh search -->
+            <div class="w-50 ml-auto search-wrapper" id="advanced-search-control" ng-controller="searchCtrl">
+                <form ng-submit="getKeyword(keyword)">
+                    <div class="input-search pl-3 pr-3">
+                        <input type="search" class="input-search-text" placeholder="Tìm nhanh" ng-model="keyword"
+                            required>
+                        <div class="button-show-addvance">
+                            <a id="showAdvanceSearch" ng-click="showDialog()">
+                                <i ng-class="{'fa fa-caret-down':searchClass ==='fade-out', 'fa fa-caret-up':searchClass ==='fade-in' }"
+                                    aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </form>
+                <div ng-class="searchClass" class="search-addvance box-shadow shadow" id="formAdvanceSearch">
+                    <div class="form-group row">
+                        <label class="col-sm-3 col-form-label">Tên giáo viên</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="inputTen" ng-model="tenGiaoVien">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-3 col-form-label">Tổ bộ môn</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="inputToBoMon" ng-model="toBoMon">
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="mr-auto">
+                        </div>
+                        <div>
+                            <button type="button" class="btn btn-outline-secondary"
+                                ng-click="hideDialog()">Cancel</button>
+                            <button type="button" class="btn btn-primary"
+                                ng-click="advancedSearch(tenGiaoVien, toBoMon)">Tìm kiếm</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class=" border-secondary p-2">
+        <div class="bg-white border box-shadow p-2">
+            <!-- table -->
+            <div class="table-wrapper">
+                <div class="d-flex">
+                    <div class="mr-auto">
+                    </div>
+                    <div>
+                        <b>BẢNG PHÂN CÔNG KIÊM NHIỆM</b>
+                    </div>
+                    <div class="ml-auto">
+                        <!-- Button trigger modal -->
+                        <div class="p-1 help-cursor" data-toggle="modal" data-target="#help_phancongkiemnhiem">
+                            <span class="text-danger">
+                                Trợ Giúp
+                            </span>
+                            <i class="fa fa-question-circle text-danger"></i>
+                        </div>
+                    </div>
+                </div>
+                <table id="table-user" class="table-fixed table table-hover table-striped">
+                    <thead>
+                        <tr>
+                            <th>
+                                <div class="cell">
+                                    <input type="checkbox" name="" id="checkAll" class="checkbox checkbox--red"
+                                        ng-model="kn.isAll" ng-click="kn.selectAllRows()">
+                                </div>
+                            </th>
+                            <th ng-repeat="head in kn.headerKiemNhiem">
+                                <div>{{head}}</div>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr ng-repeat="giaoVien in kn.danhSachKiemNhiem">
+                            <td>
+                                <div class="cell">
+                                    <input type="checkbox" name="" id="{{giaoVien.id}}" class="checkbox checkbox--red"
+                                        ng-model="kn.tableSelection[$index]" ng-click="kn.demChecked($index)">
+                                </div>
+                            </td>
+                            <td>GV-{{giaoVien.id}}</td>
+                            <td>{{giaoVien.tenCanBo}}</td>
+                            <td>{{giaoVien.toBoMon.tenToBoMon}}</td>
+                            <td>
+                                <div ng-show="kn.isView[$index]">
+                                    {{giaoVien.nhiemVuKiemNhiem.tenNhiemVu}}
+                                </div>
+                                <div ng-show="kn.isEdit[$index]">
+                                    <div class="row-control bmd-form-group bmd-form-group--not-label">
+                                        <select class="form-control" id="KiemNhiem" ng-model="giaoVien.nhiemVuKiemNhiem"
+                                            ng-options="kiemNhiem.tenNhiemVu for kiemNhiem in kn.nhiemVuKiemNhiemSelect track by kiemNhiem.id">
+                                            <option value="">Kiêm Nhiệm</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <!-- để xem lại canh chỉnh các icon giữa -->
+                                <div class="d-flex justify-content-center">
+                                    <div data-toggle="tooltip" data-placement="top" title="Chỉnh Sửa"
+                                        ng-click="kn.catchID($index, giaoVien.id)" ng-show="kn.isView[$index]">
+                                        <i class="fa fa-pencil fa-pencil-hd action-edit"></i>
+                                    </div>
+                                    <div class="mr-5" data-toggle="tooltip" data-placement="top" title="Lưu"
+                                        ng-click="kn.Save(giaoVien)" ng-show="kn.isEdit[$index]">
+                                        <i class="fa fa-check action-check"></i>
+                                    </div>
+                                    <div data-toggle="tooltip" data-placement="top" title="Đóng"
+                                        ng-click="kn.Close($index)" ng-show="kn.isEdit[$index]">
+                                        <i class="fa fa-close action-close"></i>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!-- Phân trang -->
+            <div class="mt-2 mb-2 d-flex justify-content-between">
+                <div>
+                    <span class="small mb-0" ng-if="kn.totalItems>0">Hiển thị dòng {{(kn.currentSelected -
+                        1)*kn.itemsPerPage + 1}} đến {{kn.lastItem}} trong tổng số
+                        {{kn.totalItems}} dòng, tổng số {{kn.totalPages}} trang</span>
+                </div>
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination">
+                        <li class="page-item">
+                            <a class="page-link" ng-click="kn.first()">
+                                <span aria-hidden="true">&laquo;</span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" ng-click="kn.prev()">Prev</a>
+                        </li>
+                        <li ng-repeat="number in kn.pagesRange" class="page-item"
+                            ng-class="(number === kn.currentSelected) ? 'active': ''">
+                            <a class="page-link" ng-click="kn.currentSelected = number">{{number}}</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" ng-click="kn.next()">Next</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" ng-click="kn.last()">
+                                <span aria-hidden="true">&raquo;</span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="help_phancongkiemnhiem"
+        ng-include="'modules/giao-vien/phan-cong-kiem-nhiem/help-phan-cong-kiem-nhiem.html'"></div>
+    <div class="modal fade" id="themKiemNhiem"
+        ng-include="'modules/giao-vien/phan-cong-kiem-nhiem/them-kiem-nhiem.html'">
+    </div>
+</div>

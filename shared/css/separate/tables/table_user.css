@@ -1,0 +1,55 @@
+
+  #table-user tr>th:first-child,
+  #table-user tr>td:first-child {
+    min-width: 30px !important;
+    max-width: 30px !important;
+  }
+  
+  #table-user tr>th:nth-child(2),
+  #table-user tr>td:nth-child(2) {
+    min-width: 50px !important;
+    max-width: 50px !important;
+  }
+  
+  #table-user tr>th:nth-child(3),
+  #table-user tr>td:nth-child(3) {
+    min-width: 150px !important;
+    max-width: 150px !important;
+  }
+  
+  #table-user tr>th:nth-child(4),
+  #table-user tr>td:nth-child(4) {
+    min-width: 100px !important;
+    max-width: 100px !important;
+  }
+  
+  #table-user tr>th:nth-child(5),
+  #table-user tr>td:nth-child(5) {
+    min-width: 100px !important;
+    max-width: 100px !important;
+  }
+  #table-user tr>th:nth-child(6),
+  #table-user tr>td:nth-child(6) {
+    min-width: 100px !important;
+    max-width: 100px !important;
+  }
+  #table-user tr>th:nth-child(7),
+  #table-user tr>td:nth-child(7),
+  #table-user tr>th:nth-child(8),
+  #table-user tr>td:nth-child(8),
+  #table-user tr>th:nth-child(9),
+  #table-user tr>td:nth-child(9),
+  #table-user tr>th:nth-child(10),
+  #table-user tr>td:nth-child(10),
+  #table-user tr>th:nth-child(11),
+  #table-user tr>td:nth-child(11),
+  #table-user tr>th:nth-child(12),
+  #table-user tr>td:nth-child(12),
+  #table-user tr>th:nth-child(13),
+  #table-user tr>td:nth-child(13),
+  #table-user tr>th:nth-child(14),
+  #table-user tr>td:nth-child(14) {
+    min-width: 60px !important;
+    max-width: 60px !important;
+  }
+

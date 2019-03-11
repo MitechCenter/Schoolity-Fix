@@ -1,0 +1,134 @@
+<!-- Phân Công Giáo Vụ -->
+<div ng-controller="PCChuNhiemCtrl as pccn">
+    <div class="bg-white container-fluid pt-2 pb-0 pr-3 pl-3">
+        <!-- THÊM,IMPORT,XÓA, DOWLOAD,PRINT -->
+        <div class="pb-3 d-flex justify-content-between">
+            <div>
+                <button type="button" class="btn btn-primary" ng-click="pccn.Save()">
+                    <i class="fa fa-plus" aria-hidden="true"></i> Lưu</button>
+            </div>
+            <div>
+                <div class="d-inline-block">
+                    <button type="button" class="btn btn-info text-white mr-1" data-toggle="dropdown" href="#"
+                        role="button" aria-haspopup="true" aria-expanded="false">
+                        <i class="fa fa-upload" aria-hidden="true"></i>
+                        <span>Nhập/Xuất File</span>
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <a class="dropdown-item" href="#">
+                            <i class="fa fa-upload text-success"></i> Nhập file từ máy tính</a>
+                        <a class="dropdown-item" href="#">
+                            <i class="fa fa-download text-danger"></i> Xuất file</a>
+                    </div>
+                </div>
+                <button type="button" class="btn text-white btn-info mr-1">
+                    <i class="fa fa-download" aria-hidden="true"></i>
+                    <a style="text-decoration:none; color: white" href="/images/myw3schoolsimage.jpg" download>
+                        Download</a>
+                </button>
+                <button type="button" class="btn text-white btn-info mr-1" onclick="myPrint()">
+                    <i class="fa fa-print" aria-hidden="true"></i> Print
+                </button>
+            </div>
+        </div>
+        <!-- filter -->
+        <div class="d-flex justify-content-between ">
+            <div class="flex-fill pb-3">
+                <select class="pr-3 pl-3 pt-1 pb-1 border" ng-model="pccn.toBoMon"
+                    ng-options="boMon.tenToBoMon for boMon in pccn.toBoMonSelect track by boMon.id"
+                    ng-change="pccn.getIdToBoMon()">
+                    <option disabled value="">Tổ Bộ Môn</option>
+                </select>
+                <select class="pr-3 pl-3 pt-1 pb-1 border" ng-model="pccn.khoiLop" ng-change="pccn.getIdKhoi()"
+                    ng-options="khoi.tenKhoiLop for khoi in pccn.danhSachKhoi track by khoi.id">
+                    <option disabled value="">Khối</option>
+                </select>
+            </div>
+            <!-- thanh search -->
+            <!-- <div class="flex-fill search-wrapper" id="search-control">
+                <div class="input-search pl-3 pr-3">
+                    <input type="text" class="input-search-text" placeholder="Tìm nhanh">
+                    <div class="button-show-addvance">
+                        <a id="showAdvanceSearch" onclick="showDialog()">
+                            <i class="fa fa-caret-down" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="search-addvance box-shadow shadow" id="formAdvanceSearch">
+                    <div class="form-group row">
+                        <label for="staticEmail" class="col-sm-3 col-form-label">Tên</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="inputTen" ng-model='searchText.tenCanBo'>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inputPassword" class="col-sm-3 col-form-label">Mã cán bộ</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="inputMaCB" ng-model='searchText.id'>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="mr-auto">
+                        </div>
+                        <div>
+                            <button type="button" class="btn btn-outline-secondary"
+                                onclick="hideDialog()">Cancel</button>
+                            <button type="button" class="btn btn-primary">Tìm kiếm</button>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </div>
+    <div class=" border-secondary p-2 m-1">
+        <div class="bg-white border box-shadow p-2">
+            <!-- table -->
+            <div class="table-wrapper">
+
+                <div class="d-flex">
+                    <div class="mr-auto">
+                    </div>
+                    <div>
+                        <b>BẢNG DANH SÁCH PHÂN CÔNG CHỦ NHIỆM</b>
+                    </div>
+                    <div class="ml-auto">
+                        <!-- Button trigger modal -->
+                        <div class="p-1 help-cursor" data-toggle="modal" data-target="#help_phancongchunhiem">
+                            <span class="text-danger">
+                                Trợ Giúp
+                            </span>
+                            <i class="fa fa-question-circle text-danger"></i>
+                        </div>
+                    </div>
+                </div>
+                <table id="table_PCchunhiem" class="table-fixed table table-hover table-striped">
+                    <thead>
+                        <tr>
+                            <th>
+                                <div>Mã CB</div>
+                            </th>
+                            <th>
+                                <div>Họ Tên</div>
+                            </th>
+                            <th ng-repeat="lop in pccn.danhSachLop | filter: pccn.filterLop track by lop.id">
+                                <div>{{lop.tenLopHoc}}</div>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr ng-repeat="data in pccn.danhSachGiaoVien | filter: pccn.filtertoBoMon track by data.id">
+                            <td>GV-{{data.giaoVien.id}}</td>
+                            <td>{{data.giaoVien.tenCanBo}}</td>
+                            <td ng-repeat="lop in pccn.danhSachLop | filter: pccn.filterLop track by lop.id">
+                                <input type="checkbox" name="quyenGVCN" id="quyenGVCN" class="checkbox checkbox--blue"
+                                    ng-model="pccn.quyenGVCN[data.id-1][lop.id-1]">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="help_phancongchunhiem"
+    ng-include="'modules/giao-vien/phan-cong-chu-nhiem/help-phan-cong-chu-nhiem.html'"></div>

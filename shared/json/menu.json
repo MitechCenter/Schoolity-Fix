@@ -1,0 +1,366 @@
+[
+    {
+        "id": 1,
+        "name": "Hệ thống",
+        "ic": "fa fa-bell-o",
+        "sub": [
+            {
+                "id": 2,
+                "name": "Thông tin nhà trường",
+                "ic": "fa fa-bell-o"
+            },
+            {
+                "id": 3,
+                "name": "Khai báo dữ liệu",
+                "ic": "fa fa-bell-o"
+            },
+            {
+                "id": 4,
+                "name": "Import dữ liệu",
+                "ic": "fa fa-bell-o"
+            },
+            {
+                "id": 5,
+                "name": "Thời khóa biểu",
+                "ic": "fa fa-bell-o"
+            },
+            {
+                "id": 6,
+                "name": "Kết chuyển dữ liệu",
+                "ic": "fa fa-bell-o"
+            },
+            {
+                "id": 7,
+                "name": "Cấu hình hệ thống",
+                "ic": "fa fa-bell-o"
+            },
+            {
+                "id": 8,
+                "name": "Cấu hình mức thống kê",
+                "ic": "fa fa-bell-o"
+            },
+            {
+                "id": 9,
+                "name": "Giám sát nhập điểm",
+                "ic": "fa fa-bell-o"
+            },
+            {
+                "id": 10,
+                "name": "Lịch sử sử dụng",
+                "ic": "fa fa-bell-o"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Học sinh",
+        "ic": "fa fa-graduation-cap",
+        "sub": [
+            {
+                "id": 12,
+                "name": "Hồ sơ học sinh",
+                "ic": "fa fa-bell-o",
+                "state" : "bang-ho-so-hoc-sinh"
+            },
+            {
+                "id": 13,
+                "name": "Sổ điểm",
+                "ic": "fa fa-bell-o",
+                "state" : "so-diem"
+            },
+            {
+                "id": 14,
+                "name": "Điểm danh",
+                "ic": "fa fa-bell-o",
+                "state" : "diem-danh"
+            },
+            {
+                "id": 15,
+                "name": "Vi phạm",
+                "ic": "fa fa-bell-o",
+                "state" : "vi-pham"
+            },
+            {
+                "id": 16,
+                "name": "Tổng kết điểm",
+                "ic": "fa fa-bell-o",
+                "state" : "tong-ket-diem"
+            },
+            {
+                "id": 17,
+                "name": "Tổng kết điểm, xếp loại theo khối",
+                "ic": "fa fa-bell-o",
+                "state" : "xep-loai-theo-khoi"
+            },
+            {
+                "id": 18,
+                "name": "Điểm thi học kỳ",
+                "ic": "fa fa-bell-o",
+                "state"  : "diem-thi-hoc-ky"
+            },
+            {
+                "id": 19,
+                "name": "Xếp loại hạnh kiểm",
+                "ic": "fa fa-bell-o",
+                "state"  : "xep-loai-hanh-kiem"
+            },
+            {
+                "id": 20,
+                "name": "Xếp loại học lực",
+                "ic": "fa fa-bell-o",
+                "state" : "xep-loai-hoc-luc"
+            },
+            {
+                "id": 21,
+                "name": "QL Thông tin tốt nghiệp",
+                "ic": "fa fa-bell-o"
+            },
+            {
+                "id": 22,
+                "name": "Xếp loại thi đua",
+                "ic": "fa fa-bell-o",
+                "state" : "xep-loai-thi-dua"
+            },
+            {
+                "id": 23,
+                "name": "Đăng ký môn thi lại",
+                "ic": "fa fa-bell-o",
+                "state" : "dang-ky-mon-thi-lai"
+            },
+            {
+                "id": 24,
+                "name": "Cập nhật điểm thi lại",
+                "ic": "fa fa-bell-o",
+                "state" : "cap-nhat-diem-thi-lai"
+            },
+            {
+                "id": 25,
+                "name": "Xử lý kết quả thi lại",
+                "ic": "fa fa-bell-o",
+                "state" : "xu-ly-ket-qua-thi-lai"
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "name": "Giáo viên",
+        "ic": "fa fa-users",
+        "sub": [
+            {
+                "id": 27,
+                "name": "Danh sách giáo viên",
+                "ic": "fa fa-id-card-o",
+                "state": "danh-sach-giao-vien"
+            },
+            {
+                "id": 28,
+                "name": "Phân công giảng dạy",
+                "ic": "fa fa-puzzle-piece",
+                "state": "phan-cong-giang-day"
+            },
+            {
+                "id": 29,
+                "name": "Phân công giáo vụ",
+                "ic": "fa fa-bell-o",
+                "state": "phan-cong-giao-vu"
+            },
+            {
+                "id": 30,
+                "name": "Phân công kiêm nhiệm",
+                "ic": "fa fa-object-group",
+                "state": "phan-cong-kiem-nhiem"
+            },
+            {
+                "id": 31,
+                "name": "Phân công chủ nhiệm",
+                "ic": "fa fa-hand-scissors-o",
+                "state": "phan-cong-chu-nhiem"
+            },
+            {
+                "id": 32,
+                "name": "Làm thay chủ nhiệm",
+                "ic": "fa fa-handshake-o",
+                "state": "lam-thay-chu-nhiem"
+            },
+            {
+                "id": 33,
+                "name": "Khen thưởng - Kỷ luật",
+                "ic": "fa fa-money",
+                "state": "khen-thuong-ky-luat"
+            },
+            {
+                "id": 34,
+                "name": "Sáng kiến kinh nghiệm",
+                "ic": "fa fa-bolt",
+                "state": "sang-kien-kinh-nghiem"
+            },
+            {
+                "id": 35,
+                "name": "Đánh giá xếp loại",
+                "ic": "fa fa-user-secret",
+                "state": "danh-gia-xep-loai"
+            },
+            {
+                "id": 36,
+                "name": "Danh hiệu thi đua",
+                "ic": "fa fa-sun-o",
+                "state": "danh-hieu-thi-dua"
+            },
+            {
+                "id": 37,
+                "name": "Danh hiệu thi đua tập thể",
+                "ic": "fa fa-trophy",
+                "state": "danh-hieu-thi-dua-tap-the"
+            },
+            {
+                "id": 38,
+                "name": "Cấu hình phân môn",
+                "ic": "fa fa-bell-o",
+                "state": "cau-hinh-phan-mon"
+            }
+        ]
+    },
+    {
+        "id": 42,
+        "name": "Thi cử",
+        "ic": "fa fa-tasks",
+        "sub": [
+            {
+                "id": 43,
+                "name": "Tổ chức thi",
+                "ic": "fa fa-bell-o"
+            }
+        ]
+    },
+    {
+        "id": 44,
+        "name": "Báo cáo",
+        "ic": "fa fa-file-text",
+        "sub": [
+            {
+                "id": 45,
+                "name": "Báo cáo hồ sơ học sinh",
+                "ic": "fa fa-bell-o"
+            },
+            {
+                "id": 46,
+                "name": "Báo cáo kết quả học tập",
+                "ic": "fa fa-bell-o"
+            },
+            {
+                "id": 47,
+                "name": "TK điểm môn học",
+                "ic": "fa fa-bell-o"
+            },
+            {
+                "id": 48,
+                "name": "TK HL - HK - Rèn luyện",
+                "ic": "fa fa-bell-o"
+            },
+            {
+                "id": 49,
+                "name": "Emis và BC gửi phòng/sở",
+                "ic": "fa fa-bell-o"
+            },
+            {
+                "id": 50,
+                "name": "Báo cáo TK cán bộ",
+                "ic": "fa fa-bell-o"
+            },
+            {
+                "id": 51,
+                "name": "Báo cáo khác",
+                "ic": "fa fa-bell-o"
+            }
+        ]
+    },
+    {
+        "id": 52,
+        "name": "Liên lạc",
+        "ic": "fa fa-address-card-o",
+        "sub": [
+            {
+                "id": 53,
+                "name": "PHHS",
+                "ic": "fa fa-bell-o"
+            },
+            {
+                "id": 54,
+                "name": "Giáo viên",
+                "ic": "fa fa-bell-o"
+            },
+            {
+                "id": 55,
+                "name": "Cấu hình",
+                "ic": "fa fa-bell-o"
+            },
+            {
+                "id": 56,
+                "name": "Bản tin",
+                "ic": "fa fa-bell-o"
+            },
+            {
+                "id": 57,
+                "name": "Nhóm liên lạc",
+                "ic": "fa fa-bell-o"
+            },
+            {
+                "id": 58,
+                "name": "DS liên lạc",
+                "ic": "fa fa-bell-o"
+            },
+            {
+                "id": 59,
+                "name": "Tài khoản",
+                "ic": "fa fa-bell-o"
+            },
+            {
+                "id": 60,
+                "name": "Thống kê liên lạc",
+                "ic": "fa fa-bell-o"
+            }
+        ]
+    },
+    {
+        "id": 61,
+        "name": "Danh mục",
+        "ic": "fa fa-database",
+        "sub": [
+            {
+                "id": 62,
+                "name": "Lỗi vi phạm quy chế thi",
+                "ic": "fa fa-bell-o"
+            },
+            {
+                "id": 63,
+                "name": "Loại điểm thi đua",
+                "ic": "fa fa-bell-o"
+            },
+            {
+                "id": 64,
+                "name": "Sáng kiến kinh nghiệm",
+                "ic": "fa fa-bell-o"
+            },
+            {
+                "id": 65,
+                "name": "Công việc kiểm nghiệm",
+                "ic": "fa fa-bell-o"
+            },
+            {
+                "id": 66,
+                "name": "Khen thưởng kỷ luật",
+                "ic": "fa fa-bell-o"
+            },
+            {
+                "id": 67,
+                "name": "Nhóm lỗi vi phạm",
+                "ic": "fa fa-bell-o"
+            },
+            {
+                "id": 68,
+                "name": "Lỗi vi phạm",
+                "ic": "fa fa-bell-o"
+            }
+        ]
+    }
+]

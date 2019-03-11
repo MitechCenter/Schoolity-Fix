@@ -1,0 +1,456 @@
+<div class=" border-secondary p-2" ng-controller="soDiemCtr">
+   <div class="bg-white border box-shadow p-3">
+      <!-- THÊM,IMPORT,XÓA, DOWLOAD,PRINT -->
+      <div class="pb-3 d-flex justify-content-between">
+         <div>
+            <button id="editbtn" ng-click="edit()" class="btn btn-success text-white" data-toggle="modal" href="#">
+               <i class="fa fa-pencil" aria-hidden="true"></i> Chỉnh Sửa
+            </button>
+            <button id="cancelbtn" class="btn btn-success text-white " data-toggle="modal" href="#">
+               <i class="fa fa-times" aria-hidden="true"></i> Hủy
+            </button>
+            <button class="btn btn-warning text-white" data-toggle="modal" href="#">
+               <i class="fa fa-upload" aria-hidden="true"></i> Import
+            </button>
+            <button class="btn btn-primary text-white" data-toggle="modal" href="#">
+               <i class="fa fa-floppy-o" aria-hidden="true"></i> Save
+            </button>
+            <button id="buttonDelete" class="btn btn-danger" data-toggle="modal" href="#" data-target="#deleteTable">
+               <i class="fa fa-trash-o" aria-hidden="true"></i> Xóa
+            </button>
+         </div>
+         <div class="modal fade" id="deleteTable" ng-include="'shared/layout/confirm.html'">
+         </div>
+         <div>
+            <!-- <button type="button" class="btn btn-info">
+                <i class="fa fa-clone" aria-hidden="true"></i> Copy
+             </button> -->
+            <button type="button" class="btn btn-info">
+               <i class="fa fa-download" aria-hidden="true"></i> Download
+            </button>
+            <button type="button" class="btn btn-info">
+               <i class="fa fa-print" aria-hidden="true"></i> Print
+            </button>
+         </div>
+      </div>
+      <!-- filter -->
+      <div class="d-flex justify-content-between">
+         <div class=" w-50">
+            <select class="pr-3 pl-3 pt-1 pb-1 border">
+               <option value="true">10 dòng</option>
+               <option value="true">20 dòng</option>
+               <option value="true">50 dòng</option>
+            </select>
+            <select ng-model="currentKhoi" class="pr-3 pl-3 pt-1 pb-1 border">
+               <option value="10">Khối 10</option>
+               <option value="11">Khối 11</option>
+               <option value="12">Khối 12</option>
+            </select>
+            <select class="pr-3 pl-3 pt-1 pb-1 border">
+               <option value="true" ng-repeat="lop in lopHoc">Lớp {{lop.tenLopHoc}}</option>
+            </select>
+            <select class="pr-3 pl-3 pt-1 pb-1 border">
+               <option value="true">Học kì 1</option>
+               <option value="true">Học kì 2</option>
+               <option value="true">Cả năm</option>
+            </select>
+            <select class="pr-3 pl-3 pt-1 pb-1 border">
+               <option value="true">Toán</option>
+               <option value="true">Vật lý</option>
+               <option value="true">Hóa học</option>
+               <option value="true">Sinh học</option>
+               <option value="true">Tin học</option>
+               <option value="true">Lịch sử</option>
+               <option value="true">Địa lí</option>
+               <option value="true">Tiếng anh</option>
+               <option value="true">GDCD</option>
+               <option value="true">Công nghệ</option>
+            </select>
+         </div>
+         <!-- thanh search -->
+         <div class="flex-fill search-wrapper" id="search-control">
+            <div class="input-search ">
+               <input type="text" class="input-search-text" placeholder="Tìm nhanh">
+               <div class="button-show-addvance">
+                  <a ng-click="showSearch()">
+                     <i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
+                  </a>
+               </div>
+            </div>
+            <div id="advanceSearch"></div>
+         </div>
+      </div>
+      <div class="d-flex justify-content-startr">
+         <div class="w-25">
+            <p><b>Lớp :</b> 10A2</p>
+         </div>
+         <div>
+            <p><b>GVCN :</b> Nguyễn Văn C</p>
+         </div>
+      </div>
+      <!-- table -->
+      <table class="table-striped">
+         <thead>
+            <tr>
+               <th>
+                  <div class="cell">
+                     <input type="checkbox" name="" ng-model="checkAll" id="checkAll" class="checkbox checkbox--red">
+               </th>
+               <th>
+                  <div>STT</div>
+               </th>
+               <th>
+                  <div>Tên HS</div>
+               </th>
+               <th>
+                  <table>
+                     <tbody>
+                        <tr>
+                           <th colspan="5">
+                              <div>Điểm hệ số 1 - Miệng</div>
+                           </th>
+                        </tr>
+                        <tr>
+                           <th>
+                              <div>M1</div>
+                           </th>
+                           <th>
+                              <div>M2</div>
+                           </th>
+                           <th>
+                              <div>M3</div>
+                           </th>
+                           <th>
+                              <div>M4</div>
+                           </th>
+                           <th>
+                              <div>M5</div>
+                           </th>
+                        </tr>
+                     </tbody>
+                  </table>
+               </th>
+               <th>
+                  <table>
+                     <tbody>
+                        <tr>
+                           <th colspan="5">
+                              <div>Điểm hệ số 1 - Viết/15p</div>
+                           </th>
+                        </tr>
+                        <tr>
+                           <th>
+                              <div>P1</div>
+                           </th>
+                           <th>
+                              <div>P2</div>
+                           </th>
+                           <th>
+                              <div>P3</div>
+                           </th>
+                           <th>
+                              <div>P4</div>
+                           </th>
+                           <th>
+                              <div>P5</div>
+                           </th>
+                        </tr>
+                     </tbody>
+                  </table>
+               </th>
+               <th>
+                  <table>
+                     <tbody>
+                        <tr>
+                           <th colspan="5">
+                              <div>Điểm hệ số 2</div>
+                           </th>
+                        </tr>
+                        <tr>
+                           <th>
+                              <div>V1</div>
+                           </th>
+                           <th>
+                              <div>V2</div>
+                           </th>
+                           <th>
+                              <div>V3</div>
+                           </th>
+                           <th>
+                              <div>V4</div>
+                           </th>
+                           <th>
+                              <div>V5</div>
+                           </th>
+                        </tr>
+                     </tbody>
+                  </table>
+               </th>
+               <th>
+                  <div>KTHK</div>
+               </th>
+               <th>
+                  <div>TBM</div>
+               </th>
+            </tr>
+         </thead>
+         <tbody class="content">
+            <div>
+               <tr ng-repeat="x in dsSoDiem">
+                  <td>
+                     <div class="cell">
+                        <input type="checkbox" name="" ng-checked="checkAll" ng-click="insertOrDelete($event,x)" id="" class="checkbox checkbox--red">
+                     </div>
+                  </td>
+                  <td>
+                     <div>{{x.stt}}</div>
+                  </td>
+                  <td>
+                     <div>{{x.Tenhs}}</div>
+                  </td>
+                  <td>
+                     <table>
+                        <tbody>
+                           <tr>
+                              <td>
+                                 <div>
+                                    <span class="label-control" ng-show="!x.edited">{{x.mieng.m1}}</span><input type="text" value="{{x.mieng.m1}}" class="edit-input input-control form-custom-control p-1 " ng-show="x.edited"
+                                       >
+                                 </div>
+                              </td>
+                              <td>
+                                 <div>
+                                    <span class="label-control" ng-show="!x.edited">{{x.mieng.m2}}</span><input type="text" value="{{x.mieng.m2}}" class="edit-input input-control form-custom-control p-1 " ng-show="x.edited"
+                                       >
+                                 </div>
+                              </td>
+                              <td>
+                                 <div>
+                                    <span class="label-control" ng-show="!x.edited">{{x.mieng.m3}}</span><input type="text" value="{{x.mieng.m3}}" class="edit-input input-control form-custom-control p-1 " ng-show="x.edited"
+                                       >
+                                 </div>
+                              </td>
+                              <td>
+                                 <div>
+                                    <span class="label-control" ng-show="!x.edited">{{x.mieng.m4}}</span><input type="text" value="{{x.mieng.m4}}" class="edit-input input-control form-custom-control p-1 " ng-show="x.edited"
+                                       >
+                                 </div>
+                              </td>
+                              <td>
+                                 <div>
+                                    <span class="label-control" ng-show="!x.edited">{{x.mieng.m5}}</span><input type="text" value="{{x.mieng.m5}}" class="edit-input input-control form-custom-control p-1 " ng-show="x.edited"
+                                       >
+                                 </div>
+                              </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </td>
+                  <td>
+                     <table>
+                        <tbody>
+                           <tr>
+                              <td>
+                                 <div>
+                                    <span class="label-control" ng-show="!x.edited">{{x.abc.p1}}</span><input type="text" value="{{x.abc.p1}}" class="edit-input input-control form-custom-control p-1 " ng-show="x.edited"
+                                       >
+                                 </div>
+                              </td>
+                              <td>
+                                 <div>
+                                    <span class="label-control" ng-show="!x.edited">{{x.abc.p2}}</span><input type="text" value="{{x.abc.p2}}" class="edit-input input-control form-custom-control p-1 " ng-show="x.edited"
+                                       >
+                                 </div>
+                              </td>
+                              <td>
+                                 <div>
+                                    <span class="label-control" ng-show="!x.edited">{{x.abc.p3}}</span><input type="text" value="{{x.abc.p3}}" class="edit-input input-control form-custom-control p-1 " ng-show="x.edited"
+                                       >
+                                 </div>
+                              </td>
+                              <td>
+                                 <div>
+                                    <span class="label-control" ng-show="!x.edited">{{x.abc.p4}}</span><input type="text" value="{{x.abc.p4}}" class="edit-input input-control form-custom-control p-1 " ng-show="x.edited"
+                                       >
+                                 </div>
+                              </td>
+                              <td>
+                                 <div>
+                                    <span class="label-control" ng-show="!x.edited">{{x.abc.p5}}</span><input type="text" value="{{x.abc.p5}}" class="edit-input input-control form-custom-control p-1 " ng-show="x.edited"
+                                       >
+                                 </div>
+                              </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </td>
+                  <td>
+                     <table>
+                        <tbody>
+                           <tr>
+                              <td>
+                                 <div>
+                                    <span class="label-control" ng-show="!x.edited">{{x.heso2.v1}}</span><input type="text" value="{{x.heso2.v1}}" class="edit-input input-control form-custom-control p-1 " ng-show="x.edited"
+                                       >
+                                 </div>
+                              </td>
+                              <td>
+                                 <div>
+                                    <span class="label-control" ng-show="!x.edited">{{x.heso2.v2}}</span><input type="text" value="{{x.heso2.v2}}" class="edit-input input-control form-custom-control p-1 " ng-show="x.edited"
+                                       >
+                                 </div>
+                              </td>
+                              <td>
+                                 <div>
+                                    <span class="label-control" ng-show="!x.edited">{{x.heso2.v3}}</span><input type="text" value="{{x.heso2.v3}}" class="edit-input input-control form-custom-control p-1 " ng-show="x.edited"
+                                       >
+                                 </div>
+                              </td>
+                              <td>
+                                 <div>
+                                    <span class="label-control" ng-show="!x.edited">{{x.heso2.v4}}</span><input type="text" value="{{x.heso2.v4}}" class="edit-input input-control form-custom-control p-1 " ng-show="x.edited"
+                                       >
+                                 </div>
+                              </td>
+                              <td>
+                                 <div>
+                                    <span class="label-control" ng-show="!x.edited">{{x.heso2.v5}}</span><input type="text" value="{{x.heso2.v5}}" class="edit-input input-control form-custom-control p-1 " ng-show="x.edited"
+                                       >
+                                 </div>
+                              </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </td>
+                  <td>
+                     <div>
+                        <span class="label-control" ng-show="!x.edited">{{x.KTHK}}</span><input type="text" value="{{x.KTHK}}" class="edit-input input-control form-custom-control p-1 " ng-show="x.edited"
+                           ng-model="x.kthk">
+                     </div>
+                  </td>
+                  <td>
+                     <div>
+                        <span class="label-control" ng-show="!x.edited">{{x.TBM}}</span><input type="text" value="{{x.TBM}}" class="edit-input input-control form-custom-control p-1 " ng-show="x.edited"
+                           ng-model="x.tbmtmp" disabled="">
+                     </div>
+                  </td>
+               </tr>
+            </div>
+         </tbody>
+      </table>
+      <!-- phân trang -->
+      <div class="mt-3 d-flex justify-content-between">
+         <div>
+            <p>Hiển thị 1 đến 10 dòng trong tổng số 57 dòng</p>
+         </div>
+         <nav aria-label="Page navigation example">
+            <ul class="pagination">
+               <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Previous">
+                     <span aria-hidden="true">&laquo;</span>
+                     <span class="sr-only">Previous</span>
+                  </a>
+               </li>
+               <li class="page-item active"><a class="page-link" href="#">1</a></li>
+               <li class="page-item"><a class="page-link" href="#">2</a></li>
+               <li class="page-item"><a class="page-link" href="#">...</a></li>
+               <li class="page-item"><a class="page-link" href="#">100</a></li>
+               <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Next">
+                     <span aria-hidden="true">&raquo;</span>
+                     <span class="sr-only">Next</span>
+                  </a>
+               </li>
+            </ul>
+         </nav>
+      </div>
+   </div>
+</div>
+<style>
+   table {
+      border: 1px solid #eee;
+   }
+
+   table.table-striped {
+      height: 350px;
+   }
+
+   table table {
+      border: none;
+   }
+
+   table thead tr th {
+      border-right: 1px solid #eee;
+      padding: 0px;
+      background: #d2d2d2
+   }
+
+   table tbody tr td {
+      border-right: 1px solid #eee;
+      padding: 0px;
+   }
+
+   table tbody tr td table td div {
+      width: 55px;
+      display: inline-block;
+   }
+
+   table thead tr th table tbody tr th:last-child {
+      border: none;
+   }
+
+   table tbody tr td table tbody tr td:last-child {
+      border: none;
+   }
+
+   table thead tr th div,
+   table tbody tr td div {
+      padding: 10px;
+   }
+
+   table thead tr th table div {
+      border-top: 1px solid #eee;
+   }
+
+   table thead tr th table tr:first-child {
+      text-align: center;
+   }
+
+   table thead tr th table tr:first-child div {
+      border-top: none;
+   }
+
+   table tbody tr:nth-child(2n) {
+      background: #f0f1f3;
+   }
+
+   .table-striped tbody tr:nth-of-type(odd):hover {
+      background: #d2d2d2
+   }
+
+   .table-striped tbody tr:nth-of-type(odd) {
+      background: no-repeat;
+   }
+
+   .table-striped tbody tr:hover {
+      background: #d2d2d2
+   }
+
+   table tbody tr td {
+      border-top: 1px solid #eee;
+   }
+
+   table tbody tr td table td {
+      border-top: none
+   }
+
+   /*table>thead{
+       display: inherit;
+       width: 100%;
+    }
+    table tbody.content{
+       height: 350px;
+       display: block;
+       overflow-y: auto;
+    }*/
+</style>

@@ -1,0 +1,612 @@
+{
+  "khenthuongkyluat": [
+    {
+      "id": 1,
+      "giaoVien": {
+        "id": "1",
+        "tenCanBo": "Nguyễn Văn Tây"
+      },
+      "toBoMon": {
+        "id": 4,
+        "tenToBoMon": "Văn - Sử"
+      },
+      "khenThuongKyLuat": {
+        "id": 1,
+        "thanhTich": "Chiến sĩ thi đua",
+        "htKhenThuong": "Giấy khen",
+        "qdKhenThuong": "BCTT-1024/2017",
+        "ngayQDKhenThuong": "2017-12-12",
+        "ghiChu": ""
+      }
+    },
+    {
+      "id": 2,
+      "giaoVien": {
+        "id": "2",
+        "tenCanBo": "Nguyễn Đặng Tuyết Mai"
+      },
+      "toBoMon": {
+        "id": 1,
+        "tenToBoMon": "Hóa - Lý"
+      },
+      "khenThuongKyLuat": {
+        "id": 1,
+        "thanhTich": "Chiến sĩ thi đua cấp cơ sở",
+        "htKhenThuong": "Giấy khen",
+        "qdKhenThuong": "BCTT-1024/2017",
+        "ngayQDKhenThuong": "2016-06-06",
+        "ghiChu": "No No"
+      }
+    },
+    {
+      "id": 3,
+      "giaoVien": {
+        "id": "3",
+        "tenCanBo": "Hoàng Xuân Thắng"
+      },
+      "toBoMon": {
+        "id": 5,
+        "tenToBoMon": "Địa - Tin - GDCD - Văn phòng"
+      },
+      "khenThuongKyLuat": {
+        "id": 1,
+        "thanhTich": "Chiến sĩ thi đua",
+        "htKhenThuong": "Giấy khen",
+        "qdKhenThuong": "BCTT-1024/2017",
+        "ngayQDKhenThuong": "2017-12-12",
+        "ghiChu": ""
+      }
+    },
+    {
+      "id": 4,
+      "giaoVien": {
+        "id": "4",
+        "tenCanBo": "Đặng Mai Linh"
+      },
+      "toBoMon": {
+        "id": 2,
+        "tenToBoMon": "Ngoại ngữ - Thể dục"
+      },
+      "khenThuongKyLuat": {
+        "id": 1,
+        "thanhTich": "Chiến sĩ thi đua cấp cơ sở",
+        "htKhenThuong": "Giấy khen",
+        "qdKhenThuong": "BCTT-1024/2012",
+        "ngayQDKhenThuong": "2012-02-02",
+        "ghiChu": "Very Good"
+      }
+    },
+    {
+      "id": 5,
+      "giaoVien": {
+        "id": "5",
+        "tenCanBo": "Văn Mai Hương"
+      },
+      "toBoMon": {
+        "id": 1,
+        "tenToBoMon": "Hóa - Lý"
+      },
+      "khenThuongKyLuat": {
+        "id": 1,
+        "thanhTich": "Chiến sĩ tiên tiến",
+        "htKhenThuong": "Giấy khen",
+        "qdKhenThuong": "BCTT-1024/2018",
+        "ngayQDKhenThuong": "2018-12-12",
+        "ghiChu": ""
+      }
+    },
+    {
+      "id": 6,
+      "giaoVien": {
+        "id": "6",
+        "tenCanBo": "Đinh Thế Vinh"
+      },
+      "toBoMon": {
+        "id": 2,
+        "tenToBoMon": "Ngoại ngữ - Thể dục"
+      },
+      "khenThuongKyLuat": {
+        "id": 1,
+        "thanhTich": "Chiến sĩ tiên tiến",
+        "htKhenThuong": "Giấy khen",
+        "qdKhenThuong": "BCTT-1024/2018",
+        "ngayQDKhenThuong": "2018-12-12",
+        "ghiChu": ""
+      }
+    },
+    {
+      "id": 7,
+      "giaoVien": {
+        "id": "7",
+        "tenCanBo": "Phan Văn Linh"
+      },
+      "toBoMon": {
+        "id": 3,
+        "tenToBoMon": "Toán - Sinh"
+      },
+      "khenThuongKyLuat": {
+        "id": 1,
+        "thanhTich": "Chiến sĩ thi đua cấp cơ sở 3",
+        "htKhenThuong": "Giấy khen Tỉnh đoàn 3",
+        "qdKhenThuong": "BCTT-1024/2013",
+        "ngayQDKhenThuong": "2013-03-03",
+        "ghiChu": "3"
+      }
+    },
+    {
+      "id": 8,
+      "giaoVien": {
+        "id": 27,
+        "tenCanBo": "Lý Thị Thu Trang"
+      },
+      "toBoMon": {
+        "id": 2,
+        "tenToBoMon": "Ngoại ngữ - Thể dục"
+      },
+      "khenThuongKyLuat": {
+        "id": 2,
+        "lyDo": "Vi phạm quy chế coi thi tốt nghiệp",
+        "htKyLuat": "Khiển trách",
+        "qdKyLuat": "TSQ-102/2015",
+        "ngayQDKyLuat": "2015-05-05",
+        "ghiChu": "No"
+      }
+    },
+    {
+      "id": 9,
+      "giaoVien": {
+        "id": "2",
+        "tenCanBo": "Nguyễn Đặng Tuyết Mai"
+      },
+      "toBoMon": {
+        "id": 1,
+        "tenToBoMon": "Hóa - Lý"
+      },
+      "khenThuongKyLuat": {
+        "id": 2,
+        "lyDo": "Vi phạm quy chế chấm thi",
+        "htKyLuat": "Khiển trách",
+        "qdKyLuat": "TSQ-024/2016",
+        "ngayQDKyLuat": "2016-07-07",
+        "ghiChu": " Quá tệ"
+      }
+    },
+    {
+      "id": 10,
+      "giaoVien": {
+        "id": 24,
+        "tenCanBo": "Phạm Đình Đức"
+      },
+      "khenThuongKyLuat": {
+        "id": 1,
+        "thanhTich": "Chiến sĩ thi đua cấp cơ sở 3",
+        "htKhenThuong": "Giấy khen Tỉnh đoàn",
+        "qdKhenThuong": "BCTT-1024/2014",
+        "ngayQDKhenThuong": "2004-04-04",
+        "ghiChu": "ok"
+      },
+      "toBoMon": {
+        "id": 2,
+        "tenToBoMon": "Ngoại ngữ - Thể dục"
+      }
+    },
+    {
+      "id": 11,
+      "giaoVien": {
+        "id": 13,
+        "tenCanBo": "Đào Thị Tuyết Mai"
+      },
+      "khenThuongKyLuat": {
+        "id": 2,
+        "lyDo": "Vi phạm quy chế coi thi tốt nghiệp",
+        "htKyLuat": "Phê bình",
+        "qdKyLuat": "TSQ-102/2015",
+        "ngayQDKyLuat": "2005-05-05",
+        "ghiChu": "ok"
+      },
+      "toBoMon": {
+        "id": 4,
+        "tenToBoMon": "Văn - Sử"
+      }
+    },
+    {
+      "id": 12,
+      "giaoVien": {
+        "id": 9,
+        "tenCanBo": "Lường Phi Thường"
+      },
+      "khenThuongKyLuat": {
+        "id": 2,
+        "lyDo": "Vi phạm quy chế coi thi tốt nghiệp",
+        "htKyLuat": "Phê bình",
+        "qdKyLuat": "TSQ-102/2015",
+        "ngayQDKyLuat": "2005-05-05",
+        "ghiChu": "ok"
+      },
+      "toBoMon": {
+        "id": 5,
+        "tenToBoMon": "Địa - Tin - GDCD - Văn phòng"
+      }
+    },
+    {
+      "id": 13,
+      "giaoVien": {
+        "id": 23,
+        "tenCanBo": "Nguyễn Thu Thủy"
+      },
+      "khenThuongKyLuat": {
+        "id": 2,
+        "lyDo": "Vi phạm quy chế coi thi tốt nghiệp",
+        "htKyLuat": "Phê bình",
+        "qdKyLuat": "TSQ-102/2015",
+        "ngayQDKyLuat": "2005-05-05",
+        "ghiChu": "ok"
+      },
+      "toBoMon": {
+        "id": 3,
+        "tenToBoMon": "Toán - Sinh"
+      }
+    },
+    {
+      "id": 14,
+      "giaoVien": {
+        "id": 1,
+        "tenCanBo": "Nguyễn Văn Tây"
+      },
+      "khenThuongKyLuat": {
+        "id": 2,
+        "lyDo": "Vi phạm quy chế coi thi tốt nghiệp",
+        "htKyLuat": "Phê bình",
+        "qdKyLuat": "TSQ-102/2015",
+        "ngayQDKyLuat": "2005-05-05",
+        "ghiChu": "ok"
+      },
+      "toBoMon": {
+        "id": 4,
+        "tenToBoMon": "Văn - Sử"
+      }
+    },
+    {
+      "id": 15,
+      "giaoVien": {
+        "id": 25,
+        "tenCanBo": "Lê Thị Dung"
+      },
+      "khenThuongKyLuat": {
+        "id": 2,
+        "lyDo": "Vi phạm quy chế coi thi tốt nghiệp",
+        "htKyLuat": "Phê bình",
+        "qdKyLuat": "TSQ-102/2015",
+        "ngayQDKyLuat": "2005-05-05",
+        "ghiChu": "ok"
+      },
+      "toBoMon": {
+        "id": 5,
+        "tenToBoMon": "Địa - Tin - GDCD - Văn phòng"
+      }
+    },
+    {
+      "id": 16,
+      "giaoVien": {
+        "id": 11,
+        "tenCanBo": "Lê Nhật Nam"
+      },
+      "khenThuongKyLuat": {
+        "id": 1,
+        "thanhTich": "Chiến sĩ thi đua cấp cơ sở 3",
+        "htKhenThuong": "Giấy khen Tỉnh đoàn",
+        "qdKhenThuong": "BCTT-1024/2014",
+        "ngayQDKhenThuong": "2007-07-07",
+        "ghiChu": "ok"
+      },
+      "toBoMon": {
+        "id": 2,
+        "tenToBoMon": "Ngoại ngữ - Thể dục"
+      }
+    },
+    {
+      "id": 17,
+      "giaoVien": {
+        "id": 21,
+        "tenCanBo": "Phan Thị Thu Hoài"
+      },
+      "khenThuongKyLuat": {
+        "id": 1,
+        "thanhTich": "Chiến sĩ thi đua cấp cơ sở 3",
+        "htKhenThuong": "Giấy khen Tỉnh đoàn",
+        "qdKhenThuong": "BCTT-1024/2014",
+        "ngayQDKhenThuong": "2007-07-07",
+        "ghiChu": "ok"
+      },
+      "toBoMon": {
+        "id": 5,
+        "tenToBoMon": "Địa - Tin - GDCD - Văn phòng"
+      }
+    },
+    {
+      "id": 18,
+      "giaoVien": {
+        "id": 18,
+        "tenCanBo": "Nguyễn Trung Dũng"
+      },
+      "khenThuongKyLuat": {
+        "id": 1,
+        "thanhTich": "Chiến sĩ thi đua cấp cơ sở 3",
+        "htKhenThuong": "Giấy khen Tỉnh đoàn",
+        "qdKhenThuong": "BCTT-1024/2014",
+        "ngayQDKhenThuong": "2007-07-07",
+        "ghiChu": "ok"
+      },
+      "toBoMon": {
+        "id": 4,
+        "tenToBoMon": "Văn - Sử"
+      }
+    },
+    {
+      "id": 19,
+      "giaoVien": {
+        "id": 6,
+        "tenCanBo": "Đinh Thế Vinh"
+      },
+      "khenThuongKyLuat": {
+        "id": 1,
+        "thanhTich": "Chiến sĩ thi đua cấp cơ sở 3",
+        "htKhenThuong": "Giấy khen Tỉnh đoàn",
+        "qdKhenThuong": "BCTT-1024/2014",
+        "ngayQDKhenThuong": "2007-07-07",
+        "ghiChu": "ok"
+      },
+      "toBoMon": {
+        "id": 2,
+        "tenToBoMon": "Ngoại ngữ - Thể dục"
+      }
+    },
+    {
+      "id": 20,
+      "giaoVien": {
+        "id": 29,
+        "tenCanBo": "Lê Thu Huyền"
+      },
+      "khenThuongKyLuat": {
+        "id": 1,
+        "thanhTich": "Chiến sĩ thi đua cấp cơ sở 3",
+        "htKhenThuong": "Giấy khen Tỉnh đoàn",
+        "qdKhenThuong": "BCTT-1024/2014",
+        "ngayQDKhenThuong": "2007-07-07",
+        "ghiChu": "ok"
+      },
+      "toBoMon": {
+        "id": 5,
+        "tenToBoMon": "Địa - Tin - GDCD - Văn phòng"
+      }
+    },
+    {
+      "id": 21,
+      "giaoVien": {
+        "id": 14,
+        "tenCanBo": "Lê Hoàng Nam"
+      },
+      "khenThuongKyLuat": {
+        "id": 1,
+        "thanhTich": "Chiến sĩ thi đua cấp cơ sở 3",
+        "htKhenThuong": "Giấy khen Tỉnh đoàn",
+        "qdKhenThuong": "BCTT-1024/2014",
+        "ngayQDKhenThuong": "2007-07-07",
+        "ghiChu": "ok"
+      },
+      "toBoMon": {
+        "id": 1,
+        "tenToBoMon": "Hóa - Lý"
+      }
+    },
+    {
+      "id": 22,
+      "giaoVien": {
+        "id": 32,
+        "tenCanBo": "Đặng Hùng Dũng"
+      },
+      "khenThuongKyLuat": {
+        "id": 1,
+        "thanhTich": "Chiến sĩ thi đua cấp cơ sở 3",
+        "htKhenThuong": "Giấy khen Tỉnh đoàn",
+        "qdKhenThuong": "BCTT-1024/2014",
+        "ngayQDKhenThuong": "2007-07-07",
+        "ghiChu": "ok"
+      },
+      "toBoMon": {
+        "id": 4,
+        "tenToBoMon": "Văn - Sử"
+      }
+    },
+    {
+      "id": 23,
+      "giaoVien": {
+        "id": 17,
+        "tenCanBo": "Hà Mai Linh"
+      },
+      "khenThuongKyLuat": {
+        "id": 1,
+        "thanhTich": "Chiến sĩ thi đua cấp cơ sở 3",
+        "htKhenThuong": "Giấy khen Tỉnh đoàn",
+        "qdKhenThuong": "BCTT-1024/2014",
+        "ngayQDKhenThuong": "2007-07-07",
+        "ghiChu": "ok"
+      },
+      "toBoMon": {
+        "id": 3,
+        "tenToBoMon": "Toán - Sinh"
+      }
+    },
+    {
+      "id": 24,
+      "giaoVien": {
+        "id": 16,
+        "tenCanBo": "Lường Đình Trọng"
+      },
+      "khenThuongKyLuat": {
+        "id": 2,
+        "lyDo": "Vi phạm quy chế coi thi tốt nghiệp",
+        "htKyLuat": "Phê bình",
+        "qdKyLuat": "TSQ-102/2015",
+        "ngayQDKyLuat": "2016-06-06",
+        "ghiChu": "not good"
+      },
+      "toBoMon": {
+        "id": 4,
+        "tenToBoMon": "Văn - Sử"
+      }
+    },
+    {
+      "id": 25,
+      "giaoVien": {
+        "id": 26,
+        "tenCanBo": "Phan Hoàng Bách"
+      },
+      "khenThuongKyLuat": {
+        "id": 1,
+        "thanhTich": "Chiến sĩ thi đua cấp cơ sở 3",
+        "htKhenThuong": "Giấy khen Tỉnh đoàn",
+        "qdKhenThuong": "BCTT-1024/2014",
+        "ngayQDKhenThuong": "2017-07-07",
+        "ghiChu": "good"
+      },
+      "toBoMon": {
+        "id": 3,
+        "tenToBoMon": "Toán - Sinh"
+      }
+    },
+    {
+      "id": 26,
+      "giaoVien": {
+        "id": 31,
+        "tenCanBo": "Nguyễn Thị Minh Hằng"
+      },
+      "khenThuongKyLuat": {
+        "id": 2,
+        "lyDo": "Vi phạm quy chế coi thi tốt nghiệp",
+        "htKyLuat": "Phê bình",
+        "qdKyLuat": "TSQ-102/2015",
+        "ngayQDKyLuat": "2013-03-31",
+        "ghiChu": "not good"
+      },
+      "toBoMon": {
+        "id": 5,
+        "tenToBoMon": "Địa - Tin - GDCD - Văn phòng"
+      }
+    },
+    {
+      "id": 27,
+      "giaoVien": {
+        "id": 4,
+        "tenCanBo": "Đặng Mai Linh"
+      },
+      "khenThuongKyLuat": {
+        "id": 1,
+        "thanhTich": "Chiến sĩ thi đua cấp cơ sở 3",
+        "htKhenThuong": "Giấy khen Tỉnh đoàn",
+        "qdKhenThuong": "BCTT-1024/2017",
+        "ngayQDKhenThuong": "2019-03-03",
+        "ghiChu": "good"
+      },
+      "toBoMon": {
+        "id": 2,
+        "tenToBoMon": "Ngoại ngữ - Thể dục"
+      }
+    },
+    {
+      "id": 28,
+      "giaoVien": {
+        "id": 6,
+        "tenCanBo": "Đinh Thế Vinh"
+      },
+      "khenThuongKyLuat": {
+        "id": 1,
+        "thanhTich": "Chiến sĩ thi đua cấp cơ sở 3",
+        "htKhenThuong": "Giấy khen Tỉnh đoàn",
+        "qdKhenThuong": "BCTT-1024/2017",
+        "ngayQDKhenThuong": "2019-03-03",
+        "ghiChu": "good"
+      },
+      "toBoMon": {
+        "id": 2,
+        "tenToBoMon": "Ngoại ngữ - Thể dục"
+      }
+    },
+    {
+      "id": 29,
+      "giaoVien": {
+        "id": 11,
+        "tenCanBo": "Lê Nhật Nam"
+      },
+      "khenThuongKyLuat": {
+        "id": 1,
+        "thanhTich": "Chiến sĩ thi đua cấp cơ sở 3",
+        "htKhenThuong": "Giấy khen Tỉnh đoàn",
+        "qdKhenThuong": "BCTT-1024/2017",
+        "ngayQDKhenThuong": "2019-03-03",
+        "ghiChu": "good"
+      },
+      "toBoMon": {
+        "id": 2,
+        "tenToBoMon": "Ngoại ngữ - Thể dục"
+      }
+    },
+    {
+      "id": 30,
+      "giaoVien": {
+        "id": 24,
+        "tenCanBo": "Phạm Đình Đức"
+      },
+      "khenThuongKyLuat": {
+        "id": 1,
+        "thanhTich": "Chiến sĩ thi đua cấp cơ sở 3",
+        "htKhenThuong": "Giấy khen Tỉnh đoàn",
+        "qdKhenThuong": "BCTT-1024/2017",
+        "ngayQDKhenThuong": "2019-03-03",
+        "ghiChu": "good"
+      },
+      "toBoMon": {
+        "id": 2,
+        "tenToBoMon": "Ngoại ngữ - Thể dục"
+      }
+    },
+    {
+      "id": 31,
+      "giaoVien": {
+        "id": 27,
+        "tenCanBo": "Lý Thị Thu Trang"
+      },
+      "khenThuongKyLuat": {
+        "id": 1,
+        "thanhTich": "Chiến sĩ thi đua cấp cơ sở 3",
+        "htKhenThuong": "Giấy khen Tỉnh đoàn",
+        "qdKhenThuong": "BCTT-1024/2017",
+        "ngayQDKhenThuong": "2019-03-03",
+        "ghiChu": "good"
+      },
+      "toBoMon": {
+        "id": 2,
+        "tenToBoMon": "Ngoại ngữ - Thể dục"
+      }
+    },
+    {
+      "id": 32,
+      "giaoVien": {
+        "id": 30,
+        "tenCanBo": "Trần Đức Độ"
+      },
+      "khenThuongKyLuat": {
+        "id": 1,
+        "thanhTich": "Chiến sĩ thi đua cấp cơ sở 3",
+        "htKhenThuong": "Giấy khen Tỉnh đoàn",
+        "qdKhenThuong": "BCTT-1024/2017",
+        "ngayQDKhenThuong": "2019-03-03",
+        "ghiChu": "good"
+      },
+      "toBoMon": {
+        "id": 2,
+        "tenToBoMon": "Ngoại ngữ - Thể dục"
+      }
+    }
+  ]
+}

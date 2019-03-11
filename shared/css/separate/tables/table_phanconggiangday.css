@@ -1,0 +1,39 @@
+#table_PCGiangDay  tr>th:first-child,
+#table_PCGiangDay  tr>td:first-child{
+  min-width: 45px !important;
+  max-width: 45px !important;
+}
+
+#table_PCGiangDay tr>th:nth-child(2),
+#table_PCGiangDay tr>td:nth-child(2){
+  min-width: 45px !important;
+  max-width: 45px !important;
+}
+
+#table_PCGiangDay tr>th:nth-child(3),
+#table_PCGiangDay tr>td:nth-child(3){
+  min-width: 60px !important;
+  max-width: 60px !important;
+}
+#table_PCGiangDay tr>th:nth-child(4),
+#table_PCGiangDay tr>td:nth-child(4),
+#table_PCGiangDay tr>th:nth-child(5),
+#table_PCGiangDay tr>td:nth-child(5){
+  min-width: 120px !important;
+  max-width: 120px !important;
+}
+#table_PCGiangDay tr>th:nth-child(6),
+#table_PCGiangDay tr>td:nth-child(6){
+  min-width: 70px !important;
+  max-width: 70px !important;
+}
+#table_PCGiangDay tr>th:nth-child(7),
+#table_PCGiangDay tr>td:nth-child(7){
+  min-width: 300px !important;
+  max-width: 300px !important;
+}
+#table_PCGiangDay tr>th:nth-child(8),
+#table_PCGiangDay tr>td:nth-child(8){
+  min-width: 50px !important;
+  max-width: 50px !important;
+}

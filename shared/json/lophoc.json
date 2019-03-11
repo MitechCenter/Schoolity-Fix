@@ -1,0 +1,124 @@
+{
+    "lophoc": [
+        {
+            "id": "1",
+            "tenLopHoc": "10A1",
+            "khoiLopId": "1",
+            "chuNhiemId": "1"
+        },
+        {
+            "id": "2",
+            "tenLopHoc": "10A2",
+            "khoiLopId": "1",
+            "chuNhiemId": "2"
+        },
+        {
+            "id": "3",
+            "tenLopHoc": "10A3",
+            "khoiLopId": "1",
+            "chuNhiemId": "3"
+        },
+        {
+            "id": "4",
+            "tenLopHoc": "10A4",
+            "khoiLopId": "1",
+            "chuNhiemId": "4"
+        },
+        {
+            "id": "5",
+            "tenLopHoc": "10A5",
+            "khoiLopId": "1",
+            "chuNhiemId": "5"
+        },
+        {
+            "id": "6",
+            "tenLopHoc": "10A6",
+            "khoiLopId": "1",
+            "chuNhiemId": "6"
+        },
+        {
+            "id": "7",
+            "tenLopHoc": "11A1",
+            "khoiLopId": "2",
+            "chuNhiemId": "7"
+        },
+        {
+            "id": "8",
+            "tenLopHoc": "11A2",
+            "khoiLopId": "2",
+            "chuNhiemId": "8"
+        },
+        {
+            "id": "9",
+            "tenLopHoc": "11A3",
+            "khoiLopId": "2",
+            "chuNhiemId": "9"
+        },
+        {
+            "id": "10",
+            "tenLopHoc": "11A4",
+            "khoiLopId": "2",
+            "chuNhiemId": "10"
+        },
+        {
+            "id": "11",
+            "tenLopHoc": "11A5",
+            "khoiLopId": "2",
+            "chuNhiemId": "11"
+        },
+        {
+            "id": "12",
+            "tenLopHoc": "11A6",
+            "khoiLopId": "2",
+            "chuNhiemId": "12"
+        },
+        {
+            "id": "13",
+            "tenLopHoc": "11A7",
+            "khoiLopId": "2",
+            "chuNhiemId": "13"
+        },
+        {
+            "id": "14",
+            "tenLopHoc": "12A1",
+            "khoiLopId": "3",
+            "chuNhiemId": "14"
+        },
+        {
+            "id": "15",
+            "tenLopHoc": "12A2",
+            "khoiLopId": "3",
+            "chuNhiemId": "15"
+        },
+        {
+            "id": "16",
+            "tenLopHoc": "12A3",
+            "khoiLopId": "3",
+            "chuNhiemId": "16"
+        },
+        {
+            "id": "17",
+            "tenLopHoc": "12A4",
+            "khoiLopId": "3",
+            "chuNhiemId": "17"
+        },
+        {
+            "id": "18",
+            "tenLopHoc": "12A5",
+            "khoiLopId": "3",
+            "chuNhiemId": "18"
+        },
+        {
+            "id": "19",
+            "tenLopHoc": "12A6",
+            "khoiLopId": "3",
+            "chuNhiemId": "19"
+        },
+        {
+            "id": "20",
+            "tenLopHoc": "12A7",
+            "khoiLopId": "3",
+            "chuNhiemId": "20"
+        }
+    ]
+}

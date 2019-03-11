@@ -1,0 +1,20 @@
+{
+    "phanCongKiemNhiem": [
+        {
+            "id": 1,
+            "tenNhiemVu": "Bí thư đoàn"
+        },
+        {
+            "id": 2,
+            "tenNhiemVu": "Phó bí thư đoàn"
+        },
+        {
+            "id": 3,
+            "tenNhiemVu": "Giáo viên chủ nhiệm"
+        },
+        {
+            "id": 4,
+            "tenNhiemVu": "Không"
+        }
+    ]
+}

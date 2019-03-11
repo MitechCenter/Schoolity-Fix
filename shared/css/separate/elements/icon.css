@@ -1,0 +1,23 @@
+.fa-lg {
+    width: 24px;
+}
+.fa-pencil-hd, .fa-eye-hd{
+    color:gray;
+}
+.fa-pencil-hd:hover{
+    color: #1B75BC;
+}
+.fa-eye-hd:hover{
+    color: #1B75BC;
+}
+.fa-pencil-hd, .fa-eye-hd{
+    cursor: pointer;
+}
+.help-cursor{
+    cursor: pointer;
+}
+.position-relative-help{
+    position: relative !important;
+    left: 63rem;
+    top: 0.4rem;
+}

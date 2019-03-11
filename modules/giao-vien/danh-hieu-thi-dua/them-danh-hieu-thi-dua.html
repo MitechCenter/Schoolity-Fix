@@ -1,0 +1,66 @@
+<!-- Danh Hiệu Thi Đua-->
+<div class="modal-dialog modal-lg" role="document" ng-controller="danhHieuThiDuaCtr as thiduacn">
+    <form class="needs-validation" novalidate name="danhhieuthiduaform">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="danhHieuThiDua">Danh hiệu thi đua</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" ng-submit="danhHieuCaNhan()">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="form-row ">
+                            <div class="row-control bmd-form-group">
+                                <label id='required' class="bmd-label-static"> Tổ bộ môn</label>
+                                <select class="form-control" ng-model="thiduacn.boMonSelected" ng-options="boMon.tenToBoMon for boMon in thiduacn.toBoMonList track by boMon.id"
+                                    title="Tổ bộ môn" ng-change="getIdBoMon(thiduacn);" required name="bomon">
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="form-row ">
+                            <div class="row-control bmd-form-group">
+                                <label id='required' class="bmd-label-static"> Cán bộ</label>
+                                <select class="form-control" ng-model="giaoVienSelected" ng-options="giaoVien.tenCanBo for giaoVien in giaoVienList track by giaoVien.id"
+                                    title="Cán bộ" ng-change="getIdGiaoVien(giaoVienSelected);" required name="canbo">
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12">
+                        <div class="form-row ">
+                            <div class="row-control bmd-form-group">
+                                <label id='required' class="bmd-label-static"> Danh hiệu thi đua</label>
+                                <select class="form-control" ng-model="danhHieuThiDuaSelected" ng-options="danhHieuThiDua.tenDanhHieuThiDua for danhHieuThiDua in danhHieuThiDuaList track by danhHieuThiDua.id"
+                                title="Danh hiệu thi đua" required name="danhhieu">
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12">
+                        <div class="form-row">
+                            <div class="row-control bmd-form-group">
+                                <label class="bmd-label-static">Ghi Chú Khác</label>
+                                <textarea type="textarea" cols="50" rows="4" class="form-control" name="ghiChu" id="ghiChu"
+                                    title="Ghi Chú" value="" ng-model="ghiChu"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer justify-content-between">
+                <div class="ml-auto">
+                    <button type="button" class="btn btn-outline-default" data-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-primary" ng-click="danhHieuCaNhan();" ng-disabled="danhhieuthiduaform.bomon.$invalid || danhhieuthiduaform.canbo.$invalid ||danhhieuthiduaform.danhhieu.$invalid"> Save</input>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

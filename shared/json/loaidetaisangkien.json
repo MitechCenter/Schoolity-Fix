@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "tenLoaiDeTai": "Nghiên cứu khoa học cơ bản"
+    },
+    {
+        "id": 2,
+        "tenLoaiDeTai": "Nghiên cứu ứng dụng"
+    },
+    {
+        "id": 3,
+        "tenLoaiDeTai": "Nghiên cứu triển khai"
+    },
+    {
+        "id": 4,
+        "tenLoaiDeTai": "Nghiên cứu thăm dò"
+    }
+]

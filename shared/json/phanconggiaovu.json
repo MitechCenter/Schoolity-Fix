@@ -1,0 +1,1843 @@
+{
+  "phanCongGiaoVu": [
+    {
+      "id": 1,
+      "giaoVien": {
+        "id": 1,
+        "tenCanBo": "Nguyễn Văn Tây"
+      },
+      "toBoMon": {
+        "id": 4,
+        "tenToBoMon": "Văn - Sử"
+      },
+      "GVChuNhiemLop": [
+        {
+          "id": "16",
+          "tenLopHoc": "12A3",
+          "khoiLopId": "3"
+        }
+      ],
+      "GVBoMonLop": [
+        {
+          "id": "2",
+          "tenLopHoc": "10A2",
+          "khoiLopId": "1"
+        },
+        {
+          "id": "3",
+          "tenLopHoc": "10A3",
+          "khoiLopId": "1"
+        },
+        {
+          "id": "4",
+          "tenLopHoc": "10A4",
+          "khoiLopId": "1"
+        },
+        {
+          "id": "5",
+          "tenLopHoc": "10A5",
+          "khoiLopId": "1"
+        },
+        {
+          "id": "6",
+          "tenLopHoc": "10A6",
+          "khoiLopId": "1"
+        }
+      ],
+      "GiamThiLop": [
+        {
+          "id": "9",
+          "tenLopHoc": "11A3",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "10",
+          "tenLopHoc": "11A4",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "11",
+          "tenLopHoc": "11A5",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "12",
+          "tenLopHoc": "11A6",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "13",
+          "tenLopHoc": "11A7",
+          "khoiLopId": "2"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "giaoVien": {
+        "id": 2,
+        "tenCanBo": "Nguyễn Đặng Tuyết Mai"
+      },
+      "toBoMon": {
+        "id": 1,
+        "tenToBoMon": "Hóa - Lý"
+      },
+      "GVChuNhiemLop": [
+        {
+          "id": "1",
+          "tenLopHoc": "10A1",
+          "khoiLopId": "1"
+        }
+      ],
+      "GVBoMonLop": [
+        {
+          "id": "14",
+          "tenLopHoc": "12A1",
+          "khoiLopId": "3"
+        },
+        {
+          "id": "15",
+          "tenLopHoc": "12A2"
+        },
+        {
+          "id": "16",
+          "tenLopHoc": "12A3",
+          "khoiLopId": "3"
+        },
+        {
+          "id": "17",
+          "tenLopHoc": "12A4",
+          "khoiLopId": "3"
+        }
+      ],
+      "GiamThiLop": [
+        {
+          "id": "9",
+          "tenLopHoc": "11A3",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "10",
+          "tenLopHoc": "11A4",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "11",
+          "tenLopHoc": "11A5",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "12",
+          "tenLopHoc": "11A6",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "13",
+          "tenLopHoc": "11A7",
+          "khoiLopId": "2"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "giaoVien": {
+        "id": 6,
+        "tenCanBo": "Đinh Thế Vinh"
+      },
+      "toBoMon": {
+        "id": 2,
+        "tenToBoMon": "Ngoại ngữ - Thể dục"
+      },
+      "GVChuNhiemLop": [
+        {
+          "id": "5",
+          "tenLopHoc": "10A5",
+          "khoiLopId": "1"
+        }
+      ],
+      "GVBoMonLop": [
+        {
+          "id": "2",
+          "tenLopHoc": "10A2",
+          "khoiLopId": "1"
+        },
+        {
+          "id": "3",
+          "tenLopHoc": "10A3",
+          "khoiLopId": "1"
+        },
+        {
+          "id": "4",
+          "tenLopHoc": "10A4",
+          "khoiLopId": "1"
+        },
+        {
+          "id": "5",
+          "tenLopHoc": "10A5",
+          "khoiLopId": "1"
+        },
+        {
+          "id": "6",
+          "tenLopHoc": "10A6",
+          "khoiLopId": "1"
+        }
+      ],
+      "GiamThiLop": [
+        {
+          "id": "9",
+          "tenLopHoc": "11A3",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "10",
+          "tenLopHoc": "11A4",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "11",
+          "tenLopHoc": "11A5",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "12",
+          "tenLopHoc": "11A6",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "13",
+          "tenLopHoc": "11A7",
+          "khoiLopId": "2"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "giaoVien": {
+        "id": 7,
+        "tenCanBo": "Phan Văn Linh"
+      },
+      "toBoMon": {
+        "id": 3,
+        "tenToBoMon": "Toán - Sinh"
+      },
+      "GVChuNhiemLop": [
+        {
+          "id": "10",
+          "tenLopHoc": "11A4",
+          "khoiLopId": "2"
+        }
+      ],
+      "GVBoMonLop": [
+        {
+          "id": "14",
+          "tenLopHoc": "12A1",
+          "khoiLopId": "3"
+        },
+        {
+          "id": "15",
+          "tenLopHoc": "12A2"
+        },
+        {
+          "id": "16",
+          "tenLopHoc": "12A3",
+          "khoiLopId": "3"
+        },
+        {
+          "id": "17",
+          "tenLopHoc": "12A4",
+          "khoiLopId": "3"
+        }
+      ],
+      "GiamThiLop": [
+        {
+          "id": "9",
+          "tenLopHoc": "11A3",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "10",
+          "tenLopHoc": "11A4",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "11",
+          "tenLopHoc": "11A5",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "12",
+          "tenLopHoc": "11A6",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "13",
+          "tenLopHoc": "11A7",
+          "khoiLopId": "2"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "giaoVien": {
+        "id": 8,
+        "tenCanBo": "Hoàng Thùy Linh"
+      },
+      "toBoMon": {
+        "id": 4,
+        "tenToBoMon": "Văn - Sử"
+      },
+      "GVChuNhiemLop": [
+        {
+          "id": "10",
+          "tenLopHoc": "11A4",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "17",
+          "tenLopHoc": "12A4",
+          "khoiLopId": "3"
+        }
+      ],
+      "GVBoMonLop": [
+        {
+          "id": "2",
+          "tenLopHoc": "10A2",
+          "khoiLopId": "1"
+        },
+        {
+          "id": "3",
+          "tenLopHoc": "10A3",
+          "khoiLopId": "1"
+        },
+        {
+          "id": "4",
+          "tenLopHoc": "10A4",
+          "khoiLopId": "1"
+        },
+        {
+          "id": "5",
+          "tenLopHoc": "10A5",
+          "khoiLopId": "1"
+        },
+        {
+          "id": "6",
+          "tenLopHoc": "10A6",
+          "khoiLopId": "1"
+        }
+      ],
+      "GiamThiLop": [
+        {
+          "id": "9",
+          "tenLopHoc": "11A3",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "10",
+          "tenLopHoc": "11A4",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "11",
+          "tenLopHoc": "11A5",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "12",
+          "tenLopHoc": "11A6",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "13",
+          "tenLopHoc": "11A7",
+          "khoiLopId": "2"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "giaoVien": {
+        "id": 9,
+        "tenCanBo": "Lường Phi Thường"
+      },
+      "toBoMon": {
+        "id": 5,
+        "tenToBoMon": "Địa - Tin - GDCD - Văn phòng"
+      },
+      "GVChuNhiemLop": [],
+      "GVBoMonLop": [
+        {
+          "id": "14",
+          "tenLopHoc": "12A1",
+          "khoiLopId": "3"
+        },
+        {
+          "id": "15",
+          "tenLopHoc": "12A2"
+        },
+        {
+          "id": "16",
+          "tenLopHoc": "12A3",
+          "khoiLopId": "3"
+        },
+        {
+          "id": "17",
+          "tenLopHoc": "12A4",
+          "khoiLopId": "3"
+        }
+      ],
+      "GiamThiLop": [
+        {
+          "id": "9",
+          "tenLopHoc": "11A3",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "10",
+          "tenLopHoc": "11A4",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "11",
+          "tenLopHoc": "11A5",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "12",
+          "tenLopHoc": "11A6",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "13",
+          "tenLopHoc": "11A7",
+          "khoiLopId": "2"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "giaoVien": {
+        "id": 10,
+        "tenCanBo": "Hoàng Đình Phúc"
+      },
+      "toBoMon": {
+        "id": 1,
+        "tenToBoMon": "Hóa - Lý"
+      },
+      "GVChuNhiemLop": [
+        {
+          "id": "2",
+          "tenLopHoc": "10A2",
+          "khoiLopId": "1"
+        }
+      ],
+      "GVBoMonLop": [
+        {
+          "id": "2",
+          "tenLopHoc": "10A2",
+          "khoiLopId": "1"
+        },
+        {
+          "id": "3",
+          "tenLopHoc": "10A3",
+          "khoiLopId": "1"
+        },
+        {
+          "id": "4",
+          "tenLopHoc": "10A4",
+          "khoiLopId": "1"
+        },
+        {
+          "id": "5",
+          "tenLopHoc": "10A5",
+          "khoiLopId": "1"
+        },
+        {
+          "id": "6",
+          "tenLopHoc": "10A6",
+          "khoiLopId": "1"
+        }
+      ],
+      "GiamThiLop": [
+        {
+          "id": "9",
+          "tenLopHoc": "11A3",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "10",
+          "tenLopHoc": "11A4",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "11",
+          "tenLopHoc": "11A5",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "12",
+          "tenLopHoc": "11A6",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "13",
+          "tenLopHoc": "11A7",
+          "khoiLopId": "2"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "giaoVien": {
+        "id": 11,
+        "tenCanBo": "Lê Nhật Nam"
+      },
+      "toBoMon": {
+        "id": 2,
+        "tenToBoMon": "Ngoại ngữ - Thể dục"
+      },
+      "GVChuNhiemLop": [
+        {
+          "id": "6",
+          "tenLopHoc": "10A6",
+          "khoiLopId": "1"
+        },
+        {
+          "id": "15",
+          "tenLopHoc": "12A2"
+        }
+      ],
+      "GVBoMonLop": [
+        {
+          "id": "14",
+          "tenLopHoc": "12A1",
+          "khoiLopId": "3"
+        },
+        {
+          "id": "15",
+          "tenLopHoc": "12A2"
+        },
+        {
+          "id": "16",
+          "tenLopHoc": "12A3",
+          "khoiLopId": "3"
+        },
+        {
+          "id": "17",
+          "tenLopHoc": "12A4",
+          "khoiLopId": "3"
+        }
+      ],
+      "GiamThiLop": [
+        {
+          "id": "9",
+          "tenLopHoc": "11A3",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "10",
+          "tenLopHoc": "11A4",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "11",
+          "tenLopHoc": "11A5",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "12",
+          "tenLopHoc": "11A6",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "13",
+          "tenLopHoc": "11A7",
+          "khoiLopId": "2"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "giaoVien": {
+        "id": 12,
+        "tenCanBo": "Nguyễn Văn Y"
+      },
+      "toBoMon": {
+        "id": 5,
+        "tenToBoMon": "Địa - Tin - GDCD - Văn phòng"
+      },
+      "GVChuNhiemLop": [],
+      "GVBoMonLop": [
+        {
+          "id": "2",
+          "tenLopHoc": "10A2",
+          "khoiLopId": "1"
+        },
+        {
+          "id": "3",
+          "tenLopHoc": "10A3",
+          "khoiLopId": "1"
+        },
+        {
+          "id": "4",
+          "tenLopHoc": "10A4",
+          "khoiLopId": "1"
+        },
+        {
+          "id": "5",
+          "tenLopHoc": "10A5",
+          "khoiLopId": "1"
+        },
+        {
+          "id": "6",
+          "tenLopHoc": "10A6",
+          "khoiLopId": "1"
+        }
+      ],
+      "GiamThiLop": [
+        {
+          "id": "9",
+          "tenLopHoc": "11A3",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "10",
+          "tenLopHoc": "11A4",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "11",
+          "tenLopHoc": "11A5",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "12",
+          "tenLopHoc": "11A6",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "13",
+          "tenLopHoc": "11A7",
+          "khoiLopId": "2"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "giaoVien": {
+        "id": 13,
+        "tenCanBo": "Đào Thị Tuyết Mai"
+      },
+      "toBoMon": {
+        "id": 4,
+        "tenToBoMon": "Văn - Sử"
+      },
+      "GVChuNhiemLop": [
+        {
+          "id": "18",
+          "tenLopHoc": "12A5",
+          "khoiLopId": "3"
+        }
+      ],
+      "GVBoMonLop": [
+        {
+          "id": "14",
+          "tenLopHoc": "12A1",
+          "khoiLopId": "3"
+        },
+        {
+          "id": "15",
+          "tenLopHoc": "12A2"
+        },
+        {
+          "id": "16",
+          "tenLopHoc": "12A3",
+          "khoiLopId": "3"
+        },
+        {
+          "id": "17",
+          "tenLopHoc": "12A4",
+          "khoiLopId": "3"
+        }
+      ],
+      "GiamThiLop": [
+        {
+          "id": "9",
+          "tenLopHoc": "11A3",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "10",
+          "tenLopHoc": "11A4",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "11",
+          "tenLopHoc": "11A5",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "12",
+          "tenLopHoc": "11A6",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "13",
+          "tenLopHoc": "11A7",
+          "khoiLopId": "2"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "giaoVien": {
+        "id": 14,
+        "tenCanBo": "Lê Hoàng Nam"
+      },
+      "toBoMon": {
+        "id": 1,
+        "tenToBoMon": "Hóa - Lý"
+      },
+      "GVChuNhiemLop": [
+        {
+          "id": "3",
+          "tenLopHoc": "10A3",
+          "khoiLopId": "1"
+        }
+      ],
+      "GVBoMonLop": [
+        {
+          "id": "2",
+          "tenLopHoc": "10A2",
+          "khoiLopId": "1"
+        },
+        {
+          "id": "3",
+          "tenLopHoc": "10A3",
+          "khoiLopId": "1"
+        },
+        {
+          "id": "4",
+          "tenLopHoc": "10A4",
+          "khoiLopId": "1"
+        },
+        {
+          "id": "5",
+          "tenLopHoc": "10A5",
+          "khoiLopId": "1"
+        },
+        {
+          "id": "6",
+          "tenLopHoc": "10A6",
+          "khoiLopId": "1"
+        }
+      ],
+      "GiamThiLop": [
+        {
+          "id": "9",
+          "tenLopHoc": "11A3",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "10",
+          "tenLopHoc": "11A4",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "11",
+          "tenLopHoc": "11A5",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "12",
+          "tenLopHoc": "11A6",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "13",
+          "tenLopHoc": "11A7",
+          "khoiLopId": "2"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "giaoVien": {
+        "id": 15,
+        "tenCanBo": "Lê Thu Hà"
+      },
+      "toBoMon": {
+        "id": 5,
+        "tenToBoMon": "Địa - Tin - GDCD - Văn phòng"
+      },
+      "GVChuNhiemLop": [],
+      "GVBoMonLop": [
+        {
+          "id": "14",
+          "tenLopHoc": "12A1",
+          "khoiLopId": "3"
+        },
+        {
+          "id": "15",
+          "tenLopHoc": "12A2"
+        },
+        {
+          "id": "16",
+          "tenLopHoc": "12A3",
+          "khoiLopId": "3"
+        },
+        {
+          "id": "17",
+          "tenLopHoc": "12A4",
+          "khoiLopId": "3"
+        }
+      ],
+      "GiamThiLop": [
+        {
+          "id": "9",
+          "tenLopHoc": "11A3",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "10",
+          "tenLopHoc": "11A4",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "11",
+          "tenLopHoc": "11A5",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "12",
+          "tenLopHoc": "11A6",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "13",
+          "tenLopHoc": "11A7",
+          "khoiLopId": "2"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "giaoVien": {
+        "id": 16,
+        "tenCanBo": "Lường Đình Trọng"
+      },
+      "toBoMon": {
+        "id": 4,
+        "tenToBoMon": "Văn - Sử"
+      },
+      "GVChuNhiemLop": [
+        {
+          "id": "15",
+          "tenLopHoc": "12A2"
+        },
+        {
+          "id": "19",
+          "tenLopHoc": "12A6",
+          "khoiLopId": "3"
+        }
+      ],
+      "GVBoMonLop": [
+        {
+          "id": "2",
+          "tenLopHoc": "10A2",
+          "khoiLopId": "1"
+        },
+        {
+          "id": "3",
+          "tenLopHoc": "10A3",
+          "khoiLopId": "1"
+        },
+        {
+          "id": "4",
+          "tenLopHoc": "10A4",
+          "khoiLopId": "1"
+        },
+        {
+          "id": "5",
+          "tenLopHoc": "10A5",
+          "khoiLopId": "1"
+        },
+        {
+          "id": "6",
+          "tenLopHoc": "10A6",
+          "khoiLopId": "1"
+        }
+      ],
+      "GiamThiLop": [
+        {
+          "id": "9",
+          "tenLopHoc": "11A3",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "10",
+          "tenLopHoc": "11A4",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "11",
+          "tenLopHoc": "11A5",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "12",
+          "tenLopHoc": "11A6",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "13",
+          "tenLopHoc": "11A7",
+          "khoiLopId": "2"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "giaoVien": {
+        "id": 17,
+        "tenCanBo": "Hà Mai Linh"
+      },
+      "toBoMon": {
+        "id": 3,
+        "tenToBoMon": "Toán - Sinh"
+      },
+      "GVChuNhiemLop": [
+        {
+          "id": "11",
+          "tenLopHoc": "11A5",
+          "khoiLopId": "2"
+        }
+      ],
+      "GVBoMonLop": [
+        {
+          "id": "14",
+          "tenLopHoc": "12A1",
+          "khoiLopId": "3"
+        },
+        {
+          "id": "15",
+          "tenLopHoc": "12A2"
+        },
+        {
+          "id": "16",
+          "tenLopHoc": "12A3",
+          "khoiLopId": "3"
+        },
+        {
+          "id": "17",
+          "tenLopHoc": "12A4",
+          "khoiLopId": "3"
+        }
+      ],
+      "GiamThiLop": [
+        {
+          "id": "9",
+          "tenLopHoc": "11A3",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "10",
+          "tenLopHoc": "11A4",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "11",
+          "tenLopHoc": "11A5",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "12",
+          "tenLopHoc": "11A6",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "13",
+          "tenLopHoc": "11A7",
+          "khoiLopId": "2"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "giaoVien": {
+        "id": 18,
+        "tenCanBo": "Nguyễn Trung Dũng"
+      },
+      "toBoMon": {
+        "id": 4,
+        "tenToBoMon": "Văn - Sử"
+      },
+      "GVChuNhiemLop": [
+        {
+          "id": "20",
+          "tenLopHoc": "12A7",
+          "khoiLopId": "3"
+        }
+      ],
+      "GVBoMonLop": [
+        {
+          "id": "2",
+          "tenLopHoc": "10A2",
+          "khoiLopId": "1"
+        },
+        {
+          "id": "3",
+          "tenLopHoc": "10A3",
+          "khoiLopId": "1"
+        },
+        {
+          "id": "4",
+          "tenLopHoc": "10A4",
+          "khoiLopId": "1"
+        },
+        {
+          "id": "5",
+          "tenLopHoc": "10A5",
+          "khoiLopId": "1"
+        },
+        {
+          "id": "6",
+          "tenLopHoc": "10A6",
+          "khoiLopId": "1"
+        }
+      ],
+      "GiamThiLop": [
+        {
+          "id": "9",
+          "tenLopHoc": "11A3",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "10",
+          "tenLopHoc": "11A4",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "11",
+          "tenLopHoc": "11A5",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "12",
+          "tenLopHoc": "11A6",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "13",
+          "tenLopHoc": "11A7",
+          "khoiLopId": "2"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "giaoVien": {
+        "id": 21,
+        "tenCanBo": "Phan Thị Thu Hoài"
+      },
+      "toBoMon": {
+        "id": 5,
+        "tenToBoMon": "Địa - Tin - GDCD - Văn phòng"
+      },
+      "GVChuNhiemLop": [],
+      "GVBoMonLop": [
+        {
+          "id": "14",
+          "tenLopHoc": "12A1",
+          "khoiLopId": "3"
+        },
+        {
+          "id": "15",
+          "tenLopHoc": "12A2"
+        },
+        {
+          "id": "16",
+          "tenLopHoc": "12A3",
+          "khoiLopId": "3"
+        },
+        {
+          "id": "17",
+          "tenLopHoc": "12A4",
+          "khoiLopId": "3"
+        }
+      ],
+      "GiamThiLop": [
+        {
+          "id": "9",
+          "tenLopHoc": "11A3",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "10",
+          "tenLopHoc": "11A4",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "11",
+          "tenLopHoc": "11A5",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "12",
+          "tenLopHoc": "11A6",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "13",
+          "tenLopHoc": "11A7",
+          "khoiLopId": "2"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "giaoVien": {
+        "id": 22,
+        "tenCanBo": "Cao Đức Anh"
+      },
+      "toBoMon": {
+        "id": 1,
+        "tenToBoMon": "Hóa - Lý"
+      },
+      "GVChuNhiemLop": [
+        {
+          "id": "4",
+          "tenLopHoc": "10A4",
+          "khoiLopId": "1"
+        }
+      ],
+      "GVBoMonLop": [
+        {
+          "id": "2",
+          "tenLopHoc": "10A2",
+          "khoiLopId": "1"
+        },
+        {
+          "id": "3",
+          "tenLopHoc": "10A3",
+          "khoiLopId": "1"
+        },
+        {
+          "id": "4",
+          "tenLopHoc": "10A4",
+          "khoiLopId": "1"
+        },
+        {
+          "id": "5",
+          "tenLopHoc": "10A5",
+          "khoiLopId": "1"
+        },
+        {
+          "id": "6",
+          "tenLopHoc": "10A6",
+          "khoiLopId": "1"
+        }
+      ],
+      "GiamThiLop": [
+        {
+          "id": "9",
+          "tenLopHoc": "11A3",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "10",
+          "tenLopHoc": "11A4",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "11",
+          "tenLopHoc": "11A5",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "12",
+          "tenLopHoc": "11A6",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "13",
+          "tenLopHoc": "11A7",
+          "khoiLopId": "2"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "giaoVien": {
+        "id": 23,
+        "tenCanBo": "Nguyễn Thu Thủy"
+      },
+      "toBoMon": {
+        "id": 3,
+        "tenToBoMon": "Toán - Sinh"
+      },
+      "GVChuNhiemLop": [
+        {
+          "id": "12",
+          "tenLopHoc": "11A6",
+          "khoiLopId": "2"
+        }
+      ],
+      "GVBoMonLop": [
+        {
+          "id": "14",
+          "tenLopHoc": "12A1",
+          "khoiLopId": "3"
+        },
+        {
+          "id": "15",
+          "tenLopHoc": "12A2"
+        },
+        {
+          "id": "16",
+          "tenLopHoc": "12A3",
+          "khoiLopId": "3"
+        },
+        {
+          "id": "17",
+          "tenLopHoc": "12A4",
+          "khoiLopId": "3"
+        }
+      ],
+      "GiamThiLop": [
+        {
+          "id": "9",
+          "tenLopHoc": "11A3",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "10",
+          "tenLopHoc": "11A4",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "11",
+          "tenLopHoc": "11A5",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "12",
+          "tenLopHoc": "11A6",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "13",
+          "tenLopHoc": "11A7",
+          "khoiLopId": "2"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "giaoVien": {
+        "id": 24,
+        "tenCanBo": "Phạm Đình Đức"
+      },
+      "toBoMon": {
+        "id": 2,
+        "tenToBoMon": "Ngoại ngữ - Thể dục"
+      },
+      "GVChuNhiemLop": [
+        {
+          "id": "7",
+          "tenLopHoc": "11A1",
+          "khoiLopId": "2"
+        }
+      ],
+      "GVBoMonLop": [
+        {
+          "id": "2",
+          "tenLopHoc": "10A2",
+          "khoiLopId": "1"
+        },
+        {
+          "id": "3",
+          "tenLopHoc": "10A3",
+          "khoiLopId": "1"
+        },
+        {
+          "id": "4",
+          "tenLopHoc": "10A4",
+          "khoiLopId": "1"
+        },
+        {
+          "id": "5",
+          "tenLopHoc": "10A5",
+          "khoiLopId": "1"
+        },
+        {
+          "id": "6",
+          "tenLopHoc": "10A6",
+          "khoiLopId": "1"
+        }
+      ],
+      "GiamThiLop": [
+        {
+          "id": "9",
+          "tenLopHoc": "11A3",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "10",
+          "tenLopHoc": "11A4",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "11",
+          "tenLopHoc": "11A5",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "12",
+          "tenLopHoc": "11A6",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "13",
+          "tenLopHoc": "11A7",
+          "khoiLopId": "2"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "giaoVien": {
+        "id": 25,
+        "tenCanBo": "Lê Thị Dung"
+      },
+      "toBoMon": {
+        "id": 5,
+        "tenToBoMon": "Địa - Tin - GDCD - Văn phòng"
+      },
+      "GVChuNhiemLop": [],
+      "GVBoMonLop": [
+        {
+          "id": "14",
+          "tenLopHoc": "12A1",
+          "khoiLopId": "3"
+        },
+        {
+          "id": "15",
+          "tenLopHoc": "12A2"
+        },
+        {
+          "id": "16",
+          "tenLopHoc": "12A3",
+          "khoiLopId": "3"
+        },
+        {
+          "id": "17",
+          "tenLopHoc": "12A4",
+          "khoiLopId": "3"
+        }
+      ],
+      "GiamThiLop": [
+        {
+          "id": "9",
+          "tenLopHoc": "11A3",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "10",
+          "tenLopHoc": "11A4",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "11",
+          "tenLopHoc": "11A5",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "12",
+          "tenLopHoc": "11A6",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "13",
+          "tenLopHoc": "11A7",
+          "khoiLopId": "2"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "giaoVien": {
+        "id": 26,
+        "tenCanBo": "Phan Hoàng Bách"
+      },
+      "toBoMon": {
+        "id": 3,
+        "tenToBoMon": "Toán - Sinh"
+      },
+      "GVChuNhiemLop": [
+        {
+          "id": "13",
+          "tenLopHoc": "11A7",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "15",
+          "tenLopHoc": "12A2"
+        }
+      ],
+      "GVBoMonLop": [
+        {
+          "id": "2",
+          "tenLopHoc": "10A2",
+          "khoiLopId": "1"
+        },
+        {
+          "id": "3",
+          "tenLopHoc": "10A3",
+          "khoiLopId": "1"
+        },
+        {
+          "id": "4",
+          "tenLopHoc": "10A4",
+          "khoiLopId": "1"
+        },
+        {
+          "id": "5",
+          "tenLopHoc": "10A5",
+          "khoiLopId": "1"
+        },
+        {
+          "id": "6",
+          "tenLopHoc": "10A6",
+          "khoiLopId": "1"
+        }
+      ],
+      "GiamThiLop": [
+        {
+          "id": "9",
+          "tenLopHoc": "11A3",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "10",
+          "tenLopHoc": "11A4",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "11",
+          "tenLopHoc": "11A5",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "12",
+          "tenLopHoc": "11A6",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "13",
+          "tenLopHoc": "11A7",
+          "khoiLopId": "2"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "giaoVien": {
+        "id": 27,
+        "tenCanBo": "Lý Thị Thu Trang"
+      },
+      "toBoMon": {
+        "id": 2,
+        "tenToBoMon": "Ngoại ngữ - Thể dục"
+      },
+      "GVChuNhiemLop": [
+        {
+          "id": "8",
+          "tenLopHoc": "11A2",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "15",
+          "tenLopHoc": "12A2"
+        }
+      ],
+      "GVBoMonLop": [
+        {
+          "id": "14",
+          "tenLopHoc": "12A1",
+          "khoiLopId": "3"
+        },
+        {
+          "id": "15",
+          "tenLopHoc": "12A2"
+        },
+        {
+          "id": "16",
+          "tenLopHoc": "12A3",
+          "khoiLopId": "3"
+        },
+        {
+          "id": "17",
+          "tenLopHoc": "12A4",
+          "khoiLopId": "3"
+        }
+      ],
+      "GiamThiLop": [
+        {
+          "id": "9",
+          "tenLopHoc": "11A3",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "10",
+          "tenLopHoc": "11A4",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "11",
+          "tenLopHoc": "11A5",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "12",
+          "tenLopHoc": "11A6",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "13",
+          "tenLopHoc": "11A7",
+          "khoiLopId": "2"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "giaoVien": {
+        "id": 28,
+        "tenCanBo": "Hoàng Minh Giám"
+      },
+      "toBoMon": {
+        "id": 3,
+        "tenToBoMon": "Toán - Sinh"
+      },
+      "GVChuNhiemLop": [
+        {
+          "id": "14",
+          "tenLopHoc": "12A1",
+          "khoiLopId": "3"
+        }
+      ],
+      "GVBoMonLop": [
+        {
+          "id": "2",
+          "tenLopHoc": "10A2",
+          "khoiLopId": "1"
+        },
+        {
+          "id": "3",
+          "tenLopHoc": "10A3",
+          "khoiLopId": "1"
+        },
+        {
+          "id": "4",
+          "tenLopHoc": "10A4",
+          "khoiLopId": "1"
+        },
+        {
+          "id": "5",
+          "tenLopHoc": "10A5",
+          "khoiLopId": "1"
+        },
+        {
+          "id": "6",
+          "tenLopHoc": "10A6",
+          "khoiLopId": "1"
+        }
+      ],
+      "GiamThiLop": [
+        {
+          "id": "9",
+          "tenLopHoc": "11A3",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "10",
+          "tenLopHoc": "11A4",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "11",
+          "tenLopHoc": "11A5",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "12",
+          "tenLopHoc": "11A6",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "13",
+          "tenLopHoc": "11A7",
+          "khoiLopId": "2"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "giaoVien": {
+        "id": 29,
+        "tenCanBo": "Lê Thu Huyền"
+      },
+      "toBoMon": {
+        "id": 5,
+        "tenToBoMon": "Địa - Tin - GDCD - Văn phòng"
+      },
+      "GVChuNhiemLop": [],
+      "GVBoMonLop": [
+        {
+          "id": "14",
+          "tenLopHoc": "12A1",
+          "khoiLopId": "3"
+        },
+        {
+          "id": "15",
+          "tenLopHoc": "12A2"
+        },
+        {
+          "id": "16",
+          "tenLopHoc": "12A3",
+          "khoiLopId": "3"
+        },
+        {
+          "id": "17",
+          "tenLopHoc": "12A4",
+          "khoiLopId": "3"
+        }
+      ],
+      "GiamThiLop": [
+        {
+          "id": "9",
+          "tenLopHoc": "11A3",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "10",
+          "tenLopHoc": "11A4",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "11",
+          "tenLopHoc": "11A5",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "12",
+          "tenLopHoc": "11A6",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "13",
+          "tenLopHoc": "11A7",
+          "khoiLopId": "2"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "giaoVien": {
+        "id": 30,
+        "tenCanBo": "Trần Đức Độ"
+      },
+      "toBoMon": {
+        "id": 2,
+        "tenToBoMon": "Ngoại ngữ - Thể dục"
+      },
+      "GVChuNhiemLop": [
+        {
+          "id": "9",
+          "tenLopHoc": "11A3",
+          "khoiLopId": "2"
+        }
+      ],
+      "GVBoMonLop": [
+        {
+          "id": "2",
+          "tenLopHoc": "10A2",
+          "khoiLopId": "1"
+        },
+        {
+          "id": "3",
+          "tenLopHoc": "10A3",
+          "khoiLopId": "1"
+        },
+        {
+          "id": "4",
+          "tenLopHoc": "10A4",
+          "khoiLopId": "1"
+        },
+        {
+          "id": "5",
+          "tenLopHoc": "10A5",
+          "khoiLopId": "1"
+        },
+        {
+          "id": "6",
+          "tenLopHoc": "10A6",
+          "khoiLopId": "1"
+        }
+      ],
+      "GiamThiLop": [
+        {
+          "id": "9",
+          "tenLopHoc": "11A3",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "10",
+          "tenLopHoc": "11A4",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "11",
+          "tenLopHoc": "11A5",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "12",
+          "tenLopHoc": "11A6",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "13",
+          "tenLopHoc": "11A7",
+          "khoiLopId": "2"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "giaoVien": {
+        "id": 31,
+        "tenCanBo": "Nguyễn Thị Minh Hằng"
+      },
+      "toBoMon": {
+        "id": 5,
+        "tenToBoMon": "Địa - Tin - GDCD - Văn phòng"
+      },
+      "GVChuNhiemLop": [],
+      "GVBoMonLop": [
+        {
+          "id": "14",
+          "tenLopHoc": "12A1",
+          "khoiLopId": "3"
+        },
+        {
+          "id": "15",
+          "tenLopHoc": "12A2"
+        },
+        {
+          "id": "16",
+          "tenLopHoc": "12A3",
+          "khoiLopId": "3"
+        },
+        {
+          "id": "17",
+          "tenLopHoc": "12A4",
+          "khoiLopId": "3"
+        }
+      ],
+      "GiamThiLop": [
+        {
+          "id": "9",
+          "tenLopHoc": "11A3",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "10",
+          "tenLopHoc": "11A4",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "11",
+          "tenLopHoc": "11A5",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "12",
+          "tenLopHoc": "11A6",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "13",
+          "tenLopHoc": "11A7",
+          "khoiLopId": "2"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "giaoVien": {
+        "id": 32,
+        "tenCanBo": "Đặng Hùng Dũng"
+      },
+      "toBoMon": {
+        "id": 4,
+        "tenToBoMon": "Văn - Sử"
+      },
+      "GVChuNhiemLop": [],
+      "GVBoMonLop": [
+        {
+          "id": "2",
+          "tenLopHoc": "10A2",
+          "khoiLopId": "1"
+        },
+        {
+          "id": "3",
+          "tenLopHoc": "10A3",
+          "khoiLopId": "1"
+        },
+        {
+          "id": "4",
+          "tenLopHoc": "10A4",
+          "khoiLopId": "1"
+        },
+        {
+          "id": "5",
+          "tenLopHoc": "10A5",
+          "khoiLopId": "1"
+        },
+        {
+          "id": "6",
+          "tenLopHoc": "10A6",
+          "khoiLopId": "1"
+        }
+      ],
+      "GiamThiLop": [
+        {
+          "id": "9",
+          "tenLopHoc": "11A3",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "10",
+          "tenLopHoc": "11A4",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "11",
+          "tenLopHoc": "11A5",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "12",
+          "tenLopHoc": "11A6",
+          "khoiLopId": "2"
+        },
+        {
+          "id": "13",
+          "tenLopHoc": "11A7",
+          "khoiLopId": "2"
+        }
+      ]
+    }
+  ]
+}

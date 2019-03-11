@@ -1,0 +1,93 @@
+<div class=" border-secondary p-2">
+    <div class="bg-white border box-shadow p-3">
+        <!-- THÊM,IMPORT,XÓA, DOWLOAD,PRINT -->
+        <div class="pb-3 d-flex justify-content-between">
+
+            <div class="schollity-SearchPanel-Title">
+                <span class="icon-search-file"></span>
+                Thông tin tìm kiếm
+                <span id="btn-panel-collapse"></span>
+            </div>
+        </div>
+        <!-- filter -->
+        <div class="select-search">
+            <div class="row">
+                <!-- Select khối học sinh -->
+                <div class="col-md-4">
+                    <label for="khoi"> Khối</label>
+                    <select class="pr-3 pl-3 pt-1 pb-1 border">
+                        <option value="true">Khối 10</option>
+                        <option value="true">Khối 11</option>
+                        <option value="true">Khối 12</option>
+                    </select>
+                </div>
+                <!-- select row lop hoc  -->
+                <div class="col-md-4">
+                    <label for="lop"> Lớp </label>
+                    <select class="pr-3 pl-3 pt-1 pb-1 border">
+                        <option value="true">Lớp 10A1</option>
+                        <option value="true">Lớp 10A2</option>
+                        <option value="true">Lớp 10A3</option>
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    <label for="lop"> Môn Thi Lại </label>
+                    <select class="pr-3 pl-3 pt-1 pb-1 border">
+                        <option value="true">Toán </option>
+                        <option value="true">Vật lí</option>
+                        <option value="true">Hóa Học</option>
+                        <option value="true">Sinh Học</option>
+                        <option value="true">Tin Học</option>
+                        <option value="true">Ngữ Văn</option>
+                        <option value="true">Lịch Sử </option>
+                        <option value="true">Địa Lí </option>
+                        <option value="true">Tiếng Anh</option>
+                        <option value="true">GDCD </option>
+                        <option value="true">Công Nghệ</option>
+                        <option value="true">Thể Dục</option>
+                        <option value="true">QPAN</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- select buton check -->
+    <!-- Tablen search học sinh -->
+    <div class="table-wrapper">
+        <div class="table-container">
+            <table class="table-fixed-header table-hover table table-striped ">
+                <thead>
+                    <tr>
+                        <div>
+                            <th ng-repeat="h in capnhapheader" style="width: '{{h.width}}';">
+                                <div style="color: #fff; display: inline-block; font-size: 12px; overflow: scroll; /* thanh cuộn */
+                                overflow: hidden; /* ẩn đi */">
+                                    {{h.mon}}
+                                </div>
+                                </div>
+                            </th>
+                        </div>
+                    </tr>
+                </thead>
+        </div>
+        <tbody class="table-wrapper table-container">
+            <xxx>
+                <tr ng-repeat="x in capnhapthilai">
+                    <td>{{x.stt}} </td>
+                    <td>{{x.MaHs}} </td>
+                    <td>{{x.HoTen}}</td>
+                    <td>{{x.Lop}}</td>
+                    <td>{{x.DiemTrThiLai}}</td>
+                    <td>{{x.DiemSThiLai}}</td>
+                    <td> <input type="checkbox" name="" id="" class="checkbox checkbox--red"></td>
+                    <td> <input type="text" name="" id="lido" style="width: 100%"> </td>
+                    <!--xử lý javascrip click checkbox write lí do -->
+                </tr>
+            </xxx>
+        </tbody>
+        </table>
+    </div>
+    <div class="Clear"></div>
+</div>
+
+</div>

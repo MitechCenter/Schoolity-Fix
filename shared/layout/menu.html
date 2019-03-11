@@ -1,0 +1,25 @@
+<div class="sidebar" ng-controller="indexCtrl">
+  <nav class="sidebar-nav">
+    <ul class="nav">
+      <li class="nav-item nav-dropdown" ng-repeat="lv1Menu in LeftMenu">
+        <a class="nav-link nav-dropdown-toggle" ui-sref="{{lv1Menu.state}}" id="{{lv1Menu.id}}"
+          ng-click="getPath1(lv1Menu.name)">
+          <i class="nav-icon  {{lv1Menu.ic}}"></i> {{lv1Menu.name}}</a>
+        <!-- For First menu level -->
+        <ul class="nav-dropdown-items">
+          <!-- For Seconds menu level -->
+          <div ng-repeat="lv2Menu in lv1Menu.sub" ng-click="getPath2(lv2Menu.name, lv2Menu.id)">
+            <li class="nav-item nav-dropdown">
+              <a class="nav-link" ui-sref="{{lv2Menu.state}}" id="{{lv2Menu.id}}"
+                ng-class="{active: lv2Menu.id === idSelected}">
+                <!-- <i class="nav-icon {{lv2Menu.ic}}"></i>  -->
+                {{lv2Menu.name}}
+              </a>
+            </li>
+          </div>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+  <button class="sidebar-minimizer brand-minimizer" type="button"></button>
+</div>

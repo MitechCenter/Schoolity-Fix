@@ -1,0 +1,12 @@
+.btn.disabled, .btn:disabled {
+    opacity: 0.3 !important;
+}
+.btn-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.page-item.active .page-link{
+    background: linear-gradient(rgb(43,57,144) 30%, rgb(27,117,188)) !important;
+    border-color: rgb(43,57,144) !important;
+}

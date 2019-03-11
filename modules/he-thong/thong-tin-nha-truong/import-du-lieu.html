@@ -1,0 +1,1619 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+   <meta name="description" content="CoreUI - Open Source Bootstrap Admin Template">
+   <meta name="author" content="Łukasz Holeczek">
+   <meta name="keyword" content="Bootstrap,Admin,Template,Open,Source,jQuery,CSS,HTML,RWD,Dashboard">
+   <title>Cán Bộ</title>
+   <!-- Library AngularJS 1.6.4 -->
+   <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.4/angular.min.js"></script>
+   <!-- jQuery  -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <!-- Controller -->
+
+   <base href="../../../">
+
+   <!-- Icons-->
+   <link href="vendors/@coreui/icons/css/coreui-icons.min.css" rel="stylesheet">
+   <link href="vendors/flag-icon-css/css/flag-icon.min.css" rel="stylesheet">
+   <link href="vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+   <link href="vendors/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+   <!-- Main styles for this application-->
+   <!-- thay vi phải sửa lại toàn bộ những dòng dưới đây
+         chúng ta dùng <base href="../../"> để mặc định thư mục  -->
+
+   <link href="css/style.css" rel="stylesheet">
+   <link href="css/material-design.css" rel="stylesheet">
+   <link href="css/separate/tables/table.css" rel="stylesheet">
+   <link href="css/separate/alert/alert.css" rel="stylesheet">
+   <link href="css/separate/elements/sidebar.css" rel="stylesheet">
+   <link href="css/separate/elements/header.css" rel="stylesheet">
+   <link href="css/separate/elements/tab-menu.css" rel="stylesheet">
+   <link href="css/separate/elements/checkbox.css" rel="stylesheet">
+   <link href="css/separate/elements/search.css" rel="stylesheet">
+   <link href="css/separate/elements/scrollbar.css" rel="stylesheet">
+   <link href="css/separate/elements/steps.css" rel="stylesheet">
+   <link href="css/separate/elements/button.css" rel="stylesheet">
+   <link href="css/separate/form/form.css" rel="stylesheet">
+   <link href="css/separate/tables/table_user.css" rel="stylesheet">
+   <!-- <link href="css/progress/pace.min.css" rel="stylesheet"> -->
+   <!-- <link rel="stylesheet" href="css/separate/pagination/pagination.css"> -->
+   <!-- <base href="../"> -->
+
+</head>
+
+<body ng-app="ShoolityApp" class="app header-fixed sidebar-fixed aside-menu-fixed sidebar-lg-show"
+   ng-controller="giaoVienCtrl">
+   <header class="app-header navbar">
+      <div class="app-header navbar">
+         <button class="navbar-toggler sidebar-toggler d-lg-none mr-auto" type="button" data-toggle="sidebar-show">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+         <a class="navbar-brand" href="#">
+            <img class="navbar-brand-full" src="img/brand/Schoolity_Logo.svg" width="110" height="50"
+               alt="Schoolity Logo">
+            <img class="navbar-brand-minimized" src="img/brand/logo_small.svg" width="37" height="37" alt="Logo small">
+         </a>
+         <button class="navbar-toggler sidebar-toggler d-md-down-none" type="button" data-toggle="sidebar-lg-show">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+         <ul class="nav navbar-nav d-md-down-none">
+            <li class="nav-item px-3">
+               <a class="nav-link" href="#">Dashboard</a>
+            </li>
+            <li class="nav-item px-3">
+               <a class="nav-link" href="#">Users</a>
+            </li>
+            <li class="nav-item px-3">
+               <a class="nav-link" href="#">Settings</a>
+            </li>
+         </ul>
+         <ul class="nav navbar-nav ml-auto">
+            <li class="nav-item d-md-down-none dropdown">
+               <a class="nav-link " data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                  aria-expanded="false">
+                  <i class="icon-bell"></i>
+                  <span class="badge badge-pill badge-danger">5</span>
+               </a>
+               <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg">
+                  <div class="dropdown-header text-center">
+                     <strong>You have 5 notifications</strong>
+                  </div>
+                  <a class="dropdown-item" href="#">
+                     <i class="icon-user-follow text-success"></i> New user registered</a>
+                  <a class="dropdown-item" href="#">
+                     <i class="icon-user-unfollow text-danger"></i> User deleted</a>
+                  <a class="dropdown-item" href="#">
+                     <i class="icon-chart text-info"></i> Sales report is ready</a>
+                  <a class="dropdown-item" href="#">
+                     <i class="icon-basket-loaded text-primary"></i> New client</a>
+                  <a class="dropdown-item" href="#">
+                     <i class="icon-speedometer text-warning"></i> Server overloaded</a>
+                  <div class="dropdown-header text-center">
+                     <strong>Server</strong>
+                  </div>
+                  <a class="dropdown-item" href="#">
+                     <div class="text-uppercase mb-1">
+                        <small>
+                           <b>CPU Usage</b>
+                        </small>
+                     </div>
+                     <span class="progress progress-xs">
+                        <div class="progress-bar bg-info" role="progressbar" style="width: 25%" aria-valuenow="25"
+                           aria-valuemin="0" aria-valuemax="100"></div>
+                     </span>
+                     <small class="text-muted">348 Processes. 1/4 Cores.</small>
+                  </a>
+                  <a class="dropdown-item" href="#">
+                     <div class="text-uppercase mb-1">
+                        <small>
+                           <b>Memory Usage</b>
+                        </small>
+                     </div>
+                     <span class="progress progress-xs">
+                        <div class="progress-bar bg-warning" role="progressbar" style="width: 70%" aria-valuenow="70"
+                           aria-valuemin="0" aria-valuemax="100"></div>
+                     </span>
+                     <small class="text-muted">11444GB/16384MB</small>
+                  </a>
+                  <a class="dropdown-item" href="#">
+                     <div class="text-uppercase mb-1">
+                        <small>
+                           <b>SSD 1 Usage</b>
+                        </small>
+                     </div>
+                     <span class="progress progress-xs">
+                        <div class="progress-bar bg-danger" role="progressbar" style="width: 95%" aria-valuenow="95"
+                           aria-valuemin="0" aria-valuemax="100"></div>
+                     </span>
+                     <small class="text-muted">243GB/256GB</small>
+                  </a>
+               </div>
+            </li>
+            <li class="nav-item d-md-down-none">
+               <a class="nav-link" href="#">
+                  <i class="icon-list"></i>
+               </a>
+            </li>
+            <li class="nav-item d-md-down-none">
+               <a class="nav-link" href="#">
+                  <i class="icon-location-pin"></i>
+               </a>
+            </li>
+            <li class="nav-item dropdown">
+               <a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                  aria-expanded="false">
+                  <img class="img-avatar" src="img/avatars/6.jpg" alt="admin@bootstrapmaster.com">
+               </a>
+               <div class="dropdown-menu dropdown-menu-right">
+                  <div class="dropdown-header text-center">
+                     <strong>Account</strong>
+                  </div>
+                  <a class="dropdown-item" href="#">
+                     <i class="fa fa-bell-o"></i> Updates
+                     <span class="badge badge-info">42</span>
+                  </a>
+                  <a class="dropdown-item" href="#">
+                     <i class="fa fa-envelope-o"></i> Messages
+                     <span class="badge badge-success">42</span>
+                  </a>
+                  <a class="dropdown-item" href="#">
+                     <i class="fa fa-tasks"></i> Tasks
+                     <span class="badge badge-danger">42</span>
+                  </a>
+                  <a class="dropdown-item" href="#">
+                     <i class="fa fa-comments"></i> Comments
+                     <span class="badge badge-warning">42</span>
+                  </a>
+                  <div class="dropdown-header text-center">
+                     <strong>Settings</strong>
+                  </div>
+                  <a class="dropdown-item" href="#">
+                     <i class="fa fa-user"></i> Profile</a>
+                  <a class="dropdown-item" href="#">
+                     <i class="fa fa-wrench"></i> Settings</a>
+                  <a class="dropdown-item" href="#">
+                     <i class="fa fa-usd"></i> Payments
+                     <span class="badge badge-secondary">42</span>
+                  </a>
+                  <a class="dropdown-item" href="#">
+                     <i class="fa fa-file"></i> Projects
+                     <span class="badge badge-primary">42</span>
+                  </a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">
+                     <i class="fa fa-shield"></i> Lock Account</a>
+                  <a class="dropdown-item" href="#">
+                     <i class="fa fa-lock"></i> Logout</a>
+               </div>
+            </li>
+         </ul>
+         <button class="navbar-toggler aside-menu-toggler d-md-down-none" type="button"
+            data-toggle="aside-menu-lg-show">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+         <button class="navbar-toggler aside-menu-toggler d-lg-none" type="button" data-toggle="aside-menu-show">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+      </div>
+   </header>
+   <!-- Menu -->
+   <div class="app-body">
+      <div id="sidebar-menu" ng-include="'giaovien/components/layout/menu.html'" class="ng-scope">
+         <div class="sidebar ng-scope" ng-controller="giaoVienCtrl">
+            <nav class="sidebar-nav">
+               <ul class="nav">
+                  <!-- ngRepeat: lv1Menu in LeftMenu -->
+                  <li class="nav-item nav-dropdown ng-scope" ng-repeat="lv1Menu in LeftMenu">
+                     <a class="nav-link nav-dropdown-toggle ng-binding" href="user/#" id="lv1_MenuObj_00">
+                        <i class="nav-icon  fa fa-bell-o"></i> Hệ thống</a>
+                     <!-- For First menu level -->
+                     <ul class="nav-dropdown-items">
+                        <!-- For Seconds menu level -->
+                        <!-- ngRepeat: lv2Menu in lv1Menu.sub -->
+                        <div ng-repeat="lv2Menu in lv1Menu.sub" class="ng-scope">
+                           <!-- IF have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub !== undefined -->
+                           <!-- IF don't have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub === undefined -->
+                           <div ng-if="lv2Menu.sub === undefined" class="ng-scope">
+                              <li class="nav-item">
+                                 <a class="nav-link ng-binding" href="user/#" id="MenuObj_01">
+                                    <i class="nav-icon fa fa-bell-o"></i> Thông tin nhà trường
+                                 </a>
+                              </li>
+                           </div><!-- end ngIf: lv2Menu.sub === undefined -->
+                        </div><!-- end ngRepeat: lv2Menu in lv1Menu.sub -->
+                        <div ng-repeat="lv2Menu in lv1Menu.sub" class="ng-scope">
+                           <!-- IF have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub !== undefined -->
+                           <!-- IF don't have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub === undefined -->
+                           <div ng-if="lv2Menu.sub === undefined" class="ng-scope">
+                              <li class="nav-item">
+                                 <a class="nav-link ng-binding" href="user/#" id="MenuObj_02">
+                                    <i class="nav-icon fa fa-bell-o"></i> Khai báo dữ liệu
+                                 </a>
+                              </li>
+                           </div><!-- end ngIf: lv2Menu.sub === undefined -->
+                        </div><!-- end ngRepeat: lv2Menu in lv1Menu.sub -->
+                        <div ng-repeat="lv2Menu in lv1Menu.sub" class="ng-scope">
+                           <!-- IF have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub !== undefined -->
+                           <!-- IF don't have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub === undefined -->
+                           <div ng-if="lv2Menu.sub === undefined" class="ng-scope">
+                              <li class="nav-item">
+                                 <a class="nav-link ng-binding" href="user/#" id="lv2_MenuObj_03">
+                                    <i class="nav-icon fa fa-bell-o"></i> Import dữ liệu
+                                 </a>
+                              </li>
+                           </div><!-- end ngIf: lv2Menu.sub === undefined -->
+                        </div><!-- end ngRepeat: lv2Menu in lv1Menu.sub -->
+                        <div ng-repeat="lv2Menu in lv1Menu.sub" class="ng-scope">
+                           <!-- IF have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub !== undefined -->
+                           <!-- IF don't have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub === undefined -->
+                           <div ng-if="lv2Menu.sub === undefined" class="ng-scope">
+                              <li class="nav-item">
+                                 <a class="nav-link ng-binding" href="user/#" id="lv2_MenuObj_04">
+                                    <i class="nav-icon fa fa-bell-o"></i> Thời khóa biểu
+                                 </a>
+                              </li>
+                           </div><!-- end ngIf: lv2Menu.sub === undefined -->
+                        </div><!-- end ngRepeat: lv2Menu in lv1Menu.sub -->
+                        <div ng-repeat="lv2Menu in lv1Menu.sub" class="ng-scope">
+                           <!-- IF have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub !== undefined -->
+                           <!-- IF don't have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub === undefined -->
+                           <div ng-if="lv2Menu.sub === undefined" class="ng-scope">
+                              <li class="nav-item">
+                                 <a class="nav-link ng-binding" href="user/#" id="lv2_MenuObj_05">
+                                    <i class="nav-icon fa fa-bell-o"></i> Kết chuyển dữ liệu
+                                 </a>
+                              </li>
+                           </div><!-- end ngIf: lv2Menu.sub === undefined -->
+                        </div><!-- end ngRepeat: lv2Menu in lv1Menu.sub -->
+                        <div ng-repeat="lv2Menu in lv1Menu.sub" class="ng-scope">
+                           <!-- IF have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub !== undefined -->
+                           <!-- IF don't have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub === undefined -->
+                           <div ng-if="lv2Menu.sub === undefined" class="ng-scope">
+                              <li class="nav-item">
+                                 <a class="nav-link ng-binding" href="user/#" id="lv2_MenuObj_06">
+                                    <i class="nav-icon fa fa-bell-o"></i> Cấu hình hệ thống
+                                 </a>
+                              </li>
+                           </div><!-- end ngIf: lv2Menu.sub === undefined -->
+                        </div><!-- end ngRepeat: lv2Menu in lv1Menu.sub -->
+                        <div ng-repeat="lv2Menu in lv1Menu.sub" class="ng-scope">
+                           <!-- IF have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub !== undefined -->
+                           <!-- IF don't have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub === undefined -->
+                           <div ng-if="lv2Menu.sub === undefined" class="ng-scope">
+                              <li class="nav-item">
+                                 <a class="nav-link ng-binding" href="user/#" id="lv2_MenuObj_07">
+                                    <i class="nav-icon fa fa-bell-o"></i> Cấu hình mức thống kê
+                                 </a>
+                              </li>
+                           </div><!-- end ngIf: lv2Menu.sub === undefined -->
+                        </div><!-- end ngRepeat: lv2Menu in lv1Menu.sub -->
+                        <div ng-repeat="lv2Menu in lv1Menu.sub" class="ng-scope">
+                           <!-- IF have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub !== undefined -->
+                           <!-- IF don't have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub === undefined -->
+                           <div ng-if="lv2Menu.sub === undefined" class="ng-scope">
+                              <li class="nav-item">
+                                 <a class="nav-link ng-binding" href="user/#" id="lv2_MenuObj_08">
+                                    <i class="nav-icon fa fa-bell-o"></i> Giám sát nhập điểm
+                                 </a>
+                              </li>
+                           </div><!-- end ngIf: lv2Menu.sub === undefined -->
+                        </div><!-- end ngRepeat: lv2Menu in lv1Menu.sub -->
+                        <div ng-repeat="lv2Menu in lv1Menu.sub" class="ng-scope">
+                           <!-- IF have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub !== undefined -->
+                           <!-- IF don't have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub === undefined -->
+                           <div ng-if="lv2Menu.sub === undefined" class="ng-scope">
+                              <li class="nav-item">
+                                 <a class="nav-link ng-binding" href="user/#" id="lv2_MenuObj_09">
+                                    <i class="nav-icon fa fa-bell-o"></i> Lịch sử sử dụng
+                                 </a>
+                              </li>
+                           </div><!-- end ngIf: lv2Menu.sub === undefined -->
+                        </div><!-- end ngRepeat: lv2Menu in lv1Menu.sub -->
+                     </ul>
+                  </li><!-- end ngRepeat: lv1Menu in LeftMenu -->
+                  <li class="nav-item nav-dropdown ng-scope" ng-repeat="lv1Menu in LeftMenu">
+                     <a class="nav-link nav-dropdown-toggle ng-binding" href="user/#" id="lv1_MenuObj_10">
+                        <i class="nav-icon  fa fa-graduation-cap"></i> Học sinh</a>
+                     <!-- For First menu level -->
+                     <ul class="nav-dropdown-items">
+                        <!-- For Seconds menu level -->
+                        <!-- ngRepeat: lv2Menu in lv1Menu.sub -->
+                        <div ng-repeat="lv2Menu in lv1Menu.sub" class="ng-scope">
+                           <!-- IF have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub !== undefined -->
+                           <!-- IF don't have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub === undefined -->
+                           <div ng-if="lv2Menu.sub === undefined" class="ng-scope">
+                              <li class="nav-item">
+                                 <a class="nav-link ng-binding" href="user/#" id="lv2_MenuObj_11">
+                                    <i class="nav-icon fa fa-bell-o"></i> Hồ sơ học sinh
+                                 </a>
+                              </li>
+                           </div><!-- end ngIf: lv2Menu.sub === undefined -->
+                        </div><!-- end ngRepeat: lv2Menu in lv1Menu.sub -->
+                        <div ng-repeat="lv2Menu in lv1Menu.sub" class="ng-scope">
+                           <!-- IF have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub !== undefined -->
+                           <!-- IF don't have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub === undefined -->
+                           <div ng-if="lv2Menu.sub === undefined" class="ng-scope">
+                              <li class="nav-item">
+                                 <a class="nav-link ng-binding" href="user/#" id="lv2_MenuObj_12">
+                                    <i class="nav-icon fa fa-bell-o"></i> Sổ điểm
+                                 </a>
+                              </li>
+                           </div><!-- end ngIf: lv2Menu.sub === undefined -->
+                        </div><!-- end ngRepeat: lv2Menu in lv1Menu.sub -->
+                        <div ng-repeat="lv2Menu in lv1Menu.sub" class="ng-scope">
+                           <!-- IF have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub !== undefined -->
+                           <!-- IF don't have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub === undefined -->
+                           <div ng-if="lv2Menu.sub === undefined" class="ng-scope">
+                              <li class="nav-item">
+                                 <a class="nav-link ng-binding" href="user/#" id="lv2_MenuObj_13">
+                                    <i class="nav-icon fa fa-bell-o"></i> Điểm danh
+                                 </a>
+                              </li>
+                           </div><!-- end ngIf: lv2Menu.sub === undefined -->
+                        </div><!-- end ngRepeat: lv2Menu in lv1Menu.sub -->
+                        <div ng-repeat="lv2Menu in lv1Menu.sub" class="ng-scope">
+                           <!-- IF have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub !== undefined -->
+                           <!-- IF don't have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub === undefined -->
+                           <div ng-if="lv2Menu.sub === undefined" class="ng-scope">
+                              <li class="nav-item">
+                                 <a class="nav-link ng-binding" href="user/#" id="lv2_MenuObj_14">
+                                    <i class="nav-icon fa fa-bell-o"></i> Vi phạm
+                                 </a>
+                              </li>
+                           </div><!-- end ngIf: lv2Menu.sub === undefined -->
+                        </div><!-- end ngRepeat: lv2Menu in lv1Menu.sub -->
+                        <div ng-repeat="lv2Menu in lv1Menu.sub" class="ng-scope">
+                           <!-- IF have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub !== undefined -->
+                           <div ng-if="lv2Menu.sub !== undefined" class="ng-scope">
+                              <li class="nav-item nav-dropdown">
+                                 <a class="nav-link nav-dropdown-toggle ng-binding" href="user/#" id="lv2_MenuObj_15">
+                                    <i class="nav-icon fa fa-bell-o"></i> Tổng kết điểm
+                                 </a>
+                                 <!-- For Third menu level -->
+                                 <ul class="nav-dropdown-items">
+                                    <!-- ngRepeat: lv3Menu in lv2Menu.sub -->
+                                    <li class="nav-item ng-scope" ng-repeat="lv3Menu in lv2Menu.sub">
+                                       <a class="nav-link ng-binding" href="user/#" id="lv3_MenuObj_16">
+                                          <i class=" nav-icon fa fa-bell-o"></i> Tổng kết điểm</a>
+                                    </li><!-- end ngRepeat: lv3Menu in lv2Menu.sub -->
+                                    <li class="nav-item ng-scope" ng-repeat="lv3Menu in lv2Menu.sub">
+                                       <a class="nav-link ng-binding" href="user/#" id="lv3_MenuObj_17">
+                                          <i class=" nav-icon fa fa-bell-o"></i> Tổng kết điểm, xếp loại theo khối</a>
+                                    </li><!-- end ngRepeat: lv3Menu in lv2Menu.sub -->
+                                    <li class="nav-item ng-scope" ng-repeat="lv3Menu in lv2Menu.sub">
+                                       <a class="nav-link ng-binding" href="user/#" id="lv3_MenuObj_18">
+                                          <i class=" nav-icon fa fa-bell-o"></i> Điểm thi học kỳ</a>
+                                    </li><!-- end ngRepeat: lv3Menu in lv2Menu.sub -->
+                                 </ul>
+                              </li>
+                           </div><!-- end ngIf: lv2Menu.sub !== undefined -->
+                           <!-- IF don't have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub === undefined -->
+                        </div><!-- end ngRepeat: lv2Menu in lv1Menu.sub -->
+                        <div ng-repeat="lv2Menu in lv1Menu.sub" class="ng-scope">
+                           <!-- IF have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub !== undefined -->
+                           <!-- IF don't have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub === undefined -->
+                           <div ng-if="lv2Menu.sub === undefined" class="ng-scope">
+                              <li class="nav-item">
+                                 <a class="nav-link ng-binding" href="user/#" id="lv2_MenuObj_19">
+                                    <i class="nav-icon fa fa-bell-o"></i> Xếp loại hạnh kiểm
+                                 </a>
+                              </li>
+                           </div><!-- end ngIf: lv2Menu.sub === undefined -->
+                        </div><!-- end ngRepeat: lv2Menu in lv1Menu.sub -->
+                        <div ng-repeat="lv2Menu in lv1Menu.sub" class="ng-scope">
+                           <!-- IF have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub !== undefined -->
+                           <!-- IF don't have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub === undefined -->
+                           <div ng-if="lv2Menu.sub === undefined" class="ng-scope">
+                              <li class="nav-item">
+                                 <a class="nav-link ng-binding" href="user/#" id="lv2_MenuObj_20">
+                                    <i class="nav-icon fa fa-bell-o"></i> Xếp loại học lực
+                                 </a>
+                              </li>
+                           </div><!-- end ngIf: lv2Menu.sub === undefined -->
+                        </div><!-- end ngRepeat: lv2Menu in lv1Menu.sub -->
+                        <div ng-repeat="lv2Menu in lv1Menu.sub" class="ng-scope">
+                           <!-- IF have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub !== undefined -->
+                           <!-- IF don't have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub === undefined -->
+                           <div ng-if="lv2Menu.sub === undefined" class="ng-scope">
+                              <li class="nav-item">
+                                 <a class="nav-link ng-binding" href="user/#" id="lv2_MenuObj_21">
+                                    <i class="nav-icon fa fa-bell-o"></i> QL Thông tin tốt nghiệp
+                                 </a>
+                              </li>
+                           </div><!-- end ngIf: lv2Menu.sub === undefined -->
+                        </div><!-- end ngRepeat: lv2Menu in lv1Menu.sub -->
+                        <div ng-repeat="lv2Menu in lv1Menu.sub" class="ng-scope">
+                           <!-- IF have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub !== undefined -->
+                           <!-- IF don't have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub === undefined -->
+                           <div ng-if="lv2Menu.sub === undefined" class="ng-scope">
+                              <li class="nav-item">
+                                 <a class="nav-link ng-binding" href="user/#" id="lv2_MenuObj_22">
+                                    <i class="nav-icon fa fa-bell-o"></i> Xếp loại thi đua
+                                 </a>
+                              </li>
+                           </div><!-- end ngIf: lv2Menu.sub === undefined -->
+                        </div><!-- end ngRepeat: lv2Menu in lv1Menu.sub -->
+                        <div ng-repeat="lv2Menu in lv1Menu.sub" class="ng-scope">
+                           <!-- IF have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub !== undefined -->
+                           <div ng-if="lv2Menu.sub !== undefined" class="ng-scope">
+                              <li class="nav-item nav-dropdown">
+                                 <a class="nav-link nav-dropdown-toggle ng-binding" href="user/#" id="lv2_MenuObj_23">
+                                    <i class="nav-icon fa fa-bell-o"></i> Quản lý thi lại
+                                 </a>
+                                 <!-- For Third menu level -->
+                                 <ul class="nav-dropdown-items">
+                                    <!-- ngRepeat: lv3Menu in lv2Menu.sub -->
+                                    <li class="nav-item ng-scope" ng-repeat="lv3Menu in lv2Menu.sub">
+                                       <a class="nav-link ng-binding" href="user/#" id="lv3_MenuObj_24">
+                                          <i class=" nav-icon fa fa-bell-o"></i> Đăng ký môn thi lại</a>
+                                    </li><!-- end ngRepeat: lv3Menu in lv2Menu.sub -->
+                                    <li class="nav-item ng-scope" ng-repeat="lv3Menu in lv2Menu.sub">
+                                       <a class="nav-link ng-binding" href="user/#" id="lv3_MenuObj_25">
+                                          <i class=" nav-icon fa fa-bell-o"></i> Cập nhật điểm thi lại</a>
+                                    </li><!-- end ngRepeat: lv3Menu in lv2Menu.sub -->
+                                    <li class="nav-item ng-scope" ng-repeat="lv3Menu in lv2Menu.sub">
+                                       <a class="nav-link ng-binding" href="user/#" id="lv3_MenuObj_26">
+                                          <i class=" nav-icon fa fa-bell-o"></i> Xử lý kết quả thi lại</a>
+                                    </li><!-- end ngRepeat: lv3Menu in lv2Menu.sub -->
+                                 </ul>
+                              </li>
+                           </div><!-- end ngIf: lv2Menu.sub !== undefined -->
+                           <!-- IF don't have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub === undefined -->
+                        </div><!-- end ngRepeat: lv2Menu in lv1Menu.sub -->
+                     </ul>
+                  </li><!-- end ngRepeat: lv1Menu in LeftMenu -->
+                  <li class="nav-item nav-dropdown ng-scope" ng-repeat="lv1Menu in LeftMenu">
+                     <a class="nav-link nav-dropdown-toggle ng-binding" href="giaovien/#" id="lv1_MenuObj_27">
+                        <i class="nav-icon  fa fa-users"></i> Giáo Viên</a>
+                     <!-- For First menu level -->
+                     <ul class="nav-dropdown-items">
+                        <!-- For Seconds menu level -->
+                        <!-- ngRepeat: lv2Menu in lv1Menu.sub -->
+                        <div ng-repeat="lv2Menu in lv1Menu.sub" class="ng-scope">
+                           <!-- IF have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub !== undefined -->
+                           <!-- IF don't have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub === undefined -->
+                           <div ng-if="lv2Menu.sub === undefined" class="ng-scope">
+                              <li class="nav-item">
+                                 <a class="nav-link ng-binding" href="giaovien/#" id="lv2_MenuObj_28">
+                                    <i class="nav-icon fa fa-bell-o"></i> Hồ sơ cán bộ
+                                 </a>
+                              </li>
+                           </div><!-- end ngIf: lv2Menu.sub === undefined -->
+                        </div><!-- end ngRepeat: lv2Menu in lv1Menu.sub -->
+                        <div ng-repeat="lv2Menu in lv1Menu.sub" class="ng-scope">
+                           <!-- IF have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub !== undefined -->
+                           <!-- IF don't have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub === undefined -->
+                           <div ng-if="lv2Menu.sub === undefined" class="ng-scope">
+                              <li class="nav-item">
+                                 <a class="nav-link ng-binding" href="giaovien/#" id="lv2_MenuObj_29">
+                                    <i class="nav-icon fa fa-bell-o"></i> Phân công giảng dạy
+                                 </a>
+                              </li>
+                           </div><!-- end ngIf: lv2Menu.sub === undefined -->
+                        </div><!-- end ngRepeat: lv2Menu in lv1Menu.sub -->
+                        <div ng-repeat="lv2Menu in lv1Menu.sub" class="ng-scope">
+                           <!-- IF have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub !== undefined -->
+                           <!-- IF don't have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub === undefined -->
+                           <div ng-if="lv2Menu.sub === undefined" class="ng-scope">
+                              <li class="nav-item">
+                                 <a class="nav-link ng-binding" href="giaovien/#" id="lv2_MenuObj_30">
+                                    <i class="nav-icon fa fa-bell-o"></i> Phân công giáo vụ
+                                 </a>
+                              </li>
+                           </div><!-- end ngIf: lv2Menu.sub === undefined -->
+                        </div><!-- end ngRepeat: lv2Menu in lv1Menu.sub -->
+                        <div ng-repeat="lv2Menu in lv1Menu.sub" class="ng-scope">
+                           <!-- IF have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub !== undefined -->
+                           <!-- IF don't have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub === undefined -->
+                           <div ng-if="lv2Menu.sub === undefined" class="ng-scope">
+                              <li class="nav-item">
+                                 <a class="nav-link ng-binding" href="giaovien/#" id="lv2_MenuObj_31">
+                                    <i class="nav-icon fa fa-bell-o"></i> Phân công kiêm nhiệm
+                                 </a>
+                              </li>
+                           </div><!-- end ngIf: lv2Menu.sub === undefined -->
+                        </div><!-- end ngRepeat: lv2Menu in lv1Menu.sub -->
+                        <div ng-repeat="lv2Menu in lv1Menu.sub" class="ng-scope">
+                           <!-- IF have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub !== undefined -->
+                           <!-- IF don't have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub === undefined -->
+                           <div ng-if="lv2Menu.sub === undefined" class="ng-scope">
+                              <li class="nav-item">
+                                 <a class="nav-link ng-binding" href="giaovien/#" id="lv2_MenuObj_32">
+                                    <i class="nav-icon fa fa-bell-o"></i> Phân công chủ nhiệm
+                                 </a>
+                              </li>
+                           </div><!-- end ngIf: lv2Menu.sub === undefined -->
+                        </div><!-- end ngRepeat: lv2Menu in lv1Menu.sub -->
+                        <div ng-repeat="lv2Menu in lv1Menu.sub" class="ng-scope">
+                           <!-- IF have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub !== undefined -->
+                           <!-- IF don't have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub === undefined -->
+                           <div ng-if="lv2Menu.sub === undefined" class="ng-scope">
+                              <li class="nav-item">
+                                 <a class="nav-link ng-binding" href="giaovien/#" id="lv2_MenuObj_33">
+                                    <i class="nav-icon fa fa-bell-o"></i> Làm thay chủ nhiệm
+                                 </a>
+                              </li>
+                           </div><!-- end ngIf: lv2Menu.sub === undefined -->
+                        </div><!-- end ngRepeat: lv2Menu in lv1Menu.sub -->
+                        <div ng-repeat="lv2Menu in lv1Menu.sub" class="ng-scope">
+                           <!-- IF have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub !== undefined -->
+                           <!-- IF don't have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub === undefined -->
+                           <div ng-if="lv2Menu.sub === undefined" class="ng-scope">
+                              <li class="nav-item">
+                                 <a class="nav-link ng-binding" href="giaovien/#" id="lv2_MenuObj_34">
+                                    <i class="nav-icon fa fa-bell-o"></i> Khen thưởng - Kỷ luật
+                                 </a>
+                              </li>
+                           </div><!-- end ngIf: lv2Menu.sub === undefined -->
+                        </div><!-- end ngRepeat: lv2Menu in lv1Menu.sub -->
+                        <div ng-repeat="lv2Menu in lv1Menu.sub" class="ng-scope">
+                           <!-- IF have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub !== undefined -->
+                           <!-- IF don't have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub === undefined -->
+                           <div ng-if="lv2Menu.sub === undefined" class="ng-scope">
+                              <li class="nav-item">
+                                 <a class="nav-link ng-binding" href="giaovien/#" id="lv2_MenuObj_35">
+                                    <i class="nav-icon fa fa-bell-o"></i> Sáng kiến kinh nghiệm
+                                 </a>
+                              </li>
+                           </div><!-- end ngIf: lv2Menu.sub === undefined -->
+                        </div><!-- end ngRepeat: lv2Menu in lv1Menu.sub -->
+                        <div ng-repeat="lv2Menu in lv1Menu.sub" class="ng-scope">
+                           <!-- IF have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub !== undefined -->
+                           <!-- IF don't have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub === undefined -->
+                           <div ng-if="lv2Menu.sub === undefined" class="ng-scope">
+                              <li class="nav-item">
+                                 <a class="nav-link ng-binding" href="giaovien/#" id="lv2_MenuObj_36">
+                                    <i class="nav-icon fa fa-bell-o"></i> Đánh giá xếp loại
+                                 </a>
+                              </li>
+                           </div><!-- end ngIf: lv2Menu.sub === undefined -->
+                        </div><!-- end ngRepeat: lv2Menu in lv1Menu.sub -->
+                        <div ng-repeat="lv2Menu in lv1Menu.sub" class="ng-scope">
+                           <!-- IF have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub !== undefined -->
+                           <!-- IF don't have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub === undefined -->
+                           <div ng-if="lv2Menu.sub === undefined" class="ng-scope">
+                              <li class="nav-item">
+                                 <a class="nav-link ng-binding" href="giaovien/#" id="lv2_MenuObj_37">
+                                    <i class="nav-icon fa fa-bell-o"></i> Danh hiệu thi đua
+                                 </a>
+                              </li>
+                           </div><!-- end ngIf: lv2Menu.sub === undefined -->
+                        </div><!-- end ngRepeat: lv2Menu in lv1Menu.sub -->
+                        <div ng-repeat="lv2Menu in lv1Menu.sub" class="ng-scope">
+                           <!-- IF have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub !== undefined -->
+                           <!-- IF don't have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub === undefined -->
+                           <div ng-if="lv2Menu.sub === undefined" class="ng-scope">
+                              <li class="nav-item">
+                                 <a class="nav-link ng-binding" href="giaovien/#" id="lv2_MenuObj_38">
+                                    <i class="nav-icon fa fa-bell-o"></i> Danh hiệu thi đua tập thể
+                                 </a>
+                              </li>
+                           </div><!-- end ngIf: lv2Menu.sub === undefined -->
+                        </div><!-- end ngRepeat: lv2Menu in lv1Menu.sub -->
+                        <div ng-repeat="lv2Menu in lv1Menu.sub" class="ng-scope">
+                           <!-- IF have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub !== undefined -->
+                           <div ng-if="lv2Menu.sub !== undefined" class="ng-scope">
+                              <li class="nav-item nav-dropdown">
+                                 <a class="nav-link nav-dropdown-toggle ng-binding" href="giaovien/#"
+                                    id="lv2_MenuObj_39">
+                                    <i class="nav-icon fa fa-bell-o"></i> Lịch báo giảng
+                                 </a>
+                                 <!-- For Third menu level -->
+                                 <ul class="nav-dropdown-items">
+                                    <!-- ngRepeat: lv3Menu in lv2Menu.sub -->
+                                    <li class="nav-item ng-scope" ng-repeat="lv3Menu in lv2Menu.sub">
+                                       <a class="nav-link ng-binding" href="giaovien/#" id="lv3_MenuObj_40">
+                                          <i class=" nav-icon fa fa-bell-o"></i> Quản lý lịch báo giảng</a>
+                                    </li><!-- end ngRepeat: lv3Menu in lv2Menu.sub -->
+                                    <li class="nav-item ng-scope" ng-repeat="lv3Menu in lv2Menu.sub">
+                                       <a class="nav-link ng-binding" href="giaovien/#" id="lv3_MenuObj_41">
+                                          <i class=" nav-icon fa fa-bell-o"></i> Lịch báo giảng</a>
+                                    </li><!-- end ngRepeat: lv3Menu in lv2Menu.sub -->
+                                    <li class="nav-item ng-scope" ng-repeat="lv3Menu in lv2Menu.sub">
+                                       <a class="nav-link ng-binding" href="giaovien/#" id="lv3_MenuObj_42">
+                                          <i class=" nav-icon fa fa-bell-o"></i> Cấu hình phân môn</a>
+                                    </li><!-- end ngRepeat: lv3Menu in lv2Menu.sub -->
+                                    <li class="nav-item ng-scope" ng-repeat="lv3Menu in lv2Menu.sub">
+                                       <a class="nav-link ng-binding" href="giaovien/#" id="lv3_MenuObj_43">
+                                          <i class=" nav-icon fa fa-bell-o"></i> Phân phối chương trình</a>
+                                    </li><!-- end ngRepeat: lv3Menu in lv2Menu.sub -->
+                                 </ul>
+                              </li>
+                           </div><!-- end ngIf: lv2Menu.sub !== undefined -->
+                           <!-- IF don't have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub === undefined -->
+                        </div><!-- end ngRepeat: lv2Menu in lv1Menu.sub -->
+                        <div ng-repeat="lv2Menu in lv1Menu.sub" class="ng-scope">
+                           <!-- IF have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub !== undefined -->
+                           <!-- IF don't have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub === undefined -->
+                           <div ng-if="lv2Menu.sub === undefined" class="ng-scope">
+                              <li class="nav-item">
+                                 <a class="nav-link ng-binding" href="giaovien/#" id="lv2_MenuObj_44">
+                                    <i class="nav-icon fa fa-bell-o"></i> Quản lý sử dụng sổ điểm
+                                 </a>
+                              </li>
+                           </div><!-- end ngIf: lv2Menu.sub === undefined -->
+                        </div><!-- end ngRepeat: lv2Menu in lv1Menu.sub -->
+                     </ul>
+                  </li><!-- end ngRepeat: lv1Menu in LeftMenu -->
+                  <li class="nav-item nav-dropdown ng-scope" ng-repeat="lv1Menu in LeftMenu">
+                     <a class="nav-link nav-dropdown-toggle ng-binding" href="user/#" id="lv1_MenuObj_45">
+                        <i class="nav-icon  fa fa-tasks"></i> Thi cử</a>
+                     <!-- For First menu level -->
+                     <ul class="nav-dropdown-items">
+                        <!-- For Seconds menu level -->
+                        <!-- ngRepeat: lv2Menu in lv1Menu.sub -->
+                        <div ng-repeat="lv2Menu in lv1Menu.sub" class="ng-scope">
+                           <!-- IF have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub !== undefined -->
+                           <!-- IF don't have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub === undefined -->
+                           <div ng-if="lv2Menu.sub === undefined" class="ng-scope">
+                              <li class="nav-item">
+                                 <a class="nav-link ng-binding" href="user/#" id="lv2_MenuObj_46">
+                                    <i class="nav-icon fa fa-bell-o"></i> Tổ chức thi
+                                 </a>
+                              </li>
+                           </div><!-- end ngIf: lv2Menu.sub === undefined -->
+                        </div><!-- end ngRepeat: lv2Menu in lv1Menu.sub -->
+                     </ul>
+                  </li><!-- end ngRepeat: lv1Menu in LeftMenu -->
+                  <li class="nav-item nav-dropdown ng-scope" ng-repeat="lv1Menu in LeftMenu">
+                     <a class="nav-link nav-dropdown-toggle ng-binding" href="user/#" id="lv1_MenuObj_47">
+                        <i class="nav-icon  fa fa-file-text"></i> Báo cáo</a>
+                     <!-- For First menu level -->
+                     <ul class="nav-dropdown-items">
+                        <!-- For Seconds menu level -->
+                        <!-- ngRepeat: lv2Menu in lv1Menu.sub -->
+                        <div ng-repeat="lv2Menu in lv1Menu.sub" class="ng-scope">
+                           <!-- IF have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub !== undefined -->
+                           <!-- IF don't have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub === undefined -->
+                           <div ng-if="lv2Menu.sub === undefined" class="ng-scope">
+                              <li class="nav-item">
+                                 <a class="nav-link ng-binding" href="user/#" id="lv2_MenuObj_48">
+                                    <i class="nav-icon fa fa-bell-o"></i> Báo cáo hồ sơ học sinh
+                                 </a>
+                              </li>
+                           </div><!-- end ngIf: lv2Menu.sub === undefined -->
+                        </div><!-- end ngRepeat: lv2Menu in lv1Menu.sub -->
+                        <div ng-repeat="lv2Menu in lv1Menu.sub" class="ng-scope">
+                           <!-- IF have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub !== undefined -->
+                           <!-- IF don't have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub === undefined -->
+                           <div ng-if="lv2Menu.sub === undefined" class="ng-scope">
+                              <li class="nav-item">
+                                 <a class="nav-link ng-binding" href="user/#" id="lv2_MenuObj_49">
+                                    <i class="nav-icon fa fa-bell-o"></i> Báo cáo kết quả học tập
+                                 </a>
+                              </li>
+                           </div><!-- end ngIf: lv2Menu.sub === undefined -->
+                        </div><!-- end ngRepeat: lv2Menu in lv1Menu.sub -->
+                        <div ng-repeat="lv2Menu in lv1Menu.sub" class="ng-scope">
+                           <!-- IF have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub !== undefined -->
+                           <!-- IF don't have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub === undefined -->
+                           <div ng-if="lv2Menu.sub === undefined" class="ng-scope">
+                              <li class="nav-item">
+                                 <a class="nav-link ng-binding" href="user/#" id="lv2_MenuObj_50">
+                                    <i class="nav-icon fa fa-bell-o"></i> TK điểm môn học
+                                 </a>
+                              </li>
+                           </div><!-- end ngIf: lv2Menu.sub === undefined -->
+                        </div><!-- end ngRepeat: lv2Menu in lv1Menu.sub -->
+                        <div ng-repeat="lv2Menu in lv1Menu.sub" class="ng-scope">
+                           <!-- IF have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub !== undefined -->
+                           <!-- IF don't have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub === undefined -->
+                           <div ng-if="lv2Menu.sub === undefined" class="ng-scope">
+                              <li class="nav-item">
+                                 <a class="nav-link ng-binding" href="user/#" id="lv2_MenuObj_51">
+                                    <i class="nav-icon fa fa-bell-o"></i> TK HL - HK - Rèn luyện
+                                 </a>
+                              </li>
+                           </div><!-- end ngIf: lv2Menu.sub === undefined -->
+                        </div><!-- end ngRepeat: lv2Menu in lv1Menu.sub -->
+                        <div ng-repeat="lv2Menu in lv1Menu.sub" class="ng-scope">
+                           <!-- IF have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub !== undefined -->
+                           <!-- IF don't have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub === undefined -->
+                           <div ng-if="lv2Menu.sub === undefined" class="ng-scope">
+                              <li class="nav-item">
+                                 <a class="nav-link ng-binding" href="user/#" id="lv2_MenuObj_52">
+                                    <i class="nav-icon fa fa-bell-o"></i> Emis và BC gửi phòng/sở
+                                 </a>
+                              </li>
+                           </div><!-- end ngIf: lv2Menu.sub === undefined -->
+                        </div><!-- end ngRepeat: lv2Menu in lv1Menu.sub -->
+                        <div ng-repeat="lv2Menu in lv1Menu.sub" class="ng-scope">
+                           <!-- IF have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub !== undefined -->
+                           <!-- IF don't have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub === undefined -->
+                           <div ng-if="lv2Menu.sub === undefined" class="ng-scope">
+                              <li class="nav-item">
+                                 <a class="nav-link ng-binding" href="user/#" id="lv2_MenuObj_53">
+                                    <i class="nav-icon fa fa-bell-o"></i> Báo cáo TK cán bộ
+                                 </a>
+                              </li>
+                           </div><!-- end ngIf: lv2Menu.sub === undefined -->
+                        </div><!-- end ngRepeat: lv2Menu in lv1Menu.sub -->
+                        <div ng-repeat="lv2Menu in lv1Menu.sub" class="ng-scope">
+                           <!-- IF have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub !== undefined -->
+                           <!-- IF don't have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub === undefined -->
+                           <div ng-if="lv2Menu.sub === undefined" class="ng-scope">
+                              <li class="nav-item">
+                                 <a class="nav-link ng-binding" href="user/#" id="lv2_MenuObj_54">
+                                    <i class="nav-icon fa fa-bell-o"></i> Báo cáo khác
+                                 </a>
+                              </li>
+                           </div><!-- end ngIf: lv2Menu.sub === undefined -->
+                        </div><!-- end ngRepeat: lv2Menu in lv1Menu.sub -->
+                     </ul>
+                  </li><!-- end ngRepeat: lv1Menu in LeftMenu -->
+                  <li class="nav-item nav-dropdown ng-scope" ng-repeat="lv1Menu in LeftMenu">
+                     <a class="nav-link nav-dropdown-toggle ng-binding" href="user/#" id="lv1_MenuObj_55">
+                        <i class="nav-icon  fa fa-heartbeat"></i> Y tế</a>
+                     <!-- For First menu level -->
+                     <ul class="nav-dropdown-items">
+                        <!-- For Seconds menu level -->
+                        <!-- ngRepeat: lv2Menu in lv1Menu.sub -->
+                        <div ng-repeat="lv2Menu in lv1Menu.sub" class="ng-scope">
+                           <!-- IF have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub !== undefined -->
+                           <!-- IF don't have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub === undefined -->
+                           <div ng-if="lv2Menu.sub === undefined" class="ng-scope">
+                              <li class="nav-item">
+                                 <a class="nav-link ng-binding" href="user/#" id="lv2_MenuObj_56">
+                                    <i class="nav-icon fa fa-bell-o"></i> Sức khỏe ngày
+                                 </a>
+                              </li>
+                           </div><!-- end ngIf: lv2Menu.sub === undefined -->
+                        </div><!-- end ngRepeat: lv2Menu in lv1Menu.sub -->
+                        <div ng-repeat="lv2Menu in lv1Menu.sub" class="ng-scope">
+                           <!-- IF have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub !== undefined -->
+                           <!-- IF don't have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub === undefined -->
+                           <div ng-if="lv2Menu.sub === undefined" class="ng-scope">
+                              <li class="nav-item">
+                                 <a class="nav-link ng-binding" href="user/#" id="lv2_MenuObj_57">
+                                    <i class="nav-icon fa fa-bell-o"></i> Bệnh truyền nhiễm
+                                 </a>
+                              </li>
+                           </div><!-- end ngIf: lv2Menu.sub === undefined -->
+                        </div><!-- end ngRepeat: lv2Menu in lv1Menu.sub -->
+                        <div ng-repeat="lv2Menu in lv1Menu.sub" class="ng-scope">
+                           <!-- IF have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub !== undefined -->
+                           <!-- IF don't have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub === undefined -->
+                           <div ng-if="lv2Menu.sub === undefined" class="ng-scope">
+                              <li class="nav-item">
+                                 <a class="nav-link ng-binding" href="user/#" id="lv2_MenuObj_58">
+                                    <i class="nav-icon fa fa-bell-o"></i> TK kết quả khám SK
+                                 </a>
+                              </li>
+                           </div><!-- end ngIf: lv2Menu.sub === undefined -->
+                        </div><!-- end ngRepeat: lv2Menu in lv1Menu.sub -->
+                     </ul>
+                  </li><!-- end ngRepeat: lv1Menu in LeftMenu -->
+                  <li class="nav-item nav-dropdown ng-scope" ng-repeat="lv1Menu in LeftMenu">
+                     <a class="nav-link nav-dropdown-toggle ng-binding" href="user/#" id="lv1_MenuObj_59">
+                        <i class="nav-icon  fa fa-address-card-o"></i> Liên lạc</a>
+                     <!-- For First menu level -->
+                     <ul class="nav-dropdown-items">
+                        <!-- For Seconds menu level -->
+                        <!-- ngRepeat: lv2Menu in lv1Menu.sub -->
+                        <div ng-repeat="lv2Menu in lv1Menu.sub" class="ng-scope">
+                           <!-- IF have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub !== undefined -->
+                           <!-- IF don't have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub === undefined -->
+                           <div ng-if="lv2Menu.sub === undefined" class="ng-scope">
+                              <li class="nav-item">
+                                 <a class="nav-link ng-binding" href="user/#" id="lv2_MenuObj_60">
+                                    <i class="nav-icon fa fa-bell-o"></i> PHHS
+                                 </a>
+                              </li>
+                           </div><!-- end ngIf: lv2Menu.sub === undefined -->
+                        </div><!-- end ngRepeat: lv2Menu in lv1Menu.sub -->
+                        <div ng-repeat="lv2Menu in lv1Menu.sub" class="ng-scope">
+                           <!-- IF have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub !== undefined -->
+                           <!-- IF don't have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub === undefined -->
+                           <div ng-if="lv2Menu.sub === undefined" class="ng-scope">
+                              <li class="nav-item">
+                                 <a class="nav-link ng-binding" href="user/#" id="lv2_MenuObj_61">
+                                    <i class="nav-icon fa fa-bell-o"></i> Giáo viên
+                                 </a>
+                              </li>
+                           </div><!-- end ngIf: lv2Menu.sub === undefined -->
+                        </div><!-- end ngRepeat: lv2Menu in lv1Menu.sub -->
+                        <div ng-repeat="lv2Menu in lv1Menu.sub" class="ng-scope">
+                           <!-- IF have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub !== undefined -->
+                           <!-- IF don't have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub === undefined -->
+                           <div ng-if="lv2Menu.sub === undefined" class="ng-scope">
+                              <li class="nav-item">
+                                 <a class="nav-link ng-binding" href="user/#" id="lv2_MenuObj_62">
+                                    <i class="nav-icon fa fa-bell-o"></i> Cấu hình
+                                 </a>
+                              </li>
+                           </div><!-- end ngIf: lv2Menu.sub === undefined -->
+                        </div><!-- end ngRepeat: lv2Menu in lv1Menu.sub -->
+                        <div ng-repeat="lv2Menu in lv1Menu.sub" class="ng-scope">
+                           <!-- IF have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub !== undefined -->
+                           <!-- IF don't have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub === undefined -->
+                           <div ng-if="lv2Menu.sub === undefined" class="ng-scope">
+                              <li class="nav-item">
+                                 <a class="nav-link ng-binding" href="user/#" id="lv2_MenuObj_63">
+                                    <i class="nav-icon fa fa-bell-o"></i> Bản tin
+                                 </a>
+                              </li>
+                           </div><!-- end ngIf: lv2Menu.sub === undefined -->
+                        </div><!-- end ngRepeat: lv2Menu in lv1Menu.sub -->
+                        <div ng-repeat="lv2Menu in lv1Menu.sub" class="ng-scope">
+                           <!-- IF have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub !== undefined -->
+                           <!-- IF don't have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub === undefined -->
+                           <div ng-if="lv2Menu.sub === undefined" class="ng-scope">
+                              <li class="nav-item">
+                                 <a class="nav-link ng-binding" href="user/#" id="lv2_MenuObj_64">
+                                    <i class="nav-icon fa fa-bell-o"></i> Nhóm liên lạc
+                                 </a>
+                              </li>
+                           </div><!-- end ngIf: lv2Menu.sub === undefined -->
+                        </div><!-- end ngRepeat: lv2Menu in lv1Menu.sub -->
+                        <div ng-repeat="lv2Menu in lv1Menu.sub" class="ng-scope">
+                           <!-- IF have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub !== undefined -->
+                           <!-- IF don't have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub === undefined -->
+                           <div ng-if="lv2Menu.sub === undefined" class="ng-scope">
+                              <li class="nav-item">
+                                 <a class="nav-link ng-binding" href="user/#" id="lv2_MenuObj_65">
+                                    <i class="nav-icon fa fa-bell-o"></i> DS liên lạc
+                                 </a>
+                              </li>
+                           </div><!-- end ngIf: lv2Menu.sub === undefined -->
+                        </div><!-- end ngRepeat: lv2Menu in lv1Menu.sub -->
+                        <div ng-repeat="lv2Menu in lv1Menu.sub" class="ng-scope">
+                           <!-- IF have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub !== undefined -->
+                           <!-- IF don't have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub === undefined -->
+                           <div ng-if="lv2Menu.sub === undefined" class="ng-scope">
+                              <li class="nav-item">
+                                 <a class="nav-link ng-binding" href="user/#" id="lv2_MenuObj_66">
+                                    <i class="nav-icon fa fa-bell-o"></i> Tài khoản
+                                 </a>
+                              </li>
+                           </div><!-- end ngIf: lv2Menu.sub === undefined -->
+                        </div><!-- end ngRepeat: lv2Menu in lv1Menu.sub -->
+                        <div ng-repeat="lv2Menu in lv1Menu.sub" class="ng-scope">
+                           <!-- IF have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub !== undefined -->
+                           <!-- IF don't have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub === undefined -->
+                           <div ng-if="lv2Menu.sub === undefined" class="ng-scope">
+                              <li class="nav-item">
+                                 <a class="nav-link ng-binding" href="user/#" id="lv2_MenuObj_67">
+                                    <i class="nav-icon fa fa-bell-o"></i> Thống kê liên lạc
+                                 </a>
+                              </li>
+                           </div><!-- end ngIf: lv2Menu.sub === undefined -->
+                        </div><!-- end ngRepeat: lv2Menu in lv1Menu.sub -->
+                     </ul>
+                  </li><!-- end ngRepeat: lv1Menu in LeftMenu -->
+                  <li class="nav-item nav-dropdown ng-scope" ng-repeat="lv1Menu in LeftMenu">
+                     <a class="nav-link nav-dropdown-toggle ng-binding" href="user/#" id="lv1_MenuObj_68">
+                        <i class="nav-icon  fa fa-database"></i> Danh mục</a>
+                     <!-- For First menu level -->
+                     <ul class="nav-dropdown-items">
+                        <!-- For Seconds menu level -->
+                        <!-- ngRepeat: lv2Menu in lv1Menu.sub -->
+                        <div ng-repeat="lv2Menu in lv1Menu.sub" class="ng-scope">
+                           <!-- IF have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub !== undefined -->
+                           <!-- IF don't have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub === undefined -->
+                           <div ng-if="lv2Menu.sub === undefined" class="ng-scope">
+                              <li class="nav-item">
+                                 <a class="nav-link ng-binding" href="user/#" id="lv2_MenuObj_69">
+                                    <i class="nav-icon fa fa-bell-o"></i> Lỗi vi phạm quy chế thi
+                                 </a>
+                              </li>
+                           </div><!-- end ngIf: lv2Menu.sub === undefined -->
+                        </div><!-- end ngRepeat: lv2Menu in lv1Menu.sub -->
+                        <div ng-repeat="lv2Menu in lv1Menu.sub" class="ng-scope">
+                           <!-- IF have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub !== undefined -->
+                           <!-- IF don't have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub === undefined -->
+                           <div ng-if="lv2Menu.sub === undefined" class="ng-scope">
+                              <li class="nav-item">
+                                 <a class="nav-link ng-binding" href="user/#" id="lv2_MenuObj_70">
+                                    <i class="nav-icon fa fa-bell-o"></i> Loại điểm thi đua
+                                 </a>
+                              </li>
+                           </div><!-- end ngIf: lv2Menu.sub === undefined -->
+                        </div><!-- end ngRepeat: lv2Menu in lv1Menu.sub -->
+                        <div ng-repeat="lv2Menu in lv1Menu.sub" class="ng-scope">
+                           <!-- IF have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub !== undefined -->
+                           <!-- IF don't have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub === undefined -->
+                           <div ng-if="lv2Menu.sub === undefined" class="ng-scope">
+                              <li class="nav-item">
+                                 <a class="nav-link ng-binding" href="user/#" id="lv2_MenuObj_71">
+                                    <i class="nav-icon fa fa-bell-o"></i> Sáng kiến kinh nghiệm
+                                 </a>
+                              </li>
+                           </div><!-- end ngIf: lv2Menu.sub === undefined -->
+                        </div><!-- end ngRepeat: lv2Menu in lv1Menu.sub -->
+                        <div ng-repeat="lv2Menu in lv1Menu.sub" class="ng-scope">
+                           <!-- IF have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub !== undefined -->
+                           <!-- IF don't have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub === undefined -->
+                           <div ng-if="lv2Menu.sub === undefined" class="ng-scope">
+                              <li class="nav-item">
+                                 <a class="nav-link ng-binding" href="user/#" id="lv2_MenuObj_72">
+                                    <i class="nav-icon fa fa-bell-o"></i> Công việc kiểm nghiệm
+                                 </a>
+                              </li>
+                           </div><!-- end ngIf: lv2Menu.sub === undefined -->
+                        </div><!-- end ngRepeat: lv2Menu in lv1Menu.sub -->
+                        <div ng-repeat="lv2Menu in lv1Menu.sub" class="ng-scope">
+                           <!-- IF have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub !== undefined -->
+                           <!-- IF don't have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub === undefined -->
+                           <div ng-if="lv2Menu.sub === undefined" class="ng-scope">
+                              <li class="nav-item">
+                                 <a class="nav-link ng-binding" href="user/#" id="lv2_MenuObj_73">
+                                    <i class="nav-icon fa fa-bell-o"></i> Khen thưởng kỷ luật
+                                 </a>
+                              </li>
+                           </div><!-- end ngIf: lv2Menu.sub === undefined -->
+                        </div><!-- end ngRepeat: lv2Menu in lv1Menu.sub -->
+                        <div ng-repeat="lv2Menu in lv1Menu.sub" class="ng-scope">
+                           <!-- IF have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub !== undefined -->
+                           <!-- IF don't have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub === undefined -->
+                           <div ng-if="lv2Menu.sub === undefined" class="ng-scope">
+                              <li class="nav-item">
+                                 <a class="nav-link ng-binding" href="user/#" id="lv2_MenuObj_74">
+                                    <i class="nav-icon fa fa-bell-o"></i> Nhóm lỗi vi phạm
+                                 </a>
+                              </li>
+                           </div><!-- end ngIf: lv2Menu.sub === undefined -->
+                        </div><!-- end ngRepeat: lv2Menu in lv1Menu.sub -->
+                        <div ng-repeat="lv2Menu in lv1Menu.sub" class="ng-scope">
+                           <!-- IF have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub !== undefined -->
+                           <!-- IF don't have menu lv3 -->
+                           <!-- ngIf: lv2Menu.sub === undefined -->
+                           <div ng-if="lv2Menu.sub === undefined" class="ng-scope">
+                              <li class="nav-item">
+                                 <a class="nav-link ng-binding" href="user/#" id="lv2_MenuObj_75">
+                                    <i class="nav-icon fa fa-bell-o"></i> Lỗi vi phạm
+                                 </a>
+                              </li>
+                           </div><!-- end ngIf: lv2Menu.sub === undefined -->
+                        </div><!-- end ngRepeat: lv2Menu in lv1Menu.sub -->
+                     </ul>
+                  </li><!-- end ngRepeat: lv1Menu in LeftMenu -->
+               </ul>
+            </nav>
+            <button class="sidebar-minimizer brand-minimizer" type="button"></button>
+         </div>
+      </div>
+      <div class="aside-menu" ng-include="">
+         <ul class="nav nav-tabs" role="tablist">
+            <li class="nav-item">
+               <a class="nav-link active" data-toggle="tab" href="#timeline" role="tab">
+                  <i class="icon-list"></i>
+               </a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" data-toggle="tab" href="#messages" role="tab">
+                  <i class="icon-speech"></i>
+               </a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" data-toggle="tab" href="#settings" role="tab">
+                  <i class="icon-settings"></i>
+               </a>
+            </li>
+         </ul>
+         <!-- Tab panes-->
+         <div class="tab-content">
+            <div class="tab-pane active" id="timeline" role="tabpanel">
+               <div class="list-group list-group-accent">
+                  <div
+                     class="list-group-item list-group-item-accent-secondary bg-light text-center font-weight-bold text-muted text-uppercase small">
+                     Today</div>
+                  <div class="list-group-item list-group-item-accent-warning list-group-item-divider">
+                     <div class="avatar float-right">
+                        <img class="img-avatar" src="img/avatars/7.jpg" alt="admin@bootstrapmaster.com">
+                     </div>
+                     <div>Meeting with
+                        <strong>Lucas</strong>
+                     </div>
+                     <small class="text-muted mr-3">
+                        <i class="icon-calendar"></i> 1 - 3pm</small>
+                     <small class="text-muted">
+                        <i class="icon-location-pin"></i> Palo Alto, CA</small>
+                  </div>
+                  <div class="list-group-item list-group-item-accent-info">
+                     <div class="avatar float-right">
+                        <img class="img-avatar" src="img/avatars/4.jpg" alt="admin@bootstrapmaster.com">
+                     </div>
+                     <div>Skype with
+                        <strong>Megan</strong>
+                     </div>
+                     <small class="text-muted mr-3">
+                        <i class="icon-calendar"></i> 4 - 5pm</small>
+                     <small class="text-muted">
+                        <i class="icon-social-skype"></i> On-line</small>
+                  </div>
+                  <div
+                     class="list-group-item list-group-item-accent-secondary bg-light text-center font-weight-bold text-muted text-uppercase small">
+                     Tomorrow</div>
+                  <div class="list-group-item list-group-item-accent-danger list-group-item-divider">
+                     <div>New UI Project -
+                        <strong>deadline</strong>
+                     </div>
+                     <small class="text-muted mr-3">
+                        <i class="icon-calendar"></i> 10 - 11pm</small>
+                     <small class="text-muted">
+                        <i class="icon-home"></i> creativeLabs HQ</small>
+                     <div class="avatars-stack mt-2">
+                        <div class="avatar avatar-xs">
+                           <img class="img-avatar" src="img/avatars/2.jpg" alt="admin@bootstrapmaster.com">
+                        </div>
+                        <div class="avatar avatar-xs">
+                           <img class="img-avatar" src="img/avatars/3.jpg" alt="admin@bootstrapmaster.com">
+                        </div>
+                        <div class="avatar avatar-xs">
+                           <img class="img-avatar" src="img/avatars/4.jpg" alt="admin@bootstrapmaster.com">
+                        </div>
+                        <div class="avatar avatar-xs">
+                           <img class="img-avatar" src="img/avatars/5.jpg" alt="admin@bootstrapmaster.com">
+                        </div>
+                        <div class="avatar avatar-xs">
+                           <img class="img-avatar" src="img/avatars/6.jpg" alt="admin@bootstrapmaster.com">
+                        </div>
+                     </div>
+                  </div>
+                  <div class="list-group-item list-group-item-accent-success list-group-item-divider">
+                     <div>
+                        <strong>#10 Startups.Garden</strong> Meetup
+                     </div>
+                     <small class="text-muted mr-3">
+                        <i class="icon-calendar"></i> 1 - 3pm</small>
+                     <small class="text-muted">
+                        <i class="icon-location-pin"></i> Palo Alto, CA</small>
+                  </div>
+                  <div class="list-group-item list-group-item-accent-primary list-group-item-divider">
+                     <div>
+                        <strong>Team meeting</strong>
+                     </div>
+                     <small class="text-muted mr-3">
+                        <i class="icon-calendar"></i> 4 - 6pm</small>
+                     <small class="text-muted">
+                        <i class="icon-home"></i> creativeLabs HQ</small>
+                     <div class="avatars-stack mt-2">
+                        <div class="avatar avatar-xs">
+                           <img class="img-avatar" src="img/avatars/2.jpg" alt="admin@bootstrapmaster.com">
+                        </div>
+                        <div class="avatar avatar-xs">
+                           <img class="img-avatar" src="img/avatars/3.jpg" alt="admin@bootstrapmaster.com">
+                        </div>
+                        <div class="avatar avatar-xs">
+                           <img class="img-avatar" src="img/avatars/4.jpg" alt="admin@bootstrapmaster.com">
+                        </div>
+                        <div class="avatar avatar-xs">
+                           <img class="img-avatar" src="img/avatars/5.jpg" alt="admin@bootstrapmaster.com">
+                        </div>
+                        <div class="avatar avatar-xs">
+                           <img class="img-avatar" src="img/avatars/6.jpg" alt="admin@bootstrapmaster.com">
+                        </div>
+                        <div class="avatar avatar-xs">
+                           <img class="img-avatar" src="img/avatars/7.jpg" alt="admin@bootstrapmaster.com">
+                        </div>
+                        <div class="avatar avatar-xs">
+                           <img class="img-avatar" src="img/avatars/8.jpg" alt="admin@bootstrapmaster.com">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="tab-pane p-3" id="messages" role="tabpanel">
+               <div class="message">
+                  <div class="py-3 pb-5 mr-3 float-left">
+                     <div class="avatar">
+                        <img class="img-avatar" src="img/avatars/7.jpg" alt="admin@bootstrapmaster.com">
+                        <span class="avatar-status badge-success"></span>
+                     </div>
+                  </div>
+                  <div>
+                     <small class="text-muted">Lukasz Holeczek</small>
+                     <small class="text-muted float-right mt-1">1:52 PM</small>
+                  </div>
+                  <div class="text-truncate font-weight-bold">Lorem ipsum dolor sit amet</div>
+                  <small class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     tempor
+                     incididunt...</small>
+               </div>
+               <hr>
+               <div class="message">
+                  <div class="py-3 pb-5 mr-3 float-left">
+                     <div class="avatar">
+                        <img class="img-avatar" src="img/avatars/7.jpg" alt="admin@bootstrapmaster.com">
+                        <span class="avatar-status badge-success"></span>
+                     </div>
+                  </div>
+                  <div>
+                     <small class="text-muted">Lukasz Holeczek</small>
+                     <small class="text-muted float-right mt-1">1:52 PM</small>
+                  </div>
+                  <div class="text-truncate font-weight-bold">Lorem ipsum dolor sit amet</div>
+                  <small class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     tempor
+                     incididunt...</small>
+               </div>
+               <hr>
+               <div class="message">
+                  <div class="py-3 pb-5 mr-3 float-left">
+                     <div class="avatar">
+                        <img class="img-avatar" src="img/avatars/7.jpg" alt="admin@bootstrapmaster.com">
+                        <span class="avatar-status badge-success"></span>
+                     </div>
+                  </div>
+                  <div>
+                     <small class="text-muted">Lukasz Holeczek</small>
+                     <small class="text-muted float-right mt-1">1:52 PM</small>
+                  </div>
+                  <div class="text-truncate font-weight-bold">Lorem ipsum dolor sit amet</div>
+                  <small class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     tempor
+                     incididunt...</small>
+               </div>
+               <hr>
+               <div class="message">
+                  <div class="py-3 pb-5 mr-3 float-left">
+                     <div class="avatar">
+                        <img class="img-avatar" src="img/avatars/7.jpg" alt="admin@bootstrapmaster.com">
+                        <span class="avatar-status badge-success"></span>
+                     </div>
+                  </div>
+                  <div>
+                     <small class="text-muted">Lukasz Holeczek</small>
+                     <small class="text-muted float-right mt-1">1:52 PM</small>
+                  </div>
+                  <div class="text-truncate font-weight-bold">Lorem ipsum dolor sit amet</div>
+                  <small class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     tempor
+                     incididunt...</small>
+               </div>
+               <hr>
+               <div class="message">
+                  <div class="py-3 pb-5 mr-3 float-left">
+                     <div class="avatar">
+                        <img class="img-avatar" src="img/avatars/7.jpg" alt="admin@bootstrapmaster.com">
+                        <span class="avatar-status badge-success"></span>
+                     </div>
+                  </div>
+                  <div>
+                     <small class="text-muted">Lukasz Holeczek</small>
+                     <small class="text-muted float-right mt-1">1:52 PM</small>
+                  </div>
+                  <div class="text-truncate font-weight-bold">Lorem ipsum dolor sit amet</div>
+                  <small class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     tempor
+                     incididunt...</small>
+               </div>
+            </div>
+            <div class="tab-pane p-3" id="settings" role="tabpanel">
+               <h6>Settings</h6>
+               <div class="aside-options">
+                  <div class="clearfix mt-4">
+                     <small>
+                        <b>Option 1</b>
+                     </small>
+                     <label class="switch switch-label switch-pill switch-success switch-sm float-right">
+                        <input class="switch-input" type="checkbox" checked="">
+                        <span class="switch-slider" data-checked="On" data-unchecked="Off"></span>
+                     </label>
+                  </div>
+                  <div>
+                     <small class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor
+                        incididunt ut labore et dolore magna aliqua.</small>
+                  </div>
+               </div>
+               <div class="aside-options">
+                  <div class="clearfix mt-3">
+                     <small>
+                        <b>Option 2</b>
+                     </small>
+                     <label class="switch switch-label switch-pill switch-success switch-sm float-right">
+                        <input class="switch-input" type="checkbox">
+                        <span class="switch-slider" data-checked="On" data-unchecked="Off"></span>
+                     </label>
+                  </div>
+                  <div>
+                     <small class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor
+                        incididunt ut labore et dolore magna aliqua.</small>
+                  </div>
+               </div>
+               <div class="aside-options">
+                  <div class="clearfix mt-3">
+                     <small>
+                        <b>Option 3</b>
+                     </small>
+                     <label class="switch switch-label switch-pill switch-success switch-sm float-right">
+                        <input class="switch-input" type="checkbox">
+                        <span class="switch-slider" data-checked="On" data-unchecked="Off"></span>
+                     </label>
+                  </div>
+               </div>
+               <div class="aside-options">
+                  <div class="clearfix mt-3">
+                     <small>
+                        <b>Option 4</b>
+                     </small>
+                     <label class="switch switch-label switch-pill switch-success switch-sm float-right">
+                        <input class="switch-input" type="checkbox" checked="">
+                        <span class="switch-slider" data-checked="On" data-unchecked="Off"></span>
+                     </label>
+                  </div>
+               </div>
+               <hr>
+               <h6>System Utilization</h6>
+               <div class="text-uppercase mb-1 mt-4">
+                  <small>
+                     <b>CPU Usage</b>
+                  </small>
+               </div>
+               <div class="progress progress-xs">
+                  <div class="progress-bar bg-info" role="progressbar" style="width: 25%" aria-valuenow="25"
+                     aria-valuemin="0" aria-valuemax="100"></div>
+               </div>
+               <small class="text-muted">348 Processes. 1/4 Cores.</small>
+               <div class="text-uppercase mb-1 mt-2">
+                  <small>
+                     <b>Memory Usage</b>
+                  </small>
+               </div>
+               <div class="progress progress-xs">
+                  <div class="progress-bar bg-warning" role="progressbar" style="width: 70%" aria-valuenow="70"
+                     aria-valuemin="0" aria-valuemax="100"></div>
+               </div>
+               <small class="text-muted">11444GB/16384MB</small>
+               <div class="text-uppercase mb-1 mt-2">
+                  <small>
+                     <b>SSD 1 Usage</b>
+                  </small>
+               </div>
+               <div class="progress progress-xs">
+                  <div class="progress-bar bg-danger" role="progressbar" style="width: 95%" aria-valuenow="95"
+                     aria-valuemin="0" aria-valuemax="100"></div>
+               </div>
+               <small class="text-muted">243GB/256GB</small>
+               <div class="text-uppercase mb-1 mt-2">
+                  <small>
+                     <b>SSD 2 Usage</b>
+                  </small>
+               </div>
+               <div class="progress progress-xs">
+                  <div class="progress-bar bg-success" role="progressbar" style="width: 10%" aria-valuenow="10"
+                     aria-valuemin="0" aria-valuemax="100"></div>
+               </div>
+               <small class="text-muted">25GB/256GB</small>
+            </div>
+         </div>
+      </div>
+      <main class="main">
+         <!-- Breadcrumb-->
+         <ol class="breadcrumb">
+            <li id="function-path0" class="breadcrumb-item p-1">Cán Bộ </li>
+            <li id="function-path1" class="breadcrumb-item p-1 text-primary">Hồ sơ cán bộ</li>
+            <li id="function-path2" class="breadcrumb-item active p-1"></li>
+            <!-- Breadcrumb Menu-->
+            <li class="breadcrumb-menu d-md-down-none">
+               <div class="btn-group" role="group" aria-label="Button group">
+                  <a class="btn p-1 mr-2" href="#"> Học kì 1
+                     <i class="icon-speech"></i>
+                  </a>
+                  <a class="btn p-1 mr-2" href="./">&nbsp;Học kì 2
+                     <i class="icon-graph"></i>
+                  </a>
+                  <span class="bmd-form-group is-filled"><select
+                        class="pr-2 pl-2 pt-1 pb-1 border ng-pristine ng-untouched ng-valid ng-empty" ng-model="namHoc">
+                        <option disabled="" value="" selected="selected">Năm Học</option>
+                        <option value="true">2018-2019</option>
+                        <option value="true">2017-2018</option>
+                        <option value="true">2016-2017</option>
+                     </select></span>
+
+               </div>
+            </li>
+         </ol>
+         <div class="container-fluid" ng-view="">
+            <!-- alert -->
+            <div>
+               <div id="alert-thanhcong" class="alert alert-info alert-info-border alert-dismissible" role="alert"
+                  style="display: none;">
+                  <i class="fa fa-check-circle alert-icon" aria-hidden="true"></i>
+                  <div class="alert-content">Thao tác thành công!</div>
+                  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                     <span aria-hidden="true">×</span>
+                  </button>
+               </div>
+               <div id="alert-dienthongtin" class="alert alert-warning alert-warning-border alert-dismissible"
+                  role="alert" style="display: none;">
+                  <i class="fa fa-exclamation-triangle alert-icon" aria-hidden="true"></i>
+                  <div class="alert-contensst">Bạn cần điền đầy đủ thông tin!</div>
+                  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                     <span aria-hidden="true">×</span>
+                  </button>
+               </div>
+            </div>
+         </div>
+         <!-- START MAIN CONTENT -->
+         <!-- ngInclude: CurrentActivity -->
+         <div ng-include="CurrentActivity" onload="loaded = true" class="ng-scope">
+            <div ng-controller="danhSachCBCtrl as cb" class="ng-scope">
+               <div class="border-secondary p-2 m-1">
+                  <div class="bg-white border box-shadow p-2">
+                     <div class="tab">
+                        <button class="tablinks" onclick="openCity(event, 'London')">Import Hồ sơ cán bộ</button>
+                        <button class="tablinks" onclick="openCity(event, 'Paris')">Import Hồ sơ học sinh</button>
+                        <button class="tablinks" onclick="openCity(event, 'Tokyo')">Import Hồ sơ phụ huynh</button>
+                     </div>
+
+                     <div id="London" class="tabcontent">
+                        <div class="pt-5 pb-5 pl-3 pr-3">
+                           <div class="d-flex justify-content-center">
+                              <div>
+                                 <div class="pt-1 pl-4">
+                                    Đường dẫn file Excell <span class="text-note-iconstar">*</span>
+                                 </div>
+                              </div>
+                              <div class="col-6">
+                                 <form>
+                                    <div class="form-row">
+                                       <div class="row-control">
+                                          <input type="text" class="form-control w-100" disabled
+                                             value="Không có tập tin nào được chọn">
+                                       </div>
+                                    </div>
+                                 </form>
+                              </div>
+                              <div>
+                                 <div class="d-inline-block">
+                                    <button type="button" class="btn btn-info text-white mr-1" data-toggle="dropdown"
+                                       href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                       <i class="fa fa-upload" aria-hidden="true"></i>
+                                       <span>Nhập/Xuất File</span>
+                                    </button>
+                                    <div class="dropdown-menu dropdown-menu-right">
+                                       <a class="dropdown-item" href="#">
+                                          <i class="fa fa-upload text-success"></i> Nhập file từ máy tính</a>
+                                       <a class="dropdown-item" href="#">
+                                          <i class="fa fa-download text-danger"></i>Tải file mẫu</a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div id="Paris" class="tabcontent">
+                        <div class="pt-5 pb-5 pl-3 pr-3">
+                           <div class="d-flex justify-content-center">
+                              <div>
+                                 <div class="pt-1 pl-4">
+                                    Đường dẫn file Excell <span class="text-note-iconstar">*</span>
+                                 </div>
+                              </div>
+                              <div class="col-6">
+                                 <form>
+                                    <div class="form-row">
+                                       <div class="row-control">
+                                          <input type="text" class="form-control w-100" disabled
+                                             value="Không có tập tin nào được chọn">
+                                       </div>
+                                    </div>
+                                 </form>
+                              </div>
+                              <div>
+                                 <div class="d-inline-block">
+                                    <button type="button" class="btn btn-info text-white mr-1" data-toggle="dropdown"
+                                       href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                       <i class="fa fa-upload" aria-hidden="true"></i>
+                                       <span>Nhập/Xuất File</span>
+                                    </button>
+                                    <div class="dropdown-menu dropdown-menu-right">
+                                       <a class="dropdown-item" href="#">
+                                          <i class="fa fa-upload text-success"></i> Nhập file từ máy tính</a>
+                                       <a class="dropdown-item" href="#">
+                                          <i class="fa fa-download text-danger"></i>Tải file mẫu</a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div id="Tokyo" class="tabcontent">
+                        <div class="pt-5 pb-5 pl-3 pr-3">
+                           <div class="d-flex justify-content-center">
+                              <div>
+                                 <div class="pt-1 pl-4">
+                                    Đường dẫn file Excell <span class="text-note-iconstar">*</span>
+                                 </div>
+                              </div>
+                              <div class="col-6">
+                                 <form>
+                                    <div class="form-row">
+                                       <div class="row-control">
+                                          <input type="text" class="form-control w-100" disabled
+                                             value="Không có tập tin nào được chọn">
+                                       </div>
+                                    </div>
+                                 </form>
+                              </div>
+                              <div>
+                                 <div class="d-inline-block">
+                                    <button type="button" class="btn btn-info text-white mr-1" data-toggle="dropdown"
+                                       href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                       <i class="fa fa-upload" aria-hidden="true"></i>
+                                       <span>Nhập/Xuất File</span>
+                                    </button>
+                                    <div class="dropdown-menu dropdown-menu-right">
+                                       <a class="dropdown-item" href="#">
+                                          <i class="fa fa-upload text-success"></i> Nhập file từ máy tính</a>
+                                       <a class="dropdown-item" href="#">
+                                          <i class="fa fa-download text-danger"></i>Tải file mẫu</a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </main>
+   </div>
+
+   <!-- Footer -->
+   <footer class="app-footer" id="footer" ng-include="">
+      <div>
+         Schoolity - Mạng xã hội giáo dục.
+      </div>
+   </footer>
+
+   <!-- CoreUI and necessary plugins-->
+   <!-- CoreUI and necessary plugins-->
+   <script src="vendors/jquery/js/jquery.min.js"></script>
+   <script src="vendors/popper.js/js/popper.min.js"></script>
+   <script src="vendors/bootstrap/js/bootstrap.min.js"></script>
+   <script src="vendors/pace-progress/js/pace.min.js"></script>
+   <script src="vendors/perfect-scrollbar/js/perfect-scrollbar.min.js"></script>
+   <script src="vendors/@coreui/coreui/js/coreui.min.js"></script>
+   <!-- <script src="js/schoolity_truong.js"></script> -->
+   <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"
+      integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9"
+      crossorigin="anonymous"></script>
+   <script>
+      function openCity(evt, cityName) {
+         var i, tabcontent, tablinks;
+         tabcontent = document.getElementsByClassName("tabcontent");
+         for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+         }
+         tablinks = document.getElementsByClassName("tablinks");
+         for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+         }
+         document.getElementById(cityName).style.display = "block";
+         evt.currentTarget.className += " active";
+      }
+   </script>
+   <script>
+      $(document).ready(function () {
+         $('form').bootstrapMaterialDesign();
+      });
+   </script>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+- hàng menu ngang th? 1: t?m th?i gi? nguyên gi?ng b?ng template
+- hàng menu ngang th? 2: nam h?c, hk1, hk2 s? n?m c? d?nh ? góc ph?i.
+		       : breadcrumb s? c? d?nh n?m ? góc trái.
+- hàng menu ngang th? 3: button in, dowload, nh?p xu?t excel s? n?m ? góc ph?i (sau này có th? b? button in & download b?i
+ch?c nang ít xài và cung tuong duong v?i Nh?p/xu?t excel)
+		       : button ch?nh s?a, thêm, h?y, save, xóa .... s? n?m ? góc trái
+- table:   	hàng 1: tên thông tin c?a b?ng
+		hàng 2: 1 vài thông tin v? l?p, gvcn + 1 vài dòng luu ý s? n?m góc trái
+			radio, checkbox s? n?m bên góc ph?i d?i v?i 1 vài b?ng.
+- phân trang: n?m ? góc ph?i
+
+
+- table di?m danh tháng, tu?n còn thi?u 2 m?c n?i dung filter tu?n theo nam h?c , prev tu?n, next tu?n

@@ -1,0 +1,562 @@
+.form-control{
+    background: no-repeat bottom,50% calc(100% - 1px);
+    background-size: 0 100%,100% 100%;
+    border: 0;
+    transition: background 0s ease-out;
+    background-color:transparent !important;
+}
+
+.form-control:focus {
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+
+.form-control:focus {
+    background-size: 100% 100%,100% 100%;
+    transition-duration: .3s;
+}
+
+.form-control, 
+.is-focused .form-control {
+    background-image: linear-gradient(0deg,#3f51b5 2px,rgba(63,81,181,0) 0),linear-gradient(0deg,rgba(0,0,0,.26) 1px,transparent 0);
+}
+
+.form-control:invalid {
+    background-image: linear-gradient(0deg,#d50000 2px,rgba(213,0,0,0) 0),linear-gradient(0deg,rgba(0,0,0,.26) 1px,transparent 0);
+}
+
+
+.a{
+    width: 100% !important;
+}
+
+
+
+
+
+
+form .bmd-form-group {
+	position: relative;
+	padding-top: 1.75rem
+}
+
+form .bmd-form-group [class*=" bmd-label"],
+form .bmd-form-group [class^=bmd-label] {
+	position: absolute;
+	pointer-events: none;
+	transition: all .3s ease
+}
+
+form .bmd-form-group [class*=" bmd-label"].bmd-label-floating,
+form .bmd-form-group [class^=bmd-label].bmd-label-floating {
+	will-change: left, top, contents
+}
+
+form .bmd-form-group.is-filled .bmd-label-placeholder {
+	display: none
+}
+
+form .bmd-form-group.bmd-collapse-inline {
+	display: flex;
+	align-items: center;
+	padding: 0;
+	min-height: 2.1em
+}
+
+form .bmd-form-group.bmd-collapse-inline .collapse {
+	flex: 1;
+	display: none
+}
+
+form .bmd-form-group.bmd-collapse-inline .collapse.show {
+	max-width: 1200px
+}
+
+form .bmd-form-group.bmd-collapse-inline .collapse.show,
+form .bmd-form-group.bmd-collapse-inline .collapsing,
+form .bmd-form-group.bmd-collapse-inline .width:not(.collapse) {
+	display: block
+}
+
+form .bmd-form-group.bmd-collapse-inline .collapsing {
+	transition-duration: .2s;
+	transition-timing-function: cubic-bezier(.4, 0, .2, 1)
+}
+
+form .bmd-form-group .custom-file-control,
+form .bmd-form-group .form-control,
+form .bmd-form-group input::placeholder,
+form .bmd-form-group label {
+	line-height: -1;
+}
+/* sua 0.5rem, ban dau la 0 */
+form .bmd-form-group input.custom-file-control,
+form .bmd-form-group input.custom-file-control::placeholder,
+form .bmd-form-group input.form-control,
+form .bmd-form-group input.form-control::placeholder {
+	padding: .28125rem 0.5rem;
+	line-height: 1.5
+}
+
+form .bmd-form-group .checkbox label,
+form .bmd-form-group .radio label,
+form .bmd-form-group .switch label,
+form .bmd-form-group label.checkbox-inline,
+form .bmd-form-group label.radio-inline {
+	line-height: 1.5
+}
+
+form .bmd-form-group input::placeholder {
+	font-size: 1rem
+}
+
+form .bmd-form-group .checkbox label,
+form .bmd-form-group .radio label,
+form .bmd-form-group label {
+	font-size: 1rem
+}
+
+form .bmd-form-group .bmd-label-floating,
+form .bmd-form-group .bmd-label-placeholder {
+	top: 2.1875rem
+}
+
+form .bmd-form-group .bmd-label-static,
+form .bmd-form-group.is-filled .bmd-label-floating,
+form .bmd-form-group .is-filled .bmd-label-floating,
+form .bmd-form-group.is-focused .bmd-label-floating,
+form .bmd-form-group .is-focused .bmd-label-floating {
+	top: 0.75rem;
+	left: 0;
+	font-size: .75rem
+}
+
+form .bmd-form-group .bmd-help {
+	margin-top: 0;
+	font-size: .75rem
+}
+
+form .bmd-form-group .form-control-danger.custom-file-control,
+form .bmd-form-group .form-control-success.custom-file-control,
+form .bmd-form-group .form-control-warning.custom-file-control,
+form .bmd-form-group .form-control.form-control-danger,
+form .bmd-form-group .form-control.form-control-success,
+form .bmd-form-group .form-control.form-control-warning {
+	background-size: 0 100%, 100% 100%, .9375rem .9375rem
+}
+
+form .bmd-form-group .form-control-danger.custom-file-control,
+form .bmd-form-group .form-control-danger.custom-file-control:focus,
+form .bmd-form-group .form-control-success.custom-file-control,
+form .bmd-form-group .form-control-success.custom-file-control:focus,
+form .bmd-form-group .form-control-warning.custom-file-control,
+form .bmd-form-group .form-control-warning.custom-file-control:focus,
+form .bmd-form-group .form-control.form-control-danger,
+form .bmd-form-group .form-control.form-control-danger:focus,
+form .bmd-form-group .form-control.form-control-success,
+form .bmd-form-group .form-control.form-control-success:focus,
+form .bmd-form-group .form-control.form-control-warning,
+form .bmd-form-group .form-control.form-control-warning:focus,
+form .bmd-form-group.is-focused form .bmd-form-group .form-control-danger.custom-file-control,
+form .bmd-form-group.is-focused form .bmd-form-group .form-control-success.custom-file-control,
+form .bmd-form-group.is-focused form .bmd-form-group .form-control-warning.custom-file-control,
+form .bmd-form-group.is-focused form .bmd-form-group .form-control.form-control-danger,
+form .bmd-form-group.is-focused form .bmd-form-group .form-control.form-control-success,
+form .bmd-form-group.is-focused form .bmd-form-group .form-control.form-control-warning {
+	padding-right: 0;
+	background-repeat: no-repeat, no-repeat;
+	background-position: bottom, 50% calc(100% - 1px), center right .46875rem
+}
+
+form .bmd-form-group .form-control-danger.custom-file-control:focus,
+form .bmd-form-group .form-control-success.custom-file-control:focus,
+form .bmd-form-group .form-control-warning.custom-file-control:focus,
+form .bmd-form-group .form-control.form-control-danger:focus,
+form .bmd-form-group .form-control.form-control-success:focus,
+form .bmd-form-group .form-control.form-control-warning:focus,
+form .bmd-form-group.is-focused form .bmd-form-group .form-control-danger.custom-file-control,
+form .bmd-form-group.is-focused form .bmd-form-group .form-control-success.custom-file-control,
+form .bmd-form-group.is-focused form .bmd-form-group .form-control-warning.custom-file-control,
+form .bmd-form-group.is-focused form .bmd-form-group .form-control.form-control-danger,
+form .bmd-form-group.is-focused form .bmd-form-group .form-control.form-control-success,
+form .bmd-form-group.is-focused form .bmd-form-group .form-control.form-control-warning {
+	background-size: 100% 100%, 100% 100%, .9375rem .9375rem
+}
+
+form .bmd-form-groupform .bmd-form-group-sm {
+	padding-top: 1.40625rem
+}
+
+form .bmd-form-groupform .bmd-form-group-sm .custom-file-control,
+form .bmd-form-groupform .bmd-form-group-sm .form-control,
+form .bmd-form-groupform .bmd-form-group-sm input::placeholder,
+form .bmd-form-groupform .bmd-form-group-sm label {
+	line-height: 1
+}
+
+form .bmd-form-groupform .bmd-form-group-sm input.custom-file-control,
+form .bmd-form-groupform .bmd-form-group-sm input.custom-file-control::placeholder,
+form .bmd-form-groupform .bmd-form-group-sm input.form-control,
+form .bmd-form-groupform .bmd-form-group-sm input.form-control::placeholder {
+	padding: .28125rem 0;
+	line-height: 1.5
+}
+
+form .bmd-form-groupform .bmd-form-group-sm .checkbox label,
+form .bmd-form-groupform .bmd-form-group-sm .radio label,
+form .bmd-form-groupform .bmd-form-group-sm .switch label,
+form .bmd-form-groupform .bmd-form-group-sm label.checkbox-inline,
+form .bmd-form-groupform .bmd-form-group-sm label.radio-inline {
+	line-height: 1.5
+}
+
+form .bmd-form-groupform .bmd-form-group-sm input::placeholder {
+	font-size: .875rem
+}
+
+form .bmd-form-groupform .bmd-form-group-sm .checkbox label,
+form .bmd-form-groupform .bmd-form-group-sm .radio label,
+form .bmd-form-groupform .bmd-form-group-sm label {
+	font-size: .875rem
+}
+
+form .bmd-form-groupform .bmd-form-group-sm .bmd-label-floating,
+form .bmd-form-groupform .bmd-form-group-sm .bmd-label-placeholder {
+	top: 1.65625rem
+}
+
+form .bmd-form-groupform .bmd-form-group-sm .bmd-label-static,
+form .bmd-form-groupform .bmd-form-group-sm.is-filled .bmd-label-floating,
+form .bmd-form-groupform .bmd-form-group-sm .is-filled .bmd-label-floating,
+form .bmd-form-groupform .bmd-form-group-sm.is-focused .bmd-label-floating,
+form .bmd-form-groupform .bmd-form-group-sm .is-focused .bmd-label-floating {
+	top: .75rem;
+	left: 0;
+	font-size: .65625rem
+}
+
+form .bmd-form-groupform .bmd-form-group-sm .bmd-help {
+	margin-top: 0;
+	font-size: .65625rem
+}
+
+form .bmd-form-groupform .bmd-form-group-sm .form-control-danger.custom-file-control,
+form .bmd-form-groupform .bmd-form-group-sm .form-control-success.custom-file-control,
+form .bmd-form-groupform .bmd-form-group-sm .form-control-warning.custom-file-control,
+form .bmd-form-groupform .bmd-form-group-sm .form-control.form-control-danger,
+form .bmd-form-groupform .bmd-form-group-sm .form-control.form-control-success,
+form .bmd-form-groupform .bmd-form-group-sm .form-control.form-control-warning {
+	background-size: 0 100%, 100% 100%, .6875rem .6875rem
+}
+
+form .bmd-form-groupform .bmd-form-group-sm .form-control-danger.custom-file-control,
+form .bmd-form-groupform .bmd-form-group-sm .form-control-danger.custom-file-control:focus,
+form .bmd-form-groupform .bmd-form-group-sm .form-control-success.custom-file-control,
+form .bmd-form-groupform .bmd-form-group-sm .form-control-success.custom-file-control:focus,
+form .bmd-form-groupform .bmd-form-group-sm .form-control-warning.custom-file-control,
+form .bmd-form-groupform .bmd-form-group-sm .form-control-warning.custom-file-control:focus,
+form .bmd-form-groupform .bmd-form-group-sm .form-control.form-control-danger,
+form .bmd-form-groupform .bmd-form-group-sm .form-control.form-control-danger:focus,
+form .bmd-form-groupform .bmd-form-group-sm .form-control.form-control-success,
+form .bmd-form-groupform .bmd-form-group-sm .form-control.form-control-success:focus,
+form .bmd-form-groupform .bmd-form-group-sm .form-control.form-control-warning,
+form .bmd-form-groupform .bmd-form-group-sm .form-control.form-control-warning:focus,
+form .bmd-form-group.is-focused form .bmd-form-groupform .bmd-form-group-sm .form-control-danger.custom-file-control,
+form .bmd-form-group.is-focused form .bmd-form-groupform .bmd-form-group-sm .form-control-success.custom-file-control,
+form .bmd-form-group.is-focused form .bmd-form-groupform .bmd-form-group-sm .form-control-warning.custom-file-control,
+form .bmd-form-group.is-focused form .bmd-form-groupform .bmd-form-group-sm .form-control.form-control-danger,
+form .bmd-form-group.is-focused form .bmd-form-groupform .bmd-form-group-sm .form-control.form-control-success,
+form .bmd-form-group.is-focused form .bmd-form-groupform .bmd-form-group-sm .form-control.form-control-warning {
+	padding-right: 0;
+	background-repeat: no-repeat, no-repeat;
+	background-position: bottom, 50% calc(100% - 1px), center right .34375rem
+}
+
+form .bmd-form-groupform .bmd-form-group-sm .form-control-danger.custom-file-control:focus,
+form .bmd-form-groupform .bmd-form-group-sm .form-control-success.custom-file-control:focus,
+form .bmd-form-groupform .bmd-form-group-sm .form-control-warning.custom-file-control:focus,
+form .bmd-form-groupform .bmd-form-group-sm .form-control.form-control-danger:focus,
+form .bmd-form-groupform .bmd-form-group-sm .form-control.form-control-success:focus,
+form .bmd-form-groupform .bmd-form-group-sm .form-control.form-control-warning:focus,
+form .bmd-form-group.is-focused form .bmd-form-groupform .bmd-form-group-sm .form-control-danger.custom-file-control,
+form .bmd-form-group.is-focused form .bmd-form-groupform .bmd-form-group-sm .form-control-success.custom-file-control,
+form .bmd-form-group.is-focused form .bmd-form-groupform .bmd-form-group-sm .form-control-warning.custom-file-control,
+form .bmd-form-group.is-focused form .bmd-form-groupform .bmd-form-group-sm .form-control.form-control-danger,
+form .bmd-form-group.is-focused form .bmd-form-groupform .bmd-form-group-sm .form-control.form-control-success,
+form .bmd-form-group.is-focused form .bmd-form-groupform .bmd-form-group-sm .form-control.form-control-warning {
+	background-size: 100% 100%, 100% 100%, .6875rem .6875rem
+}
+
+form .bmd-form-groupform .bmd-form-group-lg {
+	padding-top: 1.9375rem
+}
+
+form .bmd-form-groupform .bmd-form-group-lg .custom-file-control,
+form .bmd-form-groupform .bmd-form-group-lg .form-control,
+form .bmd-form-groupform .bmd-form-group-lg input::placeholder,
+form .bmd-form-groupform .bmd-form-group-lg label {
+	line-height: 1
+}
+
+form .bmd-form-groupform .bmd-form-group-lg input.custom-file-control,
+form .bmd-form-groupform .bmd-form-group-lg input.custom-file-control::placeholder,
+form .bmd-form-groupform .bmd-form-group-lg input.form-control,
+form .bmd-form-groupform .bmd-form-group-lg input.form-control::placeholder {
+	padding: .28125rem 0;
+	line-height: 1.5
+}
+
+form .bmd-form-groupform .bmd-form-group-lg .checkbox label,
+form .bmd-form-groupform .bmd-form-group-lg .radio label,
+form .bmd-form-groupform .bmd-form-group-lg .switch label,
+form .bmd-form-groupform .bmd-form-group-lg label.checkbox-inline,
+form .bmd-form-groupform .bmd-form-group-lg label.radio-inline {
+	line-height: 1.5
+}
+
+form .bmd-form-groupform .bmd-form-group-lg input::placeholder {
+	font-size: 1.25rem
+}
+
+form .bmd-form-groupform .bmd-form-group-lg .checkbox label,
+form .bmd-form-groupform .bmd-form-group-lg .radio label,
+form .bmd-form-groupform .bmd-form-group-lg label {
+	font-size: 1.25rem
+}
+
+form .bmd-form-groupform .bmd-form-group-lg .bmd-label-floating,
+form .bmd-form-groupform .bmd-form-group-lg .bmd-label-placeholder {
+	top: 2.5rem
+}
+
+form .bmd-form-groupform .bmd-form-group-lg .bmd-label-static,
+form .bmd-form-groupform .bmd-form-group-lg.is-filled .bmd-label-floating,
+form .bmd-form-groupform .bmd-form-group-lg .is-filled .bmd-label-floating,
+form .bmd-form-groupform .bmd-form-group-lg.is-focused .bmd-label-floating,
+form .bmd-form-groupform .bmd-form-group-lg .is-focused .bmd-label-floating {
+	top: 1rem;
+	left: 0;
+	font-size: .9375rem
+}
+
+form .bmd-form-groupform .bmd-form-group-lg .bmd-help {
+	margin-top: 0;
+	font-size: .9375rem
+}
+
+form .bmd-form-groupform .bmd-form-group-lg .form-control-danger.custom-file-control,
+form .bmd-form-groupform .bmd-form-group-lg .form-control-success.custom-file-control,
+form .bmd-form-groupform .bmd-form-group-lg .form-control-warning.custom-file-control,
+form .bmd-form-groupform .bmd-form-group-lg .form-control.form-control-danger,
+form .bmd-form-groupform .bmd-form-group-lg .form-control.form-control-success,
+form .bmd-form-groupform .bmd-form-group-lg .form-control.form-control-warning {
+	background-size: 0 100%, 100% 100%, 1.1875rem 1.1875rem
+}
+
+form .bmd-form-groupform .bmd-form-group-lg .form-control-danger.custom-file-control,
+form .bmd-form-groupform .bmd-form-group-lg .form-control-danger.custom-file-control:focus,
+form .bmd-form-groupform .bmd-form-group-lg .form-control-success.custom-file-control,
+form .bmd-form-groupform .bmd-form-group-lg .form-control-success.custom-file-control:focus,
+form .bmd-form-groupform .bmd-form-group-lg .form-control-warning.custom-file-control,
+form .bmd-form-groupform .bmd-form-group-lg .form-control-warning.custom-file-control:focus,
+form .bmd-form-groupform .bmd-form-group-lg .form-control.form-control-danger,
+form .bmd-form-groupform .bmd-form-group-lg .form-control.form-control-danger:focus,
+form .bmd-form-groupform .bmd-form-group-lg .form-control.form-control-success,
+form .bmd-form-groupform .bmd-form-group-lg .form-control.form-control-success:focus,
+form .bmd-form-groupform .bmd-form-group-lg .form-control.form-control-warning,
+form .bmd-form-groupform .bmd-form-group-lg .form-control.form-control-warning:focus,
+form .bmd-form-group.is-focused form .bmd-form-groupform .bmd-form-group-lg .form-control-danger.custom-file-control,
+form .bmd-form-group.is-focused form .bmd-form-groupform .bmd-form-group-lg .form-control-success.custom-file-control,
+form .bmd-form-group.is-focused form .bmd-form-groupform .bmd-form-group-lg .form-control-warning.custom-file-control,
+form .bmd-form-group.is-focused form .bmd-form-groupform .bmd-form-group-lg .form-control.form-control-danger,
+form .bmd-form-group.is-focused form .bmd-form-groupform .bmd-form-group-lg .form-control.form-control-success,
+form .bmd-form-group.is-focused form .bmd-form-groupform .bmd-form-group-lg .form-control.form-control-warning {
+	padding-right: 0;
+	background-repeat: no-repeat, no-repeat;
+	background-position: bottom, 50% calc(100% - 1px), center right .59375rem
+}
+
+form .bmd-form-groupform .bmd-form-group-lg .form-control-danger.custom-file-control:focus,
+form .bmd-form-groupform .bmd-form-group-lg .form-control-success.custom-file-control:focus,
+form .bmd-form-groupform .bmd-form-group-lg .form-control-warning.custom-file-control:focus,
+form .bmd-form-groupform .bmd-form-group-lg .form-control.form-control-danger:focus,
+form .bmd-form-groupform .bmd-form-group-lg .form-control.form-control-success:focus,
+form .bmd-form-groupform .bmd-form-group-lg .form-control.form-control-warning:focus,
+form .bmd-form-group.is-focused form .bmd-form-groupform .bmd-form-group-lg .form-control-danger.custom-file-control,
+form .bmd-form-group.is-focused form .bmd-form-groupform .bmd-form-group-lg .form-control-success.custom-file-control,
+form .bmd-form-group.is-focused form .bmd-form-groupform .bmd-form-group-lg .form-control-warning.custom-file-control,
+form .bmd-form-group.is-focused form .bmd-form-groupform .bmd-form-group-lg .form-control.form-control-danger,
+form .bmd-form-group.is-focused form .bmd-form-groupform .bmd-form-group-lg .form-control.form-control-success,
+form .bmd-form-group.is-focused form .bmd-form-groupform .bmd-form-group-lg .form-control.form-control-warning {
+	background-size: 100% 100%, 100% 100%, 1.1875rem 1.1875rem
+}
+
+form .bmd-form-group.is-focused .form-control-danger.custom-file-control,
+form .bmd-form-group.is-focused .form-control-success.custom-file-control,
+form .bmd-form-group.is-focused .form-control-warning.custom-file-control,
+form .bmd-form-group.is-focused .form-control.form-control-danger,
+form .bmd-form-group.is-focused .form-control.form-control-success,
+form .bmd-form-group.is-focused .form-control.form-control-warning,
+.form-control-danger.custom-file-control,
+.form-control-danger.custom-file-control:focus,
+.form-control-success.custom-file-control,
+.form-control-success.custom-file-control:focus,
+.form-control-warning.custom-file-control,
+.form-control-warning.custom-file-control:focus,
+.form-control.form-control-danger,
+.form-control.form-control-danger:focus,
+.form-control.form-control-success,
+.form-control.form-control-success:focus,
+.form-control.form-control-warning,
+.form-control.form-control-warning:focus {
+	padding-right: 0;
+	background-repeat: no-repeat, no-repeat;
+	background-position: bottom, 50% calc(100% - 1px), center right .46875rem
+}
+
+form .bmd-form-group.is-focused .form-control-danger.custom-file-control,
+form .bmd-form-group.is-focused .form-control-success.custom-file-control,
+form .bmd-form-group.is-focused .form-control-warning.custom-file-control,
+form .bmd-form-group.is-focused .form-control.form-control-danger,
+form .bmd-form-group.is-focused .form-control.form-control-success,
+form .bmd-form-group.is-focused .form-control.form-control-warning,
+.form-control-danger.custom-file-control:focus,
+.form-control-success.custom-file-control:focus,
+.form-control-warning.custom-file-control:focus,
+.form-control.form-control-danger:focus,
+.form-control.form-control-success:focus,
+.form-control.form-control-warning:focus {
+	background-size: 100% 100%, 100% 100%, .9375rem .9375rem
+}
+
+[class*=" bmd-label"],
+[class^=bmd-label] {
+	color: rgba(30,30,30, 0.3);
+}
+.is-focused [class*=" bmd-label"],
+.is-focused [class^=bmd-label] {
+	color: #3f51b5
+}
+.has-success [class*=" bmd-label"],
+.has-success [class^=bmd-label] {
+	color: #4caf50
+}
+
+.has-success.is-focused .bmd-label-placeholder,
+.has-success .is-focused .bmd-label-placeholder,
+.has-success.is-focused [class*=" bmd-label"],
+.has-success .is-focused [class*=" bmd-label"],
+.has-success.is-focused [class^=bmd-label],
+.has-success .is-focused [class^=bmd-label] {
+	color: #4caf50
+}
+.has-info [class*=" bmd-label"],
+.has-info [class^=bmd-label] {
+	color: #03a9f4
+}
+
+.has-info.is-focused .bmd-label-placeholder,
+.has-info .is-focused .bmd-label-placeholder,
+.has-info.is-focused [class*=" bmd-label"],
+.has-info .is-focused [class*=" bmd-label"],
+.has-info.is-focused [class^=bmd-label],
+.has-info .is-focused [class^=bmd-label] {
+	color: #03a9f4
+}
+.has-warning [class*=" bmd-label"],
+.has-warning [class^=bmd-label] {
+	color: #ff5722
+}
+.has-warning.is-focused .bmd-label-placeholder,
+.has-warning .is-focused .bmd-label-placeholder,
+.has-warning.is-focused [class*=" bmd-label"],
+.has-warning .is-focused [class*=" bmd-label"],
+.has-warning.is-focused [class^=bmd-label],
+.has-warning .is-focused [class^=bmd-label] {
+	color: #ff5722
+}
+.has-danger [class*=" bmd-label"],
+.has-danger [class^=bmd-label] {
+	color: #f44336
+}
+.has-danger.is-focused .bmd-label-placeholder,
+.has-danger .is-focused .bmd-label-placeholder,
+.has-danger.is-focused [class*=" bmd-label"],
+.has-danger .is-focused [class*=" bmd-label"],
+.has-danger.is-focused [class^=bmd-label],
+.has-danger .is-focused [class^=bmd-label] {
+	color: #f44336
+}
+
+
+.bmd-help {
+	position: absolute;
+	display: none;
+	font-size: .8rem;
+	font-weight: 400
+}
+
+.bmd-form-group.is-focused .bmd-help {
+	display: block
+}
+
+
+.bmd-help:nth-of-type(2) {
+	padding-top: 1rem
+}
+
+.bmd-help+.bmd-help {
+	position: relative;
+	margin-bottom: 0
+}
+
+.is-focused .bmd-help {
+	color: rgba(0, 0, 0, .54)
+}
+
+
+form .bmd-form-group select, form .bmd-form-group select option{
+	margin: 0;
+	padding: 0 0.3rem !important;
+    /* -webkit-appearance: none; */
+    -moz-appearance: none;
+    border: 0px solid #ccc;
+    border-radius: 0px;
+    padding: 0px;
+}
+
+
+/*Change text in autofill textbox*/
+input:-webkit-autofill {
+	-webkit-box-shadow: 0 0 0 30px white inset;
+	border-bottom: 1px solid #e4e7ea;
+    border-radius: 0;
+}
+
+.form-check-inline {
+    padding: 5px 0 !important;
+}
+
+
+
+/*multi select with material déign*/
+.ui-select-container .select2-choices{
+	border: 0 !important;
+	box-shadow:none !important;
+	background-image: none !important;
+	padding: 5px 0px;
+}
+
+.ui-select-container .select2-choices .select2-search-field{
+	width: 100% !important;
+}
+.ui-select-container .select2-choices .select2-input{
+	border-bottom: 1px solid rgb(204, 204, 204) !important;
+	width: 100% !important;
+
+}
+
+.ui-select-container .select2-choices .select2-input:focus{
+	background-image: linear-gradient(0deg,#3f51b5 2px,rgba(63,81,181,0) 0),linear-gradient(0deg,rgba(0,0,0,.26) 1px,transparent 0) !important;
+    border: 0 !important;
+}

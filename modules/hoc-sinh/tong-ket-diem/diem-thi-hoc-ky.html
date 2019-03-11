@@ -1,0 +1,115 @@
+<div class=" border-secondary p-2">
+    <div class="bg-white border box-shadow p-3">
+        <!-- THÊM,IMPORT,XÓA, DOWLOAD,PRINT -->
+        <div class="pb-3 d-flex justify-content-between">
+
+            <div class="schollity-SearchPanel-Title">
+                <span class="icon-search-file"></span>
+                Thông tin tìm kiếm
+                <span id="btn-panel-collapse"></span>
+            </div>
+
+        </div>
+        <!-- filter -->
+        <div class="select-search">
+            <div class="row">
+                <!-- Select khối học sinh -->
+                <div class="col-md-4">
+                    <label for="khoi"> Khối</label>
+                    <select class="pr-3 pl-3 pt-1 pb-1 border">
+                        <option value="true">Khối 10</option>
+                        <option value="true">Khối 11</option>
+                        <option value="true">Khối 12</option>
+                    </select>
+                </div>
+                <!-- select row lop hoc  -->
+                <div class="col-md-4">
+                    <label for="lop"> Lớp </label>
+                    <select class="pr-3 pl-3 pt-1 pb-1 border">
+                        <option value="true">Lớp 10A1</option>
+                        <option value="true">Lớp 10A2</option>
+                        <option value="true">Lớp 10A3</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Select khối học sinh -->
+                <div class="col-md-4">
+                    <label for="khoi"> Học Kì</label>
+                    <select class="pr-3 pl-3 pt-1 pb-1 border">
+                        <option value="true">Học Kì I</option>
+                        <option value="true">Khối II</option>
+                        <option value="true">Cả Năm</option>
+                    </select>
+                </div>
+                <!-- select row lop hoc  -->
+                <div class="col-md-4">
+                    <label for="lop"> Loại điểm</label>
+                    <select class="pr-3 pl-3 pt-1 pb-1 border">
+                        <option value="true">V1</option>
+                        <option value="true">v2</option>
+                        <option value="true">V3</option>
+                        <option value="true">V4</option>
+                        <option value="true">V5</option>
+                        <option value="true">KTHK</option>
+                    </select>
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </div>
+    <!-- select buton check -->
+
+
+    <!-- Tablen search học sinh -->
+    <div class="table-wrapper">
+        <div class="table-container">
+            <table class="table-fixed-header table-hover table table-striped ">
+                <thead>
+                    <tr>
+                            <th ng-repeat="h in diemthiHK" style= "width: '{{h.width}}'">
+                                <div style="color: #fff; display: inline-block; font-size: 12px ;overflow: scroll; /* thanh cuộn */
+                                overflow: hidden; /* ẩn đi */">
+                                    {{h.mon}}
+
+                                </div>
+                            </th>
+                        </div>
+                    </tr>
+                </thead>
+
+                <tbody class="table-wrapper table-container">
+
+                    <xxx>
+                        <tr ng-repeat="x in v1">
+                            <td>{{x.stt}} </td>
+                            <td>{{x.lop}} </td>
+                            <td> {{x.mahs}}</td>
+                            <td> {{x.tenhs}}</td>
+                            <td> {{x.toan}}</td>
+                            <td>{{x.vatly}}</td>
+                            <td>{{x.hoahoc}}</td>
+                            <td>{{x.sinhhoc}}</td>
+                            <td>{{x.tinhoc}}</td>
+                            <td>{{x.van}}</td>
+                            <td>{{x.su}}</td>
+                            <td>{{x.dialy}}</td>
+                            <td>{{x.tienganh}}</td>
+                            <td>{{x.gdcd}}</td>
+                            <td>{{x.congnghe}}</td>
+                            <td>{{x.theduc}}</td>
+                            <td>{{x.GDQPAN}}</td>
+
+
+                        </tr>
+                    </xxx>
+                </tbody>
+            </table>
+        </div>
+        <div class="Clear"></div>
+    </div>
+
+</div>

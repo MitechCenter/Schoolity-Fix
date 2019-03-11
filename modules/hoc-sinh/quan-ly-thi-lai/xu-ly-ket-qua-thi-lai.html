@@ -1,0 +1,150 @@
+<div class=" border-secondary p-2">
+    <div class="bg-white border box-shadow p-3">
+        <!-- THÊM,IMPORT,XÓA, DOWLOAD,PRINT -->
+        <div class="pb-3 d-flex justify-content-between">
+            <div class="schollity-SearchPanel-Title">
+                <span class="icon-search-file"></span>
+                Thông tin tìm kiếm
+                <span id="btn-panel-collapse"></span>
+            </div>
+        </div>
+        <!-- filter -->
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="control-tab">
+                    <div class="editor-label"><label for="L_p">Lớp</label></div>
+                    <div class="editor-field custom-select"><select style="width: 100%">
+                            <option value="">[Tất cả]</option>
+                            <option value="1305471">12C1</option>
+                            <option value="1305472">12C2</option>
+                            <option value="1305473">12C3</option>
+                            <option value="1305474">12C4</option>
+                            <option value="1305475">12C5</option>
+                            <option value="1305476">12C6</option>
+                            <option value="1315806">12C7</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="control-tab">
+                    <div class="editor-label"><label for="M__h_c_sinh">Mã học sinh</label></div>
+                    <div class="editor-field">
+                        <input type="text" style='box-shadow: none; border: 1px solid lightgray'>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="control-tab">
+                    <div class="editor-label"><label for="M__h_c_sinh">Họ Tên</label></div>
+                    <div class="editor-field">
+                        <input type="text" style='box-shadow: none; border: 1px solid lightgray'>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab">
+            <button class="tablinks" onclick="openPage(event, '1')" id="defaultOpen">Điều kiện dự thi
+                tốt nghiệp
+            </button>
+            <button class="tablinks" onclick="openPage(event, '2')">Cấp Bằng TỐt Nghiệp</button>
+        </div>
+    </div>
+    <div class="text-right">
+        <span style="color:Orange;font-weight:bold;">V</span>: Vắng thi, <span style="color:Red;font-weight:bold;">CN</span>:
+        Chưa nhập điểm thi lại, <span style="color:Blue;font-weight:bold">MG</span>: Miễn giảm, <span
+            style="color:Green;font-weight:bold">KH</span>:
+        Không đăng ký học
+    </div>
+</div>
+<!-- select buton check -->
+<!-- Tablen search học sinh -->
+<div id="1" class="tabcontent">
+    <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+    <div class="table-wrapper">
+        <div class="table-container">
+            <table class="table-fixed-header table-hover table table-striped ">
+                <thead>
+                    <tr>
+                        <div>
+                            <th ng-repeat="h in tieude" style='width:{{h.width}}'>
+
+                                <div ng-if="!isHideInCo(h.id)">
+                                    <div style="color: #fff; display: inline-block; font-size: 12px">
+                                        {{h.mon}}
+                                    </div>
+                            </th>
+                        </div>
+                    </tr>
+                </thead>
+
+                <tbody class="table-wrapper table-container">
+                    <xxx>
+                        <tr ng-repeat="x in diem">
+                            <td>{{x.stt}} </td>
+                            <td>{{x.mhs}} </td>
+                            <td> {{x.tenhs}}</td>
+                            <td>{{x.lop}}</td>
+                            <td> {{x.toan}}</td>
+                            <td>{{x.vatly}}</td>
+                            <td>{{x.hoahoc}}</td>
+                            <td>{{x.sinhhoc}}</td>
+                            <td>{{x.tinhoc}}</td>
+                            <td>{{x.van}}</td>
+                            <td>{{x.su}}</td>
+                            <td>{{x.dialy}}</td>
+                            <td>{{x.tienganh}}</td>
+                            <td>{{x.GDCD}}</td>
+                            <td>{{x.cn}}</td>
+                            <td>{{x.td}}</td>
+                            <td>{{x.GDQPAN}}</td>
+                            <td>{{x.TBcm}}</td>
+                            <td>{{x.HL}}</td>
+                            <td>{{x.HK}}</td>
+                        </tr>
+                    </xxx>
+                </tbody>
+            </table>
+        </div>
+        <div class="Clear"></div>
+    </div>
+</div>
+<div id="2" class="tabcontent">
+    <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+    <div class="table-wrapper">
+        <div class="table-container">
+            <table class="table-fixed-header table-hover table table-striped ">
+                <thead>
+                    <tr>
+                        <div>
+                            <th ng-repeat="h in xeploaithilai" style='width:{{h.width}}'>
+
+                                <div ng-if="!isHideInCo(h.id)">
+                                    <div style="color: #fff; display: inline-block; font-size: 12px">
+                                        {{h.mon}}
+                                    </div>
+                            </th>
+                        </div>
+                    </tr>
+                </thead>
+
+                <tbody class="table-wrapper table-container">
+                    <xxx>
+                        <tr ng-repeat="x in kqxl">
+                            <td>{{x.stt}} </td>
+                            <td>{{x.mahs}} </td>
+                            <td> {{x.hoten}}</td>
+                            <td>{{x.lop}}</td>
+                            <td>{{x.HL}}</td>
+                            <td>{{x.HK}}</td>
+                            <td>{{x.thuocdien}}</td>
+                        </tr>
+                    </xxx>
+                </tbody>
+            </table>
+        </div>
+        <div class="Clear"></div>
+    </div>
+
+</div>

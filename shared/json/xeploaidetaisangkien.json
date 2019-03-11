@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "xepLoai": "Loại A"
+    },
+    {
+        "id": 2,
+        "xepLoai": "Loại B"
+    },
+    {
+        "id": 3,
+        "xepLoai": "Loại C"
+    }
+]

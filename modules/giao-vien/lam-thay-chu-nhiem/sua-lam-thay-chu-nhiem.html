@@ -1,0 +1,103 @@
+<div class="modal-dialog modal-lg" role="document">
+	<form class="needs-validation" name="suaLamThay" novalidate>
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title"><b>Sửa Làm Thay Chủ Nhiệm</b></h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div class="row">
+					<div class="col-xl-3 col-lg-3">
+						<div class="form-row">
+							<div class="row-control bmd-form-group">
+								<label class="bmd-label-static" for="inputKhoiLop">Khối</label>
+								<select disabled class="form-control" id="khoiLop" ng-model="khoiLop" ng-options="khoiLop.tenKhoiLop for khoiLop in lt.danhSachKhoi track by khoiLop.id">
+									<option value="">Khối</option>
+								</select>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-3">
+						<div class="form-row">
+							<div class="row-control bmd-form-group">
+								<label class="bmd-label-static">Lớp Học</label>
+								<select disabled class="form-control" id="lopHoc" ng-model="suaLT.lopHoc" ng-options="lopHoc.tenLopHoc for lopHoc in danhSachLop track by lopHoc.id">
+									<option value="">Lớp Học</option>
+								</select>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-6 col-lg-6">
+						<div class="form-row">
+							<div class="row-control bmd-form-group">
+								<label class="bmd-label-static" for="inputToBoMon">Tổ Bộ Môn GV Làm Thay</label>
+								<select class="form-control" id="toBoMon" ng-model="suaLT.giaoVienLamThay.toBoMon" ng-options="boMon.tenToBoMon for boMon in toBoMonSelect track by boMon.id"
+								 ng-change="lt.getIdToBoMon()">
+									<option value="">Tổ Bộ Môn GV Làm Thay</option>
+								</select>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xl-6  col-lg-6 ">
+						<div class="form-row">
+							<div class="row-control bmd-form-group">
+								<label class="bmd-label-static" for="inputGiaoVien">Giáo viên chủ nhiệm</label>
+								<input disabled type="text" class="form-control" name="giaoVien" id="giaoVien" value="" ng-model="suaLT.giaoVien.tenCanBo">
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-6 col-lg-6">
+						<div class="form-row">
+							<div class="row-control bmd-form-group">
+								<label class="bmd-label-static">Giáo Viên Làm Thay</label>
+								<select class="form-control" id="giaoVienLT" ng-model="giaoVienLT" ng-options="giaoVien.tenCanBo for giaoVien in danhSachGiaoVienLT track by giaoVien.id"
+								 ng-change="lt.getIdGVLT(giaoVienLT.id, giaoVienLT.tenCanBo)">
+									<option value="">Giáo Viên Làm Thay</option>
+								</select>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xl-6  col-lg-6  ">
+						<div class="form-row">
+							<div class="row-control bmd-form-group">
+								<label class="bmd-label-static" for="inputTuNgay">Từ Ngày</label>
+								<input type="text" onblur="(this.type='type')" onfocus="(this.type='date')" class="form-control" id="tuNgay"
+								 value="" ng-model="suaLT.tuNgay">
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-6  col-lg-6  ">
+						<div class="form-row">
+							<div class="row-control bmd-form-group">
+								<label class="bmd-label-static" for="inputDenNgay">Đến Ngày</label>
+								<input type="text" onblur="(this.type='type')" onfocus="(this.type='date')" class="form-control" id="denNgay"
+								 value="" ng-model="suaLT.denNgay">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xl-12 col-lg-12">
+						<div class="form-row">
+							<div class="row-control bmd-form-group">
+								<label class="bmd-label-static" for="inputGhiChu">Ghi Chú Khác</label>
+								<textarea type="textarea" cols="70" rows="4" class="form-control" name="ghiChu" id="ghiChu" title="Ghi Chú"
+								 value="" ng-model="suaLT.ghiChu"></textarea>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal-footer ">
+				<button type="button" class="btn btn-outline-default" data-dismiss="modal">Cancel</button>
+				<button type="button" class="btn btn-primary" ng-click="EditLT()" data-dismiss="modal"> Save</input>
+			</div>
+		</div>
+	</form>
+</div>
