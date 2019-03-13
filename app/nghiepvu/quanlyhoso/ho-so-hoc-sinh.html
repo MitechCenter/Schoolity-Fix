@@ -1,0 +1,68 @@
+<div class="ho-so-hoc-sinh p-0" ng-controller="hoSoHocSinhCtrl">
+    <div class="d-flex flex-column">
+        <div class="bg-primary text-white text-center">
+            <h4>Thông tin tìm kiếm</h4>
+        </div>
+    </div>
+    <div class="d-flex justify-content-center mt-3">
+        <div class="d-flex">
+            <div class="label">
+                Khối
+            </div>
+            <div class="ml-1 ">
+                <select class="form-control form-control-sm" style="width:200px">
+                    <option value="true">[Tất cả]</option>
+                    <option value="true">Học kì 2</option>
+                    <option value="true">Cả năm</option>
+                    <option value="">Rèn luyện lại</option>
+                </select>
+            </div>
+        </div>
+        <div class="d-flex ml-2">
+            <div class="label">
+                Lớp học
+            </div>
+            <div class="ml-1">
+                <select class="form-control form-control-sm" style="width:200px">
+                    <option value="true">[Tất cả]</option>
+                    <option value="true">Học kì 2</option>
+                    <option value="true">Cả năm</option>
+                    <option value="">Rèn luyện lại</option>
+                </select>
+            </div>
+        </div>
+        <div class="d-flex">
+            <div class="label">
+                Tìm nhanh
+            </div>
+            <div class="ml-1">
+                <input type="email" class="form-control form-control-sm" id="colFormLabelSm">
+            </div>
+        </div>
+    </div>
+    <div class="d-flex justify-content-center mt-5 " style="background:#E5F1FD">
+        <div>
+            <button class="btn btn-sm btn-primary">Tìm nhanh</button>
+            <button class="btn btn-sm text-primary" style="background:transparent">Thu gọn</button>
+        </div>
+    </div>
+    <div class="d-flex justify-content-end pr-2">
+        <div>
+            <button type="button" class="btn btn-primary btn-sm text-white" data-toggle="modal" data-target="#themHoSoHocSinh"><i
+                    class="fa fa-plus" aria-hidden="true"></i> Thêm</button>
+            <button type="button" class="btn btn-primary btn-sm text-white" data-toggle="modal" href="#">
+                <i class="fa fa-upload" aria-hidden="true"></i> Nhập
+            </button>
+            <button type="button" id="buttonDelete" class="btn btn-primary btn-sm text-white" data-toggle="modal" href="#"
+                data-target="#deleteTable  ">
+                <i class="fa fa-trash-o" aria-hidden="true"></i> Xóa
+            </button>
+        </div>
+    </div>
+    <div ui-grid="gridOptions" ui-grid-selection ui-grid-pinning></div>
+    <div class="pagination d-flex">
+        <div>
+            <h5>Hiển thị từ dòng 1 đến dòng 10 trong tổng số {{totalRow}}</h5>
+        </div>
+    </div>
+</div>
