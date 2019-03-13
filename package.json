@@ -1,0 +1,22 @@
+{
+  "name": "sm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MitechCenter/Schoolity-Fix.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MitechCenter/Schoolity-Fix/issues"
+  },
+  "homepage": "https://github.com/MitechCenter/Schoolity-Fix#readme",
+  "dependencies": {
+    "angular-material-multilevel-menu": "^1.5.0"
+  }
+}

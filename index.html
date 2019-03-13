@@ -5,29 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Angular Material style sheet -->
     <link rel="stylesheet" href="style/css/style.css">
-    <link rel="stylesheet"
-        href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.12/angular-material.min.css">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.12/angular-material.min.css">
     <link rel="stylesheet" href="bower_components/angular-ui-grid/ui-grid.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous">
 </head>
 
 <body ng-app="app" ng-controller="indexCtrl" ng-cloak>
     <!--
       Your HTML content here
-    -->
+      -->
     <div layout="row" layout-xs="column">
         <div flex>
             <md-toolbar>
                 <div class="md-toolbar-tools">
-                    <md-button aria-label="Go Back">
-                        Back
-                    </md-button>
-
-                    <h2 flex md-truncate>Toolbar with Standard Buttons and a Mini FAB</h2>
-                    <md-button class="md-raised md-accent md-hue-3" aria-label="Learn More">
-                        Learn More
-                    </md-button>
                     <md-button class="md-fab md-mini md-hue-3" aria-label="Favorite">
                         <md-icon></md-icon>
                     </md-button>
@@ -35,29 +28,31 @@
             </md-toolbar>
         </div>
     </div>
-    <div class="sidenav">
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#clients">Clients</a>
-        <a href="#contact">Contact</a>
-    </div>
+    <section layout="row" flex>
 
-    <div class="main p-0">
-        <div layout="row">
-            <div flex>
-                <nav aria-label="breadcrumb" class="p-0 mb-0 breadcrumb" >
-                    <ol class="breadcrumb mb-0  ">
-                        <li class="breadcrumb-item"><a>Home</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Library</li>
-                    </ol>
-                </nav>
-            </div>
-        </div>
-        <div>
-        <div>
-            <ui-view></ui-view>
-        </div>
-    </div>
+            <md-sidenav class="md-sidenav-left" md-component-id="left"
+                        md-disable-backdrop md-whiteframe="4">
+        
+              <md-toolbar class="md-theme-indigo">
+                <h1 class="md-toolbar-tools">Disabled Backdrop</h1>
+              </md-toolbar>
+        
+              <md-content layout-margin>
+                <p>
+                  This sidenav is not showing any backdrop, where users can click on it, to close the sidenav.
+                </p>
+                <md-button ng-click="toggleLeft()" class="md-accent">
+                  Close this Sidenav
+                </md-button>
+              </md-content>
+        
+            </md-sidenav>
+        
+            <md-content class="p-0" flex layout-padding>
+                <ui-view></ui-view>
+            </md-content>
+        
+          </section>
     <!-- Angular Material requires Angular.js Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.6/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.6/angular-animate.min.js"></script>
@@ -67,12 +62,13 @@
     <!-- Angular Material Library -->
     <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.12/angular-material.min.js"></script>
     <script src="bower_components/angular-ui-grid/ui-grid.js"></script>
-
-
+    <script src="node_modules/angular-material-multilevel-menu/angular-material-multilevel-menu.min.js"></script>
     <!-- Your application bootstrap  -->
     <script src="app.js"></script>
     <script src="app.routes.js"></script>
+    <script src="app.config.js"></script>
     <script src="app/nghiepvu/quanlyhoso/ho-so-hoc-sinh.js"></script>
+    <script src="app/nghiepvu/quanlyhoso/themHoSoHocSinh.js"></script>
 </body>
 
 </html>
