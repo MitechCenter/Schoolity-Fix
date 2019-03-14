@@ -1,0 +1,144 @@
+[
+    {
+        "id" : 1,
+        "name" : "Hệ thống",
+        "submenu1": [
+            {
+                "id" : 1,
+                "name" : "Quản lý phân quyền",
+                "submenu2":[
+                    {
+                        "id" : 1,
+                        "name" : "Phân quyền hệ thống"
+                    },
+                    {
+                        "id" : 2,
+                        "name" : "Phân quyền nghiệp vụ"
+                    }
+                ]
+            },
+            {
+                "id" : 2,
+                "name" : "Quản lý tài khoản",
+                "submenu2":[
+                    {
+                        "id" : 1,
+                        "name" : "Khởi tạo tài khoản"
+                    },
+                    {
+                        "id" : 2,
+                        "name" : "Ds tài khoản"
+                    },
+                    {
+                        "id" : 3,
+                        "name" : "Quản lý liên kết PH-HS"
+                    }
+                ]
+            },
+            {
+                "id" : 3,
+                "name" : "Khai báo và import dữ liệu",
+                "submenu2":[
+                    {
+                        "id" : 1,
+                        "name" : "Thông tin nhà trường"
+                    },
+                    {
+                        "id" : 2,
+                        "name" : "Thiết lập niên khóa"
+                    },
+                    {
+                        "id" : 3,
+                        "name" : "Khai báo danh sách cán bộ"
+                    },
+                    {
+                        "id" : 4,
+                        "name" : "Khai báo tổ bộ môn"
+                    },
+                    {
+                        "id" : 5,
+                        "name" : "Khai báo lớp học"
+                    },
+                    {
+                        "id" : 6,
+                        "name" : "Khai báo danh sách học sinh"
+                    },
+                    {
+                        "id" : 7,
+                        "name" : "Khai báo môn học cho nhà trường"
+                    },
+                    {
+                        "id" : 8,
+                        "name" : "Khai báo môn học cho lớp"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id" : 2,
+        "name" : "Nghiệp vụ",
+        "submenu1": [
+            {
+                "id" : 1,
+                "name" :"Phân công công tác",
+                "submenu2" : [
+                    {
+                        "id" : 1,
+                        "name" : "Phân công giảng dạy",
+                        "state" : "phanconggiangday"
+                    },
+                    {
+                        "id" : 2,
+                        "name" : "Phân công chủ nhiệm"
+                    },
+                    {
+                        "id" : 3,
+                        "name" : "Phân công khác",
+                        "state" : "phancongkhac"
+                    }
+                ]
+            },
+            {
+                "id" : 2,
+                "name" :"Quản lý hồ sơ",
+                "submenu2" : [
+                    {
+                        "id" : 1,
+                        "name" : "Hồ sơ cán bộ",
+                        "state" : "hosocanbo"
+                    },
+                    {
+                        "id" : 2,
+                        "name" : "Hồ sơ học sinh",
+                        "state" : "hosohocsinh"
+                    }
+                ]
+            },
+            {
+                "id" : 3,
+                "name" :"Quản lý TKB",
+                "submenu2" : [
+                    {
+                        "id" : 1,
+                        "name" : "Tkb học sinh",
+                        "state" : "tkbhocsinh"
+                    },
+                    {
+                        "id" : 2,
+                        "name" : "Tkb giáo viên",
+                        "state" : "tkbgiaovien"
+                    }
+                ]
+            },
+            {
+                "id" : 4,
+                "name" :"Quản lý số điểm"
+            },
+            {
+                "id" : 5,
+                "name" :"Tổng kết kết quả"
+            }
+        ]
+    }
+]

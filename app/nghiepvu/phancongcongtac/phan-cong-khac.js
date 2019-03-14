@@ -1,4 +1,4 @@
-app.controller('hoSoCanBoCtrl',async function($scope,$http,$mdDialog){
+app.controller('phanCongKhacCtrl',async function($scope,$http,$mdDialog){
     $scope.gridOptions = {
     enableColumnMenus: false,
     selectedItems: $scope.selections,
@@ -7,22 +7,17 @@ app.controller('hoSoCanBoCtrl',async function($scope,$http,$mdDialog){
     columnDefs: [
         { headerCellTemplate: '<input ng-model="checkAll"    type="checkbox">',field:'checkbox', cellTemplate: '<input ng-checked="checkAll" type="checkbox" class="p-0 m-0">'},
         { field: 'id', displayName : 'STT' },
-        { field: 'maHs' , displayName : ' Mã học sinh' },
-        { field: 'hoTen',displayName : 'Họ và tên' },
-        { field: 'ngaySinh' , displayName : 'Ngày sinh'},
-        { field: 'gioiTinh' , displayName : 'Giới tính'},
-        { field: 'lop' , displayName : 'Tên lớp'},
-        { field: 'trangThai' , displayName : 'Trạng thái'},
+        { field: 'hoTen',displayName : 'Họ và tên cán bộ' },
+        { field : 'bgh', displayName : 'BGH', },
+        { field : 'thuKho', displayName : 'Thủ kho',categoryDisplayName: 'address',},
+        
         ],
 }
 $scope.gridOptions.onRegisterApi = function(gridApi){
     $scope.gridApi = gridApi;
  }; 
 
-await $http.get('https://saigonmaster.herokuapp.com/danhSachHocSinh').then(function(response){
-    $scope.gridOptions.data = response.data;
-    $scope.totalRow = response.data.length
-});
+
 // Nút thêm
 $scope.showAdd = function(ev){
     $mdDialog.show({

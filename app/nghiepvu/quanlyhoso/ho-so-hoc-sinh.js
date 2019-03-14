@@ -27,7 +27,7 @@ app.controller('hoSoHocSinhCtrl',async function($scope,$http,$mdDialog){
     $scope.showAdd = function(ev){
         $mdDialog.show({
             controller: DialogController,
-            templateUrl: '/app/nghiepvu/quanlyhoso/themHoSoHocSinh.html',
+            templateUrl: '/app/nghiepvu/quanlyhoso/them-ho-so-can-bo.html',
             parent: angular.element(document.body),
             targetEvent: ev,
             clickOutsideToClose:true,

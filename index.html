@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Angular Material style sheet -->
     <link rel="stylesheet" href="style/css/style.css">
-    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.12/angular-material.min.css">
     <link rel="stylesheet" href="bower_components/angular-ui-grid/ui-grid.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
         crossorigin="anonymous">
+    
 </head>
 
 <body ng-app="app" ng-controller="indexCtrl" ng-cloak>
@@ -19,40 +19,55 @@
       -->
     <div layout="row" layout-xs="column">
         <div flex>
-            <md-toolbar>
-                <div class="md-toolbar-tools">
-                    <md-button class="md-fab md-mini md-hue-3" aria-label="Favorite">
-                        <md-icon></md-icon>
-                    </md-button>
+            <md-toolbar class="bg-white" >
+                <div class="md-toolbar-tools d-flex justify-content-between">
+                  <div>
+                    <img  height="100" width="150" src="http://dev.schoolity.vn/static/img/brand/Schoolity_logo.svg" />
+                  </div>
+                    <div>
+                        <md-button class="md-fab md-mini md-hue-3" aria-label="Favorite">
+                            <md-icon></md-icon>
+                        </md-button>   
+                    </div>                 
                 </div>
             </md-toolbar>
         </div>
     </div>
-    <section layout="row" flex>
-
-            <md-sidenav class="md-sidenav-left" md-component-id="left"
-                        md-disable-backdrop md-whiteframe="4">
-        
-              <md-toolbar class="md-theme-indigo">
-                <h1 class="md-toolbar-tools">Disabled Backdrop</h1>
-              </md-toolbar>
-        
-              <md-content layout-margin>
-                <p>
-                  This sidenav is not showing any backdrop, where users can click on it, to close the sidenav.
-                </p>
-                <md-button ng-click="toggleLeft()" class="md-accent">
-                  Close this Sidenav
-                </md-button>
-              </md-content>
-        
-            </md-sidenav>
-        
-            <md-content class="p-0" flex layout-padding>
-                <ui-view></ui-view>
-            </md-content>
-        
-          </section>
+    <div class="container-fluid">
+        <div class="row">
+       
+       <div class="col-md-2 p-0 sidebar">
+          <ul class="list-group p-0 m-0">
+              <li class="list-group-item" ng-repeat="x in menu"  ng-click="getSubmenu1($index)">
+                  <i  class="text-white fas fa-angle-down"></i>
+                <label for="submenu1">{{x.name}}</label>
+                <ul id="submenu1" class="pl-2" ng-if="$index === open1">
+                  <li ng-repeat="x1 in x.submenu1" ng-click="getSubmenu2($index)">
+                      <i class="text-white fas fa-angle-down"></i>
+                    <label for="submenu2">{{x1.name}}</label>
+                    <ul id="submenu2" class="pl-3" ng-if="$index === open2">
+                        <li ng-repeat="x2 in x1.submenu2">
+                          <a ui-sref="{{x2.state}}">{{x2.name}}</a>
+                        </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+        </div>
+       
+       <div class="col-md-10 col-md-offset-3 content">
+          <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Library</li>
+              </ol>
+            </nav>
+          <ui-view></ui-view>
+        </div>
+       
+       </div>
+        </div>
     <!-- Angular Material requires Angular.js Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.6/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.6/angular-animate.min.js"></script>
@@ -69,6 +84,11 @@
     <script src="app.config.js"></script>
     <script src="app/nghiepvu/quanlyhoso/ho-so-hoc-sinh.js"></script>
     <script src="app/nghiepvu/quanlyhoso/themHoSoHocSinh.js"></script>
+    <script src="app/nghiepvu/quanlyhoso/ho-so-can-bo.js"></script>
+    <script src="app/nghiepvu/phancongcongtac/phan-cong-giang-day.js"></script>
+    <script src="app/nghiepvu/phancongcongtac/phan-cong-khac.js"></script>
+    <script src="app/nghiepvu/quanlytkb/thoi-khoa-bieu-giao-vien.js"></script>
+    <script src="app/nghiepvu/quanlytkb/thoi-khoa-bieu-hoc-sinh.js"></script>
 </body>
 
 </html>
