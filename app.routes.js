@@ -24,6 +24,12 @@
         }).state('sodiemquatrinh',{
             url  : '/nghiep-vu/quan-ly-so-diem/so-diem-qua-trinh',
             templateUrl : 'app/nghiepvu/quanlysodiem/so-diem-qua-trinh.html'
-        });
+        }).state('tongquan',{
+            url : '/nghiep-vu/tong-ket-ket-qua/tong-quan',
+            templateUrl : '/app/nghiepvu/tongketketqua/tong-quan.html'
+        }).state('xephanhkiem',{
+            url : '/nghie-vu/tong-ket-ket-qua/xep-loai-hanh-kiem',
+            templateUrl : '/app/nghiepvu/tongketketqua/xep-loai-hanh-kiem.html'
+        })
     });
 })();

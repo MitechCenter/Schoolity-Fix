@@ -1,8 +1,9 @@
-<div class="so-diem-tong-ket" ng-controller="soDiemTongKetCtrl">
+<div class="xep-loai-hanh-kiem" ng-controller="xepLoaiHanhKiemCtrl">
+
     <div class="d-flex justify-content-center mt-3">
         <div class="d-flex align-items-center">
             <div class="label">
-                Khối
+                Học kỳ
             </div>
             <div class="ml-1 ">
                 <select class="form-control form-control-sm" style="width:200px">
@@ -15,7 +16,7 @@
         </div>
         <div class="d-flex ml-2 align-items-center">
             <div class="label">
-                Lớp học
+                Khối
             </div>
             <div class="ml-1">
                 <select class="form-control form-control-sm" style="width:200px">
@@ -28,7 +29,7 @@
         </div>
         <div class="d-flex ml-2 align-items-center">
             <div class="label">
-                Học kỳ 
+                Lớp
             </div>
             <div class="ml-1">
                 <select class="form-control form-control-sm" style="width:200px">
@@ -40,41 +41,13 @@
             </div>
         </div>
     </div>
-    <div>Bảng điểm môn Toán lớp 6A4</div>
-    <div class="d-flex justify-content-end mt-3">
-        <div class="d-flex ml-2 align-items-center">
-            <div class="label">
-                Theo cột
-            </div>
-            <div class="ml-1">
-                <input type="checkbox">
-            </div>
-        </div>
-        <div class="d-flex ml-2 align-items-center">
-            <div class="label">
-                Theo cột
-            </div>
-            <div class="ml-1">
-                <input type="checkbox">
-            </div>
-        </div>
-    </div>
+    <div>Tình hình tổng kết khối  6/ Toàn trường HK II</div>
     <div ui-grid="gridOptions" ui-grid-auto-resizes ui-grid-pinning></div>
     <div class="d-flex justify-content-end pr-3 pt-2 pb-2">
         <div>
-            <button type="button" class="btn btn-primary btn-sm text-white" ng-click="showAdd($event)"
-                data-toggle="modal" data-target="#themHoSoHocSinh"><i class="fa fa-plus" aria-hidden="true"></i> Lưu
-                thay đổi</button>
-            <button type="button" class="btn btn-success btn-sm text-white" data-toggle="modal" href="#">
-                <i class="fa fa-upload" aria-hidden="true"></i> Import
-            </button>
             <button type="button" id="buttonDelete" class="btn btn-warning btn-sm text-white" ng-click="showDelete()"
                 data-toggle="modal" href="#" data-target="#deleteTable  ">
-                <i class="fa fa-trash-o" aria-hidden="true"></i> Xóa
-            </button>
-            <button type="button" id="buttonDelete" class="btn btn-warning btn-sm text-white" ng-click="showDelete()"
-                data-toggle="modal" href="#" data-target="#deleteTable  ">
-                <i class="fa fa-trash-o" aria-hidden="true"></i> Công bố bảng điểm
+                <i class="fa fa-trash-o" aria-hidden="true"></i> Tổng kết kết quả
             </button>
         </div>
     </div>

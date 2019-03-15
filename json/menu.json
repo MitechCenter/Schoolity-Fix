@@ -149,7 +149,19 @@
             },
             {
                 "id" : 5,
-                "name" :"Tổng kết kết quả"
+                "name" :"Tổng kết kết quả",
+                "submenu2" : [
+                    {
+                        "id" : 1,
+                        "name" :  "Tổng quan",
+                        "state" : "tongquan"
+                    },
+                    {
+                        "id" : 2,
+                        "name" : "Xếp hạnh kiểm",
+                        "state" : "xephanhkiem"
+                    }
+                ]
             }
         ]
     }
