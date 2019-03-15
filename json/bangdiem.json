@@ -1,0 +1,61 @@
+[
+	{
+		"id" : 1,
+		"hoTen" : "Nguyễn Thị Thuỳ Linh",
+		"diemMieng" : [
+			{
+				"stt" : 1,
+				"diem" : 10
+			},
+			{
+				"stt" : 2,
+				"diem" : 10
+			},
+			{
+				"stt" : 3,
+				"diem" : 10
+			},
+			{
+				"stt" : 4,
+				"diem" : 10
+			}
+		],
+		"diem15p" : [
+			{
+				"stt" : 1,
+				"diem" : 9
+			},
+			{
+				"stt" : 2,
+				"diem" : 4
+			},
+			{
+				"stt" : 3,
+				"diem" : 10
+			},
+			{
+				"stt" : 4,
+				"diem" : 10
+			}
+		],
+		"diem1tiet":[
+			{
+				"stt" : 1,
+				"diem" : 10
+			},
+			{
+				"stt" : 2,
+				"diem" : 10
+			},
+			{
+				"stt" : 3,
+				"diem" : 10
+			},
+			{
+				"stt" : 4,
+				"diem" : 10
+			}
+		],
+		"diemhocky" : 10
+	}
+]

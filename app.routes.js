@@ -18,6 +18,12 @@
         }).state('tkbgiaovien',{
             url : '/nghiep-vu/thoi-khoa-bieu/thoi-khoa-bieu-giao-vien',
             templateUrl : '/app/nghiepvu/quanlytkb/thoi-khoa-bieu-giao-vien.html'
+        }).state('sodiemtongket',{
+           url : '/nghiep-vu/quan-ly-so-diem/so-diem-tong-ket',
+           templateUrl : '/app/nghiepvu/quanlysodiem/so-diem-tong-ket.html'
+        }).state('sodiemquatrinh',{
+            url  : '/nghiep-vu/quan-ly-so-diem/so-diem-qua-trinh',
+            templateUrl : 'app/nghiepvu/quanlysodiem/so-diem-qua-trinh.html'
         });
     });
 })();

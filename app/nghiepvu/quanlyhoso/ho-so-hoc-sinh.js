@@ -2,13 +2,14 @@ app.controller('hoSoHocSinhCtrl',async function($scope,$http,$mdDialog){
         $scope.gridOptions = {
         enableColumnMenus: false,
         selectedItems: $scope.selections,
+        enableColumnResizing: true,
         enableRowSelection: true,
         rowHeight : 30,
         columnDefs: [
-            { headerCellTemplate: '<input ng-model="checkAll"    type="checkbox">',field:'checkbox', cellTemplate: '<input ng-checked="checkAll" type="checkbox" class="p-0 m-0">'},
-            { field: 'id', displayName : 'STT' },
+            { width:'10%',headerCellTemplate: '<input ng-model="checkAll"    type="checkbox">',field:'checkbox', cellTemplate: '<input ng-checked="checkAll" type="checkbox" class="p-0 m-0">'},
+            { field: 'id',width:'10%', displayName : 'STT' },
             { field: 'maHs' , displayName : ' Mã học sinh' },
-            { field: 'hoTen',displayName : 'Họ và tên' },
+            { field: 'hoTen',displayName : 'Họ và tên',width:'25%' },
             { field: 'ngaySinh' , displayName : 'Ngày sinh'},
             { field: 'gioiTinh' , displayName : 'Giới tính'},
             { field: 'lop' , displayName : 'Tên lớp'},

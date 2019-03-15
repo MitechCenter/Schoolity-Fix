@@ -1,0 +1,58 @@
+<div class="so-diem-qua-trinh" ng-controller="soDiemQuaTrinhCtrl">
+    <div>
+        <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-start">
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                </li>
+                <li class="page-item" ng-repeat="monhoc in monhoc"><a class="page-link" href="#">{{monhoc.name}}</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div>Bảng điểm môn Toán lớp 6A4</div>
+    <div class="d-flex justify-content-end mt-3">
+            <div class="d-flex ml-2 align-items-center">
+                    <div class="label">
+                        Theo cột
+                    </div>
+                    <div class="ml-1">
+                        <input type="checkbox">
+                    </div>
+            </div>
+            <div class="d-flex ml-2 align-items-center">
+                <div class="label">
+                    Theo cột
+                </div>
+                <div class="ml-1">
+                    <input type="checkbox">
+                </div>
+            </div>
+        </div>
+    <div ui-grid="gridOptions"ui-grid-auto-resizes  ui-grid-pinning></div>
+    <div class="d-flex justify-content-end pr-3 pt-2 pb-2">
+            <div>
+                <button type="button" class="btn btn-primary btn-sm text-white" ng-click="showAdd($event)" data-toggle="modal"
+                    data-target="#themHoSoHocSinh"><i class="fa fa-plus" aria-hidden="true"></i> Lưu thay đổi</button>
+                <button type="button" class="btn btn-success btn-sm text-white" data-toggle="modal" href="#">
+                    <i class="fa fa-upload" aria-hidden="true"></i> Import
+                </button>
+                <button type="button" id="buttonDelete" class="btn btn-warning btn-sm text-white" ng-click="showDelete()" data-toggle="modal" href="#"
+                    data-target="#deleteTable  ">
+                    <i class="fa fa-trash-o" aria-hidden="true"></i> Xóa
+                </button>
+                <button type="button" id="buttonDelete" class="btn btn-warning btn-sm text-white" ng-click="showDelete()" data-toggle="modal" href="#"
+                    data-target="#deleteTable  ">
+                    <i class="fa fa-trash-o" aria-hidden="true"></i> Công bố bảng điểm
+                </button>
+            </div>
+        </div>
+</div>

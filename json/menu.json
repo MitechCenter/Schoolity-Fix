@@ -133,7 +133,19 @@
             },
             {
                 "id" : 4,
-                "name" :"Quản lý số điểm"
+                "name" :"Quản lý số điểm",
+                "submenu2" : [
+                    {
+                        "id" : 1,
+                        "name" : "Sổ điểm tổng kết",
+                        "state" : "sodiemtongket"
+                    },
+                    {
+                        "id" : 2,
+                        "name" : "Sổ điểm quá trình",
+                        "state" : "sodiemquatrinh"
+                    }
+                ]
             },
             {
                 "id" : 5,

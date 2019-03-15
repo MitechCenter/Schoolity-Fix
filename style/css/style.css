@@ -18495,4 +18495,34 @@ html, body, .container-fluid, .row {
   ul{
     list-style-type: none;
   }
-  
+  .custom-header .group-header {
+  display:none;
+}
+.custom-header .header-class {
+  position: absolute;
+  min-width: auto !important;
+  max-width: 9999px !important;
+  left: 0;
+  background: red;
+  right: 0;
+  height:30px;
+  top: 0;
+  width: 9999px;
+  z-index: 99999;
+}
+.custom-header .ui-grid-header-cell-row {
+  height: 58px;
+}
+.custom-header .btm {
+  vertical-align:bottom;
+}
+.custom-header .col-header-item {
+  display:inline-block;
+  background-color:green;
+  border:1px solid;
+  height:30px;
+  text-align:center;
+}
+.custom-header .hidden-cell {
+  visibility:hidden; 
+}
